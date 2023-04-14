@@ -291,7 +291,7 @@ html {
 .bg-white {
   background-color: var(--brand-refresh-white);
 }
-.bg-white-clear {
+.color-bg-white-clear {
   background-color: var(--brand-refresh-white-clear);
 }
 .bg-gray {
@@ -373,4 +373,8 @@ li {
 /*================= Announcement Bar ============*/
 .announcement-bar__message {
   font-size: 1.5rem;
+}
+/*================= Round Edges ============*/
+.rounded-edges {
+  border-radius: 25px;
 }
