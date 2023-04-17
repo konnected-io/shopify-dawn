@@ -20,13 +20,13 @@
   display: flex;
   width: 300px;
   height: 200px;
-  background: var(--brand-refresh-white);
+  background: var(--k-white);
   display: inline-block;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   overflow: hidden;
-  border: 1px solid var(--brand-refresh-gray);
+  border: 1px solid var(--k-gray);
   border-radius: 20px;
 }
 .circle-carousel li p {

@@ -39,7 +39,7 @@
 }
 .purchase-product a button {
   background: rgb(var(--color-base-accent-1));
-  color: var(--brand-refresh-white);
+  color: var(--k-white);
   width: 80%;
   border: none;
   border-radius: 5px;
@@ -47,10 +47,10 @@
   margin: 0;
   font-size: 28px;
   font-weight: 700;
-  box-shadow: 1px 1px 10px 1px var(--brand-refresh-gray)
+  box-shadow: 1px 1px 10px 1px var(--k-gray)
 }
 .purchase-product h5 {
-  color: var(--brand-refresh-dark-gray);
+  color: var(--k-dark-gray);
   margin: 20px auto 0;
   font-size: 24px;
   font-weight: 700;
@@ -58,7 +58,7 @@
   line-height: 25px;
 }
 .purchase-product p {
-  color: var(--brand-refresh-gray);
+  color: var(--k-gray);
   margin: 5px auto;
   font-size: 20px;
   font-weight: 400;

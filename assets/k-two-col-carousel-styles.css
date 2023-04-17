@@ -13,7 +13,7 @@
 }
 .video-carousel, .article-carousel {
   width: 50%;
-  background-color: var(--brand-refresh-background-light);
+  background-color: var(--k-background-2);
   border-radius: 20px;
   padding: 10px;
 }
@@ -36,7 +36,7 @@
 }
 .video-caro-container a, .article-carousel a {
   text-decoration: none;
-  color: var(--brand-refresh-dark);
+  color: var(--k-dark-blue);
   font-size: 18px;
 }
 .video-caro-container .video-box, .article-carousel .article-box {

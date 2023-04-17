@@ -13,14 +13,14 @@
 }
 
 .tab:hover {
-  background-color: var(--brand-refresh-white);
+  background-color: var(--k-white);
 }
 
 .tab {
   width: 100%;
-  color: var(--brand-refresh-white);
+  color: var(--k-white);
   overflow: hidden;
-  background-color: var(--brand-refresh-background-light);
+  background-color: var(--k-background-2);
 }
 
 .tab-label {
@@ -30,7 +30,7 @@
   padding: 1em;
   font-weight: bold;
   color:  rgb(var(--color-base-accent-1));
-  border-bottom: 1px solid var(--brand-refresh-gray);
+  border-bottom: 1px solid var(--k-gray);
 }
 
 .tabs .tab:last-child label {
@@ -38,15 +38,15 @@
 }
 
 .tabs .tab:last-child .faq-checkbox:checked ~ label {
-  border-bottom: 1px solid var(--brand-refresh-gray)
+  border-bottom: 1px solid var(--k-gray)
 }
 
 .tab-content {
   max-height: 0;
   padding: 0 1em;
-  background-color: var(--brand-refresh-white);
+  background-color: var(--k-white);
   transition: all 0.5s ease;
-  color: var(--brand-refresh-dark-gray);
+  color: var(--k-dark-gray);
 }
 
 .tab-content p {

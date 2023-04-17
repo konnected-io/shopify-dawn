@@ -87,17 +87,17 @@
   align-self: end;
 }
 .bullet-surround .bullet-span {
-  background-color: var(--brand-refresh-gray);
+  background-color: var(--k-gray);
   padding: 3px 15px;
   border-radius: 20px;
-  color: var(--brand-refresh-white);
+  color: var(--k-white);
   font-size: 17px;
 }
 .bullet-surround .hover-text {
   background-color: #81BB08;
   padding: 3px 15px;
   border-radius: 20px;
-  color: var(--brand-refresh-white)
+  color: var(--k-white)
 }
 .bullet-surround .img-container-mobile {
   width: 50vw;
@@ -110,8 +110,8 @@
   margin: 15px auto;
   padding: 10px 15px;
   text-align: center;
-  color: var(--brand-refresh-white);
-  background: var(--brand-refresh-gray-clear);
+  color: var(--k-white);
+  background: var(--k-gray-clear);
   border-radius: 20px;
   font-size: 18px;
 }

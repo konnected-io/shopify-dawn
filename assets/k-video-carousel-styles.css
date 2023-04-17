@@ -19,7 +19,7 @@
 }
 .video-carousel a {
   text-decoration: none;
-  color: var(--brand-refresh-dark);
+  color: var(--k-dark-blue);
   font-size: 18px;
 }
 .video-carousel .video-box {

@@ -44,7 +44,7 @@
   color: rgb(var(--color-base-accent-1));
 }
 .two-col-two-list a:hover {
-  color: var(--brand-refresh-gray);
+  color: var(--k-gray);
 }
 
 /* MEDIA QUERIES */

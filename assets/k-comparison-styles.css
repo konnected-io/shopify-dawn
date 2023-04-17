@@ -27,7 +27,7 @@
   padding: 10px;
   border-top: 1px solid #E8E8E8;
   border-bottom: 1px solid #E8E8E8;
-  color: var(--brand-refresh-gray);
+  color: var(--k-gray);
   font-size: 15px;
 }
 
@@ -46,7 +46,7 @@
   background: #F7F7F7;
 }
 .comparison .compare-row td:nth-child(even) {
-  background: var(--brand-refresh-white);
+  background: var(--k-white);
 }
 
 .comparison .check {
@@ -93,7 +93,7 @@
 }
 
 .comparison .product.prod-image{
-  background-color: var(--brand-refresh-white);
+  background-color: var(--k-white);
   width: 17%;
   border: none;
   transition: .3s;

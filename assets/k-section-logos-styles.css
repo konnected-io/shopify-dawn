@@ -14,7 +14,7 @@
 .solo-logo .img-container {
   width: 100%;
   height: 20vh;
-  border: 0.25px solid var(--brand-refresh-gray);
+  border: 0.25px solid var(--k-gray);
   border-radius: 20px;
   transition: .4s;
 }

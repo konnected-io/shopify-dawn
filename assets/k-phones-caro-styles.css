@@ -5,9 +5,9 @@
 
 .phones-carousel .image-card {
   height: 520px;
-  background: var(--brand-refresh-white);
+  background: var(--k-white);
   overflow: hidden;
-  border: 1px solid var(--brand-refresh-gray);
+  border: 1px solid var(--k-gray);
   border-radius: 10px;
   margin: 0 25px 60px;
 }
@@ -20,7 +20,7 @@
   margin: 0;
   font-size: 20px;
   font-weight: 700;
-  color: var(--brand-refresh-dark-gray);
+  color: var(--k-dark-gray);
 }
 .phones-carousel .image-card-content {
   padding: 10px 20px;

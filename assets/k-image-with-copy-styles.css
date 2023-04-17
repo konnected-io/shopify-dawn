@@ -17,7 +17,7 @@
 }
 .img-with-copy-para {
   font-size: 24px;
-  color: var(--brand-refresh-dark-gray);
+  color: var(--k-dark-gray);
   font-weight: 400;
 }
 .img-with-copy-para a {

@@ -11,7 +11,7 @@
   display: flex;
   flex-wrap: wrap;
   padding: 30px;
-  border: 1px solid var(--brand-refresh-gray);
+  border: 1px solid var(--k-gray);
   border-radius: 20px;
 }
 .icon-w-bul-icon .block-icon {

@@ -11,7 +11,7 @@
   border: none;
   border-radius: 20px;
   transition: .4s;
-  background-color: var(--brand-refresh-white);
+  background-color: var(--k-white);
 }
 .platforms-img-container img {
   width: 100%;
@@ -21,7 +21,7 @@
 }
 .platforms-img-container:hover {
   transform: scale(1.03);
-  box-shadow: 0px 0px 10px var(--brand-refresh-gray);
+  box-shadow: 0px 0px 10px var(--k-gray);
 }
 @media(max-width: 786px){
   .platforms-images {

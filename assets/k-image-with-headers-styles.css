@@ -28,7 +28,7 @@
 }
 .img-with-header-content span{
   color: white;
-  background: var(--brand-refresh-gray-clear);
+  background: var(--k-gray-clear);
   box-shadow: 1px 1px 10px 1px gray;
   padding: 5px 15px;
   border-radius: 20px;
@@ -88,8 +88,8 @@
   margin: 15px auto;
   padding: 10px 15px;
   text-align: center;
-  color: var(--brand-refresh-white);
-  background: var(--brand-refresh-gray-clear);
+  color: var(--k-white);
+  background: var(--k-gray-clear);
   border-radius: 20px;
 }
 .image-mobile-container {

@@ -19,7 +19,7 @@
 }
 .article-carousel a {
   text-decoration: none;
-  color: var(--brand-refresh-dark);
+  color: var(--k-dark-blue);
   font-size: 18px;
 }
 .article-carousel .article-box {

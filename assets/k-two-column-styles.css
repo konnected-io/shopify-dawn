@@ -53,7 +53,7 @@
   color: rgb(var(--color-base-accent-1));
 }
 .two-col-para a:hover {
-  color: var(--brand-refresh-gray);
+  color: var(--k-gray);
 }
 .two-col .img-btns {
   width: 100%;

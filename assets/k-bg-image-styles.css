@@ -55,7 +55,7 @@
 }
 .bg-img-text {
   line-height: 35px;
-  background: var(--brand-refresh-white-clear);
+  background: var(--k-white-clear);
   padding: 40px;
   border-radius: 40px;
 }

@@ -22,7 +22,7 @@
   width: 100%;
 }
 .quick-buy .product-price__sale-label {
-  color: var(--brand-cta-green);
+  color: var(--k-neon-green);
   font-size: 1.4rem;
   font-style: italic;
   vertical-align: text-bottom;
