@@ -21,7 +21,7 @@
   font-weight: 400;
 }
 .img-with-copy-para a {
-  color: var(--brand-refresh);
+  color: rgb(var(--color-base-accent-1));
 }
 /* MEDIA QUERIES */
 

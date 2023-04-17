@@ -38,7 +38,7 @@
   width: 100%;
 }
 .purchase-product a button {
-  background: var(--brand-refresh);
+  background: rgb(var(--color-base-accent-1));
   color: var(--brand-refresh-white);
   width: 80%;
   border: none;

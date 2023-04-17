@@ -26,7 +26,7 @@
 }
 .solo-logo .img-container:hover {
   transform: scale(1.03);
-  box-shadow: 0px 0px 10px var(--brand-refresh);
+  box-shadow: 0px 0px 10px rgb(var(--color-base-accent-1));
 }
 @media(max-width: 786px){
   .logo-box .logo-container {

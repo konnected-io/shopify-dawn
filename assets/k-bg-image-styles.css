@@ -78,7 +78,7 @@
   cursor: pointer;
 }
 .bg-img a {
-  color: var(--brand-refresh);
+  color: rgb(var(--color-base-accent-1));
 }
 /* MEDIA QUERIES */
 @media(max-width: 1515px) {

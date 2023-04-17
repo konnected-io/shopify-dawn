@@ -6,7 +6,7 @@ html {
 }
 
 /*================ Brand Colors ================*/:root {
-  --brand-refresh: #3F75FF;
+  --konnected-blue: #3F75FF;
   --brand-refresh-dark: #061C2B;
   --brand-refresh-white: #FFFFFF;
   --brand-refresh-white-clear: rgba(255, 255, 255, 0.85);
@@ -22,6 +22,49 @@ html {
   --holiday-green: #0A9718;
   --brand-cta-green: #47F5A3;
   --brand-cream: #F0EFEF;
+}
+/*================ Color Schemes ================*/
+:root,
+.color-background-1 {
+  --color-foreground: var(--color-base-text);
+  --color-background: var(--color-base-background-1);
+  --gradient-background: var(--gradient-base-background-1);
+}
+
+.color-background-2 {
+  --color-foreground: var(--color-base-text);
+  --color-background: var(--color-base-background-2);
+  --gradient-background: var(--gradient-base-background-2);
+}
+
+.color-inverse {
+  --color-foreground: var(--color-base-background-1);
+  --color-background: var(--color-base-text);
+  --gradient-background: rgb(var(--color-base-text));
+}
+
+.color-accent-1 {
+  --color-foreground: var(--color-base-solid-button-labels);
+  --color-background: var(--color-base-accent-1);
+  --gradient-background: var(--gradient-base-accent-1);
+}
+
+.color-accent-2 {
+  --color-foreground: var(--color-base-solid-button-labels);
+  --color-background: var(--color-base-accent-2);
+  --gradient-background: var(--gradient-base-accent-2);
+}
+
+.color-foreground-outline-button {
+  --color-foreground: var(--color-base-outline-button-labels);
+}
+
+.color-foreground-accent-1 {
+  --color-foreground: var(--color-base-accent-1);
+}
+
+.color-foreground-accent-2 {
+  --color-foreground: var(--color-base-accent-2);
 }
 /*================ Slick Slider ================*/
 
@@ -78,7 +121,7 @@ html {
 }
 
 .slick-dots li.slick-active button:before {
-  color: var(--brand-refresh);
+  color: rgb(var(--color-base-accent-1));
 }
 .slide-image-box {
   overflow: hidden;
@@ -320,7 +363,7 @@ html {
 /*================ Header ================*/
 
 
-.header__icon { color: var(--brand-refresh); }
+.header__icon { color: rgb(var(--color-base-accent-1)); }
 
 .header__menu-item { 
   font-family: var(--font-heading-family);
@@ -367,7 +410,7 @@ li {
 }
 
 .slick-prev:before, .slick-next:before {
-  color: var(--brand-refresh);
+  color: rgb(var(--color-base-accent-1));
 }
 
 /*================= Announcement Bar ============*/

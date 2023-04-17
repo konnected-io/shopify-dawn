@@ -51,7 +51,7 @@
   height: 10vh;
 }
 .num-counter .numbers {
-  color: var(--brand-refresh);
+  color: rgb(var(--color-base-accent-1));
   font-size: 70px;
   font-weight: 700;
   margin: 0;
@@ -72,7 +72,7 @@
 }
 .num-counter .progress-value {
   box-shadow: 0 10px 40px -10px #fff;
-  background: var(--brand-refresh);
+  background: rgb(var(--color-base-accent-1));
   height: 20px;
   width: 0;
 }

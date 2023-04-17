@@ -14,7 +14,7 @@
 }
 
 .two-col .two-col-box li::marker {
-  color: var(--brand-refresh);
+  color: rgb(var(--color-base-accent-1));
 }
 .two-col-box {
   display: grid;
@@ -50,7 +50,7 @@
   text-decoration: none;
 }
 .two-col-para a:link, .two-col-para a:visited {
-  color: var(--brand-refresh);
+  color: rgb(var(--color-base-accent-1));
 }
 .two-col-para a:hover {
   color: var(--brand-refresh-gray);
@@ -94,7 +94,7 @@
   animation-delay: 0s;
 }
 .two-col h1 {
-  color: var(--brand-refresh);
+  color: rgb(var(--color-base-accent-1));
   margin: 0;
 }
 .two-col span.counter-text {
@@ -114,7 +114,7 @@
 }
 .two-col .progress-value {
   box-shadow: 0 10px 40px -10px #fff;
-  background: var(--brand-refresh);
+  background: rgb(var(--color-base-accent-1));
   height: 20px;
   width: 0;
 }

@@ -337,7 +337,7 @@
 }
 
 .card-information > .price {
-  color: var(--brand-refresh);
+  color: rgb(var(--color-base-accent-1));
 }
 
 .card--horizontal .card-information > .price {

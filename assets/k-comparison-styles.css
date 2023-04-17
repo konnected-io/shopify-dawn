@@ -50,7 +50,7 @@
 }
 
 .comparison .check {
-  color: var(--brand-refresh);
+  color: rgb(var(--color-base-accent-1));
 }
 .comparison .check span{
   font-size: 20px;
@@ -84,7 +84,7 @@
 }
 
 .comparison .product {
-  background-color: var(--brand-refresh);
+  background-color: rgb(var(--color-base-accent-1));
   height: 40px;
 }
 

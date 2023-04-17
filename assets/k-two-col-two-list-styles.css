@@ -18,7 +18,7 @@
   font-weight: 400;
 }
 .two-col-two-list .two-col-two-list-box li::marker {
-  color: var(--brand-refresh);
+  color: rgb(var(--color-base-accent-1));
 }
 .two-col-two-list-box {
   display: grid;
@@ -41,7 +41,7 @@
   font-size: calc(var(--font-heading-scale) * 2rem);
 }
 .two-col-two-list a:link, .two-col-para a:visited {
-  color: var(--brand-refresh);
+  color: rgb(var(--color-base-accent-1));
 }
 .two-col-two-list a:hover {
   color: var(--brand-refresh-gray);
