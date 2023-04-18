@@ -26,27 +26,17 @@
   transform: translate(-50px, -60px);
 }
 .hero-new-container {
-  position: relative;
-  height: 85vh;
   display: flex;
   align-items: center;
-  color: var(--k-white);
-  padding: 0 20px;
-  background: center/cover no-repeat;
 }
 .hero-new-inner {
-  position: relative;
-  display: flex;
-  align-items: center;
-  padding: 55px 0;
+  padding: 135px 0px;
   z-index: 2;
-  height: 85vh;
 }
 .hero-new-content-wrapper {
   display: flex;
   align-items: center;
   max-width: 700px;
-  height: 100%;
   margin: 0 100px;
   z-index: 3;
 }
