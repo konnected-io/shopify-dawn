@@ -246,7 +246,7 @@
     "product-intro": {
       "type": "k-two-column",
       "blocks": {
-        "heading-1":{
+        "heading-1": {
           "type": "heading",
           "settings": {
             "heading": "Use Your Existing Wired Security System Sensors to Create a Smart Home Alarm",
@@ -256,13 +256,18 @@
         "text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Your home, like millions of others across the country, is pre-wired for an alarm system.<\/p><p>With the Konnected Alarm Panel, you can easily replace your old alarm panel or take advantage of your newly pre-wired home and create a smart alarm system. <\/p><p>This do-it-yourself (DIY) solution to retrofit any wired alarm system works with leading consumer smart home platforms that allow you to monitor and control your home from anywhere, without monthly fees!<\/p><p>Not into DIY? We’ve got you covered with a network of <a href=\"/pages/find-an-installer\" title=\"Konnected Installers\">Konnected Resellers and Installers<\/a>.<\/p><p>Konnected works with most leading smart home platforms:<\/p><p><\/p>",
+            "text": "<p>Your home, like millions of others across the country, is pre-wired for an alarm system.<\/p><p>With the Konnected Alarm Panel, you can easily replace your old alarm panel or take advantage of your newly pre-wired home and create a smart alarm system. <\/p><p>This do-it-yourself (DIY) solution to retrofit any wired alarm system works with leading consumer smart home platforms that allow you to monitor and control your home from anywhere, without monthly fees!<\/p><p>Not into DIY? We’ve got you covered with a network of <a href=\"\/pages\/find-an-installer\" title=\"Konnected Installers\">Konnected Resellers and Installers<\/a>.<\/p><p>Konnected works with most leading smart home platforms:<\/p><p><\/p>",
             "text_style": "body"
           }
         }
       },
-      "block_order": [ "heading-1", "text-1" ],
+      "block_order": [
+        "heading-1",
+        "text-1"
+      ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/blog_2_1.png",
+        "rounded_corners": "true",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -273,9 +278,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 12,
-        "padding_bottom": 12,
-        "image": "shopify:\/\/shop_images\/blog_2_1.png",
-        "rounded_corners": "true"
+        "padding_bottom": 12
       }
     },
     "partners-carousel": {
@@ -450,7 +453,7 @@
     "k-two-column": {
       "type": "k-two-column",
       "blocks": {
-        "heading-1":{
+        "heading-1": {
           "type": "heading",
           "settings": {
             "heading": "Choose the Alarm Panel Conversion Kit If You:",
@@ -465,8 +468,13 @@
           }
         }
       },
-      "block_order": [ "heading-1", "text-1" ],
+      "block_order": [
+        "heading-1",
+        "text-1"
+      ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/ALARM_PANEL_PRO_-_WHO_IT_S_FOR.jpg",
+        "rounded_corners": true,
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -477,15 +485,13 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 12,
-        "padding_bottom": 12,
-        "image": "shopify:\/\/shop_images\/ALARM_PANEL_PRO_-_WHO_IT_S_FOR.jpg",
-        "rounded_corners": true
+        "padding_bottom": 12
       }
     },
     "k-two-column-two": {
       "type": "k-two-column",
       "blocks": {
-        "heading-1":{
+        "heading-1": {
           "type": "heading",
           "settings": {
             "heading": "Reasons to Love Konnected for App-Based Home Monitoring",
@@ -500,8 +506,13 @@
           }
         }
       },
-      "block_order": [ "heading-1", "text-1" ],
+      "block_order": [
+        "heading-1",
+        "text-1"
+      ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/REASONS_TO_LOVE_KONNECTED_1_aa2e53d6-96d1-476d-8ea4-b5ad7b564c36.png",
+        "rounded_corners": "true",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -512,9 +523,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 24,
-        "padding_bottom": 24,
-        "image": "shopify:\/\/shop_images\/REASONS_TO_LOVE_KONNECTED_1_aa2e53d6-96d1-476d-8ea4-b5ad7b564c36.png",
-        "rounded_corners": "true"
+        "padding_bottom": 24
       }
     },
     "k-icon-with-bullets": {
@@ -822,7 +831,7 @@
     "how-many-zones": {
       "type": "k-two-column",
       "blocks": {
-        "heading-1":{
+        "heading-1": {
           "type": "heading",
           "settings": {
             "heading": "How Many Zones Do I Need?",
@@ -837,8 +846,13 @@
           }
         }
       },
-      "block_order": [ "heading-1", "text-1" ],
+      "block_order": [
+        "heading-1",
+        "text-1"
+      ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/polotno_4.png",
+        "rounded_corners": true,
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -849,9 +863,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 12,
-        "padding_bottom": 12,
-        "image": "shopify:\/\/shop_images\/polotno_4.png",
-        "rounded_corners": true
+        "padding_bottom": 12
       }
     },
     "product-features": {
@@ -869,7 +881,7 @@
     "replace-keypads": {
       "type": "k-two-column",
       "blocks": {
-        "heading-1":{
+        "heading-1": {
           "type": "heading",
           "settings": {
             "heading": "Looking to Replace Your Old Keypad?",
@@ -884,8 +896,13 @@
           }
         }
       },
-      "block_order": [ "heading-1", "text-1" ],
+      "block_order": [
+        "heading-1",
+        "text-1"
+      ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/KEYPAD_Example_Image_27a24ada-017d-4d09-8eeb-ab30abd958e2.png",
+        "rounded_corners": true,
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -896,9 +913,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 12,
-        "padding_bottom": 12,
-        "image": "shopify:\/\/shop_images\/KEYPAD_Example_Image_27a24ada-017d-4d09-8eeb-ab30abd958e2.png",
-        "rounded_corners": true
+        "padding_bottom": 12
       }
     },
     "cloud-and-local": {
