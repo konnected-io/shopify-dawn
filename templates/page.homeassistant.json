@@ -48,9 +48,7 @@
           }
         }
       },
-      "block_order": [
-        "text-1"
-      ],
+      "block_order": [ "text-1" ],
       "settings": {
         "counter": true,
         "height": "adapt",
@@ -192,6 +190,7 @@
         "section_padding": 26,
         "section_margin_top": 0,
         "section_margin_bottom": 0,
+        "image": "shopify:\/\/shop_images\/HA_LocalAnimation_FINAL.gif",
         "heading": "As local as it gets",
         "heading_color": "dark-gray",
         "heading_font_size": 40,
@@ -200,8 +199,7 @@
         "subheading_color": "dark-gray",
         "subheading_font_size": 24,
         "subheading_font_weight": "light",
-        "image": "shopify:\/\/shop_images\/HA_LocalAnimation_FINAL.gif",
-        "text": "<p>Home Assistant runs locally and doesn’t rely on an internet connection or 3rd-party cloud. As an open-source download,  Home Assistant runs on your chosen hub, meaning your smart home controller is yours. Of course, an internet connection is needed for remote access and outbound notifications. Home Assistant’s parent company offers an <a href=\"https:\/\/www.nabucasa.com\/\" target=\"_blank\" rel=\"noopener noreferrer\">optional paid cloud service<\/a> \n adding remote access capabilities and integration with Google & Alexa.<\/p>",
+        "text": "<p>Home Assistant runs locally and doesn’t rely on an internet connection or 3rd-party cloud. As an open-source download,  Home Assistant runs on your chosen hub, meaning your smart home controller is yours. Of course, an internet connection is needed for remote access and outbound notifications. Home Assistant’s parent company offers an <a href=\"https:\/\/www.nabucasa.com\/\" target=\"_blank\" rel=\"noopener noreferrer\">optional paid cloud service<\/a> \n adding remote access capabilities and integration with Google & Alexa.</p>",
         "text_font_size": 22,
         "para_background": "",
         "para_padding": 0
@@ -218,11 +216,8 @@
           }
         }
       },
-      "block_order": [
-        "text-1"
-      ],
+      "block_order": [ "text-1" ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ESPHomeSection_copy_a8df03d5-1117-4f7f-9b40-dcecf8f6a64a.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -234,6 +229,7 @@
         "mobile_content_alignment": "left",
         "padding_top": 52,
         "padding_bottom": 52,
+        "image": "shopify:\/\/shop_images\/ESPHomeSection_copy_a8df03d5-1117-4f7f-9b40-dcecf8f6a64a.png",
         "heading": "Made for ESPHome",
         "subheading": ""
       }
@@ -245,6 +241,7 @@
         "section_padding": 26,
         "section_margin_top": 0,
         "section_margin_bottom": 0,
+        "image": "shopify:\/\/shop_images\/HA_DeviceGIF_copy.gif",
         "heading": "Custom dashboard for every device",
         "heading_color": "dark-gray",
         "heading_font_size": 40,
@@ -253,7 +250,6 @@
         "subheading_color": "dark-gray",
         "subheading_font_size": 24,
         "subheading_font_weight": "light",
-        "image": "shopify:\/\/shop_images\/HA_DeviceGIF_copy.gif",
         "text": "",
         "text_font_size": 22,
         "para_background": "",
@@ -368,7 +364,7 @@
         "text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Konnected’s mission is to put homeowners back in control of their wired alarm system - Home Assistant accomplishes that on every level. We’re proud that our smart alarm panels work with this free & powerful smart home platform that lets DIYers maintain it according to their needs.<\/p>",
+            "text": "<p>Konnected’s mission is to put homeowners back in control of their wired alarm system - Home Assistant accomplishes that on every level. We’re proud that our smart alarm panels work with this free & powerful smart home platform that lets DIYers maintain it according to their needs.</p>",
             "text_style": "body"
           }
         },
@@ -376,18 +372,14 @@
           "type": "app_store_buttons",
           "settings": {
             "img_btn_one": "shopify:\/\/shop_images\/apple-app-store-logo_copy_1da02396-f56a-4d0d-9c3e-f0d4ae814f95.png",
-            "img_btn_one_link": "https:\/\/apps.apple.com\/us\/app\/home-assistant\/id1099568401",
             "img_btn_two": "shopify:\/\/shop_images\/google-play-badge.png",
-            "img_btn_two_link": "https:\/\/play.google.com\/store\/apps\/details?id=io.homeassistant.companion.android"
-          }
+            "img_btn_one_link": "https://apps.apple.com/us/app/home-assistant/id1099568401",
+            "img_btn_two_link": "https://play.google.com/store/apps/details?id=io.homeassistant.companion.android"
+              }
         }
       },
-      "block_order": [
-        "text-1",
-        "app-store-btns-1"
-      ],
+      "block_order": [ "text-1", "app-store-btns-1" ],    
       "settings": {
-        "image": "shopify:\/\/shop_images\/PartnerAnimations_6.gif",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -399,6 +391,7 @@
         "mobile_content_alignment": "left",
         "padding_top": 52,
         "padding_bottom": 52,
+        "image": "shopify:\/\/shop_images\/PartnerAnimations_6.gif",
         "heading": "Home Assistant & Konnected are founded on similar principles",
         "subheading": "It’s all about giving control back to users"
       }
@@ -410,35 +403,45 @@
           "type": "article",
           "settings": {
             "image": "shopify:\/\/shop_images\/ArticleTNs_1_71d99ada-b2c1-462e-9b66-179075d796e3.webp",
-            "heading": "Konnected Is Embracing ESPHome"
+            "heading": "Konnected Is Embracing ESPHome",
+            "image_text": "",
+            "cta_link": "https:\/\/konnected.io\/blogs\/news\/konnected-is-embracing-esphome?_pos=1&_sid=d97faed72&_ss=r"
           }
         },
         "c070a2b7-a125-48f6-b89d-a62804942da4": {
           "type": "article",
           "settings": {
             "image": "shopify:\/\/shop_images\/16.png",
-            "heading": "Home Assistant as a Security System"
+            "heading": "Home Assistant as a Security System",
+            "image_text": "",
+            "cta_link": "https:\/\/help.konnected.io\/support\/solutions\/articles\/32000033434-home-assistant-as-a-security-system"
           }
         },
         "45cff931-8940-449f-b938-be8a66531549": {
           "type": "article",
           "settings": {
             "image": "shopify:\/\/shop_images\/19_1.png",
-            "heading": "Rename Zones in Home Assistant"
+            "heading": "Rename Zones in Home Assistant",
+            "image_text": "",
+            "cta_link": "https:\/\/help.konnected.io\/support\/solutions\/articles\/32000033488-rename-zones-in-home-assistant"
           }
         },
         "c6167452-1cda-4b0e-aad6-71725b7350cf": {
           "type": "article",
           "settings": {
             "image": "shopify:\/\/shop_images\/18.png",
-            "heading": "Add a Konnected Device to Home Assistant with ESPHome"
+            "heading": "Add a Konnected Device to Home Assistant with ESPHome",
+            "image_text": "",
+            "cta_link": "https:\/\/help.konnected.io\/support\/solutions\/articles\/32000033440-add-a-konnected-device-to-home-assistant-with-esphome"
           }
         },
         "270ec06c-54fd-4b14-8ea6-b13ed38cefd3": {
           "type": "article",
           "settings": {
             "image": "shopify:\/\/shop_images\/17.png",
-            "heading": "Add a Konnected Device to Home Assistant"
+            "heading": "Add a Konnected Device to Home Assistant",
+            "image_text": "",
+            "cta_link": "https:\/\/help.konnected.io\/support\/solutions\/articles\/32000033439-add-a-konnected-device-to-home-assistant"
           }
         }
       },

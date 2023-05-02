@@ -48,12 +48,8 @@
           }
         }
       },
-      "block_order": [
-        "text-1"
-      ],
+      "block_order": [ "text-1" ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Make_any_wired_alarm_system_smart_400_x_400_px.gif",
-        "rounded_corners": true,
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -65,6 +61,8 @@
         "mobile_content_alignment": "left",
         "padding_top": 52,
         "padding_bottom": 52,
+        "image": "shopify:\/\/shop_images\/Make_any_wired_alarm_system_smart_400_x_400_px.gif",
+        "rounded_corners": true,
         "heading": "Control4 is for dealers & integrators",
         "subheading": "Bring next level smart home to homeowners"
       }
@@ -80,11 +78,8 @@
           }
         }
       },
-      "block_order": [
-        "text-1"
-      ],
+      "block_order": [ "text-1" ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ArticleTNs_1080_x_1080_px_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -96,6 +91,7 @@
         "mobile_content_alignment": "left",
         "padding_top": 52,
         "padding_bottom": 52,
+        "image": "shopify:\/\/shop_images\/ArticleTNs_1080_x_1080_px_1.png",
         "heading": "What’s in it for dealers & integrators"
       }
     },
@@ -277,18 +273,14 @@
           "type": "app_store_buttons",
           "settings": {
             "img_btn_one": "shopify:\/\/shop_images\/apple-app-store-logo_copy_1da02396-f56a-4d0d-9c3e-f0d4ae814f95.png",
-            "img_btn_one_link": "https:\/\/apps.apple.com\/us\/app\/control4-for-os-3\/id1320153814",
             "img_btn_two": "shopify:\/\/shop_images\/google-play-badge.png",
-            "img_btn_two_link": "https:\/\/play.google.com\/store\/apps\/details?id=com.control4.phoenix"
-          }
+            "img_btn_one_link": "https://apps.apple.com/us/app/control4-for-os-3/id1320153814",
+            "img_btn_two_link": "https://play.google.com/store/apps/details?id=com.control4.phoenix"
+              }
         }
       },
-      "block_order": [
-        "text-1",
-        "app-store-btns-1"
-      ],
+      "block_order": [ "text-1", "app-store-btns-1" ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/PartnerAnimations.gif",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -300,8 +292,14 @@
         "mobile_content_alignment": "left",
         "padding_top": 52,
         "padding_bottom": 52,
+        "image": "shopify:\/\/shop_images\/PartnerAnimations.gif",
         "heading": "First Universal Solution for Any Alarm Panel Brand",
-        "subheading": "Elevate Control4 homes like never before"
+        "subheading": "Elevate Control4 homes like never before",
+        "img_btn_one": "shopify:\/\/shop_images\/apple-app-store-logo_copy_1da02396-f56a-4d0d-9c3e-f0d4ae814f95.png",
+        "img_btn_one_link": "https:\/\/apps.apple.com\/us\/app\/smartthings\/id1222822904",
+        "img_btn_two": "shopify:\/\/shop_images\/google-play-badge.png",
+        "img_btn_two_link": "https:\/\/play.google.com\/store\/apps\/details?id=com.samsung.android.oneconnect&hl=en_US&gl=US",
+        "img_below_check": false
       }
     },
     "03758d7b-5908-4a85-a778-a62033625067": {
