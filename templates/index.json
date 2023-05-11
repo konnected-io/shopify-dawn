@@ -21,7 +21,8 @@
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
             "bg_alignment_mobile": "left",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "center",
+            "country_iso": ""
           }
         },
         "template--19045530730811__5d026d8a-351c-44e9-8b86-470d78b703f5-1683773831231dfc31-1": {
@@ -42,7 +43,8 @@
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
             "bg_alignment_mobile": "center",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "center",
+            "country_iso": ""
           }
         },
         "bf8a65a9-6147-4e98-a543-7d3afea9a008": {
@@ -63,7 +65,8 @@
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
             "bg_alignment_mobile": "center",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "center",
+            "country_iso": ""
           }
         },
         "6b021efc-b45f-4b75-9348-d124f8d272bc": {
@@ -84,7 +87,31 @@
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
             "bg_alignment_mobile": "center",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "center",
+            "country_iso": ""
+          }
+        },
+        "23f61d45-d040-4e38-ac07-6b0e0bc26105": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/png_31.png",
+            "heading": "This is Reseller Banner",
+            "heading_size": "h0",
+            "heading_color_scheme": "accent-2",
+            "subheading": "",
+            "enlarge_size": true,
+            "button_label": "Be A Reseller",
+            "link": "shopify:\/\/pages\/dealer-sign-up",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "bg_alignment_mobile": "center",
+            "text_alignment_mobile": "center",
+            "country_iso": "PH"
           }
         }
       },
@@ -92,7 +119,8 @@
         "template--19045530730811__5d026d8a-351c-44e9-8b86-470d78b703f5-1683773831231dfc31-0",
         "template--19045530730811__5d026d8a-351c-44e9-8b86-470d78b703f5-1683773831231dfc31-1",
         "bf8a65a9-6147-4e98-a543-7d3afea9a008",
-        "6b021efc-b45f-4b75-9348-d124f8d272bc"
+        "6b021efc-b45f-4b75-9348-d124f8d272bc",
+        "23f61d45-d040-4e38-ac07-6b0e0bc26105"
       ],
       "settings": {
         "layout": "full_bleed",

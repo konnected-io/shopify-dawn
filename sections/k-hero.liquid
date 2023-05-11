@@ -127,6 +127,9 @@
         aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
         tabindex="-1"
+        {% if block.settings.country_iso != blank %}
+          data-exclude="{{ block.settings.country_iso | upcase }}"
+        {% endif %}
       >
         <div class="slideshow__media 
           banner__media media{% if block.settings.image == blank %} placeholder{% endif %}
@@ -641,6 +644,16 @@
           ],
           "default": "center",
           "label": "t:sections.slideshow.blocks.slide.settings.text_alignment_mobile.label"
+        },
+        {
+          "type": "header",
+          "content": "Assign Country ISO Code to exclude Banner"
+        },
+        {
+          "type": "text",
+          "id": "country_iso",
+          "label": "Exclude Banner",
+          "info": "ex.US,UK"
         }
       ]
     }
