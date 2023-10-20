@@ -228,6 +228,14 @@ details {
   padding-right: 0 !important;
 }
 
+.localization-form .disclosure__link {
+  padding: 0.95rem 0.95rem 0.95rem 2rem;
+}
+
+.localization-form .disclosure__link:hover {
+  background: rgba(var(--color-base-text),.1);
+}
+
 @media (min-width: 990px) {
   .title.mb-2 {
     margin-bottom: 1rem;
