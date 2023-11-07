@@ -144,11 +144,9 @@
               {%- if block.settings.button_label_1 != blank -%}
                 <button type="button"
                   id="button--bwp"
-                  data-open-text="{{ block.settings.button_label_1 }}"
-                  data-close-text="{{ block.settings.button_label_2 }}"
                   class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
                 >
-                  {{- block.settings.button_label_1 | escape -}}
+                  Learn More
                 </a>
               {%- endif -%}
             </div>
