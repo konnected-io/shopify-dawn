@@ -1477,6 +1477,9 @@ button.shopify-payment-button__button--unbranded {
   min-height: calc(3.5rem + var(--buttons-border-width) * 2);
 }
 
+#button--bwp {
+  border-radius: 35px;
+}
 .button--small {
   padding: 1.2rem 2.6rem;
 }

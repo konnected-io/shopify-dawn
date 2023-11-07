@@ -446,3 +446,11 @@
     clip-path: polygon(var(--shape--blob-5));
   }
 }
+
+.bwp__banner__img {
+  max-width: 69px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}

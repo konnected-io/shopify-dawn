@@ -31,3 +31,7 @@
 .quiz-close {
   display: none;
 }
+
+.bwp-banner-img {
+  max-width: 80px;
+}

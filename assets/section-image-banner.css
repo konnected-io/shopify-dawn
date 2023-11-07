@@ -471,3 +471,8 @@
     color: currentColor;
   }
 }
+
+
+#bwp__banner__box {
+  max-width: 95rem;
+}
