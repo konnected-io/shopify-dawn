@@ -126,7 +126,7 @@
     </div>
   {%- endif -%}
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-    <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient bwp__banner__box">
+    <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient" id="bwp__banner__box">
       <img class="bwp-banner-img" src="{{ 'BWP_secondary.png' | asset_url }}" />
       {%- for block in section.blocks -%}
         {%- case block.type -%}
