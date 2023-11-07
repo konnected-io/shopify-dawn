@@ -18,8 +18,6 @@
     "text_boxes_border_thickness": 0,
     "media_radius": 20,
     "badge_corner_radius": 0,
-    "sale_badge_color_bg": "#47f5a3",
-    "sold_badge_color_bg": "#dcdcdc",
     "social_facebook_link": "https:\/\/www.facebook.com\/konnected.io\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/konnected.io\/",
     "social_youtube_link": "https:\/\/www.youtube.com\/c\/konnected-io",
@@ -43,6 +41,8 @@
     "checkout_accent_color": "#3f75ff",
     "checkout_button_color": "#3f75ff",
     "checkout_error_color": "#ff6d6d",
+    "sale_badge_color_bg": "#47f5a3",
+    "sold_badge_color_bg": "#dcdcdc",
     "custom_badge_color_bg": "#47f5a3",
     "custom_badges": "partner-pricing: Partner Pricing",
     "color_sale_text": "#47f5a3",
@@ -134,21 +134,7 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "3667842014806057753": {
-        "type": "shopify:\/\/apps\/one-click-upsell-zipify-ocu\/blocks\/app-embed\/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Default": {

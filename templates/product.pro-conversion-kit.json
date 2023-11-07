@@ -23,15 +23,6 @@
             "text_style": "subtitle"
           }
         },
-        "6cbc57b5-c810-4758-a170-c0dd02dee926": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "use_metafields": true,
-            "sku_tagtype": "sku",
-            "is_featured_product": false,
-            "featured_product_handle": ""
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -166,7 +157,6 @@
         "vendor",
         "title",
         "caption",
-        "6cbc57b5-c810-4758-a170-c0dd02dee926",
         "price",
         "description",
         "variant_picker",
@@ -689,16 +679,8 @@
         "ebe15abc-a810-4d3d-aed2-862294ca9d8d"
       ],
       "settings": {
-        "title": "Works With Most Wired Sensors & Devices",
-        "heading_size": "h2",
-        "description": "",
-        "description_style": "body",
-        "icons_bg": "#E6F7FE",
         "text_list": "Door and Window Sensors\nWired PIR Motion Sensors\nWired Glass-Break Detectors\nWater Leak Detectors\nSmoke and Carbon Monoxide Detectors*\nAlarm Siren and Strobe Light",
-        "text_warning": "*THIS PRODUCT IS NOT A FIRE OR LIFE SAFETY DEVICE. Use with smoke and carbon monoxide detectors is for informational purposes only. Do not rely on Konnected alone to notify you in a life threatening emergency.",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "text_warning": "*THIS PRODUCT IS NOT A FIRE OR LIFE SAFETY DEVICE. Use with smoke and carbon monoxide detectors is for informational purposes only. Do not rely on Konnected alone to notify you in a life threatening emergency."
       }
     },
     "comparison": {
@@ -880,11 +862,8 @@
     "infinitely-expandable": {
       "type": "k-section-quick-buy",
       "settings": {
-        "title": "Infinitely Expandable",
-        "heading_size": "h1",
-        "description": "<p>Konnected is infinitely expandable by simply adding more Konnected Alarm Panel boards! Our unique decentralized approach means that each Konnected Alarm Panel board works independently and has its own WiFi connection to your smart home platform. You can add any of the Konnected devices, even mix either 6-zone WiFi model or the Alarm Panel Pro, anywhere there’s a WiFi signal. The smart home app syncs everything together into one cohesive system.<\/p>",
-        "description_style": "body",
-        "image": "shopify:\/\/shop_images\/Interface_linking_add_ons_v2_section_7_cb687a3a-b0a7-407c-b9af-7e75f3a89fe7.gif"
+        "image": "shopify:\/\/shop_images\/Interface_linking_add_ons_v2_section_7_cb687a3a-b0a7-407c-b9af-7e75f3a89fe7.gif",
+        "description": "<p>Konnected is infinitely expandable by simply adding more Konnected Alarm Panel boards! Our unique decentralized approach means that each Konnected Alarm Panel board works independently and has its own WiFi connection to your smart home platform. You can add any of the Konnected devices, even mix either 6-zone WiFi model or the Alarm Panel Pro, anywhere there’s a WiFi signal. The smart home app syncs everything together into one cohesive system.<\/p>"
       }
     },
     "how-many-zones": {
@@ -1230,23 +1209,6 @@
     },
     "1658354636f30e9d06": {
       "type": "apps",
-      "blocks": {
-        "fdf4dcd6-43ac-4deb-abe4-22d99708fafa": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "animation": true,
-            "tags_exclude": "",
-            "tags_include": "",
-            "search": "",
-            "linkify": true,
-            "use_metafields": true,
-            "sku_tagtype": "sku"
-          }
-        }
-      },
-      "block_order": [
-        "fdf4dcd6-43ac-4deb-abe4-22d99708fafa"
-      ],
       "settings": {
         "include_margins": true
       }

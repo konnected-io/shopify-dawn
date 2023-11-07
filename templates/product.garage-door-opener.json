@@ -16,15 +16,6 @@
           "settings": {
           }
         },
-        "a224429c-b028-4ef9-a901-715d69f28ba1": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "use_metafields": false,
-            "sku_tagtype": "sku",
-            "is_featured_product": false,
-            "featured_product_handle": ""
-          }
-        },
         "caption": {
           "type": "text",
           "settings": {
@@ -184,7 +175,6 @@
       "block_order": [
         "vendor",
         "title",
-        "a224429c-b028-4ef9-a901-715d69f28ba1",
         "caption",
         "price",
         "variant_picker",
@@ -304,23 +294,6 @@
     },
     "16796019742a86b0ad": {
       "type": "apps",
-      "blocks": {
-        "0c12ea5b-fd94-4e1a-a27c-69ad6d71248c": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "animation": true,
-            "tags_exclude": "",
-            "tags_include": "",
-            "search": "",
-            "linkify": true,
-            "use_metafields": false,
-            "sku_tagtype": "sku"
-          }
-        }
-      },
-      "block_order": [
-        "0c12ea5b-fd94-4e1a-a27c-69ad6d71248c"
-      ],
       "disabled": true,
       "settings": {
         "include_margins": true
@@ -1246,23 +1219,6 @@
     },
     "16853831377ff6f5d4": {
       "type": "apps",
-      "blocks": {
-        "53dc309a-842a-4545-bffc-92ef9220de7c": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "animation": true,
-            "tags_exclude": "",
-            "tags_include": "",
-            "search": "",
-            "linkify": true,
-            "use_metafields": false,
-            "sku_tagtype": "sku"
-          }
-        }
-      },
-      "block_order": [
-        "53dc309a-842a-4545-bffc-92ef9220de7c"
-      ],
       "settings": {
         "include_margins": true
       }
