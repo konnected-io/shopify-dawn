@@ -446,3 +446,7 @@
     clip-path: polygon(var(--shape--blob-5));
   }
 }
+
+.bwp__banner__img {
+  max-width: 69px;
+}
