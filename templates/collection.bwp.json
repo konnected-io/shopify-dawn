@@ -134,12 +134,60 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e7a61cb1-ec43-49c7-b65d-b32dd030172e": {
+      "type": "k-testimonial-carousel",
+      "blocks": {
+        "1c89d893-a77e-4e1a-81c1-61ae0a287e82": {
+          "type": "review",
+          "settings": {
+            "name": "James W.",
+            "content": "<p><em>\"Excellent way to update an old alarm system - Very easy to update existing alarm system with clear instructions. Many thanks to Konnected for creating this kit to be able to reuse an existing set of motion sensors for a wired alarm without needing the expense of a security company and maintenance fees!\"<\/em><\/p>"
+          }
+        },
+        "670fa69b-e196-44ec-8ef6-031ff360e908": {
+          "type": "review",
+          "settings": {
+            "name": "Angelo P.",
+            "content": "<p><em>\"Provided alerting ability to wired alarm system - Very pleased with the product. After cancelling my ADT monthly service. I was not using my wired alarm panel. Now I can get alerts while away. Installation is very easy, with SmartThings app. Technical support was very responsive and helpful.\"<\/em><\/p>"
+          }
+        },
+        "0b2f907e-33cc-4e2f-93c0-af21cd94b0dc": {
+          "type": "review",
+          "settings": {
+            "name": "Jonathan D.",
+            "content": "<p><em>\"Konnected Pros rock!!! - Having very little knowledge about alarm systems I was a bit overwhelmed by this install at first — it has gone beautifully and thanks to the solid customer service my system is working beautifully. I’m super pleased with my new alarm set up. I am one very happy customer.\"<\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1c89d893-a77e-4e1a-81c1-61ae0a287e82",
+        "670fa69b-e196-44ec-8ef6-031ff360e908",
+        "0b2f907e-33cc-4e2f-93c0-af21cd94b0dc"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "text_style": "body",
+        "columns_desktop": 3,
+        "enable_desktop_slider": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": "background-1",
+        "color_scheme_column": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner",
     "33d9a8fc-3c93-49cb-af91-4c82accd5904",
     "product-grid",
-    "afc00273-36e4-4061-ab49-1ef32f74ecef"
+    "afc00273-36e4-4061-ab49-1ef32f74ecef",
+    "e7a61cb1-ec43-49c7-b65d-b32dd030172e"
   ]
 }
