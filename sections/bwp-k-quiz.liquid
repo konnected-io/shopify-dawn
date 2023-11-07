@@ -129,6 +129,7 @@
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
+          <img class="bwp-banner-img" src="{{ 'BWP_secondary.png' | asset_url }}" />
           {%- when 'heading' -%}
             <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>{{ block.settings.heading }}</h2>
           {%- when 'text' -%}
