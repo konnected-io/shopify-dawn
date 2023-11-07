@@ -81,7 +81,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What devices are compatible with Konnected's backup battery?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -90,7 +90,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How can I check if my router or modem is compatible?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -99,7 +99,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What is Buy with Prime?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -108,7 +108,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Who is eligible for Buy with Prime?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -125,8 +125,8 @@
         "heading": "Collapsible content",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "background-1",
+        "layout": "row",
+        "color_scheme": "background-2",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
