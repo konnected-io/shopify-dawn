@@ -10,7 +10,7 @@
       }
     },
     "33d9a8fc-3c93-49cb-af91-4c82accd5904": {
-      "type": "k-quiz",
+      "type": "bwp-k-quiz",
       "blocks": {
         "7cfa2d0f-86b8-4298-a0eb-593fc91fe242": {
           "type": "heading",
