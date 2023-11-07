@@ -78,7 +78,22 @@
         "fc0cbbce-9615-4316-9b25-086f812c320d": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<!-- Beginning of Buy With Prime Widget -->\n{% if product.sku %}\n    <script defer src='https:\/\/code.buywithprime.amazon.com\/default.variant.selector.shopify.js'><\/script>\n    <script async fetchpriority='high' src='https:\/\/code.buywithprime.amazon.com\/bwp.v1.js'><\/script>\n    <div class=\"product-form__buttons\" style=\"margin:-3rem 0 0;\">\n        <div class=\"or-separator\">OR<\/div>\n        <div\n            id=\"amzn-buy-now\"\n            data-site-id=\"blbt7vxfz4\"\n            data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n            data-sku=\"{{product.sku}}\"\n        ><\/div>\n    <\/div>\n    {% else %}\n    <script defer src='https:\/\/code.buywithprime.amazon.com\/default.variant.selector.shopify.js'><\/script>\n    <script async fetchpriority='high' src='https:\/\/code.buywithprime.amazon.com\/bwp.v1.js'><\/script>\n    <div class=\"product-form__buttons\" style=\"margin:-2.3rem 0 0;\">\n        <div class=\"or-separator\">OR<\/div>\n        <div\n            id=\"amzn-buy-now\"\n            data-site-id=\"blbt7vxfz4\"\n            data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n            data-sku=\"{{product.selected_or_first_available_variant.sku}}\"\n        ><\/div>\n    <\/div>\n{% endif %}\n<!-- End of Buy With Prime Widget -->"
+            "custom_liquid": "{% unless product.type == 'Wholesale' %}\n    <!-- Beginning of Buy With Prime Widget -->\n    {% if product.sku %}\n        <script defer src='https:\/\/code.buywithprime.amazon.com\/default.variant.selector.shopify.js'><\/script>\n        <script async fetchpriority='high' src='https:\/\/code.buywithprime.amazon.com\/bwp.v1.js'><\/script>\n        <div class=\"product-form__buttons\" style=\"margin:-3rem 0 0;\">\n            <div class=\"or-separator\">OR<\/div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.sku}}\"\n            ><\/div>\n        <\/div>\n        {% else %}\n        <script defer src='https:\/\/code.buywithprime.amazon.com\/default.variant.selector.shopify.js'><\/script>\n        <script async fetchpriority='high' src='https:\/\/code.buywithprime.amazon.com\/bwp.v1.js'><\/script>\n        <div class=\"product-form__buttons\" style=\"margin:-2.3rem 0 0;\">\n            <div class=\"or-separator\">OR<\/div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.selected_or_first_available_variant.sku}}\"\n            ><\/div>\n        <\/div>\n    {% endif %}\n    <!-- End of Buy With Prime Widget -->\n{% endunless %}"
+          }
+        },
+        "a6bdfe84-9a06-4bdf-b3ff-9285d86430d0": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'price-chart-table', product: product %}"
+          }
+        },
+        "fc72b1cd-6e17-442e-8542-b8208d15ceb4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Important Note",
+            "icon": "clipboard",
+            "content": "{{ product.metafields.custom.important_note_ | metafield_tag }}",
+            "page": ""
           }
         },
         "collapsible-row-0": {
@@ -94,8 +109,8 @@
           "type": "collapsible_tab",
           "disabled": true,
           "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
+            "heading": "Important Information",
+            "icon": "star",
             "content": "",
             "page": ""
           }
@@ -159,6 +174,8 @@
         "71881e6e-2262-4ec2-a7d7-c508b804343f",
         "buy_buttons",
         "fc0cbbce-9615-4316-9b25-086f812c320d",
+        "a6bdfe84-9a06-4bdf-b3ff-9285d86430d0",
+        "fc72b1cd-6e17-442e-8542-b8208d15ceb4",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
@@ -671,16 +688,16 @@
         "ebe15abc-a810-4d3d-aed2-862294ca9d8d"
       ],
       "settings": {
-        "background_color": "white",
-        "icon_placement": "left",
-        "image": "shopify:\/\/shop_images\/DOOR___WINDOW_CONTACTS_light_blue_880d901b-53b9-4e68-a85f-dcd2e7489363.png",
-        "heading": "",
-        "alt_heading": "WORKS WITH MOST WIRED SENSORS & DEVICES",
-        "alt_heading_color": "blue",
-        "alt_heading_font_weight": "bold",
-        "text_description": "Breathe new life into all the sensors already wired in your home and make them visible and actionable in your smart home app.",
+        "title": "Works With Most Wired Sensors & Devices",
+        "heading_size": "h2",
+        "description": "",
+        "description_style": "body",
+        "icons_bg": "#e6f7fe",
         "text_list": "Door and Window Sensors\nWired PIR Motion Sensors\nWired Glass-Break Detectors\nWater Leak Detectors\nSmoke and Carbon Monoxide Detectors*\nAlarm Siren and Strobe Light",
-        "text_warning": "*THIS PRODUCT IS NOT A FIRE OR LIFE SAFETY DEVICE. Use with smoke and carbon monoxide detectors is for informational purposes only. Do not rely on Konnected alone to notify you in a life threatening emergency."
+        "text_warning": "*THIS PRODUCT IS NOT A FIRE OR LIFE SAFETY DEVICE. Use with smoke and carbon monoxide detectors is for informational purposes only. Do not rely on Konnected alone to notify you in a life threatening emergency.",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "comparison": {
@@ -862,12 +879,11 @@
     "infinitely-expandable": {
       "type": "k-section-quick-buy",
       "settings": {
-        "background_color": "white",
-        "heading": "INFINITELY EXPANDABLE",
-        "heading_color": "blue",
-        "heading_font_weight": "bold",
-        "image": "shopify:\/\/shop_images\/Interface_linking_add_ons_v2_section_7_cb687a3a-b0a7-407c-b9af-7e75f3a89fe7.gif",
-        "description": "Konnected is infinitely expandable by simply adding more Konnected Alarm Panel boards! Our unique decentralized approach means that each Konnected Alarm Panel board works independently and has its own WiFi connection to your smart home platform. \n\nYou can add any of the Konnected devices, even mix either 6-zone WiFi model or the Alarm Panel Pro, anywhere there’s a WiFi signal. The smart home app syncs everything together into one cohesive system."
+        "title": "Infinitely Expandable",
+        "heading_size": "h1",
+        "description": "<p>Konnected is infinitely expandable by simply adding more Konnected Alarm Panel boards! Our unique decentralized approach means that each Konnected Alarm Panel board works independently and has its own WiFi connection to your smart home platform.<\/p><p>You can add any of the Konnected devices, even mix either 6-zone WiFi model or the Alarm Panel Pro, anywhere there’s a WiFi signal. The smart home app syncs everything together into one cohesive system.<\/p>",
+        "description_style": "body",
+        "image": "shopify:\/\/shop_images\/Interface_linking_add_ons_v2_section_7_cb687a3a-b0a7-407c-b9af-7e75f3a89fe7.gif"
       }
     },
     "how-many-zones": {
@@ -1167,6 +1183,13 @@
     "faq": {
       "type": "k-faq-block",
       "blocks": {
+        "b92cf3f0-608a-45d6-911f-90730a895385": {
+          "type": "faq",
+          "settings": {
+            "question": "WHAT IS KEY SWITCH PROGRAMMING FOR INTERFACE KITS?",
+            "answer": "<p>Before purchasing this kit, please keep in mind that to ensure the correct operation of the Konnected Alarm Panel Pro 12-Zone Interface Kit, it is essential to program one of the outputs as a key switch. To achieve this,  you or the person carrying out the installation will be required to know the \"installation code\/engineer code\" of the existing alarm system, as programming is involved via the existing keypad, and this code is needed. Once programmed, the key switch will enable remote arming and disarming of your alarm system through your smart home platform.  If you cannot program an Output to be a key switch, please do not buy the Interface Kit, you should consider the <a href=\"https:\/\/konnected.io\/products\/konnected-alarm-panel-pro-12-zone-kit\"><span style=\"text-decoration:underline\">Pro Conversion Kit <\/span><\/a>instead. This is a direct replacement for your existing alarm system, and therefore, does not require any key switch programming.<\/p><p>Please refer to our <a href=\"https:\/\/support.konnected.io\/wiring-a-keyswitch-with-the-konnected-alarm-panel-interface for step-by-step instructions\" target=\"_blank\" title=\"https:\/\/support.konnected.io\/wiring-a-keyswitch-with-the-konnected-alarm-panel-interface for step-by-step instructions\">detailed guide<\/a> on wiring a key switch with the Konnected Alarm Panel Interface.<\/p>"
+          }
+        },
         "f740ac2b-5569-4797-a5da-f157ebbb4377": {
           "type": "faq",
           "settings": {
@@ -1190,6 +1213,7 @@
         }
       },
       "block_order": [
+        "b92cf3f0-608a-45d6-911f-90730a895385",
         "f740ac2b-5569-4797-a5da-f157ebbb4377",
         "f8a58447-7d55-42b6-93a1-439ea93cec33",
         "e9b28dad-1a7f-47e3-88bf-298adb763f54"
