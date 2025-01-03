@@ -53,7 +53,7 @@
           "type": "announcement",
           "settings": {
             "text": "Sign up to Newsletter for 10% Off",
-            "link": "https://www.klaviyo.com/forms",
+            "link": "",
             "klaviyo_id": "TC3Wtc"
           }
         },
