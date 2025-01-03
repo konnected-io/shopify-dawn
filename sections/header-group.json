@@ -61,6 +61,7 @@
         },
         "announcement_T4Uxha": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Winter Savings Sale",
             "link": "https://konnected.io/collections/shop-now",
@@ -69,6 +70,7 @@
         },
         "announcement_GTxf6E": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "20% Discount Applied Automatically!",
             "link": "shopify://collections/shop-now",
