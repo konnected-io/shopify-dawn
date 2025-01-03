@@ -44,13 +44,14 @@
         "announcement_CnNjUR": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Happy New Year!",
             "link": "",
             "klaviyo_id": ""
           }
         },
         "announcement_C7WYYx": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Sign up to Newsletter for 10% Off",
             "link": "",
