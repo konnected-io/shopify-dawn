@@ -42,6 +42,7 @@
         },
         "announcement_CnNjUR": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Happy New Year!",
             "link": "",
@@ -51,7 +52,7 @@
         "announcement_C7WYYx": {
           "type": "announcement",
           "settings": {
-            "text": "Sign up to Newsletter for 10% Off",
+            "text": "Sign up for our Newsletter and get 10% Off",
             "link": "",
             "klaviyo_id": "TC3Wtc"
           }
