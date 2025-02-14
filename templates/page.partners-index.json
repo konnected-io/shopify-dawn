@@ -54,6 +54,15 @@
     "bf91eee1-0ec4-488a-bcc5-e02805a453ae": {
       "type": "k-other-areas",
       "blocks": {
+        "item_pedett": {
+          "type": "item",
+          "settings": {
+            "title": "Community Help",
+            "heading_size": "h2",
+            "logo": "shopify://shop_images/Vector_4_8f77630c-9f72-4254-98ff-0b6fc9340450.png",
+            "content": "<p>Can't find an installer or professional in your area yet? <a href=\"https://community.konnected.io\" target=\"_blank\" title=\"Konnected Community\">Join our community</a> of smart home enthusiasts and DIYers to learn and ask for help. It's easier than it may seem!</p>"
+          }
+        },
         "0cab670d-a463-4a64-80ce-34687bdc32b2": {
           "type": "item",
           "settings": {
@@ -65,6 +74,7 @@
         }
       },
       "block_order": [
+        "item_pedett",
         "0cab670d-a463-4a64-80ce-34687bdc32b2"
       ],
       "settings": {
