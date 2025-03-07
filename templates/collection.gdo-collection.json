@@ -1,0 +1,101 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "quiz_banner_CwUQ7g": {
+      "type": "quiz-banner",
+      "blocks": {
+        "heading_EyTJDQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find the right Konnected device for you!",
+            "heading_size": "h1"
+          }
+        },
+        "text_NQNTG7": {
+          "type": "text",
+          "settings": {
+            "text": "Take our simple <strong>product quizzes</strong> to find the right Alarm Panel or Garage Door Opener for you.",
+            "text_style": "body"
+          }
+        },
+        "buttons_jpBC6N": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Garage Door Openers",
+            "close_text_1": "Exit Quiz",
+            "quiz_id_1": "7mxezFiPNz4hygNC",
+            "button_style_secondary_1": false,
+            "button_label_2": "Alarm Panels",
+            "close_text_2": "Exit Quiz",
+            "quiz_id_2": "evBeQ7ng7eofSV9o",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_EyTJDQ",
+        "text_NQNTG7",
+        "buttons_jpBC6N"
+      ],
+      "custom_css": [
+        "@media (max-width: 749px) {.banner__media img {object-position: center left; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Quiz-Banner---4-_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "liquid": "<div class=\"octane-ai-quiz \"\nstyle=\"display: none;\" data-quiz-id=\"7mxezFiPNz4hygNC\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"></div><script src=\"https://app.octaneai.com/b7ljg36xhef3rewl/quiz.js\" async defer></script>\n\n<div class=\"octane-ai-quiz \" \nstyle=\"display: none;\"data-quiz-id=\"evBeQ7ng7eofSV9o\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"></div><script src=\"https://app.octaneai.com/b7ljg36xhef3rewl/quiz.js\" async defer></script>",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "enable_infinite": true,
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "quiz_banner_CwUQ7g",
+    "product-grid"
+  ]
+}
