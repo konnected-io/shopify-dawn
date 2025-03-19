@@ -9,6 +9,73 @@
  */
 {
   "sections": {
+    "image_with_text_ddeEiP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_tPCjCB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Automate Your Garage Door with Ease.",
+            "heading_size": "h1"
+          }
+        },
+        "text_dwqYEx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Options compatible with ANY opener. Find the perfect device for you below. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_wNTYR3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Yours",
+            "button_link": "shopify://collections/smart-garage-door-openers"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tPCjCB",
+        "text_dwqYEx",
+        "button_wNTYR3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Group_3446_10c01b71-afff-4322-b1c0-0d3825bd81de.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "k_image_with_copy_DtYqzk": {
+      "type": "k-image-with-copy",
+      "settings": {
+        "background_color": "white",
+        "section_padding": 10,
+        "section_margin_top": 10,
+        "section_margin_bottom": 10,
+        "heading": "",
+        "heading_color": "dark-gray",
+        "heading_size": "h1",
+        "heading_font_weight": "bold",
+        "subheading": "",
+        "subheading_color": "dark-gray",
+        "text_style": "subtitle",
+        "subheading_font_weight": "bold",
+        "image": "shopify://shop_images/Group_3407.png",
+        "text": "",
+        "text_font_size": 20,
+        "para_background": "white",
+        "para_padding": 10
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -16,6 +83,93 @@
         "show_collection_description": true,
         "show_collection_image": false,
         "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "enable_infinite": true,
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wPqM7A": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Bre4i8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Smart Choice for Garage Automation",
+            "heading_size": "h1"
+          }
+        },
+        "text_jNnmPh": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Built-in optical laser sensor for open/closed status.</li><li>Works with SmartThings, Alexa, Hubitat, and Home Assistant.</li><li>Option to add a wired sensor for even better reliability.<br/><br/></li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_CcGqc9": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Bre4i8",
+        "text_jNnmPh",
+        "button_CcGqc9"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Group_3411.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "k_image_with_copy_3G67Hp": {
+      "type": "k-image-with-copy",
+      "settings": {
+        "background_color": "white",
+        "section_padding": 10,
+        "section_margin_top": 10,
+        "section_margin_bottom": 10,
+        "heading": "Convenience at its finest.",
+        "heading_color": "dark-gray",
+        "heading_size": "h1",
+        "heading_font_weight": "bold",
+        "subheading": "",
+        "subheading_color": "dark-gray",
+        "text_style": "subtitle",
+        "subheading_font_weight": "bold",
+        "image": "shopify://shop_images/gdo_features_cards.png",
+        "text": "",
+        "text_font_size": 20,
+        "para_background": "white",
+        "para_padding": 10
       }
     },
     "quiz_banner_CwUQ7g": {
@@ -65,6 +219,7 @@
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
+        "layout": "text_first",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
@@ -72,30 +227,45 @@
         "show_text_below": false
       }
     },
-    "product-grid": {
-      "type": "main-collection-product-grid",
+    "rich_text_Hb4fhi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rQEHw6": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_hp4fHq": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_rQEHw6",
+        "text_hp4fHq"
+      ],
       "settings": {
-        "enable_infinite": true,
-        "products_per_page": 16,
-        "columns_desktop": 4,
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": false,
-        "enable_filtering": true,
-        "filter_type": "horizontal",
-        "enable_sorting": false,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
+    "image_with_text_ddeEiP",
+    "k_image_with_copy_DtYqzk",
     "banner",
+    "product-grid",
+    "image_with_text_wPqM7A",
+    "k_image_with_copy_3G67Hp",
     "quiz_banner_CwUQ7g",
-    "product-grid"
+    "rich_text_Hb4fhi"
   ]
 }
