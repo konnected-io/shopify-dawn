@@ -128,7 +128,7 @@
         "subheading_color": "dark-gray",
         "text_style": "subtitle",
         "subheading_font_weight": "light",
-        "image": "shopify://shop_images/Home_Assistant_Logo_svg.png",
+        "image": "shopify://shop_images/home-assistant-logomark-color-on-light.png",
         "main_img_size": 16,
         "bullet_color": "blue"
       }
