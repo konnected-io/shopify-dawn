@@ -26,9 +26,9 @@
       assign money_price = price | money_with_currency
     endif
   else
-    assign money_price = price | times: 0.8 | money_without_trailing_zeros
+    assign money_price = price | times: 0.85 | money_without_trailing_zeros
     if settings.currency_code_enabled
-      assign money_price = price | times: 0.8 | money_with_currency
+      assign money_price = price | times: 0.85 | money_with_currency
     endif
   endif
 
@@ -95,7 +95,7 @@
       {% if product.type == 'Wholesale' %}
         {{ 'products.product.partner_label' | t }}
       {% else %} 
-        20% OFF EVERYTHING
+        15% OFF EVERYTHING
       {% endif %}
     </span>
 
