@@ -9,49 +9,53 @@
  */
 {
   "sections": {
-    "image_with_text_ddeEiP": {
-      "type": "image-with-text",
+    "image_banner_cEUhzL": {
+      "type": "image-banner",
       "blocks": {
-        "heading_tPCjCB": {
+        "heading_4xjHnw": {
           "type": "heading",
           "settings": {
-            "heading": "Automate Your Garage Door with Ease.",
+            "heading": "",
             "heading_size": "h1"
           }
         },
-        "text_dwqYEx": {
+        "text_qHyDY6": {
           "type": "text",
           "settings": {
-            "text": "<p>Options compatible with ANY opener. Find the perfect device for you below. </p>",
+            "text": "",
             "text_style": "body"
           }
         },
-        "button_wNTYR3": {
-          "type": "button",
+        "buttons_gjd7MX": {
+          "type": "buttons",
           "settings": {
-            "button_label": "Find Yours",
-            "button_link": "shopify://collections/smart-garage-door-openers"
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_tPCjCB",
-        "text_dwqYEx",
-        "button_wNTYR3"
+        "heading_4xjHnw",
+        "text_qHyDY6",
+        "buttons_gjd7MX"
       ],
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Group_3446_10c01b71-afff-4322-b1c0-0d3825bd81de.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "image": "shopify://shop_images/GDO_Decision_Tree_-_Revised.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "k_image_with_copy_DtYqzk": {
@@ -259,7 +263,7 @@
     }
   },
   "order": [
-    "image_with_text_ddeEiP",
+    "image_banner_cEUhzL",
     "k_image_with_copy_DtYqzk",
     "banner",
     "product-grid",
