@@ -12,7 +12,6 @@
     "image_banner_cEUhzL": {
       "type": "image-banner",
       "disabled": true,
-      "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/GDO_Decision_Tree_-_blaQ.jpg",
         "image_2": "shopify://shop_images/GDO_Decision_Tree_-_White.jpg",
@@ -52,7 +51,6 @@
         "item_dj7yQk",
         "item_JpAVdm"
       ],
-      "name": "Collection Split Banner",
       "settings": {
         "color_scheme": "background-1",
         "padding_top": 0,
@@ -140,6 +138,7 @@
         "text_jNnmPh",
         "button_CcGqc9"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Group_3411.png",
         "height": "adapt",
