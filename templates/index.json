@@ -385,8 +385,8 @@
             "image": "shopify://shop_images/Group_1141.png",
             "title": "Garage Door Openers",
             "content": "<p>Make any existing garage<br/>door opener smart</p>",
-            "url": "shopify://pages/garage-door-opener-popup",
-            "set_as_popup": true
+            "url": "shopify://collections/smart-garage-door-openers",
+            "set_as_popup": false
           }
         },
         "item_8hhhG6": {
