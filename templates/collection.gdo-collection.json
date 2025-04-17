@@ -13,7 +13,8 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/GDO_Decision_Tree_-_Revised.jpg",
+        "image": "shopify://shop_images/GDO_Decision_Tree_-_blaQ.jpg",
+        "image_2": "shopify://shop_images/GDO_Decision_Tree_-_White.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
