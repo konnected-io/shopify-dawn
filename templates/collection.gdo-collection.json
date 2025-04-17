@@ -44,7 +44,7 @@
           "settings": {
             "image": "shopify://shop_images/GDO_Decision_Tree_-_White_Desktop.jpg",
             "mobile_image": "shopify://shop_images/GDO_Decision_Tree_-_White_Mobile.jpg",
-            "link": "#"
+            "link": "shopify://products/smart-garage-door-opener"
           }
         }
       },
