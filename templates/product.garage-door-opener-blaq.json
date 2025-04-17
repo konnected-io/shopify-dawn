@@ -1,9 +1,18 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "custom_liquid_3ih386": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\nmain {\nfont-size: 16px;\n}\n<\/style>",
+        "custom_liquid": "<style>\nmain {\nfont-size: 16px;\n}\n</style>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -22,11 +31,10 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "a224429c-b028-4ef9-a901-715d69f28ba1": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "use_metafields": true,
             "sku_tagtype": "sku",
@@ -43,8 +51,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -54,8 +61,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "21d7519f-7493-4ea4-b454-3b173d293685": {
           "type": "inventory",
@@ -69,7 +75,7 @@
         "31dd665b-426f-4fe9-8991-0c4203a5db0f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.custom.out_of_stock == true %}\n    <div class=\"preorder-text\">\n        <span style=\"color: rgba(var(--color-foreground),1);\"><strong>Out of stock!<\/strong> Expected shipping: <strong>{{ product.metafields.custom.expected_in_stock }}<\/strong><\/span>\n    <\/div>\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.custom.out_of_stock == true %}\n    <div class=\"preorder-text\">\n        <span style=\"color: rgba(var(--color-foreground),1);\"><strong>Out of stock!</strong> Expected shipping: <strong>{{ product.metafields.custom.expected_in_stock }}</strong></span>\n    </div>\n{% endif %}"
           }
         },
         "buy_buttons": {
@@ -82,13 +88,13 @@
         "6946b621-21f5-44b7-951e-5daf3539d711": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% unless product.type == 'Wholesale' %}\n    <!-- Beginning of Buy With Prime Widget -->\n    {% if product.sku %}\n        <script defer src='https:\/\/code.buywithprime.amazon.com\/default.variant.selector.shopify.js'><\/script>\n        <script async fetchpriority='high' src='https:\/\/code.buywithprime.amazon.com\/bwp.v1.js'><\/script>\n        <div class=\"product-form__buttons\" style=\"margin:-3rem 0 0;\">\n            <div class=\"or-separator\">OR<\/div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.sku}}\"\n            ><\/div>\n        <\/div>\n        {% else %}\n        <script defer src='https:\/\/code.buywithprime.amazon.com\/default.variant.selector.shopify.js'><\/script>\n        <script async fetchpriority='high' src='https:\/\/code.buywithprime.amazon.com\/bwp.v1.js'><\/script>\n        <div class=\"product-form__buttons\" style=\"margin:-2.3rem 0 0;\">\n            <div class=\"or-separator\">OR<\/div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.selected_or_first_available_variant.sku}}\"\n            ><\/div>\n        <\/div>\n    {% endif %}\n    <!-- End of Buy With Prime Widget -->\n{% endunless %}"
+            "custom_liquid": "{% unless product.type == 'Wholesale' %}\n    <!-- Beginning of Buy With Prime Widget -->\n    {% if product.sku %}\n        <script defer src='https://code.buywithprime.amazon.com/default.variant.selector.shopify.js'></script>\n        <script async fetchpriority='high' src='https://code.buywithprime.amazon.com/bwp.v1.js'></script>\n        <div class=\"product-form__buttons\" style=\"margin:-3rem 0 0;\">\n            <div class=\"or-separator\">OR</div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.sku}}\"\n            ></div>\n        </div>\n        {% else %}\n        <script defer src='https://code.buywithprime.amazon.com/default.variant.selector.shopify.js'></script>\n        <script async fetchpriority='high' src='https://code.buywithprime.amazon.com/bwp.v1.js'></script>\n        <div class=\"product-form__buttons\" style=\"margin:-2.3rem 0 0;\">\n            <div class=\"or-separator\">OR</div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.selected_or_first_available_variant.sku}}\"\n            ></div>\n        </div>\n    {% endif %}\n    <!-- End of Buy With Prime Widget -->\n{% endunless %}"
           }
         },
         "5b4d7b19-1d81-462c-b58c-d48d29aa903d": {
           "type": "backorder",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Warning.svg",
+            "icon": "shopify://shop_images/Warning.svg",
             "content": "{{ product.metafields.custom.backorder_text | metafield_tag }}",
             "bg_color": "#fdf0d7",
             "text_color": "#be733c"
@@ -102,8 +108,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
@@ -154,7 +159,7 @@
           "settings": {
             "heading": "Technical Specifications",
             "icon": "lightning_bolt",
-            "content": "<p>{{ product.metafields.custom.technical_specs_row_content | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.custom.technical_specs_row_content | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -163,7 +168,7 @@
           "settings": {
             "heading": "Quick Start Guide",
             "icon": "clipboard",
-            "content": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/3145\/files\/Konnected_GDO_blaQ_GDOv2-Q_Install_Guide_web.pdf?v=1713550032\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/3145\/files\/Konnected_GDO_blaQ_GDOv2-Q_Install_Guide_web.pdf?v=1713550032\">Quick Start Guide\/Installation Guide GDO blaQ<\/a><\/p>",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/2085/3145/files/Konnected_GDO_blaQ_GDOv2-Q_Install_Guide_web.pdf?v=1713550032\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/2085/3145/files/Konnected_GDO_blaQ_GDOv2-Q_Install_Guide_web.pdf?v=1713550032\">Quick Start Guide/Installation Guide GDO blaQ</a></p>",
             "page": ""
           }
         }
@@ -212,8 +217,8 @@
         "column_zXHjhH": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_13.svg",
-            "title": "<p>60-Day <br\/>Money Back Guarantee<\/p>",
+            "image": "shopify://shop_images/Vector_13.svg",
+            "title": "<p>60-Day <br/>Money Back Guarantee</p>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -222,8 +227,8 @@
         "column_aYaV7P": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_14.svg",
-            "title": "<p>1-Year Replacement Warranty<\/p>",
+            "image": "shopify://shop_images/Vector_14.svg",
+            "title": "<p>1-Year Replacement Warranty</p>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -232,8 +237,8 @@
         "column_APJiaz": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_15.svg",
-            "title": "<p>Designed & Assembled in North America<\/p>",
+            "image": "shopify://shop_images/Vector_15.svg",
+            "title": "<p>Designed & Assembled in North America</p>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -242,8 +247,8 @@
         "column_e3qrKU": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_18.svg",
-            "title": "<p>Ships<br\/>Worldwide<\/p>",
+            "image": "shopify://shop_images/Vector_18.svg",
+            "title": "<p>Ships<br/>Worldwide</p>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -284,42 +289,42 @@
         "fe4cfe08-aaea-4948-81dd-2ac0d47905f6": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home_Assistant_a43c76b6-5885-454a-8316-630ae5846cdd.png",
+            "image": "shopify://shop_images/Home_Assistant_a43c76b6-5885-454a-8316-630ae5846cdd.png",
             "block_url": ""
           }
         },
         "e0b7c56e-f0b7-459d-ab4a-08c9267da254": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SmartThings.png",
+            "image": "shopify://shop_images/SmartThings.png",
             "block_url": ""
           }
         },
         "d0181b60-cb81-4023-8f09-d7b163bfad0b": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Hubitat.png",
+            "image": "shopify://shop_images/Hubitat.png",
             "block_url": ""
           }
         },
         "icon_block_ibCbbn": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Amazon_Alexa-Logo_639acfb6-e965-4d35-a1ca-cf1f5ffdbb2e.png",
+            "image": "shopify://shop_images/Amazon_Alexa-Logo_639acfb6-e965-4d35-a1ca-cf1f5ffdbb2e.png",
             "block_url": ""
           }
         },
         "icon_block_aCLLPk": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_17.svg",
+            "image": "shopify://shop_images/Vector_17.svg",
             "block_url": ""
           }
         },
         "icon_block_wR3Yhx": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Control4_Logo_Color.png",
+            "image": "shopify://shop_images/Control4_Logo_Color.png",
             "block_url": ""
           }
         }
@@ -365,7 +370,7 @@
         "template--21843260703035__ff7383a3-d42f-4b20-8982-ac627515e2fb-text-1": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Works with Chamberlain\/LiftMaster garage door openers with yellow, red, orange, blue, purple, or brown learn button, including those with myQ built-in<\/li><li>Only three wires and a power adapter to connect for the most simple installation<\/li><li>Mounts directly on the garage door opener or supports<\/li><li>Opens and closes the garage and reads the door status directly from the unit (no sensor needed!)<\/li><li>Senses, opens, and closes the garage to a specific level. Example: open 10%<\/li><li>Controls and reports the status of the garage door opener light<\/li><li>Reports the status of the garage door opener’s obstruction sensor<\/li><li>Reports motion detection in the garage (requires a wall control panel with a built-in motion detector such as the 889LM)<\/li><li>Wireless remote lock-out capability – automate disabling and enabling the wireless remotes for the garage door opener<\/li><li>Package includes hookup wire, mounting screws, power adapter, 3M Command Strip (for mounting)<\/li><\/ul>"
+            "text": "<ul><li>Works with Chamberlain/LiftMaster garage door openers with yellow, red, orange, blue, purple, or brown learn button, including those with myQ built-in</li><li>Only three wires and a power adapter to connect for the most simple installation</li><li>Mounts directly on the garage door opener or supports</li><li>Opens and closes the garage and reads the door status directly from the unit (no sensor needed!)</li><li>Senses, opens, and closes the garage to a specific level. Example: open 10%</li><li>Controls and reports the status of the garage door opener light</li><li>Reports the status of the garage door opener’s obstruction sensor</li><li>Reports motion detection in the garage (requires a wall control panel with a built-in motion detector such as the 889LM)</li><li>Wireless remote lock-out capability – automate disabling and enabling the wireless remotes for the garage door opener</li><li>Package includes hookup wire, mounting screws, power adapter, 3M Command Strip (for mounting)</li></ul>"
           }
         }
       },
@@ -404,7 +409,7 @@
         "template--21843260703035__78d79317-6242-4fc7-bc03-aef2b0bf7ab5-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>This product ships with <a href=\"https:\/\/esphome.io\/guides\/made_for_esphome.html\" target=\"_blank\" title=\"https:\/\/esphome.io\/guides\/made_for_esphome.html\">ESPHome-based<\/a> firmware pre-loaded for <strong>local<\/strong>, <strong>secure<\/strong>, and <strong>open-source<\/strong> integration with Home Assistant and Hubitat. <\/p><p>Konnected is committed to making this powerful DIY smart home firmware easy and accessible for all, which is why we’ve created a cloud connector for ESPHome to integrate with SmartThings and Alexa. <\/p><p>Powerful, customizable, and plug-and play smart home integration with your choice of smart home platform.<\/p>",
+            "text": "<p>This product ships with <a href=\"https://esphome.io/guides/made_for_esphome.html\" target=\"_blank\" title=\"https://esphome.io/guides/made_for_esphome.html\">ESPHome-based</a> firmware pre-loaded for <strong>local</strong>, <strong>secure</strong>, and <strong>open-source</strong> integration with Home Assistant and Hubitat. </p><p>Konnected is committed to making this powerful DIY smart home firmware easy and accessible for all, which is why we’ve created a cloud connector for ESPHome to integrate with SmartThings and Alexa. </p><p>Powerful, customizable, and plug-and play smart home integration with your choice of smart home platform.</p>",
             "text_style": "body"
           }
         }
@@ -423,7 +428,7 @@
         "@media (max-width: 749px) {.image-with-text__content {padding: 0 2rem 0; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/made-for-esphome-black-on-transparent.png",
+        "image": "shopify://shop_images/made-for-esphome-black-on-transparent.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -443,9 +448,9 @@
         "article_BwHUPq": {
           "type": "article",
           "settings": {
-            "image": "shopify:\/\/shop_images\/c860a3b8b2fe64308f751a3638be83a2_1.png",
+            "image": "shopify://shop_images/c860a3b8b2fe64308f751a3638be83a2_1.png",
             "title": "GDO blaQ",
-            "content": "<ul><li>Works with Chamberlain\/LiftMaster garage door openers with yellow, red, orange, blue, purple, or brown learn button, including those with myQ built-in<\/li><li>Reads garage door status by being wired into the existing garage door opener<\/li><li>Senses, opens and closes the garage to a specific level. Example: open 10%<\/li><li>Mounts directly on the garage door opener (or supports)<\/li><\/ul>",
+            "content": "<ul><li>Works with Chamberlain/LiftMaster garage door openers with yellow, red, orange, blue, purple, or brown learn button, including those with myQ built-in</li><li>Reads garage door status by being wired into the existing garage door opener</li><li>Senses, opens and closes the garage to a specific level. Example: open 10%</li><li>Mounts directly on the garage door opener (or supports)</li></ul>",
             "article_link": "",
             "link_text": ""
           }
@@ -453,9 +458,9 @@
         "article_Eaem99": {
           "type": "article",
           "settings": {
-            "image": "shopify:\/\/shop_images\/618c68092b4abd2d875ba974ac4402e5.png",
+            "image": "shopify://shop_images/618c68092b4abd2d875ba974ac4402e5.png",
             "title": "GDO White V2",
-            "content": "<ul><li> Works with all other brands (including Genie, Linear, Overhead Door) and Chamberlain\/LiftMaster brands with green, gray, white, yellow (square) learn button<\/li><li>Built-in optical sensor that reads garage door status<\/li><li>Fully opens or closes the garage door<\/li><li>Mounts on the ceiling above the garage door<\/li><\/ul>",
+            "content": "<ul><li> Works with all other brands (including Genie, Linear, Overhead Door) and Chamberlain/LiftMaster brands with green, gray, white, yellow (square) learn button</li><li>Built-in optical sensor that reads garage door status</li><li>Fully opens or closes the garage door</li><li>Mounts on the ceiling above the garage door</li></ul>",
             "article_link": "",
             "link_text": ""
           }
@@ -475,7 +480,7 @@
         "@media (max-width: 749px) {.ellipse-top {top: 0; width: 6rem; } .ellipse-bottom {bottom: 0; width: 7rem; }}"
       ],
       "settings": {
-        "title": "<p>Compare our Garage Door Openers<\/p>",
+        "title": "<p>Compare our Garage Door Openers</p>",
         "heading_size": "h1",
         "description": "",
         "text_style": "body",
@@ -488,7 +493,7 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "ellipse_bottom": "shopify:\/\/shop_images\/Ellipse_7_1.png",
+        "ellipse_bottom": "shopify://shop_images/Ellipse_7_1.png",
         "padding_top": 64,
         "padding_bottom": 52
       }
@@ -499,9 +504,9 @@
         "template--21843260703035__114cf340-10f0-415e-adea-c4b7fbad82aa-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/GDO_BlaQ_2.png",
+            "image": "shopify://shop_images/GDO_BlaQ_2.png",
             "title": "blaQ",
-            "text": "<ul><li>Works with Chamberlain\/LiftMaster garage door openers with yellow, red, orange, blue, purple, or brown learn button, including those with myQ built-in<\/li><li>Reads garage door status by being wired into the existing garage door opener <\/li><li>Senses, opens and closes the garage to a specific level. Example: open 10%<\/li><li>Mounts directly on the garage door opener (or supports)<\/li><\/ul>",
+            "text": "<ul><li>Works with Chamberlain/LiftMaster garage door openers with yellow, red, orange, blue, purple, or brown learn button, including those with myQ built-in</li><li>Reads garage door status by being wired into the existing garage door opener </li><li>Senses, opens and closes the garage to a specific level. Example: open 10%</li><li>Mounts directly on the garage door opener (or supports)</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -509,9 +514,9 @@
         "template--21843260703035__114cf340-10f0-415e-adea-c4b7fbad82aa-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Smart_Garage_Opener.png",
+            "image": "shopify://shop_images/Smart_Garage_Opener.png",
             "title": "White",
-            "text": "<ul><li>Works with all other brands (including Genie, Linear, Overhead Door) and Chamberlain\/LiftMaster brands with green, gray, white, yellow (square) learn button<\/li><li>Built-in optical sensor that reads garage door status<\/li><li>Fully opens or closes the garage door<\/li><li>Mounts on the ceiling above the garage door<\/li><\/ul>",
+            "text": "<ul><li>Works with all other brands (including Genie, Linear, Overhead Door) and Chamberlain/LiftMaster brands with green, gray, white, yellow (square) learn button</li><li>Built-in optical sensor that reads garage door status</li><li>Fully opens or closes the garage door</li><li>Mounts on the ceiling above the garage door</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -552,7 +557,7 @@
         "template--21843260703035__ded1b3c2-08dc-4d9d-a132-19c582cd9b97-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p><a href=\"https:\/\/csa-iot.org\/all-solutions\/matter\/\" target=\"_blank\" title=\"Matter\">Matter<\/a> is the emerging smart home standard that provides secure and <strong>local<\/strong> integration with all big-name smart home platforms, including Apple HomeKit, Google Home, Amazon Alexa, Samsung SmartThings, Home Assistant, Hubitat, and Homey Pro. Currently, the Matter specification does not support garage door opener device types, but when it does, Konnected is committed to supporting this game-changing standard on all of our GDOv2 models.<\/p><p><strong>Note:<\/strong> Upgrading to Matter will require re-flashing the device firmware with a computer and USB cable.<\/p><p>*Konnected’s Garage Door Opener is not (yet) Matter certified. <a href=\"https:\/\/share.hsforms.com\/1RrMQPKEhQyqTSjTv8oGS9Adff38\" target=\"_blank\">Join our early-access program<\/a> to stay up-to-date with development.<\/p>",
+            "text": "<p><a href=\"https://csa-iot.org/all-solutions/matter/\" target=\"_blank\" title=\"Matter\">Matter</a> is the emerging smart home standard that provides secure and <strong>local</strong> integration with all big-name smart home platforms, including Apple HomeKit, Google Home, Amazon Alexa, Samsung SmartThings, Home Assistant, Hubitat, and Homey Pro. Currently, the Matter specification does not support garage door opener device types, but when it does, Konnected is committed to supporting this game-changing standard on all of our GDOv2 models.</p><p><strong>Note:</strong> Upgrading to Matter will require re-flashing the device firmware with a computer and USB cable.</p><p>*Konnected’s Garage Door Opener is not (yet) Matter certified. <a href=\"https://share.hsforms.com/1RrMQPKEhQyqTSjTv8oGS9Adff38\" target=\"_blank\">Join our early-access program</a> to stay up-to-date with development.</p>",
             "text_style": "body"
           }
         }
@@ -571,7 +576,7 @@
         "@media (max-width: 749px) {.image-with-text__content {padding: 0 2rem 0; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_3311.png",
+        "image": "shopify://shop_images/Group_3311.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -599,12 +604,12 @@
         "@media (max-width: 989px) {.ellipse-top {width: 28rem; } .ellipse-bottom {width: 30rem; }}"
       ],
       "settings": {
-        "heading": "<p>Built on Open Source<\/p>",
+        "heading": "<p>Built on Open Source</p>",
         "heading_size": "h1",
-        "text": "<p>Konnected’s new GDO is built on entirely open source software, made with high-quality genuine components, and assembled with love in the USA. We designed it with an emphasis on choice, privacy, and local control – because we believe that the technology that you bring in your home is yours to own. The <a href=\"https:\/\/github.com\/konnected-io\/konnected-esphome\/blob\/master\/garage-door-esp32.yaml\" title=\"https:\/\/github.com\/konnected-io\/konnected-esphome\/blob\/master\/garage-door-esp32.yaml\">GDOv2’s firmware configuration is published here on GitHub<\/a> and is built upon these primary open-source libraries:<\/p><ul><li><a href=\"https:\/\/github.com\/ratgdo\/esphome-ratgdo\" target=\"_blank\" title=\"https:\/\/github.com\/ratgdo\/esphome-ratgdo\">esphome-ratgdo<\/a> (GPL v2)<\/li><li><a href=\"https:\/\/github.com\/esphome\/esphome\" target=\"_blank\" title=\"https:\/\/github.com\/esphome\/esphome\">esphome<\/a> (ESPHome License)<\/li><li><a href=\"https:\/\/github.com\/espressif\/esp-idf\" target=\"_blank\" title=\"https:\/\/github.com\/espressif\/esp-idf\">esp-idf<\/a> (Apache v2)<\/li><\/ul>",
+        "text": "<p>Konnected’s new GDO is built on entirely open source software, made with high-quality genuine components, and assembled with love in the USA. We designed it with an emphasis on choice, privacy, and local control – because we believe that the technology that you bring in your home is yours to own. The <a href=\"https://github.com/konnected-io/konnected-esphome/blob/master/garage-door-esp32.yaml\" title=\"https://github.com/konnected-io/konnected-esphome/blob/master/garage-door-esp32.yaml\">GDOv2’s firmware configuration is published here on GitHub</a> and is built upon these primary open-source libraries:</p><ul><li><a href=\"https://github.com/ratgdo/esphome-ratgdo\" target=\"_blank\" title=\"https://github.com/ratgdo/esphome-ratgdo\">esphome-ratgdo</a> (GPL v2)</li><li><a href=\"https://github.com/esphome/esphome\" target=\"_blank\" title=\"https://github.com/esphome/esphome\">esphome</a> (ESPHome License)</li><li><a href=\"https://github.com/espressif/esp-idf\" target=\"_blank\" title=\"https://github.com/espressif/esp-idf\">esp-idf</a> (Apache v2)</li></ul>",
         "text_style": "body",
-        "ellipse_top": "shopify:\/\/shop_images\/Ellipse_29_2.png",
-        "ellipse_bottom": "shopify:\/\/shop_images\/Ellipse_28_2.png",
+        "ellipse_top": "shopify://shop_images/Ellipse_29_2.png",
+        "ellipse_bottom": "shopify://shop_images/Ellipse_28_2.png",
         "layout": "image_first",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "left",
@@ -623,7 +628,7 @@
           "settings": {
             "heading": "How do I know if my garage door opener is compatible?",
             "icon": "none",
-            "row_content": "<p>The GDO blaQ is designed for Chamberlain\/LiftMaster garage door openers with yellow, red, orange, blue, purple, or brown learn button, including those with myQ built-in. It should only be used with sectional garage doors, not one-piece or swinging garage doors.<\/p><p>If your garage door opener is NOT one of these brands, or has a different color learn button, try our <a href=\"\/products\/smart-garage-door-opener\" title=\"Smart Garage Door Opener White (v2)\">GDO White<\/a>.<\/p>",
+            "row_content": "<p>The GDO blaQ is designed for Chamberlain/LiftMaster garage door openers with yellow, red, orange, blue, purple, or brown learn button, including those with myQ built-in. It should only be used with sectional garage doors, not one-piece or swinging garage doors.</p><p>If your garage door opener is NOT one of these brands, or has a different color learn button, try our <a href=\"/products/smart-garage-door-opener\" title=\"Smart Garage Door Opener White (v2)\">GDO White</a>.</p>",
             "page": ""
           }
         },
@@ -632,7 +637,7 @@
           "settings": {
             "heading": "How does it work?",
             "icon": "none",
-            "row_content": "<p>Konnected’s new GDO blaQ can talk directly to your Chamberlain or LiftMaster Security+ 2.0 garage door opener by simply connecting three wires to the back of the motor unit. Security+ 2.0 is an encrypted serial protocol developed by the Chamberlain Group and recently reverse-engineered by some very clever engineers (see <a href=\"https:\/\/github.com\/ratgdo\"><span style=\"text-decoration:underline\">here<\/span><\/a> and <a href=\"https:\/\/github.com\/argilo\/secplus\"><span style=\"text-decoration:underline\">here<\/span><\/a>) who have published open source libraries. Thanks to this technology, we can now interact directly with your yellow-button garage door opener to privately retrieve rich data and send commands.<\/p>",
+            "row_content": "<p>Konnected’s new GDO blaQ can talk directly to your Chamberlain or LiftMaster Security+ 2.0 garage door opener by simply connecting three wires to the back of the motor unit. Security+ 2.0 is an encrypted serial protocol developed by the Chamberlain Group and recently reverse-engineered by some very clever engineers (see <a href=\"https://github.com/ratgdo\"><span style=\"text-decoration:underline\">here</span></a> and <a href=\"https://github.com/argilo/secplus\"><span style=\"text-decoration:underline\">here</span></a>) who have published open source libraries. Thanks to this technology, we can now interact directly with your yellow-button garage door opener to privately retrieve rich data and send commands.</p>",
             "page": ""
           }
         },
@@ -641,7 +646,7 @@
           "settings": {
             "heading": "Will my existing garage door remotes (car, wall, and outside keypad) still work?",
             "icon": "none",
-            "row_content": "<p>Yes, of course, they will still work. Konnected only makes your garage smarter; it doesn't take away any existing features.<\/p>",
+            "row_content": "<p>Yes, of course, they will still work. Konnected only makes your garage smarter; it doesn't take away any existing features.</p>",
             "page": ""
           }
         },
@@ -650,7 +655,7 @@
           "settings": {
             "heading": "Why choose Konnected’s GDO blaQ instead of myQ?",
             "icon": "none",
-            "row_content": "<p>myQ is the Chamberlain Group’s very popular (and cheap) answer to smart garage control, but we think it’s pretty dumb. Chamberlain’s myQ provides an app for controlling your garage door thru their cloud service, which means if the internet goes out, so does your smart garage. Also, <a href=\"https:\/\/newsroom.myq.com\/2023-10-30-A-Message-About-our-Decision-to-Prevent-Unauthorized-Usage-of-myQ\"><span style=\"text-decoration:underline\">Chamberlain recently announced that they’re actively preventing access to myQ via third-party apps<\/span><\/a>, cutting off access to myQ through SmartThings, Home Assistant, Hubitat and most other smart home platforms.<\/p><p>We believe that a smart home is an integrated home – where the garage door opener is part of a larger, openly connected collection of devices in your home, controllable locally and\/or through a cloud platform or app of your choice – not one you’re forced into.<\/p><p>Contrary to myQ's stance, Konnected supports integration with a multitude of DIY and open-source smart home apps, provides local access and control thru APIs and customizable firmware, and is committed to supporting evolving smart home industry standards including Matter.<\/p>",
+            "row_content": "<p>myQ is the Chamberlain Group’s very popular (and cheap) answer to smart garage control, but we think it’s pretty dumb. Chamberlain’s myQ provides an app for controlling your garage door thru their cloud service, which means if the internet goes out, so does your smart garage. Also, <a href=\"https://newsroom.myq.com/2023-10-30-A-Message-About-our-Decision-to-Prevent-Unauthorized-Usage-of-myQ\"><span style=\"text-decoration:underline\">Chamberlain recently announced that they’re actively preventing access to myQ via third-party apps</span></a>, cutting off access to myQ through SmartThings, Home Assistant, Hubitat and most other smart home platforms.</p><p>We believe that a smart home is an integrated home – where the garage door opener is part of a larger, openly connected collection of devices in your home, controllable locally and/or through a cloud platform or app of your choice – not one you’re forced into.</p><p>Contrary to myQ's stance, Konnected supports integration with a multitude of DIY and open-source smart home apps, provides local access and control thru APIs and customizable firmware, and is committed to supporting evolving smart home industry standards including Matter.</p>",
             "page": ""
           }
         },
@@ -659,7 +664,7 @@
           "settings": {
             "heading": "Can I still use myQ with blaQ?",
             "icon": "none",
-            "row_content": "<p>Yes, you can continue to use myQ in parallel with the Konnected GDO blaQ.<\/p>",
+            "row_content": "<p>Yes, you can continue to use myQ in parallel with the Konnected GDO blaQ.</p>",
             "page": ""
           }
         },
@@ -668,7 +673,7 @@
           "settings": {
             "heading": "Why choose Konnected’s GDO blaQ instead of ratgdo?",
             "icon": "none",
-            "row_content": "<p><a href=\"https:\/\/paulwieland.github.io\/ratgdo\/\" target=\"_blank\" title=\"ratgdo\"><span style=\"text-decoration:underline\">ratgdo<\/span><\/a> (Rage Against the Garage Door Opener) is the open source project that inspired and powers the Konnected’s GDO blaQ. It’s a DIY control board and software that pioneered the direct serial connection to the encrypted Security+ openers. We’ve taken the concept and technology in ratgdo and made it into a finished product, suitable for installation in any home, and compliant with regulations in the United States. We’ve added safety features like an audible and visual warning, a sleek plastic enclosure, integrations with a variety of smart home platforms, 7-days per week support and a 1-year warranty.<\/p><p>Yes, the GDO blaQ costs a few dollars more than a ratgdo board. We are not competing on price with the original ratgdo. We believe that the GDO blaQ justifies the higher price because of the additional compliance, safety, support and integration features.<\/p>",
+            "row_content": "<p><a href=\"https://paulwieland.github.io/ratgdo/\" target=\"_blank\" title=\"ratgdo\"><span style=\"text-decoration:underline\">ratgdo</span></a> (Rage Against the Garage Door Opener) is the open source project that inspired and powers the Konnected’s GDO blaQ. It’s a DIY control board and software that pioneered the direct serial connection to the encrypted Security+ openers. We’ve taken the concept and technology in ratgdo and made it into a finished product, suitable for installation in any home, and compliant with regulations in the United States. We’ve added safety features like an audible and visual warning, a sleek plastic enclosure, integrations with a variety of smart home platforms, 7-days per week support and a 1-year warranty.</p><p>Yes, the GDO blaQ costs a few dollars more than a ratgdo board. We are not competing on price with the original ratgdo. We believe that the GDO blaQ justifies the higher price because of the additional compliance, safety, support and integration features.</p>",
             "page": ""
           }
         },
@@ -677,7 +682,7 @@
           "settings": {
             "heading": "What if I have more than one garage door?",
             "icon": "none",
-            "row_content": "<p>Konnected's GDO monitors and controls a single garage door opener. You'll need one Konnected Smart Garage Door Opener product per garage door.<\/p>",
+            "row_content": "<p>Konnected's GDO monitors and controls a single garage door opener. You'll need one Konnected Smart Garage Door Opener product per garage door.</p>",
             "page": ""
           }
         },
@@ -686,7 +691,7 @@
           "settings": {
             "heading": "Is there an audible and visual warning before closing the garage door?",
             "icon": "none",
-            "row_content": "<p>Yes, for safety, the GDO blaQ gives you visual (blinking) and audible (beeping) warnings for ~5 seconds before it triggers the garage door to close. <\/p><p>Warning tunes are customizable!<\/p>",
+            "row_content": "<p>Yes, for safety, the GDO blaQ gives you visual (blinking) and audible (beeping) warnings for ~5 seconds before it triggers the garage door to close. </p><p>Warning tunes are customizable!</p>",
             "page": ""
           }
         },
@@ -695,7 +700,7 @@
           "settings": {
             "heading": "Does it meet U.S. safety regulations?",
             "icon": "none",
-            "row_content": "<p>Yes, the GDOv2-Q was designed to meet the U.S. safety regulations in <a href=\"https:\/\/www.law.cornell.edu\/cfr\/text\/16\/1211.14\" target=\"_blank\" title=\"16 CFR § 1211.14 - Unattended operation requirements.\">16 CFR § 1211.14<\/a> for the unattended operation of a residential garage door opener.<\/p><p>The device should only be used with a sectional garage door. Do not use with one-piece or swinging doors.<\/p>",
+            "row_content": "<p>Yes, the GDOv2-Q was designed to meet the U.S. safety regulations in <a href=\"https://www.law.cornell.edu/cfr/text/16/1211.14\" target=\"_blank\" title=\"16 CFR § 1211.14 - Unattended operation requirements.\">16 CFR § 1211.14</a> for the unattended operation of a residential garage door opener.</p><p>The device should only be used with a sectional garage door. Do not use with one-piece or swinging doors.</p>",
             "page": ""
           }
         },
@@ -704,7 +709,7 @@
           "settings": {
             "heading": "Are there monthly fees?",
             "icon": "none",
-            "row_content": "<p>There are no ongoing fees to use Konnected's GDOs. In the future, we may introduce <em>optional<\/em><strong> <\/strong>premium features for a fee.<\/p>",
+            "row_content": "<p>There are no ongoing fees to use Konnected's GDOs. In the future, we may introduce <em>optional</em><strong> </strong>premium features for a fee.</p>",
             "page": ""
           }
         },
@@ -713,7 +718,7 @@
           "settings": {
             "heading": "How is it powered?",
             "icon": "none",
-            "row_content": "<p>It is powered with a regular power adapter (included).<\/p>",
+            "row_content": "<p>It is powered with a regular power adapter (included).</p>",
             "page": ""
           }
         },
@@ -722,7 +727,7 @@
           "settings": {
             "heading": "What smart home platforms or apps does it work with?",
             "icon": "none",
-            "row_content": "<p>Konnected's GDO works with Home Assistant and Hubitat via a 100% local integration using the ESPHome native API.<\/p><p>It also works with SmartThings and Alexa via a connection to Konnected's free Konnected Cloud service.<\/p>",
+            "row_content": "<p>Konnected's GDO works with Home Assistant and Hubitat via a 100% local integration using the ESPHome native API.</p><p>It also works with SmartThings and Alexa via a connection to Konnected's free Konnected Cloud service.</p>",
             "page": ""
           }
         },
@@ -731,7 +736,7 @@
           "settings": {
             "heading": "When will Matter compatibility be ready?",
             "icon": "none",
-            "row_content": "<p>We really don't know. At the present time, there is no a Matter specification for garage door openers. We're watching the Matter release schedule closely and are expecting to start testing a Matter compatible firmware as soon as the device specification is made available by the Matter working group.<\/p><p>You can join our <a href=\"https:\/\/share.hsforms.com\/1RrMQPKEhQyqTSjTv8oGS9Adff38\" target=\"_blank\" title=\"Konnected Matter early-access program\">Matter early-access program<\/a> to stay informed of the progress.<\/p>",
+            "row_content": "<p>We really don't know. At the present time, there is no a Matter specification for garage door openers. We're watching the Matter release schedule closely and are expecting to start testing a Matter compatible firmware as soon as the device specification is made available by the Matter working group.</p><p>You can join our <a href=\"https://share.hsforms.com/1RrMQPKEhQyqTSjTv8oGS9Adff38\" target=\"_blank\" title=\"Konnected Matter early-access program\">Matter early-access program</a> to stay informed of the progress.</p>",
             "page": ""
           }
         },
@@ -740,7 +745,7 @@
           "settings": {
             "heading": "Is there an API for the device?",
             "icon": "none",
-            "row_content": "<p>Yes! Konnected's GDO family have a full-featured and <em>local <\/em>REST API, as well as the ESPHome Native API. <a href=\"https:\/\/konnected.readme.io\/v2.0\/reference\/introduction-1\" target=\"_blank\" title=\"Konnected v2 API Reference\">See API Reference.<\/a><\/p>",
+            "row_content": "<p>Yes! Konnected's GDO family have a full-featured and <em>local </em>REST API, as well as the ESPHome Native API. <a href=\"https://konnected.readme.io/v2.0/reference/introduction-1\" target=\"_blank\" title=\"Konnected v2 API Reference\">See API Reference.</a></p>",
             "page": ""
           }
         },
@@ -749,7 +754,7 @@
           "settings": {
             "heading": "Does it work with Control4?",
             "icon": "none",
-            "row_content": "<p>Yes, GDO blaQ works with Control4. It's requires an extra-fee driver that you can <a href=\"https:\/\/chowmain.software\/drivers\/control4-konnected-blaq-garage-door-opener\" target=\"_blank\" title=\"https:\/\/chowmain.software\/drivers\/control4-konnected-blaq-garage-door-opener\">get here<\/a>. It's important to know that one paid site license for GDO blaQ Control4 driver can cover multiple GDO blaQ devices under one customer's project - for example a household with two garage doors that require two GDO blaQs.<\/p>",
+            "row_content": "<p>Yes, GDO blaQ works with Control4. It's requires an extra-fee driver that you can <a href=\"https://chowmain.software/drivers/control4-konnected-blaq-garage-door-opener\" target=\"_blank\" title=\"https://chowmain.software/drivers/control4-konnected-blaq-garage-door-opener\">get here</a>. It's important to know that one paid site license for GDO blaQ Control4 driver can cover multiple GDO blaQ devices under one customer's project - for example a household with two garage doors that require two GDO blaQs.</p>",
             "page": ""
           }
         }
@@ -790,7 +795,7 @@
       "type": "apps",
       "blocks": {
         "0c12ea5b-fd94-4e1a-a27c-69ad6d71248c": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify://apps/stamped-reviews/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "animation": true,
             "tags_exclude": "",

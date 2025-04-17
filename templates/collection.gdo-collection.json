@@ -11,38 +11,6 @@
   "sections": {
     "image_banner_cEUhzL": {
       "type": "image-banner",
-      "blocks": {
-        "heading_4xjHnw": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "text_qHyDY6": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "buttons_gjd7MX": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_4xjHnw",
-        "text_qHyDY6",
-        "buttons_gjd7MX"
-      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/GDO_Decision_Tree_-_Revised.jpg",
@@ -56,6 +24,38 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "k_collection_split_banner_GKUq3Q": {
+      "type": "k-collection-split-banner",
+      "blocks": {
+        "item_JpAVdm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/png_-_2025-04-17T084301.063.png",
+            "mobile_image": "shopify://shop_images/png_-_2025-04-17T084602.985.png",
+            "link": "#"
+          }
+        },
+        "item_dj7yQk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/png_-_2025-04-17T084301.063.png",
+            "mobile_image": "shopify://shop_images/png_-_2025-04-17T084602.985.png",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "item_JpAVdm",
+        "item_dj7yQk"
+      ],
+      "disabled": true,
+      "name": "Collection Split Banner",
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "k_image_with_copy_DtYqzk": {
@@ -264,6 +264,7 @@
   },
   "order": [
     "image_banner_cEUhzL",
+    "k_collection_split_banner_GKUq3Q",
     "k_image_with_copy_DtYqzk",
     "banner",
     "product-grid",

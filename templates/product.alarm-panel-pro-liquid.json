@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -13,11 +22,10 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "a224429c-b028-4ef9-a901-715d69f28ba1": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "use_metafields": true,
             "sku_tagtype": "sku",
@@ -34,13 +42,11 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -50,8 +56,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "21d7519f-7493-4ea4-b454-3b173d293685": {
           "type": "inventory",
@@ -65,7 +70,7 @@
         "31dd665b-426f-4fe9-8991-0c4203a5db0f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.custom.out_of_stock == true %}\n    <div class=\"preorder-text\">\n        <span style=\"color: rgba(var(--color-foreground),1);\"><strong>Out of stock!<\/strong> Expected shipping: <strong>{{ product.metafields.custom.expected_in_stock }}<\/strong><\/span>\n    <\/div>\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.custom.out_of_stock == true %}\n    <div class=\"preorder-text\">\n        <span style=\"color: rgba(var(--color-foreground),1);\"><strong>Out of stock!</strong> Expected shipping: <strong>{{ product.metafields.custom.expected_in_stock }}</strong></span>\n    </div>\n{% endif %}"
           }
         },
         "buy_buttons": {
@@ -78,13 +83,13 @@
         "6946b621-21f5-44b7-951e-5daf3539d711": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% unless product.type == 'Wholesale' %}\n    <!-- Beginning of Buy With Prime Widget -->\n    {% if product.sku %}\n        <script defer src='https:\/\/code.buywithprime.amazon.com\/default.variant.selector.shopify.js'><\/script>\n        <script async fetchpriority='high' src='https:\/\/code.buywithprime.amazon.com\/bwp.v1.js'><\/script>\n        <div class=\"product-form__buttons\" style=\"margin:-3rem 0 0;\">\n            <div class=\"or-separator\">OR<\/div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.sku}}\"\n            ><\/div>\n        <\/div>\n        {% else %}\n        <script defer src='https:\/\/code.buywithprime.amazon.com\/default.variant.selector.shopify.js'><\/script>\n        <script async fetchpriority='high' src='https:\/\/code.buywithprime.amazon.com\/bwp.v1.js'><\/script>\n        <div class=\"product-form__buttons\" style=\"margin:-2.3rem 0 0;\">\n            <div class=\"or-separator\">OR<\/div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.selected_or_first_available_variant.sku}}\"\n            ><\/div>\n        <\/div>\n    {% endif %}\n    <!-- End of Buy With Prime Widget -->\n{% endunless %}"
+            "custom_liquid": "{% unless product.type == 'Wholesale' %}\n    <!-- Beginning of Buy With Prime Widget -->\n    {% if product.sku %}\n        <script defer src='https://code.buywithprime.amazon.com/default.variant.selector.shopify.js'></script>\n        <script async fetchpriority='high' src='https://code.buywithprime.amazon.com/bwp.v1.js'></script>\n        <div class=\"product-form__buttons\" style=\"margin:-3rem 0 0;\">\n            <div class=\"or-separator\">OR</div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.sku}}\"\n            ></div>\n        </div>\n        {% else %}\n        <script defer src='https://code.buywithprime.amazon.com/default.variant.selector.shopify.js'></script>\n        <script async fetchpriority='high' src='https://code.buywithprime.amazon.com/bwp.v1.js'></script>\n        <div class=\"product-form__buttons\" style=\"margin:-2.3rem 0 0;\">\n            <div class=\"or-separator\">OR</div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.selected_or_first_available_variant.sku}}\"\n            ></div>\n        </div>\n    {% endif %}\n    <!-- End of Buy With Prime Widget -->\n{% endunless %}"
           }
         },
         "5b4d7b19-1d81-462c-b58c-d48d29aa903d": {
           "type": "backorder",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Warning.svg",
+            "icon": "shopify://shop_images/Warning.svg",
             "content": "{{ product.metafields.custom.backorder_text | metafield_tag }}",
             "bg_color": "#fdf0d7",
             "text_color": "#be733c"
@@ -200,7 +205,7 @@
         "text_VYb3zG": {
           "type": "text",
           "settings": {
-            "text": "<p>Due to manufacturing difficulties, we’ve got a bunch of no-Ethernet\/Wi-Fi only Alarm Panel Pros starting at an amazing <strong>$79 liquidation price.<\/strong><\/p><p><\/p><p>We want to be fully transparent, so please note before buying: <\/p><ul><li>these boards <strong>DO NOT feature Ethernet connectivity<\/strong> - <strong>Wi-Fi only<\/strong><\/li><li>these boards’ 1 limited warranty EXCLUDES anything related to Ethernet connectivity (but covers every other standard Konnected warranty claim)<\/li><li>these boards include every other feature you can find in our regular Alarm Panel Pros with the exclusion of the above<\/li><\/ul>"
+            "text": "<p>Due to manufacturing difficulties, we’ve got a bunch of no-Ethernet/Wi-Fi only Alarm Panel Pros starting at an amazing <strong>$79 liquidation price.</strong></p><p></p><p>We want to be fully transparent, so please note before buying: </p><ul><li>these boards <strong>DO NOT feature Ethernet connectivity</strong> - <strong>Wi-Fi only</strong></li><li>these boards’ 1 limited warranty EXCLUDES anything related to Ethernet connectivity (but covers every other standard Konnected warranty claim)</li><li>these boards include every other feature you can find in our regular Alarm Panel Pros with the exclusion of the above</li></ul>"
           }
         }
       },
@@ -223,9 +228,9 @@
         "column_xdjpqH": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AP_Pro-_Solo_1_93f85011-d21a-4320-bd42-0644ce4cadba.png",
+            "image": "shopify://shop_images/AP_Pro-_Solo_1_93f85011-d21a-4320-bd42-0644ce4cadba.png",
             "title": "Wi-Fi Only Liquidation Series (Available Now)",
-            "text": "<ul><li><strong>no Ethernet<\/strong><\/li><li>Wi-Fi<\/li><li>PoE (Power over Ethernet)<\/li><li>All Other Features of Alarm Panel Pro <\/li><li>1 Year Warranty <strong>Excluding <\/strong>Ethernet-Related Issues<\/li><li>No Promotional Credit<br\/><\/li><li>Available Now<\/li><\/ul>",
+            "text": "<ul><li><strong>no Ethernet</strong></li><li>Wi-Fi</li><li>PoE (Power over Ethernet)</li><li>All Other Features of Alarm Panel Pro </li><li>1 Year Warranty <strong>Excluding </strong>Ethernet-Related Issues</li><li>No Promotional Credit<br/></li><li>Available Now</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -233,9 +238,9 @@
         "column_LqD38V": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AP_Pro-_Solo_4.png",
+            "image": "shopify://shop_images/AP_Pro-_Solo_4.png",
             "title": "Fully-Functional (Currently on Backorder)",
-            "text": "<ul><li><strong>Ethernet<\/strong><\/li><li>Wi-Fi<\/li><li>PoE (Power over Ethernet)<\/li><li>All Other Features of Alarm Panel Pro <\/li><li>1 Year Warranty <strong>Including <\/strong>Ethernet-Related Issues<\/li><li>Instant $79 Promotional Credit as You Wait on Your Backorder<\/li><li>Expected to Ship Early Summer 2024<\/li><\/ul>",
+            "text": "<ul><li><strong>Ethernet</strong></li><li>Wi-Fi</li><li>PoE (Power over Ethernet)</li><li>All Other Features of Alarm Panel Pro </li><li>1 Year Warranty <strong>Including </strong>Ethernet-Related Issues</li><li>Instant $79 Promotional Credit as You Wait on Your Backorder</li><li>Expected to Ship Early Summer 2024</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -268,9 +273,9 @@
         "column_khYhiR": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AP_Pro-_Solo_1_93f85011-d21a-4320-bd42-0644ce4cadba.png",
+            "image": "shopify://shop_images/AP_Pro-_Solo_1_93f85011-d21a-4320-bd42-0644ce4cadba.png",
             "title": "$79 Board Only",
-            "text": "<p>1x Wi-Fi Only Alarm Panel Pro, Accessories <em>not included.<\/em><\/p>",
+            "text": "<p>1x Wi-Fi Only Alarm Panel Pro, Accessories <em>not included.</em></p>",
             "link_label": "",
             "link": ""
           }
@@ -278,9 +283,9 @@
         "column_93f8xE": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AP_Pro-_Solo_2_942a32a5-ec70-4c7f-b5a4-56e06a8375f5.png",
+            "image": "shopify://shop_images/AP_Pro-_Solo_2_942a32a5-ec70-4c7f-b5a4-56e06a8375f5.png",
             "title": "$89 Conversion Kit",
-            "text": "<p>1x Wi-Fi Only Alarm Panel Pro, Power Adapter, Accessories.<\/p>",
+            "text": "<p>1x Wi-Fi Only Alarm Panel Pro, Power Adapter, Accessories.</p>",
             "link_label": "",
             "link": ""
           }
@@ -288,9 +293,9 @@
         "column_wbfBER": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AP_Pro-_Solo_3_85688531-fae1-40e7-ae25-f8a5dbc85591.png",
+            "image": "shopify://shop_images/AP_Pro-_Solo_3_85688531-fae1-40e7-ae25-f8a5dbc85591.png",
             "title": "$149 Interface Kit",
-            "text": "<p>1x Wi-Fi Only Alarm Panel Pro, 2x Interface Boards, Power Adapter, Accessories.<\/p>",
+            "text": "<p>1x Wi-Fi Only Alarm Panel Pro, 2x Interface Boards, Power Adapter, Accessories.</p>",
             "link_label": "",
             "link": ""
           }
@@ -310,7 +315,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Shop Now",
-        "button_link": "https:\/\/konnected.io\/products\/liquidation-stock-konnected-alarm-panel-pro",
+        "button_link": "https://konnected.io/products/liquidation-stock-konnected-alarm-panel-pro",
         "color_scheme": "accent-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -331,14 +336,14 @@
         "text_FGF4f4": {
           "type": "text",
           "settings": {
-            "text": "<p>After receiving a shipment from our manufacturer, Macrofab, at the end of 2023, we discovered a significant quality issue during our prep and QA process (an issue affecting Ethernet in Alarm Panel Pro), prompting us to notify the manufacturer and send samples for evaluation. <\/p><p>We are currently on track to resolve the issue with the manufacturer and begin shipping fully functional\/regular Alarm Panel Pros by early summer 2024. Still, it left us with many Alarm Panel Pro backorders to fulfill and a liquidation stock of Wi-Fi Only Alarm Panel Pros that we sell starting at $79.<\/p><p>We always strive for the best quality for our customers and work towards giving you the best product possible, so thank you for bearing with us!<\/p>"
+            "text": "<p>After receiving a shipment from our manufacturer, Macrofab, at the end of 2023, we discovered a significant quality issue during our prep and QA process (an issue affecting Ethernet in Alarm Panel Pro), prompting us to notify the manufacturer and send samples for evaluation. </p><p>We are currently on track to resolve the issue with the manufacturer and begin shipping fully functional/regular Alarm Panel Pros by early summer 2024. Still, it left us with many Alarm Panel Pro backorders to fulfill and a liquidation stock of Wi-Fi Only Alarm Panel Pros that we sell starting at $79.</p><p>We always strive for the best quality for our customers and work towards giving you the best product possible, so thank you for bearing with us!</p>"
           }
         },
         "button_TVUcPg": {
           "type": "button",
           "settings": {
             "button_label": "Read Full Update",
-            "button_link": "https:\/\/community.konnected.io\/t\/alarm-panel-pro-delays-backorders-jan-2024\/35369\/43",
+            "button_link": "https://community.konnected.io/t/alarm-panel-pro-delays-backorders-jan-2024/35369/43",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -368,8 +373,8 @@
         "text": "",
         "text_style": "body",
         "enable_video_looping": false,
-        "video_url": "https:\/\/youtu.be\/Hzk6xcfXHA4",
-        "cover_image": "shopify:\/\/shop_images\/AP_Pro_-_Email_4_2.png",
+        "video_url": "https://youtu.be/Hzk6xcfXHA4",
+        "cover_image": "shopify://shop_images/AP_Pro_-_Email_4_2.png",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -390,7 +395,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
         }
@@ -421,7 +426,7 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -430,7 +435,7 @@
           "type": "column",
           "settings": {
             "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -462,7 +467,7 @@
       "type": "apps",
       "blocks": {
         "0c12ea5b-fd94-4e1a-a27c-69ad6d71248c": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify://apps/stamped-reviews/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "animation": true,
             "tags_exclude": "",
@@ -506,7 +511,7 @@
         "slide_zHpQQP": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/APProLiquidationPrice-4.png",
+            "image": "shopify://shop_images/APProLiquidationPrice-4.png",
             "title": "",
             "text": ""
           }

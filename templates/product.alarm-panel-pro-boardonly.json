@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -22,11 +22,10 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "a224429c-b028-4ef9-a901-715d69f28ba1": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "use_metafields": true,
             "sku_tagtype": "sku",
@@ -43,13 +42,11 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -59,8 +56,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "21d7519f-7493-4ea4-b454-3b173d293685": {
           "type": "inventory",
@@ -74,7 +70,7 @@
         "31dd665b-426f-4fe9-8991-0c4203a5db0f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.custom.out_of_stock == true %}\n    <div class=\"preorder-text\">\n        <span style=\"color: rgba(var(--color-foreground),1);\"><strong>Out of stock!<\/strong> Expected shipping: <strong>{{ product.metafields.custom.expected_in_stock }}<\/strong><\/span>\n    <\/div>\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.custom.out_of_stock == true %}\n    <div class=\"preorder-text\">\n        <span style=\"color: rgba(var(--color-foreground),1);\"><strong>Out of stock!</strong> Expected shipping: <strong>{{ product.metafields.custom.expected_in_stock }}</strong></span>\n    </div>\n{% endif %}"
           }
         },
         "buy_buttons": {
@@ -87,13 +83,13 @@
         "6946b621-21f5-44b7-951e-5daf3539d711": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% unless product.type == 'Wholesale' %}\n    <!-- Beginning of Buy With Prime Widget -->\n    {% if product.sku %}\n        <script defer src='https:\/\/code.buywithprime.amazon.com\/default.variant.selector.shopify.js'><\/script>\n        <script async fetchpriority='high' src='https:\/\/code.buywithprime.amazon.com\/bwp.v1.js'><\/script>\n        <div class=\"product-form__buttons\" style=\"margin:-3rem 0 0;\">\n            <div class=\"or-separator\">OR<\/div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.sku}}\"\n            ><\/div>\n        <\/div>\n        {% else %}\n        <script defer src='https:\/\/code.buywithprime.amazon.com\/default.variant.selector.shopify.js'><\/script>\n        <script async fetchpriority='high' src='https:\/\/code.buywithprime.amazon.com\/bwp.v1.js'><\/script>\n        <div class=\"product-form__buttons\" style=\"margin:-2.3rem 0 0;\">\n            <div class=\"or-separator\">OR<\/div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.selected_or_first_available_variant.sku}}\"\n            ><\/div>\n        <\/div>\n    {% endif %}\n    <!-- End of Buy With Prime Widget -->\n{% endunless %}"
+            "custom_liquid": "{% unless product.type == 'Wholesale' %}\n    <!-- Beginning of Buy With Prime Widget -->\n    {% if product.sku %}\n        <script defer src='https://code.buywithprime.amazon.com/default.variant.selector.shopify.js'></script>\n        <script async fetchpriority='high' src='https://code.buywithprime.amazon.com/bwp.v1.js'></script>\n        <div class=\"product-form__buttons\" style=\"margin:-3rem 0 0;\">\n            <div class=\"or-separator\">OR</div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.sku}}\"\n            ></div>\n        </div>\n        {% else %}\n        <script defer src='https://code.buywithprime.amazon.com/default.variant.selector.shopify.js'></script>\n        <script async fetchpriority='high' src='https://code.buywithprime.amazon.com/bwp.v1.js'></script>\n        <div class=\"product-form__buttons\" style=\"margin:-2.3rem 0 0;\">\n            <div class=\"or-separator\">OR</div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.selected_or_first_available_variant.sku}}\"\n            ></div>\n        </div>\n    {% endif %}\n    <!-- End of Buy With Prime Widget -->\n{% endunless %}"
           }
         },
         "5b4d7b19-1d81-462c-b58c-d48d29aa903d": {
           "type": "backorder",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Warning.svg",
+            "icon": "shopify://shop_images/Warning.svg",
             "content": "{{ product.metafields.custom.backorder_text | metafield_tag }}",
             "bg_color": "#fdf0d7",
             "text_color": "#be733c"
@@ -202,19 +198,19 @@
         "column_bKjNWE": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AP_Pro_-_Email_6.png",
+            "image": "shopify://shop_images/AP_Pro_-_Email_6.png",
             "title": "What's going on?",
-            "text": "<p>We ran into manufacturing issues at the end of 2023 that affected the Ethernet connectivity in Alarm Panel Pros. We've resolved them and are waiting for the new batch to arrive (ready to ship around early summer 2024). However, we've got an incentive for you if you're still waiting on your order or purchase the backorder Alarm Panel Pro today.<\/p>",
+            "text": "<p>We ran into manufacturing issues at the end of 2023 that affected the Ethernet connectivity in Alarm Panel Pros. We've resolved them and are waiting for the new batch to arrive (ready to ship around early summer 2024). However, we've got an incentive for you if you're still waiting on your order or purchase the backorder Alarm Panel Pro today.</p>",
             "link_label": "Read Full Update",
-            "link": "https:\/\/community.konnected.io\/t\/alarm-panel-pro-delays-backorders-jan-2024\/35369\/43"
+            "link": "https://community.konnected.io/t/alarm-panel-pro-delays-backorders-jan-2024/35369/43"
           }
         },
         "column_yfAj39": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AP_Pro_-_Email_5.png",
+            "image": "shopify://shop_images/AP_Pro_-_Email_5.png",
             "title": "How do I get the credit?",
-            "text": "<p>Buy one of the backorder Alarm Panel Pros to receive the instant $79 credit* for anything in the Konnected store:<\/p><ul><li><a href=\"https:\/\/konnected.io\/products\/konnected-alarm-panel-pro-12-zone-kit\" target=\"_blank\" title=\"https:\/\/konnected.io\/products\/konnected-alarm-panel-pro-12-zone-kit\">Conversion Kit<\/a><\/li><li><a href=\"https:\/\/konnected.io\/products\/konnected-alarm-panel-pro-12-zone-interface-kit\" target=\"_blank\" title=\"https:\/\/konnected.io\/products\/konnected-alarm-panel-pro-12-zone-interface-kit\">Interface Kit<\/a><\/li><li><a href=\"https:\/\/konnected.io\/products\/alarm-panel-pro-board-only\" target=\"_blank\" title=\"https:\/\/konnected.io\/products\/alarm-panel-pro-board-only\">Board Only<\/a><\/li><\/ul><p>*For individual customers only.<\/p>",
+            "text": "<p>Buy one of the backorder Alarm Panel Pros to receive the instant $79 credit* for anything in the Konnected store:</p><ul><li><a href=\"https://konnected.io/products/konnected-alarm-panel-pro-12-zone-kit\" target=\"_blank\" title=\"https://konnected.io/products/konnected-alarm-panel-pro-12-zone-kit\">Conversion Kit</a></li><li><a href=\"https://konnected.io/products/konnected-alarm-panel-pro-12-zone-interface-kit\" target=\"_blank\" title=\"https://konnected.io/products/konnected-alarm-panel-pro-12-zone-interface-kit\">Interface Kit</a></li><li><a href=\"https://konnected.io/products/alarm-panel-pro-board-only\" target=\"_blank\" title=\"https://konnected.io/products/alarm-panel-pro-board-only\">Board Only</a></li></ul><p>*For individual customers only.</p>",
             "link_label": "",
             "link": ""
           }
@@ -222,11 +218,11 @@
         "column_A8WdYn": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AP_Pro-_Solo_1_93f85011-d21a-4320-bd42-0644ce4cadba.png",
+            "image": "shopify://shop_images/AP_Pro-_Solo_1_93f85011-d21a-4320-bd42-0644ce4cadba.png",
             "title": "Can I get a Wi-Fi Only Alarm Panel Pro now?",
-            "text": "<p>Yes. We have a batch of Wi-Fi Only\/no Ethernet Alarm Panel Pros (board only and kits) that are ready to ship immediately. They start at an amazing $79 liquidation price.<\/p>",
+            "text": "<p>Yes. We have a batch of Wi-Fi Only/no Ethernet Alarm Panel Pros (board only and kits) that are ready to ship immediately. They start at an amazing $79 liquidation price.</p>",
             "link_label": "Learn More",
-            "link": "https:\/\/konnected.io\/products\/liquidation-stock-konnected-alarm-panel-pro"
+            "link": "https://konnected.io/products/liquidation-stock-konnected-alarm-panel-pro"
           }
         }
       },
@@ -266,7 +262,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
         }
@@ -297,7 +293,7 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -306,7 +302,7 @@
           "type": "column",
           "settings": {
             "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -338,7 +334,7 @@
       "type": "apps",
       "blocks": {
         "0c12ea5b-fd94-4e1a-a27c-69ad6d71248c": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify://apps/stamped-reviews/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "animation": true,
             "tags_exclude": "",

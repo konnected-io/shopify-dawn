@@ -1,0 +1,212 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: calc({{ section.settings.padding_top }}px * 0.75);
+    padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+  }
+
+  #shopify-section-{{ section.id }} {
+    --grid-desktop-horizontal-spacing: 0px;
+    --grid-desktop-vertical-spacing: 0px;
+    --grid-mobile-horizontal-spacing: 0px;
+    --grid-mobile-vertical-spacing: 0px;
+  }
+
+  .split-image-wrapper {
+    position: relative;
+  }
+  .split-image-wrapper a {
+    display: block;
+  }
+  .split-image-wrapper a:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{%- liquid
+    assign highest_ratio = 0
+    for block in section.blocks
+      if block.settings.image.height > highest_ratio
+        assign highest_ratio = block.settings.image.aspect_ratio
+      endif
+    endfor
+-%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="section-{{ section.id }}-padding">
+    <div class="grid grid--1-col-tablet-down grid-2-col-desktop">
+        {% for block in section.blocks %}
+            <div class="grid__item">
+                {%- if block.settings.image != blank -%}
+                    <div class="split-image-wrapper">
+                      <div
+                        class="media {% if block.settings.mobile_image != blank %}small-hide{% endif %} media--transparent"
+                        style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
+                      >
+                        {%- liquid
+                          assign number_of_columns = 3
+                          assign number_of_columns_mobile = 3
+                          assign grid_space_desktop = number_of_columns | minus: 1 | times: settings.spacing_grid_horizontal | plus: 100 | append: 'px'
+                          assign grid_space_tablet = number_of_columns_mobile | minus: 1 | times: settings.spacing_grid_horizontal | plus: 100 | append: 'px'
+                          assign grid_space_mobile = number_of_columns_mobile | minus: 1 | times: settings.spacing_grid_horizontal | divided_by: 2 | plus: 30 | append: 'px'
+                          assign image_width = 1
+                        -%}
+                        {% capture sizes %}
+                          (min-width: {{ settings.page_width }}px) calc(({{ settings.page_width }}px - {{ grid_space_desktop }}) * {{ image_width }} /  {{ number_of_columns }}),
+                          (min-width: 990px) calc((100vw - {{ grid_space_desktop }}) * {{ image_width }} / {{ number_of_columns }}),
+                          (min-width: 750px) calc((100vw - {{ grid_space_tablet }}) * {{ image_width }} / {{ number_of_columns_mobile }}),
+                          calc((100vw - {{ grid_space_mobile }}) * {{ image_width }} / {{ number_of_columns_mobile }})
+                        {% endcapture %}
+                        {{
+                          block.settings.image
+                          | image_url: width: 3200
+                          | image_tag:
+                            loading: 'lazy',
+                            widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
+                            sizes: sizes
+                        }}
+                      </div>
+                      {% if block.settings.mobile_image != blank %}
+                        <div
+                            class="media large-up-hide medium-hide media--transparent"
+                            style="padding-bottom: {{ 1 | divided_by: block.settings.mobile_image.aspect_ratio | times: 100 }}%;"
+                          >
+                            {%- liquid
+                              assign number_of_columns = 10
+                              assign number_of_columns_mobile = 3
+                              assign grid_space_desktop = number_of_columns | minus: 1 | times: settings.spacing_grid_horizontal | plus: 100 | append: 'px'
+                              assign grid_space_tablet = number_of_columns_mobile | minus: 1 | times: settings.spacing_grid_horizontal | plus: 100 | append: 'px'
+                              assign grid_space_mobile = number_of_columns_mobile | minus: 1 | times: settings.spacing_grid_horizontal | divided_by: 2 | plus: 30 | append: 'px'
+                              assign image_width = 1
+                            -%}
+                            {% capture sizes %}
+                              (min-width: {{ settings.page_width }}px) calc(({{ settings.page_width }}px - {{ grid_space_desktop }}) * {{ image_width }} /  {{ number_of_columns }}),
+                              (min-width: 990px) calc((100vw - {{ grid_space_desktop }}) * {{ image_width }} / {{ number_of_columns }}),
+                              (min-width: 750px) calc((100vw - {{ grid_space_tablet }}) * {{ image_width }} / {{ number_of_columns_mobile }}),
+                              calc((100vw - {{ grid_space_mobile }}) * {{ image_width }} / {{ number_of_columns_mobile }})
+                            {% endcapture %}
+                            {{
+                              block.settings.mobile_image
+                              | image_url: width: 800
+                              | image_tag:
+                                loading: 'lazy',
+                                widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
+                                sizes: sizes
+                            }}
+                        </div>
+                      {%- endif -%}
+                      {% if block.settings.link != blank %}
+                        <a href="{{ block.settings.link }}" class="full-unstyled-link"></a>
+                      {% endif %}
+                    </div>
+                {%- endif -%}
+
+            </div>
+        {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Collection Split Banner",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
+  "blocks": [
+    {
+        "type": "item",
+        "name": "Item",
+        "limit": 2,
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+                "type": "image_picker",
+                "id": "mobile_image",
+                "label": "Mobile Image",
+                "info": "optional"
+            },
+            {
+                "type": "url",
+                "id": "link",
+                "label": "Link"
+            }
+        ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection Split Banner"
+    }
+  ]
+}
+{% endschema %}

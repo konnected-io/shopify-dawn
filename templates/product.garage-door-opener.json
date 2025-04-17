@@ -1,9 +1,18 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "custom_liquid_nxcBg6": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\nmain {\nfont-size: 16px;\n}\n\n<\/style>",
+        "custom_liquid": "<style>\nmain {\nfont-size: 16px;\n}\n\n</style>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -22,11 +31,10 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "a224429c-b028-4ef9-a901-715d69f28ba1": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "use_metafields": false,
             "sku_tagtype": "sku",
@@ -43,8 +51,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -54,8 +61,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "3bc55a1c-32bf-4cf0-95ec-42309efef014": {
           "type": "inventory",
@@ -69,7 +75,7 @@
         "e145a4f4-9945-471e-8cdc-960ffdd067a7": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.custom.out_of_stock == true %}\n    <div class=\"preorder-text\">\n        <span style=\"color: rgba(var(--color-foreground),1);\"><strong>Out of stock!<\/strong> Expected shipping: <strong>{{ product.metafields.custom.expected_in_stock }}<\/strong><\/span>\n    <\/div>\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.custom.out_of_stock == true %}\n    <div class=\"preorder-text\">\n        <span style=\"color: rgba(var(--color-foreground),1);\"><strong>Out of stock!</strong> Expected shipping: <strong>{{ product.metafields.custom.expected_in_stock }}</strong></span>\n    </div>\n{% endif %}"
           }
         },
         "buy_buttons": {
@@ -82,13 +88,13 @@
         "6c4b36af-e190-443a-9d90-0d57c7b96795": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% unless product.type == 'Wholesale' %}\n    <!-- Beginning of Buy With Prime Widget -->\n    {% if product.sku %}\n        <script defer src='https:\/\/code.buywithprime.amazon.com\/default.variant.selector.shopify.js'><\/script>\n        <script async fetchpriority='high' src='https:\/\/code.buywithprime.amazon.com\/bwp.v1.js'><\/script>\n        <div class=\"product-form__buttons\" style=\"margin:-3rem 0 0;\">\n            <div class=\"or-separator\">OR<\/div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.sku}}\"\n            ><\/div>\n        <\/div>\n        {% else %}\n        <script defer src='https:\/\/code.buywithprime.amazon.com\/default.variant.selector.shopify.js'><\/script>\n        <script async fetchpriority='high' src='https:\/\/code.buywithprime.amazon.com\/bwp.v1.js'><\/script>\n        <div class=\"product-form__buttons\" style=\"margin:-2.3rem 0 0;\">\n            <div class=\"or-separator\">OR<\/div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.selected_or_first_available_variant.sku}}\"\n            ><\/div>\n        <\/div>\n    {% endif %}\n    <!-- End of Buy With Prime Widget -->\n{% endunless %}"
+            "custom_liquid": "{% unless product.type == 'Wholesale' %}\n    <!-- Beginning of Buy With Prime Widget -->\n    {% if product.sku %}\n        <script defer src='https://code.buywithprime.amazon.com/default.variant.selector.shopify.js'></script>\n        <script async fetchpriority='high' src='https://code.buywithprime.amazon.com/bwp.v1.js'></script>\n        <div class=\"product-form__buttons\" style=\"margin:-3rem 0 0;\">\n            <div class=\"or-separator\">OR</div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.sku}}\"\n            ></div>\n        </div>\n        {% else %}\n        <script defer src='https://code.buywithprime.amazon.com/default.variant.selector.shopify.js'></script>\n        <script async fetchpriority='high' src='https://code.buywithprime.amazon.com/bwp.v1.js'></script>\n        <div class=\"product-form__buttons\" style=\"margin:-2.3rem 0 0;\">\n            <div class=\"or-separator\">OR</div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.selected_or_first_available_variant.sku}}\"\n            ></div>\n        </div>\n    {% endif %}\n    <!-- End of Buy With Prime Widget -->\n{% endunless %}"
           }
         },
         "884f9893-2261-4c41-9b79-b22cc02a5153": {
           "type": "backorder",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Warning.svg",
+            "icon": "shopify://shop_images/Warning.svg",
             "content": "{{ product.metafields.custom.backorder_text | metafield_tag }}",
             "bg_color": "#fdf0d7",
             "text_color": "#be733c"
@@ -102,8 +108,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
@@ -157,7 +162,7 @@
           "settings": {
             "heading": "Kit Contents",
             "icon": "box",
-            "content": "<ul><li>Konnected Garage Door Opener<\/li><li>Power Adapter <\/li><li>Hook-Up Wire<\/li><li>Mounting Hardware<\/li><\/ul>",
+            "content": "<ul><li>Konnected Garage Door Opener</li><li>Power Adapter </li><li>Hook-Up Wire</li><li>Mounting Hardware</li></ul>",
             "page": ""
           }
         },
@@ -166,7 +171,7 @@
           "settings": {
             "heading": "Features",
             "icon": "star",
-            "content": "<ul><li>Equipped with a highly accurate optical laser sensor to detect the status of your garage door (open or closed)<\/li><li>Compatible with <a href=\"https:\/\/support.konnected.io\/using-the-garage-door-opener-with-smartthings\"><span style=\"text-decoration:underline\">SmartThings<\/span><\/a>, <a href=\"https:\/\/support.konnected.io\/using-the-garage-door-opener-with-alexa\"><span style=\"text-decoration:underline\">Alexa<\/span><\/a>, <a href=\"https:\/\/konnected.io\/pages\/hubitat\" target=\"_blank\" title=\"https:\/\/konnected.io\/pages\/hubitat\">Hubitat<\/a>, <a href=\"https:\/\/support.konnected.io\/installing-the-garage-door-opener-with-home-assistant\" target=\"_blank\" title=\"https:\/\/support.konnected.io\/installing-the-garage-door-opener-with-home-assistant\">Home Assistant,<\/a> and <a href=\"https:\/\/chowmain.software\/drivers\/control4-konnected-white-garage-door-opener\" target=\"_blank\" title=\"https:\/\/chowmain.software\/drivers\/control4-konnected-white-garage-door-opener\">Control4*<\/a><\/li><li>Option to incorporate a <a href=\"https:\/\/konnected.io\/products\/garage-door-or-gate-heavy-duty-wired-magnetic-contact-sensor?_pos=4&_fid=4b0184b0d&_ss=c\" target=\"_blank\" title=\"https:\/\/konnected.io\/products\/garage-door-or-gate-heavy-duty-wired-magnetic-contact-sensor?_pos=4&_fid=4b0184b0d&_ss=c\">wired sensor<\/a> to enhance precision (not required, sold separately)<\/li><li>Cut costs by upgrading your existing setup<\/li><li>Connects effortlessly via Wi-Fi, eliminating the need for a separate hub<\/li><li>Provides both audible and visual alerts prior to closing<\/li><li>Access all functionalities without any recurring monthly fees<\/li><li>Operates without the need for batteries<br\/><\/li><\/ul><p>*Control4 driver requires a paid site license.<br\/><\/p>",
+            "content": "<ul><li>Equipped with a highly accurate optical laser sensor to detect the status of your garage door (open or closed)</li><li>Compatible with <a href=\"https://support.konnected.io/using-the-garage-door-opener-with-smartthings\"><span style=\"text-decoration:underline\">SmartThings</span></a>, <a href=\"https://support.konnected.io/using-the-garage-door-opener-with-alexa\"><span style=\"text-decoration:underline\">Alexa</span></a>, <a href=\"https://konnected.io/pages/hubitat\" target=\"_blank\" title=\"https://konnected.io/pages/hubitat\">Hubitat</a>, <a href=\"https://support.konnected.io/installing-the-garage-door-opener-with-home-assistant\" target=\"_blank\" title=\"https://support.konnected.io/installing-the-garage-door-opener-with-home-assistant\">Home Assistant,</a> and <a href=\"https://chowmain.software/drivers/control4-konnected-white-garage-door-opener\" target=\"_blank\" title=\"https://chowmain.software/drivers/control4-konnected-white-garage-door-opener\">Control4*</a></li><li>Option to incorporate a <a href=\"https://konnected.io/products/garage-door-or-gate-heavy-duty-wired-magnetic-contact-sensor?_pos=4&_fid=4b0184b0d&_ss=c\" target=\"_blank\" title=\"https://konnected.io/products/garage-door-or-gate-heavy-duty-wired-magnetic-contact-sensor?_pos=4&_fid=4b0184b0d&_ss=c\">wired sensor</a> to enhance precision (not required, sold separately)</li><li>Cut costs by upgrading your existing setup</li><li>Connects effortlessly via Wi-Fi, eliminating the need for a separate hub</li><li>Provides both audible and visual alerts prior to closing</li><li>Access all functionalities without any recurring monthly fees</li><li>Operates without the need for batteries<br/></li></ul><p>*Control4 driver requires a paid site license.<br/></p>",
             "page": ""
           }
         },
@@ -175,7 +180,7 @@
           "settings": {
             "heading": "Documentation",
             "icon": "question_mark",
-            "content": "<p>Find the Konnected Garage Door Opener manual & documentation <a href=\"https:\/\/support.konnected.io\/garage-door-opener-overview\" target=\"_blank\" title=\"https:\/\/support.konnected.io\/garage-door-opener-overview\">here<\/a>.<\/p>",
+            "content": "<p>Find the Konnected Garage Door Opener manual & documentation <a href=\"https://support.konnected.io/garage-door-opener-overview\" target=\"_blank\" title=\"https://support.konnected.io/garage-door-opener-overview\">here</a>.</p>",
             "page": ""
           }
         },
@@ -184,7 +189,7 @@
           "settings": {
             "heading": "Quick Start Guide",
             "icon": "clipboard",
-            "content": "<p>📄 <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/3145\/files\/Konnected_GDOv2-S_Install_Guide_1.pdf?v=1713550859\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/3145\/files\/Konnected_GDOv2-S_Install_Guide_1.pdf?v=1713550859\">Garage Door Opener Quick Start Guide<\/a><\/p>",
+            "content": "<p>📄 <a href=\"https://cdn.shopify.com/s/files/1/2085/3145/files/Konnected_GDOv2-S_Install_Guide_1.pdf?v=1713550859\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/2085/3145/files/Konnected_GDOv2-S_Install_Guide_1.pdf?v=1713550859\">Garage Door Opener Quick Start Guide</a></p>",
             "page": ""
           }
         },
@@ -194,7 +199,7 @@
           "settings": {
             "heading": "Tech Specs",
             "icon": "check_mark",
-            "content": "<ul><li>Optical laser sensor<\/li><li>12V power in (power adapter included)<\/li><li>12V AUX power out<\/li><li>Input for wired sensor<\/li><li>Relay output to garage door opener switch<\/li><li>12V switched output for strobe<\/li><li>USB port (for servicing firmware)<\/li><li>Built-in warning LED strobe light<\/li><li>Internal piezo buzzer<\/li><\/ul>",
+            "content": "<ul><li>Optical laser sensor</li><li>12V power in (power adapter included)</li><li>12V AUX power out</li><li>Input for wired sensor</li><li>Relay output to garage door opener switch</li><li>12V switched output for strobe</li><li>USB port (for servicing firmware)</li><li>Built-in warning LED strobe light</li><li>Internal piezo buzzer</li></ul>",
             "page": ""
           }
         }
@@ -272,7 +277,7 @@
         "template--18659028926779__d2e31bf9-5344-427a-89d0-0d4ca15851f4-16811516065b963827-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Konnected Garage Door Opener retrofits old wired garage door openers and brings them to the 21st century - without monthly fees.<\/p><p><\/p><p>After easy installation, users enjoy remote access to their garage door opener from anywhere via their favorite smart home platforms like SmartThings, Alexa, Hubitat, and Home Assistant.<\/p>",
+            "text": "<p>Konnected Garage Door Opener retrofits old wired garage door openers and brings them to the 21st century - without monthly fees.</p><p></p><p>After easy installation, users enjoy remote access to their garage door opener from anywhere via their favorite smart home platforms like SmartThings, Alexa, Hubitat, and Home Assistant.</p>",
             "text_style": "body"
           }
         }
@@ -281,11 +286,9 @@
         "template--18659028926779__d2e31bf9-5344-427a-89d0-0d4ca15851f4-16811516065b963827-0",
         "template--18659028926779__d2e31bf9-5344-427a-89d0-0d4ca15851f4-16811516065b963827-1"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "image": "shopify:\/\/shop_images\/GDO_ProductVideo_1080x1080_4c21812c-5446-4022-8591-ca8f381dfedc.gif",
+        "image": "shopify://shop_images/GDO_ProductVideo_1080x1080_4c21812c-5446-4022-8591-ca8f381dfedc.gif",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -305,35 +308,35 @@
         "6848170e-8873-47f6-ae8f-ec71c59782da": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home_Assistant_a43c76b6-5885-454a-8316-630ae5846cdd.png",
+            "image": "shopify://shop_images/Home_Assistant_a43c76b6-5885-454a-8316-630ae5846cdd.png",
             "block_url": ""
           }
         },
         "700b8947-defa-4401-b62c-7505f238bc57": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SmartThings.png",
+            "image": "shopify://shop_images/SmartThings.png",
             "block_url": ""
           }
         },
         "e88c73d4-a5f6-44cf-a3ab-35a65a150a0a": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Alexa.png",
+            "image": "shopify://shop_images/Alexa.png",
             "block_url": ""
           }
         },
         "7b1db790-1c79-4cf7-a981-80938f9c878d": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Hubitat.png",
+            "image": "shopify://shop_images/Hubitat.png",
             "block_url": ""
           }
         },
         "icon_block_BFzdfA": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_17.svg",
+            "image": "shopify://shop_images/Vector_17.svg",
             "block_url": ""
           }
         }
@@ -368,28 +371,28 @@
           "type": "item",
           "settings": {
             "title": "Updated processor",
-            "content": "<p>Now built on the ESP32-S3-MINI, a more powerful and capable IoT chip that adds Bluetooth, BLE, and more memory and processing power to ensure future compatibility with evolving IoT standards like <a href=\"https:\/\/csa-iot.org\/all-solutions\/matter\/\" target=\"_blank\" title=\"https:\/\/csa-iot.org\/all-solutions\/matter\/\">Matter.<\/a><\/p>"
+            "content": "<p>Now built on the ESP32-S3-MINI, a more powerful and capable IoT chip that adds Bluetooth, BLE, and more memory and processing power to ensure future compatibility with evolving IoT standards like <a href=\"https://csa-iot.org/all-solutions/matter/\" target=\"_blank\" title=\"https://csa-iot.org/all-solutions/matter/\">Matter.</a></p>"
           }
         },
         "item_GxaYQq": {
           "type": "item",
           "settings": {
             "title": "Multi-Tonal alarm",
-            "content": "<p>Adds more pleasant and customizable warning tones thanks to an upgrade to the built-in sounder on the device.<\/p>"
+            "content": "<p>Adds more pleasant and customizable warning tones thanks to an upgrade to the built-in sounder on the device.</p>"
           }
         },
         "item_ciXJmz": {
           "type": "item",
           "settings": {
             "title": "Made for ESPHome",
-            "content": "<p><a href=\"https:\/\/esphome.io\/guides\/made_for_esphome.html\" target=\"_blank\" title=\"https:\/\/esphome.io\/guides\/made_for_esphome.html\">ESPHome-based firmware<\/a> pre-installed<\/p>"
+            "content": "<p><a href=\"https://esphome.io/guides/made_for_esphome.html\" target=\"_blank\" title=\"https://esphome.io/guides/made_for_esphome.html\">ESPHome-based firmware</a> pre-installed</p>"
           }
         },
         "item_LUAjmL": {
           "type": "item",
           "settings": {
             "title": "Open source",
-            "content": "<p>designed with an emphasis on<em>choice<\/em>, <em>privacy<\/em>, and <em>local <\/em>control<\/p>"
+            "content": "<p>designed with an emphasis on<em>choice</em>, <em>privacy</em>, and <em>local </em>control</p>"
           }
         }
       },
@@ -402,7 +405,7 @@
       "settings": {
         "title": "GDOv2 - New for 2024",
         "heading_size": "h1",
-        "image": "shopify:\/\/shop_images\/white-v2.png",
+        "image": "shopify://shop_images/white-v2.png",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 60
@@ -414,9 +417,9 @@
         "template--18659028926779__b48ef6e0-ce22-4a30-9565-f7cc1ff9fee9-1683189697f0730f95-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-02-01_at_11.49.45_AM.png",
+            "image": "shopify://shop_images/Screen_Shot_2024-02-01_at_11.49.45_AM.png",
             "title": "Check the Learn Button",
-            "text": "<p>Works with all non-Chamberlain brands (including Genie, Linear, Overhead Door) and Chamberlain\/LiftMaster brands with green, gray, white, yellow (square) 🟨 learn button.<\/p><p><\/p><p>Got a Chamberlain\/LiftMaster garage door opener with yellow, red, orange, blue, purple, or brown learn button, including those with myQ built-in? Get the <a href=\"\/products\/smart-garage-door-opener-blaq-myq-alternative\" title=\"Smart Garage Door Opener blaQ\">GDO blaQ instead<\/a>.<\/p>",
+            "text": "<p>Works with all non-Chamberlain brands (including Genie, Linear, Overhead Door) and Chamberlain/LiftMaster brands with green, gray, white, yellow (square) 🟨 learn button.</p><p></p><p>Got a Chamberlain/LiftMaster garage door opener with yellow, red, orange, blue, purple, or brown learn button, including those with myQ built-in? Get the <a href=\"/products/smart-garage-door-opener-blaq-myq-alternative\" title=\"Smart Garage Door Opener blaQ\">GDO blaQ instead</a>.</p>",
             "link_label": "",
             "link": ""
           }
@@ -424,9 +427,9 @@
         "template--18659028926779__b48ef6e0-ce22-4a30-9565-f7cc1ff9fee9-1683189697f0730f95-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/GarageButton_image.jpg",
+            "image": "shopify://shop_images/GarageButton_image.jpg",
             "title": "Check the Wall Button",
-            "text": "<p>Konnected’s Garage Door Opener works with most garage doors with a <em>wired<\/em> push-button mounted on the wall, a simple “dry-contact” switch. <\/p>",
+            "text": "<p>Konnected’s Garage Door Opener works with most garage doors with a <em>wired</em> push-button mounted on the wall, a simple “dry-contact” switch. </p>",
             "link_label": "",
             "link": ""
           }
@@ -435,9 +438,9 @@
           "type": "column",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-05-04_at_5.45.35_AM.png",
-            "title": "Get an Adapter for <em>Yellow-Button Openers<\/em>",
-            "text": "<p>If your garage door opener features a <em>yellow learn button<\/em>, it means it features Security+ 2.0. In order for Konnected Garage Door Opener to work with your Security+ 2.0. device, you'll need to grab one of the dry contact adapters from <a href=\"https:\/\/shop.ismartgate.com\/smart-openers-accessories\/67-universal-switch-adaptor.html\" target=\"_blank\" title=\"https:\/\/shop.ismartgate.com\/smart-openers-accessories\/67-universal-switch-adaptor.html\">ismartgate<\/a> or <a href=\"https:\/\/www.garadget.com\/product\/security-2-0-dry-contact-adapter\/\" target=\"_blank\" title=\"https:\/\/www.garadget.com\/product\/security-2-0-dry-contact-adapter\/\">Garadget.<\/a><\/p>",
+            "image": "shopify://shop_images/Screen_Shot_2023-05-04_at_5.45.35_AM.png",
+            "title": "Get an Adapter for <em>Yellow-Button Openers</em>",
+            "text": "<p>If your garage door opener features a <em>yellow learn button</em>, it means it features Security+ 2.0. In order for Konnected Garage Door Opener to work with your Security+ 2.0. device, you'll need to grab one of the dry contact adapters from <a href=\"https://shop.ismartgate.com/smart-openers-accessories/67-universal-switch-adaptor.html\" target=\"_blank\" title=\"https://shop.ismartgate.com/smart-openers-accessories/67-universal-switch-adaptor.html\">ismartgate</a> or <a href=\"https://www.garadget.com/product/security-2-0-dry-contact-adapter/\" target=\"_blank\" title=\"https://www.garadget.com/product/security-2-0-dry-contact-adapter/\">Garadget.</a></p>",
             "link_label": "",
             "link": ""
           }
@@ -445,9 +448,9 @@
         "bf00e68d-ee26-48a6-9f36-89b85d34ab1d": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Compatible_2.png",
+            "image": "shopify://shop_images/Compatible_2.png",
             "title": "Measure the Garage's Height",
-            "text": "<p>The optical laser sensor works most reliably when the ceiling is <a href=\"https:\/\/support.konnected.io\/using-the-optical-sensor-to-see-if-the-garage-door-is-open\" target=\"_blank\" title=\"https:\/\/support.konnected.io\/using-the-optical-sensor-to-see-if-the-garage-door-is-open\"><strong>less than <\/strong>~<strong>5-6 feet<\/strong><\/a><strong> <\/strong>from the rolled-up garage door. In typical homes with a standard 7ft garage door and ~8-13ft ceilings, this is no problem. We suggest adding a <a href=\"https:\/\/konnected.io\/products\/garage-door-or-gate-heavy-duty-wired-magnetic-contact-sensor\" target=\"_blank\"><span style=\"text-decoration:underline\">wired sensor<\/span><\/a> to ensure accuracy if your garage ceiling exceeds those numbers.<\/p>",
+            "text": "<p>The optical laser sensor works most reliably when the ceiling is <a href=\"https://support.konnected.io/using-the-optical-sensor-to-see-if-the-garage-door-is-open\" target=\"_blank\" title=\"https://support.konnected.io/using-the-optical-sensor-to-see-if-the-garage-door-is-open\"><strong>less than </strong>~<strong>5-6 feet</strong></a><strong> </strong>from the rolled-up garage door. In typical homes with a standard 7ft garage door and ~8-13ft ceilings, this is no problem. We suggest adding a <a href=\"https://konnected.io/products/garage-door-or-gate-heavy-duty-wired-magnetic-contact-sensor\" target=\"_blank\"><span style=\"text-decoration:underline\">wired sensor</span></a> to ensure accuracy if your garage ceiling exceeds those numbers.</p>",
             "link_label": "",
             "link": ""
           }
@@ -489,7 +492,7 @@
         "text-1": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Built-in optical laser sensor for detecting open\/closed garage door<\/li><li>Works with<a href=\"https:\/\/support.konnected.io\/using-the-garage-door-opener-with-smartthings\"> <span style=\"text-decoration:underline\">SmartThings<\/span><\/a>, <a href=\"https:\/\/support.konnected.io\/using-the-garage-door-opener-with-alexa\"><span style=\"text-decoration:underline\">Alexa<\/span><\/a>, <a href=\"https:\/\/konnected.io\/pages\/hubitat\" target=\"_blank\" title=\"https:\/\/konnected.io\/pages\/hubitat\">Hubitat<\/a>, and<a href=\"https:\/\/support.konnected.io\/installing-the-garage-door-opener-with-home-assistant\"> <span style=\"text-decoration:underline\">Home Assistant<\/span><\/a><\/li><li>Ability to add a <a href=\"https:\/\/konnected.io\/products\/garage-door-or-gate-heavy-duty-wired-magnetic-contact-sensor?_pos=4&_fid=4b0184b0d&_ss=c\" target=\"_blank\" title=\"https:\/\/konnected.io\/products\/garage-door-or-gate-heavy-duty-wired-magnetic-contact-sensor?_pos=4&_fid=4b0184b0d&_ss=c\">wired sensor<\/a> for even more accuracy<\/li><li>Save money by retrofitting what you already own<\/li><li>Connects via Wi-Fi (no hub needed)<\/li><li>Emits audible & visual warning before closing<\/li><li>Access all features without a monthly subscription<\/li><li>No batteries required<\/li><\/ul>",
+            "text": "<ul><li>Built-in optical laser sensor for detecting open/closed garage door</li><li>Works with<a href=\"https://support.konnected.io/using-the-garage-door-opener-with-smartthings\"> <span style=\"text-decoration:underline\">SmartThings</span></a>, <a href=\"https://support.konnected.io/using-the-garage-door-opener-with-alexa\"><span style=\"text-decoration:underline\">Alexa</span></a>, <a href=\"https://konnected.io/pages/hubitat\" target=\"_blank\" title=\"https://konnected.io/pages/hubitat\">Hubitat</a>, and<a href=\"https://support.konnected.io/installing-the-garage-door-opener-with-home-assistant\"> <span style=\"text-decoration:underline\">Home Assistant</span></a></li><li>Ability to add a <a href=\"https://konnected.io/products/garage-door-or-gate-heavy-duty-wired-magnetic-contact-sensor?_pos=4&_fid=4b0184b0d&_ss=c\" target=\"_blank\" title=\"https://konnected.io/products/garage-door-or-gate-heavy-duty-wired-magnetic-contact-sensor?_pos=4&_fid=4b0184b0d&_ss=c\">wired sensor</a> for even more accuracy</li><li>Save money by retrofitting what you already own</li><li>Connects via Wi-Fi (no hub needed)</li><li>Emits audible & visual warning before closing</li><li>Access all features without a monthly subscription</li><li>No batteries required</li></ul>",
             "text_style": "body"
           }
         }
@@ -501,7 +504,7 @@
         "@media screen and (min-width: 990px) {.image-with-text__content {padding: 0 0 0 7rem; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/GDO_Product_Images_2.gif",
+        "image": "shopify://shop_images/GDO_Product_Images_2.gif",
         "contain_image": true,
         "rounded_corners": false,
         "counter": false,
@@ -528,43 +531,43 @@
         "item_VJWcBH": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Group_3333.svg",
-            "title": "<p>Control Access<\/p>"
+            "icon": "shopify://shop_images/Group_3333.svg",
+            "title": "<p>Control Access</p>"
           }
         },
         "item_LeVbay": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Group_3332.svg",
-            "title": "<p>Receive Alerts<\/p>"
+            "icon": "shopify://shop_images/Group_3332.svg",
+            "title": "<p>Receive Alerts</p>"
           }
         },
         "item_jYjdJW": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Group_3334.svg",
-            "title": "<p>Create Automations & Routines<\/p>"
+            "icon": "shopify://shop_images/Group_3334.svg",
+            "title": "<p>Create Automations & Routines</p>"
           }
         },
         "item_8QGDka": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Group_3335.svg",
-            "title": "<p>Open & Close From Your Phone<\/p>"
+            "icon": "shopify://shop_images/Group_3335.svg",
+            "title": "<p>Open & Close From Your Phone</p>"
           }
         },
         "item_KNMa3M": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Group_3337.svg",
-            "title": "<p>View Activity History<\/p>"
+            "icon": "shopify://shop_images/Group_3337.svg",
+            "title": "<p>View Activity History</p>"
           }
         },
         "item_PdNEhg": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Group_3336.svg",
-            "title": "<p>Set Up<br\/>Through App<\/p>"
+            "icon": "shopify://shop_images/Group_3336.svg",
+            "title": "<p>Set Up<br/>Through App</p>"
           }
         }
       },
@@ -585,9 +588,9 @@
       "settings": {
         "title": "Remote Access to Your Garage Door",
         "heading_size": "h1",
-        "description": "<p>Stay in Control Wherever You Are<\/p>",
+        "description": "<p>Stay in Control Wherever You Are</p>",
         "text_style": "body",
-        "ellipse_bottom": "shopify:\/\/shop_images\/Ellipse_4_5.png",
+        "ellipse_bottom": "shopify://shop_images/Ellipse_4_5.png",
         "color_scheme": "background-1",
         "padding_top": 72,
         "padding_bottom": 72
@@ -599,8 +602,8 @@
         "column_zXHjhH": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_13.svg",
-            "title": "<p>60-Day <br\/>Money Back Guarantee<\/p>",
+            "image": "shopify://shop_images/Vector_13.svg",
+            "title": "<p>60-Day <br/>Money Back Guarantee</p>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -609,8 +612,8 @@
         "column_aYaV7P": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_14.svg",
-            "title": "<p>1-Year Replacement Warranty<\/p>",
+            "image": "shopify://shop_images/Vector_14.svg",
+            "title": "<p>1-Year Replacement Warranty</p>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -619,8 +622,8 @@
         "column_APJiaz": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_15.svg",
-            "title": "<p>Designed & Assembled in North America<\/p>",
+            "image": "shopify://shop_images/Vector_15.svg",
+            "title": "<p>Designed & Assembled in North America</p>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -629,8 +632,8 @@
         "column_e3qrKU": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_18.svg",
-            "title": "<p>Ships<br\/>Worldwide<\/p>",
+            "image": "shopify://shop_images/Vector_18.svg",
+            "title": "<p>Ships<br/>Worldwide</p>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -671,35 +674,35 @@
         "8fabeb1b-4075-4c9c-a856-e607415153c5": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/iPhone_carousel_screen_template_copy.jpg",
+            "image": "shopify://shop_images/iPhone_carousel_screen_template_copy.jpg",
             "image_title": "Open & Close From Your Phone"
           }
         },
         "2fb64c9e-97bd-498d-a88d-35cb15a1d537": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/iPhone_carousel_screen_template_copy.jpg",
+            "image": "shopify://shop_images/iPhone_carousel_screen_template_copy.jpg",
             "image_title": "Receive Alerts"
           }
         },
         "3585f519-acb7-4855-a326-4e2e150a23b1": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/iPhone_carousel_screen_template_copy.jpg",
+            "image": "shopify://shop_images/iPhone_carousel_screen_template_copy.jpg",
             "image_title": "Create Automations & Routines"
           }
         },
         "7dfc30fa-53d4-4086-92d5-632d96684ac5": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/iPhone_carousel_screen_template_copy.jpg",
+            "image": "shopify://shop_images/iPhone_carousel_screen_template_copy.jpg",
             "image_title": "Create Automations & Routines"
           }
         },
         "48ad9b64-4be4-4529-bfed-7f971a6873eb": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/iPhone_carousel_screen_template_copy.jpg",
+            "image": "shopify://shop_images/iPhone_carousel_screen_template_copy.jpg",
             "image_title": "Create Automations & Routines"
           }
         }
@@ -715,7 +718,7 @@
       "settings": {
         "heading": "Remote Access to Your Garage Door",
         "heading_size": "h1",
-        "subheading": "<p>Stay in Control Wherever You Are<\/p>",
+        "subheading": "<p>Stay in Control Wherever You Are</p>",
         "text_style": "subtitle",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -744,15 +747,15 @@
         "subheading": "Stay in Control Wherever You Are",
         "subheading_color": "dark-gray",
         "text_style": "body",
-        "image": "shopify:\/\/shop_images\/ArticleTNs_3.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Make_your_old_garage_door_opener_smart_6.png",
+        "image": "shopify://shop_images/ArticleTNs_3.jpg",
+        "image_mobile": "shopify://shop_images/Make_your_old_garage_door_opener_smart_6.png",
         "bullet1": "Open & Close From Your Phone",
         "bullet2": "Receive Alerts",
         "bullet3": "Create Automations & Routines",
         "bullet4": "Control Access",
         "bullet5": "View Activity History",
         "bullet6": "Set Up Through App",
-        "image_logo": "shopify:\/\/shop_images\/Make_your_old_garage_door_opener_smart_6.png"
+        "image_logo": "shopify://shop_images/Make_your_old_garage_door_opener_smart_6.png"
       }
     },
     "k_two_column_AEM783": {
@@ -768,7 +771,7 @@
         "text_gRJy3D": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Highly accurate <a href=\"https:\/\/en.wikipedia.org\/wiki\/Time-of-flight_camera\" target=\"_blank\">time-of-flight<\/a> range sensor<\/li><li>Measures fixed distance between rolled-up garage door and the sensor to detect if the garage door is open<\/li><li>Works seamlessly day & night<\/li><li>No extra accessories required<\/li><li>Monitors garage door status 24\/7<\/li><\/ul>",
+            "text": "<ul><li>Highly accurate <a href=\"https://en.wikipedia.org/wiki/Time-of-flight_camera\" target=\"_blank\">time-of-flight</a> range sensor</li><li>Measures fixed distance between rolled-up garage door and the sensor to detect if the garage door is open</li><li>Works seamlessly day & night</li><li>No extra accessories required</li><li>Monitors garage door status 24/7</li></ul>",
             "text_style": "body"
           }
         },
@@ -776,7 +779,7 @@
           "type": "button",
           "settings": {
             "button_label": "Read More",
-            "button_link": "https:\/\/support.konnected.io\/using-the-optical-sensor-to-see-if-the-garage-door-is-open"
+            "button_link": "https://support.konnected.io/using-the-optical-sensor-to-see-if-the-garage-door-is-open"
           }
         }
       },
@@ -789,7 +792,7 @@
         ".image-with-text__media {border: 0; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/laser.png",
+        "image": "shopify://shop_images/laser.png",
         "contain_image": true,
         "rounded_corners": false,
         "counter": false,
@@ -816,9 +819,9 @@
         "template--18659028926779__02f2adc6-14d9-4ec3-97a5-9d8b5b402d46-1684291648e5818921-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_ae6b2153-a3ec-4912-be60-29a8a85bd3a1.png",
+            "image": "shopify://shop_images/2_ae6b2153-a3ec-4912-be60-29a8a85bd3a1.png",
             "title": "Built-In Optical Laser Sensor",
-            "text": "<p>Built-in to GDOv2-S<\/p><p>Best for:<\/p><ul><li>most garages with ceilings at ~8-13ft <\/li><li>users who want the simplest installation & most common setup <\/li><\/ul>",
+            "text": "<p>Built-in to GDOv2-S</p><p>Best for:</p><ul><li>most garages with ceilings at ~8-13ft </li><li>users who want the simplest installation & most common setup </li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -826,9 +829,9 @@
         "template--18659028926779__02f2adc6-14d9-4ec3-97a5-9d8b5b402d46-1684291648e5818921-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_d6cf0f4e-8e95-4c47-8505-d03cb7f34a4b.png",
-            "title": "Built-In Optical Laser Sensor + <a href=\"\/products\/garage-door-or-gate-heavy-duty-wired-magnetic-contact-sensor\" target=\"_blank\" title=\"Garage Door or Gate Heavy Duty Wired Magnetic Contact Sensor\">Wired Sensor<\/a>",
-            "text": "<p><a href=\"\/products\/garage-door-or-gate-heavy-duty-wired-magnetic-contact-sensor\" target=\"_blank\" title=\"Garage Door or Gate Heavy Duty Wired Magnetic Contact Sensor\"><em>Wired sensor<\/em><\/a><em> sold separately.<\/em><\/p><p>Best for:<\/p><ul><li>tall garages with ceilings higher than 13ft<\/li><li>users seeking an extra layer of accuracy in case the optical laser sensor gets obstructed (e.g., by a spider web or dust)<\/li><\/ul>",
+            "image": "shopify://shop_images/1_d6cf0f4e-8e95-4c47-8505-d03cb7f34a4b.png",
+            "title": "Built-In Optical Laser Sensor + <a href=\"/products/garage-door-or-gate-heavy-duty-wired-magnetic-contact-sensor\" target=\"_blank\" title=\"Garage Door or Gate Heavy Duty Wired Magnetic Contact Sensor\">Wired Sensor</a>",
+            "text": "<p><a href=\"/products/garage-door-or-gate-heavy-duty-wired-magnetic-contact-sensor\" target=\"_blank\" title=\"Garage Door or Gate Heavy Duty Wired Magnetic Contact Sensor\"><em>Wired sensor</em></a><em> sold separately.</em></p><p>Best for:</p><ul><li>tall garages with ceilings higher than 13ft</li><li>users seeking an extra layer of accuracy in case the optical laser sensor gets obstructed (e.g., by a spider web or dust)</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -870,37 +873,37 @@
         "bf47638d-e4d3-4931-a0c2-4ee4d7da0cd6": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Step_1.png"
+            "image": "shopify://shop_images/Step_1.png"
           }
         },
         "e6ad849e-66f9-4269-a055-7ea6e492a57a": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_3330.png"
+            "image": "shopify://shop_images/Group_3330.png"
           }
         },
         "ce0f782b-2d9f-4eb7-881e-8b04c1e85b99": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_3321.png"
+            "image": "shopify://shop_images/Group_3321.png"
           }
         },
         "2261efe4-96df-476e-9f12-8757df36fb2c": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Step_4.png"
+            "image": "shopify://shop_images/Step_4.png"
           }
         },
         "19b78aa9-75e0-41c3-8878-b558840872b0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_3331.png"
+            "image": "shopify://shop_images/Group_3331.png"
           }
         },
         "c482f2a5-59a7-4736-b3f3-2d984fd7059b": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Step_6.png"
+            "image": "shopify://shop_images/Step_6.png"
           }
         }
       },
@@ -918,7 +921,7 @@
       "settings": {
         "title": "How the Konnected Garage Door Opener Works",
         "heading_size": "h1",
-        "description": "<p>Our Garage Door Opener retrofits your existing dumb garage door opener and adds smart functionality to it. <a href=\"https:\/\/support.konnected.io\/product-manuals#garage-door-opener\" target=\"_blank\" title=\"Konnected GDO Knowledge Base\">More details at our knowledge base<\/a>.<\/p>",
+        "description": "<p>Our Garage Door Opener retrofits your existing dumb garage door opener and adds smart functionality to it. <a href=\"https://support.konnected.io/product-manuals#garage-door-opener\" target=\"_blank\" title=\"Konnected GDO Knowledge Base\">More details at our knowledge base</a>.</p>",
         "text_style": "body",
         "full_width": false,
         "slider_visual": "dots",
@@ -941,8 +944,8 @@
         "heading": "Watch Our Garage Door Opener In Action",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https:\/\/youtu.be\/oVenTgSxkLo",
-        "cover_image": "shopify:\/\/shop_images\/Group_1048_1.jpg",
+        "video_url": "https://youtu.be/oVenTgSxkLo",
+        "cover_image": "shopify://shop_images/Group_1048_1.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -963,7 +966,7 @@
         "template--21843260703035__ded1b3c2-08dc-4d9d-a132-19c582cd9b97-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p><a href=\"https:\/\/csa-iot.org\/all-solutions\/matter\/\" target=\"_blank\" title=\"Matter\">Matter<\/a> is the emerging smart home standard that provides secure and <strong>local<\/strong> integration with all big-name smart home platforms, including Apple HomeKit, Google Home, Amazon Alexa, Samsung SmartThings, Home Assistant, Hubitat, and Homey Pro. Currently, the Matter specification does not support garage door opener device types, but when it does, Konnected is committed to supporting this game-changing standard on all of our GDOv2 models.<\/p><p><strong>Note:<\/strong> Upgrading to Matter will require re-flashing the device firmware with a computer and USB cable.<\/p><p>*Konnected’s Garage Door Opener is not (yet) Matter certified. <a href=\"https:\/\/share.hsforms.com\/1RrMQPKEhQyqTSjTv8oGS9Adff38\" target=\"_blank\">Join our early-access program<\/a> to stay up-to-date with development.<\/p>",
+            "text": "<p><a href=\"https://csa-iot.org/all-solutions/matter/\" target=\"_blank\" title=\"Matter\">Matter</a> is the emerging smart home standard that provides secure and <strong>local</strong> integration with all big-name smart home platforms, including Apple HomeKit, Google Home, Amazon Alexa, Samsung SmartThings, Home Assistant, Hubitat, and Homey Pro. Currently, the Matter specification does not support garage door opener device types, but when it does, Konnected is committed to supporting this game-changing standard on all of our GDOv2 models.</p><p><strong>Note:</strong> Upgrading to Matter will require re-flashing the device firmware with a computer and USB cable.</p><p>*Konnected’s Garage Door Opener is not (yet) Matter certified. <a href=\"https://share.hsforms.com/1RrMQPKEhQyqTSjTv8oGS9Adff38\" target=\"_blank\">Join our early-access program</a> to stay up-to-date with development.</p>",
             "text_style": "body"
           }
         }
@@ -982,7 +985,7 @@
         "@media (max-width: 749px) {.image-with-text__content {padding: 0 2rem 0; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_3311.png",
+        "image": "shopify://shop_images/Group_3311.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -1009,7 +1012,7 @@
         "template--21843260703035__78d79317-6242-4fc7-bc03-aef2b0bf7ab5-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>This product ships with <a href=\"https:\/\/esphome.io\/guides\/made_for_esphome.html\" target=\"_blank\" title=\"https:\/\/esphome.io\/guides\/made_for_esphome.html\">ESPHome-based<\/a> firmware pre-loaded for <strong>local<\/strong>, <strong>secure<\/strong>, and <strong>open-source<\/strong> integration with Home Assistant and Hubitat. <\/p><p>Konnected is committed to making this powerful DIY smart home firmware easy and accessible for all, which is why we’ve created a cloud connector for ESPHome to integrate with SmartThings and Alexa. <\/p><p>Powerful, customizable, and plug-and play smart home integration with your choice of smart home platform.<\/p>",
+            "text": "<p>This product ships with <a href=\"https://esphome.io/guides/made_for_esphome.html\" target=\"_blank\" title=\"https://esphome.io/guides/made_for_esphome.html\">ESPHome-based</a> firmware pre-loaded for <strong>local</strong>, <strong>secure</strong>, and <strong>open-source</strong> integration with Home Assistant and Hubitat. </p><p>Konnected is committed to making this powerful DIY smart home firmware easy and accessible for all, which is why we’ve created a cloud connector for ESPHome to integrate with SmartThings and Alexa. </p><p>Powerful, customizable, and plug-and play smart home integration with your choice of smart home platform.</p>",
             "text_style": "body"
           }
         }
@@ -1028,7 +1031,7 @@
         "@media (max-width: 749px) {.image-with-text__content {padding: 0 2rem 0; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/esp-home.png",
+        "image": "shopify://shop_images/esp-home.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -1056,12 +1059,12 @@
         "@media (max-width: 989px) {.ellipse-top {width: 28rem; } .ellipse-bottom {width: 30rem; }}"
       ],
       "settings": {
-        "heading": "<p>Built on Open Source<\/p>",
+        "heading": "<p>Built on Open Source</p>",
         "heading_size": "h1",
-        "text": "<p>Konnected’s new GDO is built on entirely open source software, made with high-quality genuine components, and assembled with love in the USA. We designed it with an emphasis on choice, privacy, and local control – because we believe that the technology that you bring in your home is yours to own. The <a href=\"https:\/\/github.com\/konnected-io\/konnected-esphome\/blob\/master\/garage-door-esp32.yaml\" title=\"https:\/\/github.com\/konnected-io\/konnected-esphome\/blob\/master\/garage-door-esp32.yaml\">GDOv2’s firmware configuration is published here on GitHub<\/a> and is built upon these primary open-source libraries:<\/p><ul><li><a href=\"https:\/\/github.com\/ratgdo\/esphome-ratgdo\" target=\"_blank\" title=\"https:\/\/github.com\/ratgdo\/esphome-ratgdo\">esphome-ratgdo<\/a> (GPL v2)<\/li><li><a href=\"https:\/\/github.com\/esphome\/esphome\" target=\"_blank\" title=\"https:\/\/github.com\/esphome\/esphome\">esphome<\/a> (ESPHome License)<\/li><li><a href=\"https:\/\/github.com\/espressif\/esp-idf\" target=\"_blank\" title=\"https:\/\/github.com\/espressif\/esp-idf\">esp-idf<\/a> (Apache v2)<\/li><\/ul>",
+        "text": "<p>Konnected’s new GDO is built on entirely open source software, made with high-quality genuine components, and assembled with love in the USA. We designed it with an emphasis on choice, privacy, and local control – because we believe that the technology that you bring in your home is yours to own. The <a href=\"https://github.com/konnected-io/konnected-esphome/blob/master/garage-door-esp32.yaml\" title=\"https://github.com/konnected-io/konnected-esphome/blob/master/garage-door-esp32.yaml\">GDOv2’s firmware configuration is published here on GitHub</a> and is built upon these primary open-source libraries:</p><ul><li><a href=\"https://github.com/ratgdo/esphome-ratgdo\" target=\"_blank\" title=\"https://github.com/ratgdo/esphome-ratgdo\">esphome-ratgdo</a> (GPL v2)</li><li><a href=\"https://github.com/esphome/esphome\" target=\"_blank\" title=\"https://github.com/esphome/esphome\">esphome</a> (ESPHome License)</li><li><a href=\"https://github.com/espressif/esp-idf\" target=\"_blank\" title=\"https://github.com/espressif/esp-idf\">esp-idf</a> (Apache v2)</li></ul>",
         "text_style": "body",
-        "ellipse_top": "shopify:\/\/shop_images\/Ellipse_29_2.png",
-        "ellipse_bottom": "shopify:\/\/shop_images\/Ellipse_28_2.png",
+        "ellipse_top": "shopify://shop_images/Ellipse_29_2.png",
+        "ellipse_bottom": "shopify://shop_images/Ellipse_28_2.png",
         "layout": "image_first",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "left",
@@ -1079,8 +1082,8 @@
         "heading_size": "h1",
         "description": "",
         "description_style": "body",
-        "image1": "shopify:\/\/shop_images\/Group_3330_1.png",
-        "image2": "shopify:\/\/shop_images\/Group_3331_1.png",
+        "image1": "shopify://shop_images/Group_3330_1.png",
+        "image2": "shopify://shop_images/Group_3331_1.png",
         "image_width": "full",
         "color_scheme": "background-1",
         "padding_top": 60,
@@ -1093,19 +1096,19 @@
         "7e68d1da-37b2-432e-bb76-a492c981d07f": {
           "type": "facts",
           "settings": {
-            "text": "<p>content<\/p>"
+            "text": "<p>content</p>"
           }
         },
         "efe8f91b-4804-46b5-9be0-cfe5110a9d1a": {
           "type": "facts",
           "settings": {
-            "text": "<p>content<\/p>"
+            "text": "<p>content</p>"
           }
         },
         "ce2d7aa0-c192-4ed0-ae42-1315c7b49bfc": {
           "type": "facts",
           "settings": {
-            "text": "<p>content<\/p>"
+            "text": "<p>content</p>"
           }
         }
       },
@@ -1128,30 +1131,30 @@
         "720c007e-a7b8-428e-a193-17f7f9bb6f4a": {
           "type": "article",
           "settings": {
-            "image": "shopify:\/\/shop_images\/35.webp",
+            "image": "shopify://shop_images/35.webp",
             "title": "What's the Best Smart Garage Door Opener?",
             "content": "",
-            "article_link": "shopify:\/\/blogs\/smart-home-security\/whats-the-best-smart-garage-door-opener",
+            "article_link": "shopify://blogs/smart-home-security/whats-the-best-smart-garage-door-opener",
             "link_text": ""
           }
         },
         "0d894bf6-8899-4234-9aff-7e791027fa37": {
           "type": "article",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ArticleTNs_2_efc37492-e32c-4c09-987e-be23d36002b4.png",
+            "image": "shopify://shop_images/ArticleTNs_2_efc37492-e32c-4c09-987e-be23d36002b4.png",
             "title": "What Is a Smart Garage Door Opener?",
             "content": "",
-            "article_link": "https:\/\/konnected.io\/blogs\/smart-home-security\/what-is-a-smart-garage-door-opener",
+            "article_link": "https://konnected.io/blogs/smart-home-security/what-is-a-smart-garage-door-opener",
             "link_text": ""
           }
         },
         "d1405407-a97f-49b7-aa06-8ace8e9c9652": {
           "type": "article",
           "settings": {
-            "image": "shopify:\/\/shop_images\/34.webp",
+            "image": "shopify://shop_images/34.webp",
             "title": "5 Ways to Use Konnected Garage Door Opener",
             "content": "",
-            "article_link": "shopify:\/\/blogs\/smart-home-security\/5-ways-to-use-konnected-garage-door-opener",
+            "article_link": "shopify://blogs/smart-home-security/5-ways-to-use-konnected-garage-door-opener",
             "link_text": ""
           }
         }
@@ -1162,7 +1165,7 @@
         "d1405407-a97f-49b7-aa06-8ace8e9c9652"
       ],
       "settings": {
-        "title": "<p>Learn More About Our Smart Garage Door Opener<\/p>",
+        "title": "<p>Learn More About Our Smart Garage Door Opener</p>",
         "heading_size": "h1",
         "description": "",
         "text_style": "body",
@@ -1187,7 +1190,7 @@
           "settings": {
             "heading": "How do I know if my garage door opener is compatible?",
             "icon": "none",
-            "row_content": "<p>Konnected's GDO White works with garage door openers that are triggered to open or close by a simple push button or <em>dry-contact<\/em> closure. This includes most garage door openers <em>except <\/em> those with a yellow learn button. <a href=\"https:\/\/support.konnected.io\/what-garage-doors-does-your-garage-door-opener-work-with\" target=\"_blank\" title=\"What garage door openers are compatible?\">Read more.<\/a><\/p>",
+            "row_content": "<p>Konnected's GDO White works with garage door openers that are triggered to open or close by a simple push button or <em>dry-contact</em> closure. This includes most garage door openers <em>except </em> those with a yellow learn button. <a href=\"https://support.konnected.io/what-garage-doors-does-your-garage-door-opener-work-with\" target=\"_blank\" title=\"What garage door openers are compatible?\">Read more.</a></p>",
             "page": ""
           }
         },
@@ -1196,7 +1199,7 @@
           "settings": {
             "heading": "What if my garage door opener has a yellow learn button or has myQ built-in?",
             "icon": "none",
-            "row_content": "<p>Check out our new <a href=\"\/products\/smart-garage-door-opener-blaq-myq-alternative\" title=\"Smart Garage Door Opener blaQ\">GDO blaQ <\/a>that is specifically designed for yellow-button Security+ 2.0 openers.<\/p>",
+            "row_content": "<p>Check out our new <a href=\"/products/smart-garage-door-opener-blaq-myq-alternative\" title=\"Smart Garage Door Opener blaQ\">GDO blaQ </a>that is specifically designed for yellow-button Security+ 2.0 openers.</p>",
             "page": ""
           }
         },
@@ -1205,7 +1208,7 @@
           "settings": {
             "heading": "Will my existing garage door remotes (car, wall, and outside keypad) still work?",
             "icon": "none",
-            "row_content": "<p>Yes, of course, they will still work. Konnected only makes your garage smarter; it doesn't take away any existing features.<\/p><p><a href=\"https:\/\/support.konnected.io\/troubleshooting-garage-door-opener-remote-wireless-range-issues\" target=\"_blank\" title=\"Troubleshooting Garage Door Opener Remote wireless range issues\">Noticing decreased range of your wireless remotes?<\/a><\/p>",
+            "row_content": "<p>Yes, of course, they will still work. Konnected only makes your garage smarter; it doesn't take away any existing features.</p><p><a href=\"https://support.konnected.io/troubleshooting-garage-door-opener-remote-wireless-range-issues\" target=\"_blank\" title=\"Troubleshooting Garage Door Opener Remote wireless range issues\">Noticing decreased range of your wireless remotes?</a></p>",
             "page": ""
           }
         },
@@ -1214,7 +1217,7 @@
           "settings": {
             "heading": "What if I have more than one garage door?",
             "icon": "none",
-            "row_content": "<p>Konnected's GDO monitors and controls a single garage door opener. You'll need one Konnected Smart Garage Door Opener product per garage door.<\/p>",
+            "row_content": "<p>Konnected's GDO monitors and controls a single garage door opener. You'll need one Konnected Smart Garage Door Opener product per garage door.</p>",
             "page": ""
           }
         },
@@ -1223,7 +1226,7 @@
           "settings": {
             "heading": "Is there an audible and visual warning before closing the garage door?",
             "icon": "none",
-            "row_content": "<p>Yes, for safety, the GDO gives you visual (blinking) and audible (beeping) warnings for ~5 seconds before it triggers the garage door to close. <\/p><p><strong>NEW in 2024: <\/strong>The GDOv2 has a multi-tonal sounder that can more pleasant and customizable warning tunes.<\/p>",
+            "row_content": "<p>Yes, for safety, the GDO gives you visual (blinking) and audible (beeping) warnings for ~5 seconds before it triggers the garage door to close. </p><p><strong>NEW in 2024: </strong>The GDOv2 has a multi-tonal sounder that can more pleasant and customizable warning tunes.</p>",
             "page": ""
           }
         },
@@ -1232,7 +1235,7 @@
           "settings": {
             "heading": "Does it meet U.S. safety regulations?",
             "icon": "none",
-            "row_content": "<p>Yes, the GDOv2-S was designed to meet the U.S. safety regulations in <a href=\"https:\/\/www.law.cornell.edu\/cfr\/text\/16\/1211.14\" target=\"_blank\" title=\"16 CFR § 1211.14 - Unattended operation requirements.\">16 CFR § 1211.14<\/a> for the unattended operation of a residential garage door opener.<\/p><p>The device should only be used with a sectional garage door. Do not use with one-piece or swinging doors.<\/p>",
+            "row_content": "<p>Yes, the GDOv2-S was designed to meet the U.S. safety regulations in <a href=\"https://www.law.cornell.edu/cfr/text/16/1211.14\" target=\"_blank\" title=\"16 CFR § 1211.14 - Unattended operation requirements.\">16 CFR § 1211.14</a> for the unattended operation of a residential garage door opener.</p><p>The device should only be used with a sectional garage door. Do not use with one-piece or swinging doors.</p>",
             "page": ""
           }
         },
@@ -1241,7 +1244,7 @@
           "settings": {
             "heading": "Should I get a wired sensor for my Smart Garage Door Opener?",
             "icon": "none",
-            "row_content": "<p>There are three main reasons to add an optional <a href=\"https:\/\/konnected.io\/products\/garage-door-or-gate-heavy-duty-wired-magnetic-contact-sensor\" target=\"_blank\"><span style=\"text-decoration:underline\">heavy-duty wired sensor<\/span><\/a> to your Konnected Garage Door Opener: <\/p><ul><li>your garage's ceiling is very high (<a href=\"https:\/\/support.konnected.io\/using-the-optical-sensor-to-see-if-the-garage-door-is-open\" target=\"_blank\"><span style=\"text-decoration:underline\">more than 8-10 ft<\/span><\/a>)<\/li><li>you want an extra layer of accuracy in case the optical sensor gets obstructed (e.g., by dust or spider web)<\/li><li>you trust wired sensors more than any other sensors<\/li><\/ul>",
+            "row_content": "<p>There are three main reasons to add an optional <a href=\"https://konnected.io/products/garage-door-or-gate-heavy-duty-wired-magnetic-contact-sensor\" target=\"_blank\"><span style=\"text-decoration:underline\">heavy-duty wired sensor</span></a> to your Konnected Garage Door Opener: </p><ul><li>your garage's ceiling is very high (<a href=\"https://support.konnected.io/using-the-optical-sensor-to-see-if-the-garage-door-is-open\" target=\"_blank\"><span style=\"text-decoration:underline\">more than 8-10 ft</span></a>)</li><li>you want an extra layer of accuracy in case the optical sensor gets obstructed (e.g., by dust or spider web)</li><li>you trust wired sensors more than any other sensors</li></ul>",
             "page": ""
           }
         },
@@ -1250,7 +1253,7 @@
           "settings": {
             "heading": "How is it powered?",
             "icon": "none",
-            "row_content": "<p>It's powered by a<a href=\"https:\/\/support.konnected.io\/powering-the-garage-door-opener\" target=\"_blank\"> <span style=\"text-decoration:underline\">12V power adapter<\/span><\/a> (included) which plugs into a standard power outlet. Usually, the garage door opener receives power from a power outlet on the garage ceiling. No batteries required.<\/p>",
+            "row_content": "<p>It's powered by a<a href=\"https://support.konnected.io/powering-the-garage-door-opener\" target=\"_blank\"> <span style=\"text-decoration:underline\">12V power adapter</span></a> (included) which plugs into a standard power outlet. Usually, the garage door opener receives power from a power outlet on the garage ceiling. No batteries required.</p>",
             "page": ""
           }
         },
@@ -1259,7 +1262,7 @@
           "settings": {
             "heading": "Are there monthly fees?",
             "icon": "none",
-            "row_content": "<p>There are no ongoing fees to use Konnected's Garage Door Opener. In the future, we may introduce <strong>optional <\/strong>premium features for a fee.<\/p>",
+            "row_content": "<p>There are no ongoing fees to use Konnected's Garage Door Opener. In the future, we may introduce <strong>optional </strong>premium features for a fee.</p>",
             "page": ""
           }
         },
@@ -1268,7 +1271,7 @@
           "settings": {
             "heading": "Does it work with a gate opener?",
             "icon": "none",
-            "row_content": "<p>In many cases, yes! If the gate opener is triggered by a push-button or <em>dry-contact<\/em> relay, then yes it should work. However, you will likely not be able to use the built-in optical sensor to detect the open\/closed status. Instead, you can use a wired sensor to monitor the state of the gate.<\/p><p>The Konnected GDO should be installed in a weather-protected environment.<\/p>",
+            "row_content": "<p>In many cases, yes! If the gate opener is triggered by a push-button or <em>dry-contact</em> relay, then yes it should work. However, you will likely not be able to use the built-in optical sensor to detect the open/closed status. Instead, you can use a wired sensor to monitor the state of the gate.</p><p>The Konnected GDO should be installed in a weather-protected environment.</p>",
             "page": ""
           }
         },
@@ -1277,7 +1280,7 @@
           "settings": {
             "heading": "What smart home platforms or apps does it work with?",
             "icon": "none",
-            "row_content": "<p>Konnected's GDO works with Home Assistant and Hubitat via a 100% local integration using the ESPHome native API.<\/p><p>It also works with SmartThings and Alexa via a connection to Konnected's free Konnected Cloud service. <br\/><br\/><a href=\"https:\/\/chowmain.software\/drivers\/control4-konnected-white-garage-door-opener\" target=\"_blank\" title=\"https:\/\/chowmain.software\/drivers\/control4-konnected-white-garage-door-opener\">Control4 driver<\/a> is now available as a paid license as well.<\/p>",
+            "row_content": "<p>Konnected's GDO works with Home Assistant and Hubitat via a 100% local integration using the ESPHome native API.</p><p>It also works with SmartThings and Alexa via a connection to Konnected's free Konnected Cloud service. <br/><br/><a href=\"https://chowmain.software/drivers/control4-konnected-white-garage-door-opener\" target=\"_blank\" title=\"https://chowmain.software/drivers/control4-konnected-white-garage-door-opener\">Control4 driver</a> is now available as a paid license as well.</p>",
             "page": ""
           }
         },
@@ -1286,7 +1289,7 @@
           "settings": {
             "heading": "When will Matter compatibility be ready?",
             "icon": "none",
-            "row_content": "<p>We really don't know. At the present time, there is no a Matter specification for garage door openers. We're watching the Matter release schedule closely and are expecting to start testing a Matter compatible firmware as soon as the device specification is made available by the Matter working group.<\/p><p>You can join our <a href=\"https:\/\/share.hsforms.com\/1RrMQPKEhQyqTSjTv8oGS9Adff38\" target=\"_blank\" title=\"Konnected Matter early-access program\">Matter early-access program<\/a> to stay informed of the progress.<\/p>",
+            "row_content": "<p>We really don't know. At the present time, there is no a Matter specification for garage door openers. We're watching the Matter release schedule closely and are expecting to start testing a Matter compatible firmware as soon as the device specification is made available by the Matter working group.</p><p>You can join our <a href=\"https://share.hsforms.com/1RrMQPKEhQyqTSjTv8oGS9Adff38\" target=\"_blank\" title=\"Konnected Matter early-access program\">Matter early-access program</a> to stay informed of the progress.</p>",
             "page": ""
           }
         },
@@ -1295,7 +1298,7 @@
           "settings": {
             "heading": "Is there an API for the device?",
             "icon": "none",
-            "row_content": "<p>Yes! Konnected's GDO family have a full-featured and <em>local <\/em>REST API, as well as the ESPHome Native API. <a href=\"https:\/\/konnected.readme.io\/v2.0\/reference\/introduction-1\" target=\"_blank\" title=\"Konnected v2 API Reference\">See API Reference.<\/a><\/p>",
+            "row_content": "<p>Yes! Konnected's GDO family have a full-featured and <em>local </em>REST API, as well as the ESPHome Native API. <a href=\"https://konnected.readme.io/v2.0/reference/introduction-1\" target=\"_blank\" title=\"Konnected v2 API Reference\">See API Reference.</a></p>",
             "page": ""
           }
         }
@@ -1334,7 +1337,7 @@
       "type": "apps",
       "blocks": {
         "53dc309a-842a-4545-bffc-92ef9220de7c": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify://apps/stamped-reviews/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "animation": true,
             "tags_exclude": "",

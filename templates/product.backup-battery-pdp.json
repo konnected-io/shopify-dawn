@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -13,11 +22,10 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "a224429c-b028-4ef9-a901-715d69f28ba1": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "use_metafields": true,
             "sku_tagtype": "sku",
@@ -34,8 +42,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -45,8 +52,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "21d7519f-7493-4ea4-b454-3b173d293685": {
           "type": "inventory",
@@ -60,7 +66,7 @@
         "31dd665b-426f-4fe9-8991-0c4203a5db0f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.custom.out_of_stock == true %}\n    <div class=\"preorder-text\">\n        <span style=\"color: rgba(var(--color-foreground),1);\"><strong>Out of stock!<\/strong> Expected shipping: <strong>{{ product.metafields.custom.expected_in_stock }}<\/strong><\/span>\n    <\/div>\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.custom.out_of_stock == true %}\n    <div class=\"preorder-text\">\n        <span style=\"color: rgba(var(--color-foreground),1);\"><strong>Out of stock!</strong> Expected shipping: <strong>{{ product.metafields.custom.expected_in_stock }}</strong></span>\n    </div>\n{% endif %}"
           }
         },
         "buy_buttons": {
@@ -73,13 +79,13 @@
         "6946b621-21f5-44b7-951e-5daf3539d711": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% unless product.type == 'Wholesale' %}\n    <!-- Beginning of Buy With Prime Widget -->\n    {% if product.sku %}\n        <script defer src='https:\/\/code.buywithprime.amazon.com\/default.variant.selector.shopify.js'><\/script>\n        <script async fetchpriority='high' src='https:\/\/code.buywithprime.amazon.com\/bwp.v1.js'><\/script>\n        <div class=\"product-form__buttons\" style=\"margin:-3rem 0 0;\">\n            <div class=\"or-separator\">OR<\/div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.sku}}\"\n            ><\/div>\n        <\/div>\n        {% else %}\n        <script defer src='https:\/\/code.buywithprime.amazon.com\/default.variant.selector.shopify.js'><\/script>\n        <script async fetchpriority='high' src='https:\/\/code.buywithprime.amazon.com\/bwp.v1.js'><\/script>\n        <div class=\"product-form__buttons\" style=\"margin:-2.3rem 0 0;\">\n            <div class=\"or-separator\">OR<\/div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.selected_or_first_available_variant.sku}}\"\n            ><\/div>\n        <\/div>\n    {% endif %}\n    <!-- End of Buy With Prime Widget -->\n{% endunless %}"
+            "custom_liquid": "{% unless product.type == 'Wholesale' %}\n    <!-- Beginning of Buy With Prime Widget -->\n    {% if product.sku %}\n        <script defer src='https://code.buywithprime.amazon.com/default.variant.selector.shopify.js'></script>\n        <script async fetchpriority='high' src='https://code.buywithprime.amazon.com/bwp.v1.js'></script>\n        <div class=\"product-form__buttons\" style=\"margin:-3rem 0 0;\">\n            <div class=\"or-separator\">OR</div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.sku}}\"\n            ></div>\n        </div>\n        {% else %}\n        <script defer src='https://code.buywithprime.amazon.com/default.variant.selector.shopify.js'></script>\n        <script async fetchpriority='high' src='https://code.buywithprime.amazon.com/bwp.v1.js'></script>\n        <div class=\"product-form__buttons\" style=\"margin:-2.3rem 0 0;\">\n            <div class=\"or-separator\">OR</div>\n            <div\n                id=\"amzn-buy-now\"\n                data-site-id=\"blbt7vxfz4\"\n                data-widget-id=\"w-k7t1lPztfk2sAWtjZl66E1\"\n                data-sku=\"{{product.selected_or_first_available_variant.sku}}\"\n            ></div>\n        </div>\n    {% endif %}\n    <!-- End of Buy With Prime Widget -->\n{% endunless %}"
           }
         },
         "29717791-df3f-49e9-a5b1-40119f373be4": {
           "type": "backorder",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Warning.svg",
+            "icon": "shopify://shop_images/Warning.svg",
             "content": "{{ product.metafields.custom.backorder_text | metafield_tag }}",
             "bg_color": "#fdf0d7",
             "text_color": "#be733c"
@@ -93,8 +99,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "52a34126-6bc8-47ed-81be-db07f849abaf": {
           "type": "collapsible_tab",
@@ -210,7 +215,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
         }
@@ -241,7 +246,7 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -250,7 +255,7 @@
           "type": "column",
           "settings": {
             "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -303,13 +308,13 @@
         "d94ac16d-a89c-42f7-ae3c-797a1aa2411c": {
           "type": "liquid",
           "settings": {
-            "liquid": "<h2 class=\"image-with-text__heading inline-richtext h1\"> <p>7800mAh UPS<\/p><p><strong>Backup Battery<\/strong><\/p> <\/h2>"
+            "liquid": "<h2 class=\"image-with-text__heading inline-richtext h1\"> <p>7800mAh UPS</p><p><strong>Backup Battery</strong></p> </h2>"
           }
         },
         "ac9b7893-99ae-4c36-aa02-0ac2cb33d299": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>Up to 8h of backup power<\/strong><\/li><li><strong>Auto-switching backup power<\/strong><\/li><li><strong>DC male to DC male power cable included<\/strong><\/li><li><strong>Handles most gadgets<\/strong><br\/>(12V & 5V USB outputs)<\/li><li><strong>Wall-mount ready<\/strong><\/li><\/ul>",
+            "text": "<ul><li><strong>Up to 8h of backup power</strong></li><li><strong>Auto-switching backup power</strong></li><li><strong>DC male to DC male power cable included</strong></li><li><strong>Handles most gadgets</strong><br/>(12V & 5V USB outputs)</li><li><strong>Wall-mount ready</strong></li></ul>",
             "text_style": "body"
           }
         },
@@ -330,11 +335,11 @@
       "custom_css": [
         ".image-with-text__heading p {margin: 0; font-weight: normal;}",
         ".image-with-text__content ul {padding: 0;}",
-        ".image-with-text__content li:before {background: url(https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/3145\/files\/storm.svg?v=1693502046) no-repeat;}",
+        ".image-with-text__content li:before {background: url(https://cdn.shopify.com/s/files/1/2085/3145/files/storm.svg?v=1693502046) no-repeat;}",
         "@media screen and (min-width: 990px) {.image-with-text__content {padding: 3rem 7rem 3rem; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Mask_group_98c5e81c-20b9-4253-a6c1-6786e8e795aa.png",
+        "image": "shopify://shop_images/Mask_group_98c5e81c-20b9-4253-a6c1-6786e8e795aa.png",
         "contain_image": true,
         "rounded_corners": false,
         "counter": false,
@@ -358,8 +363,8 @@
     "12a70fe6-01db-4f2c-b442-d1532f0d6463": {
       "type": "k-pure-image-section",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_3304_1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Group_3299.png",
+        "image": "shopify://shop_images/Group_3304_1.jpg",
+        "mobile_image": "shopify://shop_images/Group_3299.png",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -368,8 +373,8 @@
     "9bad2c14-911c-4aa6-8b06-6c57be8866af": {
       "type": "k-pure-image-section",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_3300_1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Group_3301_1_1.jpg",
+        "image": "shopify://shop_images/Group_3300_1.jpg",
+        "mobile_image": "shopify://shop_images/Group_3301_1_1.jpg",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -378,8 +383,8 @@
     "408bdc7c-e8d0-4404-89bf-97a6efd0703d": {
       "type": "k-pure-image-section",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_3302_1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Group_3303_2.jpg",
+        "image": "shopify://shop_images/Group_3302_1.jpg",
+        "mobile_image": "shopify://shop_images/Group_3303_2.jpg",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -391,13 +396,13 @@
         "c94152ce-92ce-44ae-ac63-c4f13d07c180": {
           "type": "liquid",
           "settings": {
-            "liquid": "<h2 class=\"image-with-text__heading inline-richtext h2\"> <p>Dual Voltage outputs for 12V and USB devices<\/p> <\/h2>"
+            "liquid": "<h2 class=\"image-with-text__heading inline-richtext h2\"> <p>Dual Voltage outputs for 12V and USB devices</p> </h2>"
           }
         },
         "7002c885-97a5-44aa-89fb-64a9e9bd1087": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>12V Output<\/strong><br\/>max. current 2.5A (sustained)<\/li><li><strong>5V USB Output<br\/><\/strong>max. current 3A (short bursts)<\/li><li><strong>12V Input<\/strong><br\/>ideal for 2-2.5A 12V power adapters<\/li><li><strong>Overcurrent safety protection<\/strong><\/li><li><strong>Designed for always-on devices<\/strong><\/li><\/ul>",
+            "text": "<ul><li><strong>12V Output</strong><br/>max. current 2.5A (sustained)</li><li><strong>5V USB Output<br/></strong>max. current 3A (short bursts)</li><li><strong>12V Input</strong><br/>ideal for 2-2.5A 12V power adapters</li><li><strong>Overcurrent safety protection</strong></li><li><strong>Designed for always-on devices</strong></li></ul>",
             "text_style": "body"
           }
         }
@@ -409,11 +414,11 @@
       "custom_css": [
         ".image-with-text__heading p {margin: 0;}",
         ".image-with-text__content ul {padding: 0;}",
-        ".image-with-text__content li:before {background: url(https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/3145\/files\/storm.svg?v=1693502046) no-repeat;}",
+        ".image-with-text__content li:before {background: url(https://cdn.shopify.com/s/files/1/2085/3145/files/storm.svg?v=1693502046) no-repeat;}",
         "@media screen and (min-width: 990px) {.image-with-text__content {padding: 3rem 7rem 3rem; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Mask_group_1.png",
+        "image": "shopify://shop_images/Mask_group_1.png",
         "contain_image": true,
         "rounded_corners": false,
         "counter": false,
@@ -440,8 +445,8 @@
         "dad5f1df-aa31-4ea3-8d57-966584bdde27": {
           "type": "article",
           "settings": {
-            "image": "shopify:\/\/shop_images\/35.webp",
-            "title": "<p>What's the Best Smart Garage Door Opener?<\/p>",
+            "image": "shopify://shop_images/35.webp",
+            "title": "<p>What's the Best Smart Garage Door Opener?</p>",
             "content": "",
             "article_link": "#",
             "link_text": ""
@@ -450,20 +455,20 @@
         "1564c1a5-2586-48a5-8dcc-74f066044c45": {
           "type": "article",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ArticleTNs_2_efc37492-e32c-4c09-987e-be23d36002b4.png",
-            "title": "<p>What Is a Smart Garage Door Opener?<\/p>",
+            "image": "shopify://shop_images/ArticleTNs_2_efc37492-e32c-4c09-987e-be23d36002b4.png",
+            "title": "<p>What Is a Smart Garage Door Opener?</p>",
             "content": "",
-            "article_link": "https:\/\/konnected.io\/blogs\/smart-home-security\/what-is-a-smart-garage-door-opener",
+            "article_link": "https://konnected.io/blogs/smart-home-security/what-is-a-smart-garage-door-opener",
             "link_text": ""
           }
         },
         "8a53119a-3e50-4088-9f27-e2a1a367e350": {
           "type": "article",
           "settings": {
-            "image": "shopify:\/\/shop_images\/34.webp",
+            "image": "shopify://shop_images/34.webp",
             "title": "5 Ways to Use Konnected Garage Door Opener",
             "content": "",
-            "article_link": "shopify:\/\/blogs\/smart-home-security\/5-ways-to-use-konnected-garage-door-opener",
+            "article_link": "shopify://blogs/smart-home-security/5-ways-to-use-konnected-garage-door-opener",
             "link_text": ""
           }
         }
@@ -475,7 +480,7 @@
       ],
       "disabled": true,
       "settings": {
-        "title": "<p>Learn More About Our Smart Backup Battery<\/p>",
+        "title": "<p>Learn More About Our Smart Backup Battery</p>",
         "heading_size": "h1",
         "description": "",
         "text_style": "body",
@@ -500,7 +505,7 @@
           "settings": {
             "heading": "What devices are compatible with  Konnected's backup battery?",
             "icon": "none",
-            "row_content": "<p>Konnected's Backup Battery is compatible with many consumer 12V or USB-powered consumer gadgets. This includes all of Konnected's Alarm Panels (of course!), many (but not all) home routers and modems, Raspberry Pi and other mini-computers, smart home hubs such as the Aeotec SmartThings hub or Hubitat Elevation hub, USB-powered cameras such as Wyze cameras or Ring cameras, LED lights, portable fans, and many more!<\/p>",
+            "row_content": "<p>Konnected's Backup Battery is compatible with many consumer 12V or USB-powered consumer gadgets. This includes all of Konnected's Alarm Panels (of course!), many (but not all) home routers and modems, Raspberry Pi and other mini-computers, smart home hubs such as the Aeotec SmartThings hub or Hubitat Elevation hub, USB-powered cameras such as Wyze cameras or Ring cameras, LED lights, portable fans, and many more!</p>",
             "page": ""
           }
         },
@@ -509,7 +514,7 @@
           "settings": {
             "heading": "How can I check if my router or modem is compatible?",
             "icon": "none",
-            "row_content": "<p>First, check the power adapter that came with your device. Compatible devices will either have a \"wall-wart\" or \"plug pack\" style power adapter or a USB adapter. Check the specs on the back of the power adapter and make sure the OUTPUT voltage is 12V or 5V, and the OUTPUT amperage is 2.5A or less (for 12V devices) or 3A or less (for 5V devices).<\/p><p>If your router or modem accepts household power directly (no DC power adapter), or anything other than 12V or 5V DC, then it's unfortunately not compatible.<\/p>",
+            "row_content": "<p>First, check the power adapter that came with your device. Compatible devices will either have a \"wall-wart\" or \"plug pack\" style power adapter or a USB adapter. Check the specs on the back of the power adapter and make sure the OUTPUT voltage is 12V or 5V, and the OUTPUT amperage is 2.5A or less (for 12V devices) or 3A or less (for 5V devices).</p><p>If your router or modem accepts household power directly (no DC power adapter), or anything other than 12V or 5V DC, then it's unfortunately not compatible.</p>",
             "page": ""
           }
         },
@@ -518,7 +523,7 @@
           "settings": {
             "heading": "Can Konnected's Backup Battery also be used as portable phone charger or power bank?",
             "icon": "none",
-            "row_content": "<p>Yes! This Backup Battery also doubles as a standalone power bank. Use it when on the go as a backup charger for your smartphone or other USB gadgets.<\/p>",
+            "row_content": "<p>Yes! This Backup Battery also doubles as a standalone power bank. Use it when on the go as a backup charger for your smartphone or other USB gadgets.</p>",
             "page": ""
           }
         },
@@ -527,7 +532,7 @@
           "settings": {
             "heading": "How does the auto-switching feature work?",
             "icon": "none",
-            "row_content": "<p>Konnected's Backup Battery has no buttons or switches! It automatically detects when your gadget is plugged into the 12V OUT or 5V USB OUT socket and starts delivering power. It will remain on while your gadget keeps using power (or until the battery is exhausted) as long as your device draws <em>at least<\/em> 30mA of current (1% of the maximum current). The Backup Battery will switch off automatically when your gadget is unplugged, or if your device turns off or drops below 30mA of current draw.<\/p><p>For this reason, this product is suitable for devices that are always-on and require continuous power. It will not work well with gadgets that periodically switch on and off, or that go into a very low-power standby mode. <\/p>",
+            "row_content": "<p>Konnected's Backup Battery has no buttons or switches! It automatically detects when your gadget is plugged into the 12V OUT or 5V USB OUT socket and starts delivering power. It will remain on while your gadget keeps using power (or until the battery is exhausted) as long as your device draws <em>at least</em> 30mA of current (1% of the maximum current). The Backup Battery will switch off automatically when your gadget is unplugged, or if your device turns off or drops below 30mA of current draw.</p><p>For this reason, this product is suitable for devices that are always-on and require continuous power. It will not work well with gadgets that periodically switch on and off, or that go into a very low-power standby mode. </p>",
             "page": ""
           }
         },
@@ -536,7 +541,7 @@
           "settings": {
             "heading": "How do I connect a Aeotec SmartThings hub or other 5V device that's NOT a USB connector?",
             "icon": "none",
-            "row_content": "<p>The Aeotec hub and some other devices use a DC barrel jack connector but require 5V power. In this case, you need a <a href=\"\/products\/usb-to-5v-dc-barrel-jack-power-cable\" target=\"_blank\" title=\"USB to 5V DC barrel jack power cable\">USB to Barrel Jack<\/a> cable, and plug the USB end into the 5V USB OUT on the Backup Battery.<\/p><p>DO NOT connect the 12V OUT to a device that requires 5V! It will damage your device!<\/p>",
+            "row_content": "<p>The Aeotec hub and some other devices use a DC barrel jack connector but require 5V power. In this case, you need a <a href=\"/products/usb-to-5v-dc-barrel-jack-power-cable\" target=\"_blank\" title=\"USB to 5V DC barrel jack power cable\">USB to Barrel Jack</a> cable, and plug the USB end into the 5V USB OUT on the Backup Battery.</p><p>DO NOT connect the 12V OUT to a device that requires 5V! It will damage your device!</p>",
             "page": ""
           }
         },
@@ -545,7 +550,7 @@
           "settings": {
             "heading": "Is there a status charge indicator on the device?",
             "icon": "none",
-            "row_content": "<p>No, there is no indicator showing the remaining charge on the device.<\/p>",
+            "row_content": "<p>No, there is no indicator showing the remaining charge on the device.</p>",
             "page": ""
           }
         },
@@ -554,7 +559,7 @@
           "settings": {
             "heading": "Can you double the batteries to extend the cutover duration?",
             "icon": "none",
-            "row_content": "<p>Doubling the batteries by daisy-chaining them is not very effective. To extend runtime, it's best to use separate batteries for different devices rather than daisy-chaining them. For example, use one battery for the router and another for the modem.<\/p>",
+            "row_content": "<p>Doubling the batteries by daisy-chaining them is not very effective. To extend runtime, it's best to use separate batteries for different devices rather than daisy-chaining them. For example, use one battery for the router and another for the modem.</p>",
             "page": ""
           }
         },
@@ -563,7 +568,7 @@
           "settings": {
             "heading": "What's the diameter of the 12V input?",
             "icon": "none",
-            "row_content": "<p>5.5mm (outer) x 2.1mm (inner).<\/p>",
+            "row_content": "<p>5.5mm (outer) x 2.1mm (inner).</p>",
             "page": ""
           }
         }
@@ -597,7 +602,7 @@
       "type": "apps",
       "blocks": {
         "0c12ea5b-fd94-4e1a-a27c-69ad6d71248c": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify://apps/stamped-reviews/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "animation": true,
             "tags_exclude": "",
