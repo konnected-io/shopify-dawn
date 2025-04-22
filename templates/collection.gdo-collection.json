@@ -230,6 +230,12 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "174533247700b69ec4": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -240,6 +246,7 @@
     "product-grid",
     "image_with_text_wPqM7A",
     "k_image_with_copy_3G67Hp",
-    "quiz_banner_CwUQ7g"
+    "quiz_banner_CwUQ7g",
+    "174533247700b69ec4"
   ]
 }
