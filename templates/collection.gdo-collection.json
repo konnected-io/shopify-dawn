@@ -230,36 +230,6 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
-    },
-    "rich_text_Hb4fhi": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_rQEHw6": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "text_hp4fHq": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_rQEHw6",
-        "text_hp4fHq"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -270,7 +240,6 @@
     "product-grid",
     "image_with_text_wPqM7A",
     "k_image_with_copy_3G67Hp",
-    "quiz_banner_CwUQ7g",
-    "rich_text_Hb4fhi"
+    "quiz_banner_CwUQ7g"
   ]
 }
