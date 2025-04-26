@@ -27,6 +27,49 @@
         "show_text_below": true
       }
     },
+    "rich_text_3iU7wE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3LyXex": {
+          "type": "heading",
+          "settings": {
+            "heading": "Make any Garage Door Opener Smart",
+            "heading_size": "h1"
+          }
+        },
+        "text_WAYV3w": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Konnected's GDOs are WiFi devices that retrofit any motorized garage door opener* to work with popular smart home platforms</p>"
+          }
+        },
+        "button_hBRmh8": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3LyXex",
+        "text_WAYV3w",
+        "button_hBRmh8"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "k_collection_split_banner_GKUq3Q": {
       "type": "k-collection-split-banner",
       "blocks": {
@@ -304,6 +347,7 @@
   },
   "order": [
     "image_banner_cEUhzL",
+    "rich_text_3iU7wE",
     "k_collection_split_banner_GKUq3Q",
     "k_partners_hCzayq",
     "k_image_with_copy_DtYqzk",
