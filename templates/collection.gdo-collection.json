@@ -106,7 +106,7 @@
         "icon_block_dmTMaF": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify://shop_images/home-assistant-wordmark-with-margins-color-on-light.svg",
+            "image": "shopify://shop_images/Hoime_Assistant.png",
             "block_url": "shopify://pages/home-assistant"
           }
         },
@@ -120,21 +120,21 @@
         "icon_block_4hC4EU": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify://shop_images/Control4_Logo_Color.png",
+            "image": "shopify://shop_images/control4.png",
             "block_url": "shopify://pages/control4"
           }
         },
         "icon_block_rc6hmD": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify://shop_images/HomebridgeLogo-section12_2281c5af-6a03-44e6-a748-74fe5764432d.png",
+            "image": "shopify://shop_images/homebridge.png",
             "block_url": ""
           }
         },
         "icon_block_FPNttB": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify://shop_images/hubitat-logos-idKdXrdT_g.png",
+            "image": "shopify://shop_images/hubitat_53d7c6fa-009e-435c-9602-708e9bcd4f63.png",
             "block_url": "shopify://pages/hubitat"
           }
         }
