@@ -59,6 +59,7 @@
     },
     "k_image_with_copy_DtYqzk": {
       "type": "k-image-with-copy",
+      "disabled": true,
       "settings": {
         "background_color": "white",
         "section_padding": 10,
@@ -104,6 +105,63 @@
         "filter_type": "horizontal",
         "enable_sorting": false,
         "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_MBeywQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_kNxMUd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/HA_GDO_blaQ_gif_under_20mb.gif",
+            "title": "Home Assistant",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://pages/home-assistant"
+          }
+        },
+        "column_47aTKU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ST_GDO_blaQ.gif",
+            "title": "SmartThings",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://pages/smartthings"
+          }
+        },
+        "column_LD77Rj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Hubitat_GDO_blaQ.gif",
+            "title": "Hubitat",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://pages/hubitat"
+          }
+        }
+      },
+      "block_order": [
+        "column_kNxMUd",
+        "column_47aTKU",
+        "column_LD77Rj"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Works with Leading Smart Home Platforms",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -244,6 +302,7 @@
     "k_image_with_copy_DtYqzk",
     "banner",
     "product-grid",
+    "multicolumn_MBeywQ",
     "image_with_text_wPqM7A",
     "k_image_with_copy_3G67Hp",
     "quiz_banner_CwUQ7g",
