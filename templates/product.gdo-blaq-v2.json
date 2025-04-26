@@ -202,6 +202,63 @@
         "padding_bottom": 100
       }
     },
+    "multicolumn_mBfEpK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_7cEXjR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/HA_GDO_blaQ_gif_under_20mb.gif",
+            "title": "Home Assistant",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://pages/home-assistant"
+          }
+        },
+        "column_fhKdgw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ST_GDO_blaQ.gif",
+            "title": "SmartThings",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://pages/smartthings"
+          }
+        },
+        "column_bNxtUy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Hubitat_GDO_blaQ.gif",
+            "title": "Hubitat",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://pages/hubitat"
+          }
+        }
+      },
+      "block_order": [
+        "column_7cEXjR",
+        "column_fhKdgw",
+        "column_bNxtUy"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Works with Leading Smart Home Platforms",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "k_usp_icons_7DVQiG": {
       "type": "k-usp-icons",
       "blocks": {
@@ -1036,6 +1093,7 @@
   "order": [
     "custom_liquid_3ih386",
     "main",
+    "multicolumn_mBfEpK",
     "k_usp_icons_7DVQiG",
     "30def4d1-9792-4dce-812f-0a556de95721",
     "k_image_banner_djLeJL",
