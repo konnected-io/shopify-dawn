@@ -57,6 +57,69 @@
         "padding_bottom": 0
       }
     },
+    "k_partners_hCzayq": {
+      "type": "k-partners",
+      "blocks": {
+        "icon_block_dmTMaF": {
+          "type": "icon-block",
+          "settings": {
+            "image": "shopify://shop_images/home-assistant-wordmark-with-margins-color-on-light.svg",
+            "block_url": "shopify://pages/home-assistant"
+          }
+        },
+        "icon_block_7TVjQa": {
+          "type": "icon-block",
+          "settings": {
+            "image": "shopify://shop_images/SmartThings.png",
+            "block_url": "shopify://pages/smartthings"
+          }
+        },
+        "icon_block_4hC4EU": {
+          "type": "icon-block",
+          "settings": {
+            "image": "shopify://shop_images/Control4_Logo_Color.png",
+            "block_url": "shopify://pages/control4"
+          }
+        },
+        "icon_block_rc6hmD": {
+          "type": "icon-block",
+          "settings": {
+            "image": "shopify://shop_images/HomebridgeLogo-section12_2281c5af-6a03-44e6-a748-74fe5764432d.png",
+            "block_url": ""
+          }
+        },
+        "icon_block_FPNttB": {
+          "type": "icon-block",
+          "settings": {
+            "image": "shopify://shop_images/hubitat-logos-idKdXrdT_g.png",
+            "block_url": "shopify://pages/hubitat"
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_dmTMaF",
+        "icon_block_7TVjQa",
+        "icon_block_4hC4EU",
+        "icon_block_rc6hmD",
+        "icon_block_FPNttB"
+      ],
+      "name": "Partners Carousel",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "enable_desktop_slider": false,
+        "aligned_center": true,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "k_image_with_copy_DtYqzk": {
       "type": "k-image-with-copy",
       "disabled": true,
@@ -105,121 +168,6 @@
         "filter_type": "horizontal",
         "enable_sorting": false,
         "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_MBeywQ": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_kNxMUd": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/HA_GDO_blaQ_gif_under_20mb.gif",
-            "title": "Home Assistant",
-            "text": "",
-            "link_label": "",
-            "link": "shopify://pages/home-assistant"
-          }
-        },
-        "column_47aTKU": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ST_GDO_blaQ.gif",
-            "title": "SmartThings",
-            "text": "",
-            "link_label": "",
-            "link": "shopify://pages/smartthings"
-          }
-        },
-        "column_LD77Rj": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Hubitat_GDO_blaQ.gif",
-            "title": "Hubitat",
-            "text": "",
-            "link_label": "",
-            "link": "shopify://pages/hubitat"
-          }
-        }
-      },
-      "block_order": [
-        "column_kNxMUd",
-        "column_47aTKU",
-        "column_LD77Rj"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "Works with Leading Smart Home Platforms",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_kLUh83": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_FNd7hR": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/HA_GDO_blaQ_gif_under_20mb.gif",
-            "title": "Home Assistant",
-            "text": "",
-            "link_label": "",
-            "link": "shopify://pages/home-assistant"
-          }
-        },
-        "column_3iRNAV": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ST_GDO_blaQ.gif",
-            "title": "SmartThings",
-            "text": "",
-            "link_label": "",
-            "link": "shopify://pages/smartthings"
-          }
-        },
-        "column_34iHdy": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Hubitat_GDO_blaQ.gif",
-            "title": "Hubitat",
-            "text": "",
-            "link_label": "",
-            "link": "shopify://pages/hubitat"
-          }
-        }
-      },
-      "block_order": [
-        "column_FNd7hR",
-        "column_3iRNAV",
-        "column_34iHdy"
-      ],
-      "disabled": true,
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "Works with Leading Smart Home Platforms",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -332,9 +280,9 @@
         "@media (max-width: 749px) {.banner__media img {object-position: center left; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Quiz-Banner---4-_1.jpg",
+        "image": "shopify://shop_images/Quiz_Banner_-_4_1.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "small",
         "liquid": "<div class=\"octane-ai-quiz \"\nstyle=\"display: none;\" data-quiz-id=\"7mxezFiPNz4hygNC\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"></div><script src=\"https://app.octaneai.com/b7ljg36xhef3rewl/quiz.js\" async defer></script>\n\n<div class=\"octane-ai-quiz \" \nstyle=\"display: none;\"data-quiz-id=\"evBeQ7ng7eofSV9o\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"></div><script src=\"https://app.octaneai.com/b7ljg36xhef3rewl/quiz.js\" async defer></script>",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
@@ -357,11 +305,10 @@
   "order": [
     "image_banner_cEUhzL",
     "k_collection_split_banner_GKUq3Q",
+    "k_partners_hCzayq",
     "k_image_with_copy_DtYqzk",
     "banner",
     "product-grid",
-    "multicolumn_MBeywQ",
-    "multicolumn_kLUh83",
     "image_with_text_wPqM7A",
     "k_image_with_copy_3G67Hp",
     "quiz_banner_CwUQ7g",
