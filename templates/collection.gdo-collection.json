@@ -311,6 +311,17 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_UgAybr": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .comparison-section {\n    margin: 2rem 0;\n    text-align: center;\n    font-family: 'Inter', sans-serif;\n  }\n  .comparison-section h2 {\n    color: #000000;\n    font-size: 42.6px;\n    font-weight: 700; /* Inter Medium */\n    margin-bottom: 0.5rem;\n  }\n  .comparison-section p {\n    font-size: 16px;\n    font-weight: 400; /* Inter Regular */\n    color: #333333;\n    margin-bottom: 2rem;\n  }\n  .comparison-table {\n    width: 100%;\n    border-collapse: collapse;\n    font-size: 16px;\n    font-weight: 400; /* Inter Regular */\n    text-align: center;\n    background-color: #ffffff;\n    font-family: 'Inter', sans-serif;\n  }\n  .comparison-table th {\n    background-color: #3F75FF;\n    color: #ffffff;\n    font-weight: 500; /* Inter Medium */\n    padding: 12px;\n    font-size: 16px;\n  }\n  .comparison-table td {\n    border: 1px solid #ddd;\n    padding: 12px;\n  }\n  .yes {\n    color: #008000; /* Green checkmarks */\n    font-weight: 500;\n  }\n  .no {\n    color: #ff0000; /* Red Xs */\n    font-weight: 500;\n  }\n</style>\n\n<section class=\"comparison-section\">\n  <h2>Why Konnected is Different — and Better</h2>\n  <p>Choosing the right garage door controller matters. Here’s how Konnected stacks up feature-by-feature.</p>\n\n  <table class=\"comparison-table\">\n    <thead>\n      <tr>\n        <th>Feature</th>\n        <th>Konnected</th>\n        <th>myQ</th>\n        <th>Tailwind</th>\n        <th>Meross</th>\n        <th>RATGDO</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>Works locally</td>\n        <td class=\"yes\">✔️</td>\n        <td class=\"no\">❌</td>\n        <td class=\"yes\">✔️</td>\n        <td class=\"yes\">✔️</td>\n        <td class=\"no\">❌</td>\n      </tr>\n      <tr>\n        <td>Meets U.S. safety standards</td>\n        <td class=\"yes\">✔️</td>\n        <td class=\"yes\">✔️</td>\n        <td class=\"no\">❌</td>\n        <td class=\"yes\">✔️</td>\n        <td class=\"yes\">✔️</td>\n      </tr>\n      <tr>\n        <td>Free integrations with 3rd-party apps</td>\n        <td class=\"yes\">✔️</td>\n        <td class=\"no\">❌</td>\n        <td class=\"yes\">✔️</td>\n        <td class=\"no\">❌</td>\n        <td class=\"no\">❌</td>\n      </tr>\n      <tr>\n        <td>Open source</td>\n        <td class=\"yes\">✔️</td>\n        <td class=\"no\">❌</td>\n        <td class=\"no\">❌</td>\n        <td class=\"no\">❌</td>\n        <td class=\"yes\">✔️</td>\n      </tr>\n      <tr>\n        <td>Partial open/close</td>\n        <td class=\"yes\">✔️</td>\n        <td class=\"no\">❌</td>\n        <td class=\"yes\">✔️</td>\n        <td class=\"no\">❌</td>\n        <td class=\"yes\">✔️</td>\n      </tr>\n      <tr>\n        <td>Controls light and remote lock (GDO blaQ only)</td>\n        <td class=\"yes\">✔️</td>\n        <td class=\"no\">❌</td>\n        <td class=\"no\">❌</td>\n        <td class=\"no\">❌</td>\n        <td class=\"no\">❌</td>\n      </tr>\n      <tr>\n        <td>Designed and assembled in USA</td>\n        <td class=\"yes\">✔️</td>\n        <td class=\"no\">❌</td>\n        <td class=\"no\">❌</td>\n        <td class=\"no\">❌</td>\n        <td class=\"no\">❌</td>\n      </tr>\n    </tbody>\n  </table>\n</section>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_with_text_wPqM7A": {
       "type": "image-with-text",
       "blocks": {
@@ -377,17 +388,6 @@
         "text_font_size": 20,
         "para_background": "white",
         "para_padding": 10
-      }
-    },
-    "custom_liquid_UgAybr": {
-      "type": "custom-liquid",
-      "custom_css": [],
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<style>\n  .comparison-table {\n    width: 100%;\n    border-collapse: collapse;\n    margin: 2rem 0;\n    font-size: 1rem;\n    text-align: center;\n    background-color: #ffffff;\n  }\n  .comparison-table th {\n    background-color: #3F75FF;\n    color: #ffffff;\n    font-weight: bold;\n    padding: 12px;\n  }\n  .comparison-table td {\n    border: 1px solid #ddd;\n    padding: 12px;\n  }\n  .yes {\n    color: #22BEFF;\n    font-weight: bold;\n  }\n  .no {\n    color: #FF0000;\n    font-weight: bold;\n  }\n</style>\n\n<table class=\"comparison-table\">\n  <thead>\n    <tr>\n      <th>Feature</th>\n      <th>Konnected</th>\n      <th>myQ</th>\n      <th>Tailwind</th>\n      <th>Meross</th>\n      <th>RATGDO</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Works locally</td>\n      <td class=\"yes\">✔️</td>\n      <td class=\"no\">❌</td>\n      <td class=\"yes\">✔️</td>\n      <td class=\"yes\">✔️</td>\n      <td class=\"no\">❌</td>\n    </tr>\n    <tr>\n      <td>Meets U.S. safety standards</td>\n      <td class=\"yes\">✔️</td>\n      <td class=\"yes\">✔️</td>\n      <td class=\"no\">❌</td>\n      <td class=\"yes\">✔️</td>\n      <td class=\"yes\">✔️</td>\n    </tr>\n    <tr>\n      <td>Free integrations with 3rd-party apps</td>\n      <td class=\"yes\">✔️</td>\n      <td class=\"no\">❌</td>\n      <td class=\"yes\">✔️</td>\n      <td class=\"no\">❌</td>\n      <td class=\"no\">❌</td>\n    </tr>\n    <tr>\n      <td>Open source</td>\n      <td class=\"yes\">✔️</td>\n      <td class=\"no\">❌</td>\n      <td class=\"no\">❌</td>\n      <td class=\"no\">❌</td>\n      <td class=\"yes\">✔️</td>\n    </tr>\n    <tr>\n      <td>Partial open/close</td>\n      <td class=\"yes\">✔️</td>\n      <td class=\"no\">❌</td>\n      <td class=\"yes\">✔️</td>\n      <td class=\"no\">❌</td>\n      <td class=\"yes\">✔️</td>\n    </tr>\n    <tr>\n      <td>Controls light and remote lock (GDO blaQ only)</td>\n      <td class=\"yes\">✔️</td>\n      <td class=\"no\">❌</td>\n      <td class=\"no\">❌</td>\n      <td class=\"no\">❌</td>\n      <td class=\"no\">✖️</td>\n    </tr>\n    <tr>\n      <td>Designed and assembled in USA</td>\n      <td class=\"yes\">✔️</td>\n      <td class=\"no\">❌</td>\n      <td class=\"no\">❌</td>\n      <td class=\"no\">❌</td>\n      <td class=\"no\">❌</td>\n    </tr>\n  </tbody>\n</table>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "quiz_banner_CwUQ7g": {
@@ -462,9 +462,9 @@
     "k_image_with_copy_DtYqzk",
     "banner",
     "product-grid",
+    "custom_liquid_UgAybr",
     "image_with_text_wPqM7A",
     "k_image_with_copy_3G67Hp",
-    "custom_liquid_UgAybr",
     "quiz_banner_CwUQ7g",
     "174533247700b69ec4"
   ]
