@@ -202,6 +202,22 @@
         "padding_bottom": 100
       }
     },
+    "video_i8UQqh": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "Learn Why the GDO blaQ Exists and Why You Need One",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/cxVzUN0NfdQ",
+        "cover_image": "shopify://shop_images/GDO_blaQ_-_JRGo_edit_thumbnail_d201f725-0d15-4887-94e8-b80269071692.jpg",
+        "description": "Demonstration showing how to install the Konnected GDO blaQ Smart Garage Door Controller with Security+ and Security+ 2.0 garage openers. The video walks through wiring the interface cable, connecting to the wall control terminals, and setting up smart control through a compatible smart home app.",
+        "full_width": false,
+        "color_scheme": "background-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_mBfEpK": {
       "type": "multicolumn",
       "blocks": {
@@ -1093,6 +1109,7 @@
   "order": [
     "custom_liquid_3ih386",
     "main",
+    "video_i8UQqh",
     "multicolumn_mBfEpK",
     "k_usp_icons_7DVQiG",
     "30def4d1-9792-4dce-812f-0a556de95721",

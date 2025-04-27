@@ -390,6 +390,28 @@
         "para_padding": 10
       }
     },
+    "1745761036494c5130": {
+      "type": "apps",
+      "blocks": {
+        "stamped_reviews_product_rating_image_tdGL9m": {
+          "type": "shopify://apps/stamped-reviews/blocks/product-rating-image/a103faaf-2125-4b0e-89fa-de5149736723",
+          "disabled": true,
+          "settings": {
+            "api_key": "pubkey-v395Ku9QYfd624GTO6A6HGST3KbZI5",
+            "store_hash": "56370",
+            "product_id": "KIT-GDOv2-Q",
+            "width": "700",
+            "height": "200"
+          }
+        }
+      },
+      "block_order": [
+        "stamped_reviews_product_rating_image_tdGL9m"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "quiz_banner_CwUQ7g": {
       "type": "quiz-banner",
       "blocks": {
@@ -465,6 +487,7 @@
     "custom_liquid_UgAybr",
     "image_with_text_wPqM7A",
     "k_image_with_copy_3G67Hp",
+    "1745761036494c5130",
     "quiz_banner_CwUQ7g",
     "174533247700b69ec4"
   ]
