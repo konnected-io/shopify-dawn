@@ -100,6 +100,102 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_fy9Pdg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TxR64G": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_ghcbRY": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "caption_WfPdYx": {
+          "type": "caption",
+          "settings": {
+            "caption": "*⚠️ Our Smart Garage Door Openers are designed only for sectional garage doors. If you have a one-piece or swinging garage door, these devices will not work properly.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
+          }
+        },
+        "button_4FMkPY": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TxR64G",
+        "text_ghcbRY",
+        "caption_WfPdYx",
+        "button_4FMkPY"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_cwYQtF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KHd4gC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Two GDOs – one for almost any Garage Door",
+            "heading_size": "h1"
+          }
+        },
+        "text_MUgHcF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>(it’s not just a different color)<br/></p><ul><li><strong>GDO blaQ for Chamberlain and LiftMaster brands</strong></li><li><strong>GDO White for all other openers</strong></li></ul><p>* Konnected’s GDOs work with nearly any garage door opener that supports a wired wall button.</p><h6><br/>*⚠️ Our Smart Garage Door Openers are designed <strong>only</strong> for <em>sectional</em> garage doors. If you have a <em>one-piece</em> or <em>swinging</em> garage door, these devices will <strong>not</strong> work properly.<br/><br/></h6>"
+          }
+        },
+        "button_dFbJar": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KHd4gC",
+        "text_MUgHcF",
+        "button_dFbJar"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "k_partners_hCzayq": {
       "type": "k-partners",
       "blocks": {
@@ -349,6 +445,8 @@
     "image_banner_cEUhzL",
     "rich_text_3iU7wE",
     "k_collection_split_banner_GKUq3Q",
+    "rich_text_fy9Pdg",
+    "rich_text_cwYQtF",
     "k_partners_hCzayq",
     "k_image_with_copy_DtYqzk",
     "banner",
