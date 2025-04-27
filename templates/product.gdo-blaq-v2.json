@@ -208,7 +208,7 @@
         "column_7cEXjR": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/HA_GDO_blaQ_gif_under_20mb.gif",
+            "image": "shopify://shop_images/HA_GDO_blaQ_gif_smaller.gif",
             "title": "Home Assistant",
             "text": "",
             "link_label": "",
@@ -218,7 +218,7 @@
         "column_fhKdgw": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ST_GDO_blaQ.gif",
+            "image": "shopify://shop_images/ST_GDO_blaQ_gif_smaller.gif",
             "title": "SmartThings",
             "text": "",
             "link_label": "",
@@ -228,7 +228,7 @@
         "column_bNxtUy": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Hubitat_GDO_blaQ.gif",
+            "image": "shopify://shop_images/hubitat_GDO_blaQ_screen_recording_smaller.gif",
             "title": "Hubitat",
             "text": "",
             "link_label": "",
