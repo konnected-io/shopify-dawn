@@ -366,6 +366,49 @@
         "image_behavior": "none"
       }
     },
+    "k_collection_split_banner_GKUq3Q": {
+      "type": "k-collection-split-banner",
+      "disabled": true,
+      "blocks": {
+        "item_dj7yQk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/GDO_Decision_Tree_-_blaQ_Desktop_-_Blank_1.jpg",
+            "mobile_image": "shopify://shop_images/GDO_Decision_Tree_-_blaQ_Mobile_-_Blank_1.jpg",
+            "heading": "GDO blaQ",
+            "heading_size": "hxl",
+            "top_text": "<p>For Chamberlain. LiftMaster, Craftsman, and Merlin (Australia) garage openers made after 1997</p>",
+            "bottom_text": "<p>Works with Yellow (Round), Purple, and Red Learn Buttons</p>",
+            "bottom_code": "<style>\n    .shape-row {\n      display: flex;\n      gap: 1.5rem; /* spacing between shapes */\n      align-items: center;\n    justify-content: center;\n    margin-top: 1rem\n    }\n\n    .shape {\n      width: 2.5rem;\n      height: 2.5rem;\n    }\n\n    .circle {\n      background-color: #f9d65c; /* yellow */\n      border-radius: 50%;\n    }\n\n    .square-purple {\n      background-color: #5c2ca2; /* purple */\n    }\n\n    .square-red {\n      background-color: #d9413d; /* red */\n    }\n\n    .shape {\n      display: block !important;\n    }\n\n  </style>  \n<div class=\"shape-row small-hide\">\n    <div class=\"shape circle\"></div>\n    <div class=\"shape square-purple\"></div>\n    <div class=\"shape square-red\"></div>\n  </div>",
+            "text_color": "",
+            "link": "shopify://products/smart-garage-door-opener-blaq-myq-alternative"
+          }
+        },
+        "item_JpAVdm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/GDO_Decision_Tree_-_White_Desktop_-_Blank.jpg",
+            "mobile_image": "shopify://shop_images/GDO_Decision_Tree_-_White_Mobile_-_Blank.jpg",
+            "heading": "GDO White",
+            "heading_size": "hxl",
+            "top_text": "<p>Any other brand (Genie, Overhead Door, Linear, Stanley, etc.)</p>",
+            "bottom_text": "<p>Works with garage openers that trigger with a <br/>push-button or relay</p>",
+            "bottom_code": "",
+            "text_color": "#ffffff",
+            "link": "shopify://products/smart-garage-door-opener"
+          }
+        }
+      },
+      "block_order": [
+        "item_dj7yQk",
+        "item_JpAVdm"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "k_automate_section_zcgLMN": {
       "type": "k-automate-section",
       "blocks": {
@@ -674,6 +717,7 @@
   },
   "order": [
     "85174f26-ba4b-49ee-ae57-a70ed377963e",
+    "k_collection_split_banner_GKUq3Q",
     "k_automate_section_zcgLMN",
     "k_blurbs_numbers_JwXXNk",
     "k_clients_say_B7pnda",
