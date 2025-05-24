@@ -9,24 +9,6 @@
  */
 {
   "sections": {
-    "image_banner_cEUhzL": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/GDO_Decision_Tree_-_blaQ.jpg",
-        "image_2": "shopify://shop_images/GDO_Decision_Tree_-_White.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "rich_text_3iU7wE": {
       "type": "rich-text",
       "blocks": {
@@ -112,58 +94,6 @@
         "padding_bottom": 0
       }
     },
-    "rich_text_fy9Pdg": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_TxR64G": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "text_ghcbRY": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        },
-        "caption_WfPdYx": {
-          "type": "caption",
-          "settings": {
-            "caption": "*⚠️ Our Smart Garage Door Openers are designed only for sectional garage doors. If you have a one-piece or swinging garage door, these devices will not work properly.",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "small"
-          }
-        },
-        "button_4FMkPY": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_TxR64G",
-        "text_ghcbRY",
-        "caption_WfPdYx",
-        "button_4FMkPY"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "rich_text_cwYQtF": {
       "type": "rich-text",
       "blocks": {
@@ -206,6 +136,16 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "custom_liquid_KdxKRE": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"max-width: 720px; margin: 24px auto; border-radius: 8px; overflow: hidden; box-shadow: 0 0 0 1px #ffe58f;\">\n  <div style=\"background-color: #fff9db; border-left: 6px solid #ffc107; padding: 16px 20px; display: flex; align-items: flex-start; gap: 12px;\">\n    <div style=\"font-size: 24px; color: #ffc107; line-height: 1;\">&#9888;</div>\n    <div style=\"color: #333; font-size: 15px; line-height: 1.5; font-weight: 500;\">\n      To reduce the risk of injury to persons — <strong>Do not use this device with one-piece doors or swinging doors.</strong>\n    </div>\n  </div>\n</div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "k_partners_hCzayq": {
@@ -294,6 +234,119 @@
         "para_padding": 10
       }
     },
+    "k_image_carousel_3tk3Wt": {
+      "type": "k-image-carousel",
+      "blocks": {
+        "slide_GAwVCY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/color_corrected_-_arm_anywhere_icon_09abcd39-83ea-4c23-9243-521a8bf1f31b.png",
+            "title": "Open / close garage from anywhere",
+            "text": ""
+          }
+        },
+        "slide_z3b9Xp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/alerts_transparent.png",
+            "title": "Get real-time notifications",
+            "text": ""
+          }
+        },
+        "slide_DUaKDF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/automations_transparent.png",
+            "title": "Create routines & automations",
+            "text": ""
+          }
+        },
+        "slide_z9dxKK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/customizable_transparent.png",
+            "title": "Retrofit what you already own",
+            "text": ""
+          }
+        },
+        "slide_W7kTb7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/color_corrected_-_realtime_alerts.png",
+            "title": "Real-time garage door status",
+            "text": ""
+          }
+        },
+        "slide_FD9GF4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/color_corrected_-_no_batteries_2.png",
+            "title": "No batteries to change",
+            "text": ""
+          }
+        },
+        "slide_KmkXPz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_May_21_2025_05_01_46_AM.png",
+            "title": "No additional sensors needed",
+            "text": ""
+          }
+        },
+        "slide_qcnmn6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/color_corrected_-_integrations.png",
+            "title": "Multiple Platform Integrations",
+            "text": ""
+          }
+        },
+        "slide_CKGMGr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/color_corrected_-_customizeable_tones_2.png",
+            "title": "Custom closing warning sounds",
+            "text": ""
+          }
+        },
+        "slide_Pn9VtB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/color_corrected_-_designed_assembled_in_america.png",
+            "title": "Meets U.S Safety Standards",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_GAwVCY",
+        "slide_z3b9Xp",
+        "slide_DUaKDF",
+        "slide_z9dxKK",
+        "slide_W7kTb7",
+        "slide_FD9GF4",
+        "slide_KmkXPz",
+        "slide_qcnmn6",
+        "slide_CKGMGr",
+        "slide_Pn9VtB"
+      ],
+      "name": "K Image Carousel",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "column_alignment": "center",
+        "text_style": "body",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "accessibility_info": "Konnected GDO Features",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -323,15 +376,31 @@
         "padding_bottom": 36
       }
     },
+    "k_compare_table_HC8PdD": {
+      "type": "k-compare-table",
+      "disabled": true,
+      "name": "K Compare Table",
+      "settings": {
+        "featured_products": [],
+        "title": "Featured collection",
+        "first_row_label": "",
+        "first_row_headings": "",
+        "last_row_label": "",
+        "bottom_buttons_label": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "custom_liquid_UgAybr": {
       "type": "custom-liquid",
       "custom_css": [],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n  .comparison-section {\n    margin: 2rem 0;\n    text-align: center;\n    font-family: 'Inter', sans-serif;\n  }\n  .comparison-section h2 {\n    color: #000000;\n    font-size: 42.6px;\n    font-weight: 700; /* Inter Medium */\n    margin-bottom: 0.5rem;\n  }\n  .comparison-section p {\n    font-size: 16px;\n    font-weight: 400; /* Inter Regular */\n    color: #333333;\n    margin-bottom: 2rem;\n  }\n  .comparison-table {\n    width: 100%;\n    border-collapse: collapse;\n    font-size: 16px;\n    font-weight: 400; /* Inter Regular */\n    text-align: center;\n    background-color: #ffffff;\n    font-family: 'Inter', sans-serif;\n  }\n  .comparison-table th {\n    background-color: #3F75FF;\n    color: #ffffff;\n    font-weight: 500; /* Inter Medium */\n    padding: 12px;\n    font-size: 16px;\n  }\n  .comparison-table td {\n    border: 1px solid #ddd;\n    padding: 12px;\n  }\n  .yes {\n    color: #008000; /* Green checkmarks */\n    font-weight: 500;\n  }\n  .no {\n    color: #ff0000; /* Red Xs */\n    font-weight: 500;\n  }\n  .table-wrapper {\n    overflow-x: auto;\n  }\n</style>\n\n<section class=\"comparison-section\">\n  <h2>Why Konnected is Different — and Better</h2>\n  <p>Choosing the right garage door controller matters. Here’s how Konnected stacks up feature-by-feature.</p>\n\n  <div class=\"table-wrapper\">\n    <table class=\"comparison-table\">\n      <thead>\n        <tr>\n          <th>Feature</th>\n          <th>Konnected</th>\n          <th>myQ</th>\n          <th>Tailwind</th>\n          <th>Meross</th>\n          <th>RATGDO</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>Works locally</td>\n          <td class=\"yes\">✔️</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✔️</td>\n          <td class=\"yes\">✔️</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Meets U.S. safety standards</td>\n          <td class=\"yes\">✔️</td>\n          <td class=\"yes\">✔️</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✔️</td>\n          <td class=\"yes\">✔️</td>\n        </tr>\n        <tr>\n          <td>Free integrations with 3rd-party apps</td>\n          <td class=\"yes\">✔️</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✔️</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Open source</td>\n          <td class=\"yes\">✔️</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✔️</td>\n        </tr>\n        <tr>\n          <td>Partial open/close</td>\n          <td class=\"yes\">✔️</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✔️</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✔️</td>\n        </tr>\n        <tr>\n          <td>Controls light and remote lock (GDO blaQ only)</td>\n          <td class=\"yes\">✔️</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Designed and assembled in USA</td>\n          <td class=\"yes\">✔️</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</section>",
+        "custom_liquid": "<style>\n  .comparison-section {\n    margin: 2rem 0;\n    text-align: center;\n    font-family: 'Inter', sans-serif;\n  }\n  .comparison-section h2 {\n    color: #000000;\n    font-size: 42.6px;\n    font-weight: 700;\n    margin-bottom: 0.5rem;\n  }\n  .comparison-section p {\n    font-size: 16px;\n    font-weight: 400;\n    color: #333333;\n    margin-bottom: 2rem;\n  }\n  .comparison-table {\n    width: 100%;\n    border-collapse: collapse;\n    font-size: 16px;\n    font-weight: 400;\n    text-align: center;\n    background-color: #ffffff;\n    font-family: 'Inter', sans-serif;\n  }\n  .comparison-table th {\n    background-color: #3F75FF;\n    color: #ffffff;\n    font-weight: 500;\n    padding: 12px;\n    font-size: 16px;\n  }\n  .comparison-table td {\n    border: 1px solid #ddd;\n    padding: 12px;\n  }\n  .yes {\n    color: #008000;\n    font-weight: 500;\n  }\n  .no {\n    color: #ff0000;\n    font-weight: 500;\n  }\n  .table-wrapper {\n    overflow-x: auto;\n  }\n</style>\n\n<section class=\"comparison-section\">\n  <h2>Why Konnected is Different — and Better</h2>\n  <p>Choosing the right garage door controller matters. Here’s how Konnected stacks up feature-by-feature.</p>\n\n  <div class=\"table-wrapper\">\n    <table class=\"comparison-table\">\n      <thead>\n        <tr>\n          <th>Feature</th>\n          <th>Konnected</th>\n          <th>myQ</th>\n          <th>Tailwind</th>\n          <th>Meross</th>\n          <th>RATGDO</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>Works locally</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n        </tr>\n        <tr>\n          <td>Meets U.S. safety standards</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Free integrations with 3rd-party apps</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n        </tr>\n        <tr>\n          <td>Open source</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n        </tr>\n        <tr>\n          <td>Partial open/close (GDO blaQ only)</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n        </tr>\n        <tr>\n          <td>Controls light and remote lock (GDO blaQ only)</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n        </tr>\n        <tr>\n          <td>Designed and assembled in USA</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</section>",
         "color_scheme": "background-1",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 80
       }
     },
     "image_with_text_wPqM7A": {
@@ -382,6 +451,7 @@
     },
     "k_image_with_copy_3G67Hp": {
       "type": "k-image-with-copy",
+      "disabled": true,
       "settings": {
         "background_color": "white",
         "section_padding": 10,
@@ -405,20 +475,31 @@
     "1745761036494c5130": {
       "type": "apps",
       "blocks": {
-        "stamped_reviews_product_rating_image_tdGL9m": {
-          "type": "shopify://apps/stamped-reviews/blocks/product-rating-image/a103faaf-2125-4b0e-89fa-de5149736723",
-          "disabled": true,
+        "stamped_reviews_carousel_xT7itD": {
+          "type": "shopify://apps/stamped-reviews/blocks/carousel/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
-            "api_key": "pubkey-v395Ku9QYfd624GTO6A6HGST3KbZI5",
-            "store_hash": "56370",
-            "product_id": "KIT-GDOv2-Q",
-            "width": "700",
-            "height": "200"
+            "title": "Real Reviews from Real Customers",
+            "auto_play": true,
+            "auto_play_speed": 50,
+            "take": 30,
+            "color_title": "",
+            "color_star": "",
+            "color_text": "#333333",
+            "color_link": "#334fb4",
+            "review_ids": "",
+            "product_ids": "8996413374779,8250717798715",
+            "category": "",
+            "product_brand": "",
+            "tags": "",
+            "min_rating": "3",
+            "fill_empty": false,
+            "random": false,
+            "with_photos": false
           }
         }
       },
       "block_order": [
-        "stamped_reviews_product_rating_image_tdGL9m"
+        "stamped_reviews_carousel_xT7itD"
       ],
       "settings": {
         "include_margins": true
@@ -430,7 +511,7 @@
         "heading_EyTJDQ": {
           "type": "heading",
           "settings": {
-            "heading": "Find the right Konnected device for you!",
+            "heading": "Find the right Konnected GDO for you!",
             "heading_size": "h1"
           }
         },
@@ -479,28 +560,91 @@
         "show_text_below": false
       }
     },
-    "174533247700b69ec4": {
-      "type": "apps",
+    "k_usp_icons_XHVA9V": {
+      "type": "k-usp-icons",
+      "blocks": {
+        "column_rV3ztr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Vector_13.svg",
+            "title": "<p>60-Day Money Back Guarantee</p>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ejxBhW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Vector_14.svg",
+            "title": "<p>1-Year Replacement Warranty</p>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qAmNgN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/us_safety_icon_500x500_c5939740-81e3-417e-9957-6ca6bde2ebcb.png",
+            "title": "<p>Designed & Assembled in North America</p>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AQWdEd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Vector_18.svg",
+            "title": "<p>Ships Worldwide</p>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_rV3ztr",
+        "column_ejxBhW",
+        "column_qAmNgN",
+        "column_AQWdEd"
+      ],
+      "name": "Usp Icons",
       "settings": {
-        "include_margins": true
+        "title": "Buy With Confidence",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner_cEUhzL",
     "rich_text_3iU7wE",
     "k_collection_split_banner_GKUq3Q",
-    "rich_text_fy9Pdg",
     "rich_text_cwYQtF",
+    "custom_liquid_KdxKRE",
     "k_partners_hCzayq",
     "k_image_with_copy_DtYqzk",
+    "k_image_carousel_3tk3Wt",
     "banner",
     "product-grid",
+    "k_compare_table_HC8PdD",
     "custom_liquid_UgAybr",
     "image_with_text_wPqM7A",
     "k_image_with_copy_3G67Hp",
     "1745761036494c5130",
     "quiz_banner_CwUQ7g",
-    "174533247700b69ec4"
+    "k_usp_icons_XHVA9V"
   ]
 }

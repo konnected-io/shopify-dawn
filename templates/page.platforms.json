@@ -23,37 +23,37 @@
         "0b0f30fa-87cf-406c-8eb1-dd50e35e0e25": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SmartThings_FullColour_RGB_1_1.png",
+            "image": "shopify://shop_images/SmartThings_FullColour_RGB_1_1.png",
             "fill_column": false,
             "title": "",
-            "link": "shopify:\/\/pages\/smartthings"
+            "link": "shopify://pages/smartthings"
           }
         },
         "1f5bb995-816f-4c29-834c-00e304c8bb7c": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Hubitat_INC_Official_Logo_Logo_1_1.png",
+            "image": "shopify://shop_images/Hubitat_INC_Official_Logo_Logo_1_1.png",
             "fill_column": false,
             "title": "",
-            "link": "shopify:\/\/pages\/hubitat"
+            "link": "shopify://pages/hubitat"
           }
         },
         "6be493b1-bb9e-4a59-9547-7d23283e79a5": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home-assistant_1_73c975fd-3ba2-4cda-a922-f3f2eba5a346.png",
+            "image": "shopify://shop_images/home-assistant-wordmark-with-margins-color-on-light.svg",
             "fill_column": false,
             "title": "",
-            "link": "shopify:\/\/pages\/home-assistant"
+            "link": "shopify://pages/home-assistant"
           }
         },
         "76856a66-e5e1-451c-85d5-9950bb693ba2": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/control4-vector-logo_1.png",
+            "image": "shopify://shop_images/control4-vector-logo_1.png",
             "fill_column": false,
             "title": "",
-            "link": "shopify:\/\/pages\/control4"
+            "link": "shopify://pages/control4"
           }
         }
       },

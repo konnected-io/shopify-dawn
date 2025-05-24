@@ -202,20 +202,57 @@
         "padding_bottom": 100
       }
     },
-    "video_i8UQqh": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
+    "k_image_banner_djLeJL": {
+      "type": "k-image-banner",
+      "blocks": {
+        "slide1_EKVMtC": {
+          "type": "slide1",
+          "settings": {
+            "image": "shopify://shop_images/Frame_991_1.png",
+            "image_overlay_opacity": 0,
+            "image_height": "medium",
+            "image_column": "shopify://shop_images/d7834c5985de9c53634b5d708229625f.png",
+            "global_media": false,
+            "absolute_image": false,
+            "desktop_content_position": "middle-center",
+            "show_text_box": false,
+            "desktop_content_alignment": "left",
+            "subtitle": "",
+            "heading": "<p>Works where<br/>myQ doesnt</p>",
+            "heading_size": "h1",
+            "dark_text": false,
+            "text": "<p>We use the same Security+ protocol as myQ to talk to your garage door opener — without the myQ app or cloud service! <strong>Konnected lets you directly control your Security+ garage door with the smart home apps that Chamberlain doesn’t want you to.</strong> Local & private, cloud-optional, and no required fees.<br/><br/><br/>Security+ and myQ are registered trademark of The Chamberlain Group, Inc.</p>",
+            "text_style": "body",
+            "wrap_text": false,
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "new_tab": false,
+            "extra_content": "",
+            "mobile_content_alignment": "left",
+            "stack_images_on_mobile": false,
+            "show_text_below": false
+          }
+        }
+      },
+      "block_order": [
+        "slide1_EKVMtC"
+      ],
+      "custom_css": [
+        ".banner__heading + * {margin-top: 3.3rem; font-size: 16px;}",
+        "@media (max-width: 749px) {.image-with-text__text-image {max-width: 27rem; } .banner__box {padding-bottom: 0; }}"
+      ],
       "settings": {
-        "heading": "Learn Why the GDO blaQ Exists and Why You Need One",
-        "heading_size": "h2",
-        "enable_video_looping": false,
-        "video_url": "https://youtu.be/cxVzUN0NfdQ",
-        "cover_image": "shopify://shop_images/GDO_blaQ_-_JRGo_edit_thumbnail_d201f725-0d15-4887-94e8-b80269071692.jpg",
-        "description": "Demonstration showing how to install the Konnected GDO blaQ Smart Garage Door Controller with Security+ and Security+ 2.0 garage openers. The video walks through wiring the interface cable, connecting to the wall control terminals, and setting up smart control through a compatible smart home app.",
-        "full_width": false,
-        "color_scheme": "background-2",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "slider_visual": "dots",
+        "adaptive": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "swipe_on_mobile": false,
+        "color_scheme": "inverse",
+        "image_behavior": "none"
       }
     },
     "multicolumn_mBfEpK": {
@@ -273,79 +310,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "k_usp_icons_7DVQiG": {
-      "type": "k-usp-icons",
-      "blocks": {
-        "column_zXHjhH": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Vector_13.svg",
-            "title": "<p>60-Day <br/>Money Back Guarantee</p>",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_aYaV7P": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Vector_14.svg",
-            "title": "<p>1-Year Replacement Warranty</p>",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_APJiaz": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Vector_15.svg",
-            "title": "<p>Designed & Assembled in North America</p>",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_e3qrKU": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Vector_18.svg",
-            "title": "<p>Ships<br/>Worldwide</p>",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_zXHjhH",
-        "column_aYaV7P",
-        "column_APJiaz",
-        "column_e3qrKU"
-      ],
-      "custom_css": [
-        ".media.media--adapt {padding-bottom: 68px !important;}",
-        ".multicolumn-card__info {max-width: 15rem; margin-left: auto; margin-right: auto;}",
-        ".usp-section .multicolumn-card {box-shadow: none; background: #1a1a1a;}",
-        "@media screen and (min-width: 990px) {.title-wrapper-with-link {margin: 0 0 5rem; }}"
-      ],
-      "settings": {
-        "title": "Buy with confidence",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "inverse",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 64
       }
     },
     "30def4d1-9792-4dce-812f-0a556de95721": {
@@ -419,61 +383,8 @@
         "color_scheme": "inverse",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 0,
+        "padding_top": 28,
         "padding_bottom": 28
-      }
-    },
-    "k_image_banner_djLeJL": {
-      "type": "k-image-banner",
-      "blocks": {
-        "slide1_EKVMtC": {
-          "type": "slide1",
-          "settings": {
-            "image": "shopify://shop_images/Frame_991_1.png",
-            "image_overlay_opacity": 0,
-            "image_height": "medium",
-            "image_column": "shopify://shop_images/d7834c5985de9c53634b5d708229625f.png",
-            "global_media": false,
-            "absolute_image": false,
-            "desktop_content_position": "middle-center",
-            "show_text_box": false,
-            "desktop_content_alignment": "left",
-            "subtitle": "",
-            "heading": "<p>Works where<br/>myQ doesnt</p>",
-            "heading_size": "h1",
-            "dark_text": false,
-            "text": "<p>We use the same Security+ protocol as myQ to talk to your garage door opener — without the myQ app or cloud service! <strong>Konnected lets you directly control your Security+ garage door with the smart home apps that Chamberlain doesn’t want you to.</strong> Local & private, cloud-optional, and no required fees.<br/><br/><br/>Security+ and myQ are registered trademark of The Chamberlain Group, Inc.</p>",
-            "text_style": "body",
-            "wrap_text": false,
-            "button_label_1": "",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false,
-            "new_tab": false,
-            "extra_content": "",
-            "mobile_content_alignment": "left",
-            "stack_images_on_mobile": false,
-            "show_text_below": false
-          }
-        }
-      },
-      "block_order": [
-        "slide1_EKVMtC"
-      ],
-      "custom_css": [
-        ".banner__heading + * {margin-top: 3.3rem; font-size: 16px;}",
-        "@media (max-width: 749px) {.image-with-text__text-image {max-width: 27rem; } .banner__box {padding-bottom: 0; }}"
-      ],
-      "settings": {
-        "slider_visual": "dots",
-        "adaptive": false,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "swipe_on_mobile": false,
-        "color_scheme": "inverse",
-        "image_behavior": "none"
       }
     },
     "multicolumn_3NWGJF": {
@@ -556,8 +467,191 @@
         "color_scheme": "inverse",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 12
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_i8UQqh": {
+      "type": "video",
+      "custom_css": [],
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "Learn Why the GDO blaQ Exists and Why You Need One",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/cxVzUN0NfdQ",
+        "cover_image": "shopify://shop_images/GDO_blaQ_-_JRGo_edit_thumbnail_d201f725-0d15-4887-94e8-b80269071692.jpg",
+        "description": "Demonstration showing how to install the Konnected GDO blaQ Smart Garage Door Controller with Security+ and Security+ 2.0 garage openers. The video walks through wiring the interface cable, connecting to the wall control terminals, and setting up smart control through a compatible smart home app.",
+        "full_width": false,
+        "color_scheme": "inverse",
+        "padding_top": 36,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_AejkBF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wGTLkW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Works with Chamberlain / LiftMaster",
+            "heading_size": "h1"
+          }
+        },
+        "text_TXTQyH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Including those with built-in myQ</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wGTLkW",
+        "text_TXTQyH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "quiz_banner_WDhRky": {
+      "type": "quiz-banner",
+      "blocks": {
+        "text_ckfDLT": {
+          "type": "text",
+          "settings": {
+            "text": "Compatible <em>Learn Button</em> colors:",
+            "text_style": "body"
+          }
+        },
+        "liquid_XEy9Xa": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<ul class=\"list-unstyled list-colors\">\n    <li>\n        <span class=\"color-circle\" style=\"background:#F0D95F;\"></span> <div class=\"rte\"><p>Yellow</p></div>\n    </li>\n    <li>\n        <span class=\"color-square\" style=\"background:#EC6E13;\"></span> <div class=\"rte\"><p>Orange</p></div>\n    </li>\n    <li>\n        <span class=\"color-square\" style=\"background:#C93535;\"></span> <div class=\"rte\"><p>Red</p></div>\n    </li>\n    <li>\n        <span class=\"color-square\" style=\"background:#358BC9;\"></span> <div class=\"rte\"><p>Blue</p></div>\n    </li>\n    <li>\n        <span class=\"color-square\" style=\"background:#6827A8;\"></span> <div class=\"rte\"><p>Purple</p></div>\n    </li>\n    <li>\n        <span class=\"color-square\" style=\"background:#8B613A;\"></span> <div class=\"rte\"><p>Brown</p></div>\n    </li>\n</ul>\n\n<div class=\"rte\">\n    <p>Still not sure if your garage door opener is compatible?<br class=\"small-hide\">Take our easy Product Quiz.</p>\n</div>"
+          }
+        },
+        "buttons_VQp4Mz": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Take the Quiz",
+            "close_text_1": "Exit Quiz",
+            "quiz_id_1": "7mxezFiPNz4hygNC",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "close_text_2": "",
+            "quiz_id_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_ckfDLT",
+        "liquid_XEy9Xa",
+        "buttons_VQp4Mz"
+      ],
+      "custom_css": [
+        ".grid {--grid-desktop-horizontal-spacing: 70px;}",
+        ".media {box-shadow: 22px 4px 100px -10px rgba(102, 102, 102, 0.75);}",
+        ".banner * {color: #fff;}",
+        ".banner {background: #000;}",
+        ".media {border-radius: 20px;}",
+        ".list-colors {margin: 4rem 0;}",
+        ".list-colors li {display: flex; align-items: center; flex-wrap: wrap; gap: 2rem;}",
+        ".color-circle,.color-square {border-radius: 50%; display: block; width: 1.1rem; height: 1.1rem;}",
+        ".color-square {border-radius: 0;}",
+        "@media (max-width: 749px) {.banner__box {padding-top: 0; padding-bottom: 55px; } .list-colors {margin: 2rem 0; }}"
+      ],
+      "settings": {
+        "image_column": "shopify://shop_images/Group-3435.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "liquid": "<div class=\"octane-ai-quiz black-section\"\nstyle=\"display: none;\" data-quiz-id=\"7mxezFiPNz4hygNC\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"></div><script src=\"https://app.octaneai.com/b7ljg36xhef3rewl/quiz.js\" async defer></script>",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "layout": "image_first",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "k_usp_icons_7DVQiG": {
+      "type": "k-usp-icons",
+      "blocks": {
+        "column_zXHjhH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Vector_13.svg",
+            "title": "<p>60-Day <br/>Money Back Guarantee</p>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aYaV7P": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Vector_14.svg",
+            "title": "<p>1-Year Replacement Warranty</p>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_APJiaz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Vector_15.svg",
+            "title": "<p>Designed & Assembled in North America</p>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_e3qrKU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Vector_18.svg",
+            "title": "<p>Ships<br/>Worldwide</p>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_zXHjhH",
+        "column_aYaV7P",
+        "column_APJiaz",
+        "column_e3qrKU"
+      ],
+      "custom_css": [
+        ".media.media--adapt {padding-bottom: 68px !important;}",
+        ".multicolumn-card__info {max-width: 15rem; margin-left: auto; margin-right: auto;}",
+        ".usp-section .multicolumn-card {box-shadow: none; background: #1a1a1a;}",
+        "@media screen and (min-width: 990px) {.title-wrapper-with-link {margin: 0 0 5rem; }}"
+      ],
+      "settings": {
+        "title": "Buy with confidence",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "inverse",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "k_image_banner_bqiiat": {
@@ -669,140 +763,6 @@
         "padding_bottom": 100
       }
     },
-    "rich_text_AejkBF": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_wGTLkW": {
-          "type": "heading",
-          "settings": {
-            "heading": "Works with Chamberlain / LiftMaster",
-            "heading_size": "h1"
-          }
-        },
-        "text_TXTQyH": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Including those with built-in myQ</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_wGTLkW",
-        "text_TXTQyH"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "inverse",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 24
-      }
-    },
-    "quiz_banner_WDhRky": {
-      "type": "quiz-banner",
-      "blocks": {
-        "text_ckfDLT": {
-          "type": "text",
-          "settings": {
-            "text": "Compatible <em>Learn Button</em> colors:",
-            "text_style": "body"
-          }
-        },
-        "liquid_XEy9Xa": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<ul class=\"list-unstyled list-colors\">\n    <li>\n        <span class=\"color-circle\" style=\"background:#F0D95F;\"></span> <div class=\"rte\"><p>Yellow</p></div>\n    </li>\n    <li>\n        <span class=\"color-square\" style=\"background:#EC6E13;\"></span> <div class=\"rte\"><p>Orange</p></div>\n    </li>\n    <li>\n        <span class=\"color-square\" style=\"background:#C93535;\"></span> <div class=\"rte\"><p>Red</p></div>\n    </li>\n    <li>\n        <span class=\"color-square\" style=\"background:#358BC9;\"></span> <div class=\"rte\"><p>Blue</p></div>\n    </li>\n    <li>\n        <span class=\"color-square\" style=\"background:#6827A8;\"></span> <div class=\"rte\"><p>Purple</p></div>\n    </li>\n    <li>\n        <span class=\"color-square\" style=\"background:#8B613A;\"></span> <div class=\"rte\"><p>Brown</p></div>\n    </li>\n</ul>\n\n<div class=\"rte\">\n    <p>Still not sure if your garage door opener is compatible?<br class=\"small-hide\">Take our easy Product Quiz.</p>\n</div>"
-          }
-        },
-        "buttons_VQp4Mz": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Take the Quiz",
-            "close_text_1": "Exit Quiz",
-            "quiz_id_1": "7mxezFiPNz4hygNC",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "close_text_2": "",
-            "quiz_id_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "text_ckfDLT",
-        "liquid_XEy9Xa",
-        "buttons_VQp4Mz"
-      ],
-      "custom_css": [
-        ".grid {--grid-desktop-horizontal-spacing: 70px;}",
-        ".media {box-shadow: 22px 4px 100px -10px rgba(102, 102, 102, 0.75);}",
-        ".banner * {color: #fff;}",
-        ".banner {background: #000;}",
-        ".media {border-radius: 20px;}",
-        ".list-colors {margin: 4rem 0;}",
-        ".list-colors li {display: flex; align-items: center; flex-wrap: wrap; gap: 2rem;}",
-        ".color-circle,.color-square {border-radius: 50%; display: block; width: 1.1rem; height: 1.1rem;}",
-        ".color-square {border-radius: 0;}",
-        "@media (max-width: 749px) {.banner__box {padding-top: 0; padding-bottom: 55px; } .list-colors {margin: 2rem 0; }}"
-      ],
-      "settings": {
-        "image_column": "shopify://shop_images/Group-3435.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "liquid": "<div class=\"octane-ai-quiz black-section\"\nstyle=\"display: none;\" data-quiz-id=\"7mxezFiPNz4hygNC\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"></div><script src=\"https://app.octaneai.com/b7ljg36xhef3rewl/quiz.js\" async defer></script>",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "layout": "image_first",
-        "color_scheme": "inverse",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "k_compare_products_jPREcw": {
-      "type": "k-compare-products",
-      "blocks": {
-        "column_KxQnR9": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/gdo-blq.png",
-            "title": "Works with Chamberlain/LiftMaster garage openers with Security+ or Security+ 2.0 technology",
-            "text": "<p><strong>Works with Chamberlain/LiftMaster garage openers with Security+ or Security+ 2.0 technology</strong></p><p>Reads garage door status directly from the garage door opener<br/></p><p><strong>Can open and closes the garage to a specific level. Example: open 10%</strong></p><p>Mounts directly on the garage door opener (or supports)</p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "column_jEzT9p": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/gdo-wht.png",
-            "title": "",
-            "text": "<p><strong>Works with all other brands (including Genie, etc.) and older Chamberlain/LiftMaster garage openers</strong></p><p>Built-in optical sensor senses the garage door status</p><p><strong>Fully opens or closes the garage door</strong></p><p>Mounts on the ceiling above the<br/>garage door</p>",
-            "link_text": "Learn more",
-            "link_url": "shopify://products/smart-garage-door-opener"
-          }
-        }
-      },
-      "block_order": [
-        "column_KxQnR9",
-        "column_jEzT9p"
-      ],
-      "custom_css": [
-        ".wrapper-compare {background: #0b0b0b;}",
-        "@media (max-width: 749px) {[class*=\"-padding\"] {padding-top: 30px; padding-bottom: 30px; } .grid {row-gap: 56px; }}"
-      ],
-      "settings": {
-        "title": "Compare Products",
-        "bottom_text": "<p>Chamberlain, LiftMaster, Security+ and Security+ 2.0 are registered trademarks of The Chamberlain Group, Inc.</p>",
-        "heading_size": "h1",
-        "color_scheme": "inverse",
-        "padding_top": 60,
-        "padding_bottom": 52
-      }
-    },
     "rich_text_7qYWeq": {
       "type": "rich-text",
       "blocks": {
@@ -847,6 +807,104 @@
         "color_scheme": "inverse",
         "padding_top": 0,
         "padding_bottom": 28
+      }
+    },
+    "image_with_text_gqkjfy": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fJACeX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Partial Open and Close",
+            "heading_size": "h1"
+          }
+        },
+        "text_ezTA4M": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Want to let some air in without rolling the door all the way up? With the GDO blaQ, you can open your garage just a few inches... or a few feet... right from your favorite app. Whether you're venting heat, grabbing a package, or sneaking out the trash, full control means you choose exactly how open is “open.” No subscriptions, no locked ecosystems. Just smarter control.<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_cdLVE7": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_fJACeX",
+        "text_ezTA4M",
+        "button_cdLVE7"
+      ],
+      "custom_css": [
+        "{background-color: #000000;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/ChatGPT_Image_May_22_2025_07_59_54_PM.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_9rEGUJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iqTjmC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Light and Lock Control",
+            "heading_size": "h1"
+          }
+        },
+        "text_YkcbUN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Control the garage light and lockout feature from your phone - no more running out in your socks to hit a wall button. Turn the lights on before stepping into a dark garage, or disable remotes at night for extra peace of mind. It’s the same functions as the wall panel, but smarter, faster, and always in your pocket.<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_fzyUiH": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_iqTjmC",
+        "text_YkcbUN",
+        "button_fzyUiH"
+      ],
+      "custom_css": [
+        "{background-color: #000000;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/ChatGPT_Image_May_22_2025_08_43_34_PM.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "right",
+        "content_layout": "no-overlap",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn_4zFhQm": {
@@ -929,6 +987,47 @@
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 28
+      }
+    },
+    "k_compare_products_jPREcw": {
+      "type": "k-compare-products",
+      "blocks": {
+        "column_KxQnR9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/gdo-blq.png",
+            "title": "Works with Chamberlain/LiftMaster garage openers with Security+ or Security+ 2.0 technology",
+            "text": "<p><strong>Works with Chamberlain/LiftMaster garage openers with Security+ or Security+ 2.0 technology</strong></p><p>Reads garage door status directly from the garage door opener<br/></p><p><strong>Can open and closes the garage to a specific level. Example: open 10%</strong></p><p>Mounts directly on the garage door opener (or supports)</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_jEzT9p": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/gdo-wht.png",
+            "title": "",
+            "text": "<p><strong>Works with all other brands (including Genie, etc.) and older Chamberlain/LiftMaster garage openers</strong></p><p>Built-in optical sensor senses the garage door status</p><p><strong>Fully opens or closes the garage door</strong></p><p>Mounts on the ceiling above the<br/>garage door</p>",
+            "link_text": "Learn more",
+            "link_url": "shopify://products/smart-garage-door-opener"
+          }
+        }
+      },
+      "block_order": [
+        "column_KxQnR9",
+        "column_jEzT9p"
+      ],
+      "custom_css": [
+        ".wrapper-compare {background: #0b0b0b;}",
+        "@media (max-width: 749px) {[class*=\"-padding\"] {padding-top: 30px; padding-bottom: 30px; } .grid {row-gap: 56px; }}"
+      ],
+      "settings": {
+        "title": "Compare Products",
+        "bottom_text": "<p>Chamberlain, LiftMaster, Security+ and Security+ 2.0 are registered trademarks of The Chamberlain Group, Inc.</p>",
+        "heading_size": "h1",
+        "color_scheme": "inverse",
+        "padding_top": 60,
+        "padding_bottom": 52
       }
     },
     "008a1f78-747c-4b3f-b1f3-564a79b814da": {
@@ -1109,21 +1208,23 @@
   "order": [
     "custom_liquid_3ih386",
     "main",
-    "video_i8UQqh",
-    "multicolumn_mBfEpK",
-    "k_usp_icons_7DVQiG",
-    "30def4d1-9792-4dce-812f-0a556de95721",
     "k_image_banner_djLeJL",
+    "multicolumn_mBfEpK",
+    "30def4d1-9792-4dce-812f-0a556de95721",
     "multicolumn_3NWGJF",
-    "k_image_banner_bqiiat",
-    "k_image_w_blurbs_YtMRK6",
+    "video_i8UQqh",
     "rich_text_AejkBF",
     "quiz_banner_WDhRky",
-    "k_compare_products_jPREcw",
+    "k_usp_icons_7DVQiG",
+    "k_image_banner_bqiiat",
+    "k_image_w_blurbs_YtMRK6",
     "rich_text_7qYWeq",
     "k_pure_image_section_7Xx74n",
+    "image_with_text_gqkjfy",
+    "image_with_text_9rEGUJ",
     "multicolumn_4zFhQm",
     "related-products",
+    "k_compare_products_jPREcw",
     "008a1f78-747c-4b3f-b1f3-564a79b814da",
     "16796019742a86b0ad"
   ]

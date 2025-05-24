@@ -22,8 +22,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -43,13 +42,11 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -59,8 +56,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "0a0b0cfa-b8ca-447e-aeb0-14ae5b33d204": {
           "type": "inventory",
@@ -1174,7 +1170,7 @@
         "26d58601-471e-4c35-b03d-ec179d63a8d6": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/ESPHomeLogo-section12.png",
+            "image": "shopify://shop_images/made-for-esphome-black-on-transparent_2e39234b-2214-427a-821f-01a238f4d44e.png",
             "logo_content": "A general framework for controlling an IoT device from mobile, using your JavaScript files."
           }
         },

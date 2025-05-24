@@ -336,8 +336,8 @@
         "icon_block_BFzdfA": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify://shop_images/Vector_17.svg",
-            "block_url": ""
+            "image": "shopify://shop_images/control4-vector-logo_1.png",
+            "block_url": "shopify://pages/control4"
           }
         }
       },
@@ -1031,8 +1031,8 @@
         "@media (max-width: 749px) {.image-with-text__content {padding: 0 2rem 0; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/esp-home.png",
-        "height": "adapt",
+        "image": "shopify://shop_images/made-for-esphome-black-on-transparent_2e39234b-2214-427a-821f-01a238f4d44e.png",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
