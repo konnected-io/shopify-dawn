@@ -378,6 +378,10 @@ details {
   .subtitle {
     font-size: calc(var(--font-heading-scale) * 1.7rem);
   }
+  .px-sm-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }
 
 /*================ Slick Slider ================*/
@@ -884,6 +888,10 @@ li {
   height: 35px;
   padding: 0;
   z-index: 2;
+}
+
+.k-section .slider-button[disabled] {
+    display: none;
 }
 
 .k-section .slider-button .icon {
