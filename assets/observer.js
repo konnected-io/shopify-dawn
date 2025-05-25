@@ -1,27 +1,39 @@
-const observer = new IntersectionObserver(el => {
-  el.forEach(e => {
-    if (e.isIntersecting) {
-      $('.counter').each(function() {
-        var $this = $(this),
-          countTo = $this.attr('data-count');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // Animate counter
+      document.querySelectorAll('.counter').forEach(counter => {
+        const countTo = parseInt(counter.getAttribute('data-count'), 10);
+        const duration = 3000;
+        const start = 0;
+        const startTime = performance.now();
 
-        $({countNum: $this.text()}).animate({
-          countNum: countTo
-        }, {
-          duration: 3000,
-          easing: 'linear',
-          step: function() {
-            $this.text(Math.floor(this.countNum));
-          },
-          complete: function() {
-            $this.text(this.countNum);
+        function updateCount(currentTime) {
+          const elapsed = currentTime - startTime;
+          const progress = Math.min(elapsed / duration, 1);
+          const currentCount = Math.floor(progress * (countTo - start) + start);
+          counter.textContent = currentCount;
+
+          if (progress < 1) {
+            requestAnimationFrame(updateCount);
+          } else {
+            counter.textContent = countTo;
           }
-        });
+        }
+
+        requestAnimationFrame(updateCount);
       });
-      $('.progress-value').addClass('progress-animation');
+
+      // Add class to progress value
+      document.querySelectorAll('.progress-value').forEach(el => {
+        el.classList.add('progress-animation');
+      });
     }
   });
 });
 
-var $counter = $('.counter-container');
-if ($counter.length) { observer.observe($counter.get(0)); }
+// Observe counter container
+const counterContainer = document.querySelector('.counter-container');
+if (counterContainer) {
+  observer.observe(counterContainer);
+}
