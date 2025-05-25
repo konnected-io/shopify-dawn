@@ -338,11 +338,15 @@
 {% endschema %}
 
 <script>
-  $(".bullet-front", "section.bullet-surround").on('mouseenter', (e) => {
-    $(".bullet-img", $(e.currentTarget)).addClass("{{ bullet_font_color }}");
-    $(".bullet-span", $(e.currentTarget)).addClass("{{ bullet_img_color }}");
-  }).on('mouseleave', (e) => {
-    $(".bullet-img", $(e.currentTarget)).removeClass("{{ bullet_font_color }}");
-    $(".bullet-span", $(e.currentTarget)).removeClass("{{ bullet_img_color }}");
-  })
+  document.querySelectorAll("section.bullet-surround .bullet-front").forEach((el) => {
+    el.addEventListener("mouseenter", (e) => {
+      e.currentTarget.querySelector(".bullet-img")?.classList.add("{{ bullet_font_color }}");
+      e.currentTarget.querySelector(".bullet-span")?.classList.add("{{ bullet_img_color }}");
+    });
+
+    el.addEventListener("mouseleave", (e) => {
+      e.currentTarget.querySelector(".bullet-img")?.classList.remove("{{ bullet_font_color }}");
+      e.currentTarget.querySelector(".bullet-span")?.classList.remove("{{ bullet_img_color }}");
+    });
+  });
 </script>

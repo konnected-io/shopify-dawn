@@ -12,12 +12,16 @@
     }]);
   }
 
-  $('.rich-text__buttons--multiple a:nth-child(2)', '.shopify-section').click(function(e){
-    e.preventDefault();
-    if (window.HubSpotConversations) {
-      window.HubSpotConversations.widget.open()
-    } 
-  })
+  const secondButton = document.querySelector('.shopify-section .rich-text__buttons--multiple a:nth-child(2)');
+
+  if (secondButton) {
+    secondButton.addEventListener('click', function(e) {
+      e.preventDefault();
+      if (window.HubSpotConversations) {
+        window.HubSpotConversations.widget.open();
+      }
+    });
+  }
 </script>
 <!-- Beginning of Buy With Prime Cart -->
 <script async fetchpriority='high' src='https://code.buywithprime.amazon.com/bwp.v1.js'></script>
