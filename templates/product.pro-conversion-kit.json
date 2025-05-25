@@ -215,167 +215,97 @@
         "padding_bottom": 12
       }
     },
-    "multicolumn_PjmGKk": {
-      "type": "multicolumn",
+    "k_icon_cards_Wkwtq3": {
+      "type": "k-icon-cards",
       "blocks": {
-        "column_H4ynkq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/AP_Pro_-_Email_6.png",
-            "title": "What's going on?",
-            "text": "<p>We ran into manufacturing issues at the end of 2023 that affected the Ethernet connectivity in Alarm Panel Pros. We've resolved them and are waiting for the new batch to arrive (ready to ship around early summer 2024). However, we've got an incentive for you if you're still waiting on your order or purchase the backorder Alarm Panel Pro today.</p>",
-            "link_label": "Read Full Update",
-            "link": "https://community.konnected.io/t/alarm-panel-pro-delays-backorders-jan-2024/35369/43"
-          }
-        },
-        "column_tnYNpy": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/AP_Pro_-_Email_5.png",
-            "title": "How do I get the credit?",
-            "text": "<p>Buy one of the backorder Alarm Panel Pros to receive the instant $79 credit* for anything in the Konnected store: </p><p></p><ul><li><a href=\"https://konnected.io/products/konnected-alarm-panel-pro-12-zone-kit\" target=\"_blank\" title=\"https://konnected.io/products/konnected-alarm-panel-pro-12-zone-kit\">Conversion Kit</a> </li><li><a href=\"https://konnected.io/products/konnected-alarm-panel-pro-12-zone-interface-kit\" target=\"_blank\" title=\"https://konnected.io/products/konnected-alarm-panel-pro-12-zone-interface-kit\">Interface Kit </a></li><li><a href=\"https://konnected.io/products/alarm-panel-pro-board-only\" target=\"_blank\" title=\"https://konnected.io/products/alarm-panel-pro-board-only\">Board Only </a></li></ul><p></p><p>*For individual customers only. </p><p></p><p></p><p></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_amc4Y7": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/AP_Pro-_Solo_1_93f85011-d21a-4320-bd42-0644ce4cadba.png",
-            "title": "Can I get a Wi-Fi Only Alarm Panel Pro now?",
-            "text": "<p>Yes. We have a batch of Wi-Fi Only/no Ethernet Alarm Panel Pros (board only and kits) that are ready to ship immediately. They start at an amazing $79 liquidation price. </p>",
-            "link_label": "Learn More",
-            "link": "https://konnected.io/products/liquidation-stock-konnected-alarm-panel-pro"
-          }
-        }
-      },
-      "block_order": [
-        "column_H4ynkq",
-        "column_tnYNpy",
-        "column_amc4Y7"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Backorder Update With $79 Instant Credit Offer",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "accent-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "feature-icons": {
-      "type": "k-icons",
-      "blocks": {
-        "81af5df5-da60-417d-897b-d99ef1f8dae5": {
-          "type": "icon-block",
+        "item_aAt69H": {
+          "type": "item",
           "settings": {
             "image": "shopify://shop_images/WIFI_Ethernet_504c66f0-c6aa-418f-a064-7e2db3a2c777.png",
-            "icon-title": "WIFI OR ETHERNET CONNECITVITY",
-            "image_width": "200",
-            "image_height": "200",
-            "image_rotate": "",
-            "showbackground": false
+            "title": "Wifi or Ethernet connecitvity",
+            "text": ""
           }
         },
-        "bcadc52d-8fcc-4da2-9f0a-c573d4e2e01d": {
-          "type": "icon-block",
+        "item_rKp8eA": {
+          "type": "item",
           "settings": {
             "image": "shopify://shop_images/Group_126.png",
-            "icon-title": "use existing wired sensors",
-            "image_width": "200",
-            "image_height": "200",
-            "image_rotate": "",
-            "showbackground": false
+            "title": "Use existing wired sensors",
+            "text": ""
           }
         },
-        "5e54862d-681e-4543-b079-a6f4370f0e38": {
-          "type": "icon-block",
+        "item_hppcc3": {
+          "type": "item",
           "settings": {
             "image": "shopify://shop_images/Vector.png",
-            "icon-title": "get notifications anywhere",
-            "image_width": "200",
-            "image_height": "200",
-            "image_rotate": "",
-            "showbackground": false
+            "title": "Get notifications anywhere",
+            "text": ""
           }
         },
-        "b5439d28-3530-4806-bf71-84dcd85b1034": {
-          "type": "icon-block",
+        "item_MDFHWC": {
+          "type": "item",
           "settings": {
             "image": "shopify://shop_images/Arm-Disarm.png",
-            "icon-title": "automatically arm/disarm",
-            "image_width": "200",
-            "image_height": "200",
-            "image_rotate": "",
-            "showbackground": false
+            "title": "Automatically arm/disarm",
+            "text": ""
           }
         },
-        "a1604016-9101-4db4-9323-0a3a3b00627e": {
-          "type": "icon-block",
+        "item_nUyGnp": {
+          "type": "item",
           "settings": {
             "image": "shopify://shop_images/No_Fees_7bc28b34-58cb-4ac1-92da-5586f7d114a6.png",
-            "icon-title": "no additional fees",
-            "image_width": "200",
-            "image_height": "200",
-            "image_rotate": "",
-            "showbackground": false
+            "title": "No additional fees",
+            "text": ""
           }
         },
-        "e1b8b2d1-5d9a-4a4a-b8c4-791d9cff63f4": {
-          "type": "icon-block",
+        "item_RnJ67p": {
+          "type": "item",
           "settings": {
             "image": "shopify://shop_images/No_Batteries.png",
-            "icon-title": "no batteries required",
-            "image_width": "200",
-            "image_height": "200",
-            "image_rotate": "",
-            "showbackground": false
+            "title": "No batteries required",
+            "text": ""
           }
         },
-        "2b51716f-1df2-4c80-955b-401684a95aae": {
-          "type": "icon-block",
+        "item_xg7qgq": {
+          "type": "item",
           "settings": {
             "image": "shopify://shop_images/Infiinite_Expansion.png",
-            "icon-title": "infinitely expandable",
-            "image_width": "200",
-            "image_height": "200",
-            "image_rotate": "",
-            "showbackground": false
+            "title": "Infinitely expandable",
+            "text": ""
           }
         },
-        "dbc2f8b8-842b-4898-b5f3-426bddc7e667": {
-          "type": "icon-block",
+        "item_Lr9d4f": {
+          "type": "item",
           "settings": {
             "image": "shopify://shop_images/DIY_Install.png",
-            "icon-title": "diy installation",
-            "image_width": "200",
-            "image_height": "200",
-            "image_rotate": "",
-            "showbackground": false
+            "title": "DIY Installation",
+            "text": ""
           }
         }
       },
       "block_order": [
-        "81af5df5-da60-417d-897b-d99ef1f8dae5",
-        "bcadc52d-8fcc-4da2-9f0a-c573d4e2e01d",
-        "5e54862d-681e-4543-b079-a6f4370f0e38",
-        "b5439d28-3530-4806-bf71-84dcd85b1034",
-        "a1604016-9101-4db4-9323-0a3a3b00627e",
-        "e1b8b2d1-5d9a-4a4a-b8c4-791d9cff63f4",
-        "2b51716f-1df2-4c80-955b-401684a95aae",
-        "dbc2f8b8-842b-4898-b5f3-426bddc7e667"
+        "item_aAt69H",
+        "item_rKp8eA",
+        "item_hppcc3",
+        "item_MDFHWC",
+        "item_nUyGnp",
+        "item_RnJ67p",
+        "item_xg7qgq",
+        "item_Lr9d4f"
       ],
+      "name": "K Icon Cards",
       "settings": {
-        "background_color": "lighter-blue"
+        "heading": "",
+        "heading_size": "h2",
+        "columns_desktop": 6,
+        "enable_desktop_slider": true,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "product-intro": {
@@ -1435,8 +1365,7 @@
   },
   "order": [
     "main",
-    "multicolumn_PjmGKk",
-    "feature-icons",
+    "k_icon_cards_Wkwtq3",
     "product-intro",
     "partners-carousel",
     "how-it-works",
