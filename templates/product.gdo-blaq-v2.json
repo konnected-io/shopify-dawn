@@ -294,7 +294,6 @@
         "column_fhKdgw",
         "column_bNxtUy"
       ],
-      "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "Works with Leading Smart Home Platforms",
         "heading_size": "h1",
@@ -474,7 +473,6 @@
     "video_i8UQqh": {
       "type": "video",
       "custom_css": [],
-      "name": "t:sections.video.presets.name",
       "settings": {
         "heading": "Learn Why the GDO blaQ Exists and Why You Need One",
         "heading_size": "h1",
@@ -842,7 +840,6 @@
       "custom_css": [
         "{background-color: #000000;}"
       ],
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/ChatGPT_Image_May_22_2025_07_59_54_PM.png",
         "height": "adapt",
@@ -891,9 +888,8 @@
       "custom_css": [
         "{background-color: #000000;}"
       ],
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/ChatGPT_Image_May_22_2025_08_43_34_PM.png",
+        "image": "shopify://shop_images/control_lock_and_light.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
