@@ -841,7 +841,7 @@
         "{background-color: #000000;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/partial_open_close.png",
+        "image": "shopify://shop_images/slider_partial_open_close_image.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
