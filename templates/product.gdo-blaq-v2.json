@@ -841,7 +841,7 @@
         "{background-color: #000000;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/ChatGPT_Image_May_22_2025_07_59_54_PM.png",
+        "image": "shopify://shop_images/partial_open_close.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
