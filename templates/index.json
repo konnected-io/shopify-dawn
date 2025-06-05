@@ -14,6 +14,39 @@
       "blocks": {
         "51738f6d-2e03-49ea-9bda-f53700d2bdb6": {
           "type": "slide1",
+          "disabled": true,
+          "settings": {
+            "image_mobile": "shopify://shop_images/Father_s_Day_-_Mobile_Banner_BG.png",
+            "image_overlay_opacity": 0,
+            "image_height": "medium",
+            "image_column": "shopify://shop_images/Father_s_Day_-_Desktop_Banner_IMAGE.png",
+            "global_media": false,
+            "absolute_image": false,
+            "desktop_content_position": "middle-left",
+            "show_text_box": false,
+            "desktop_content_alignment": "left",
+            "subtitle": "JUNE 8 - JUNE 15",
+            "heading": "<h1>Father's Day Sale</h1>",
+            "heading_size": "h1",
+            "dark_text": false,
+            "text": "<p>Discover GDO blaQ, <strong>our</strong> <strong>myQ alternative</strong>, or reimagined GDO White and reclaim full control of your garage door opener today.<br/><br/>Multiple smart home integrations. No required fees.</p>",
+            "text_style": "body",
+            "wrap_text": false,
+            "button_label_1": "Order Now",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "new_tab": false,
+            "extra_content": "",
+            "mobile_content_alignment": "center",
+            "stack_images_on_mobile": false,
+            "show_text_below": false
+          }
+        },
+        "slide1_EmMnPW": {
+          "type": "slide1",
           "settings": {
             "image": "shopify://shop_images/Liquidation_Series_-_BG.jpg",
             "image_overlay_opacity": 0,
@@ -207,6 +240,7 @@
       },
       "block_order": [
         "51738f6d-2e03-49ea-9bda-f53700d2bdb6",
+        "slide1_EmMnPW",
         "b2cb2cd3-8fcc-4137-9891-3a7be53f312f",
         "c2e87056-8bf5-45b3-8306-de0a269ee726",
         "51fca67e-79a5-4432-bfaf-ce204d308cae",
