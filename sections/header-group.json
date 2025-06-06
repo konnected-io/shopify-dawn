@@ -14,6 +14,14 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_iebXUX": {
+          "type": "announcement",
+          "settings": {
+            "text": "FATHER'S DAY SALE! 20% OFF EVERYTHING",
+            "link": "shopify://collections/shop-now",
+            "klaviyo_id": ""
+          }
+        },
         "218eec1c-eda7-4672-b94d-31bdf2f41b83": {
           "type": "announcement",
           "disabled": true,
@@ -34,6 +42,7 @@
         },
         "announcement_CGYdNW": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Join the Konnected Community here",
             "link": "https://community.konnected.io/",
@@ -51,6 +60,7 @@
         },
         "announcement_C7WYYx": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Sign up for our Newsletter and get 10% Off",
             "link": "",
@@ -95,6 +105,7 @@
         }
       },
       "block_order": [
+        "announcement_iebXUX",
         "218eec1c-eda7-4672-b94d-31bdf2f41b83",
         "ca8cc32e-aec8-4c54-94ba-6013e99dab77",
         "announcement_CGYdNW",
