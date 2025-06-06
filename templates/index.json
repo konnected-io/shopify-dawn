@@ -202,38 +202,6 @@
             "stack_images_on_mobile": false,
             "show_text_below": false
           }
-        },
-        "slide1_wfrzjD": {
-          "type": "slide1",
-          "disabled": true,
-          "settings": {
-            "image_overlay_opacity": 0,
-            "image_height": "small",
-            "image_column": "shopify://shop_images/Father_s_Day_-_Mobile_Banner_IMAGE.png",
-            "global_media": true,
-            "absolute_image": false,
-            "desktop_content_position": "middle-left",
-            "show_text_box": false,
-            "desktop_content_alignment": "left",
-            "subtitle": "",
-            "heading": "<p>Get the Dad In Your Life </p><p>Something Smart</p>",
-            "heading_size": "h1",
-            "dark_text": true,
-            "text": "<p>Father's Day is around the corner, and we're making the decision to gift Konnected to the techy Dad in your life some Konnected gear an easy one, with 20% everything on-site and on Amazon.</p>",
-            "text_style": "body",
-            "wrap_text": true,
-            "button_label_1": "SHOP 20% OFF",
-            "button_link_1": "shopify://collections/shop-now",
-            "button_style_secondary_1": false,
-            "button_label_2": "Get Dad a Gift Card",
-            "button_link_2": "shopify://products/gift-card",
-            "button_style_secondary_2": false,
-            "new_tab": false,
-            "extra_content": "",
-            "mobile_content_alignment": "center",
-            "stack_images_on_mobile": true,
-            "show_text_below": true
-          }
         }
       },
       "block_order": [
@@ -242,8 +210,7 @@
         "b2cb2cd3-8fcc-4137-9891-3a7be53f312f",
         "c2e87056-8bf5-45b3-8306-de0a269ee726",
         "51fca67e-79a5-4432-bfaf-ce204d308cae",
-        "02f5a957-535a-4d80-a5a0-0a2eb5600bb0",
-        "slide1_wfrzjD"
+        "02f5a957-535a-4d80-a5a0-0a2eb5600bb0"
       ],
       "disabled": true,
       "custom_css": [
@@ -811,7 +778,7 @@
           "settings": {
             "image": "shopify://shop_images/Homepage_GDO_-_Desktop_1.png",
             "title": "Works Exactly as Expected",
-            "content": "<p>Worked exactly as expected right out of the box, the hardest part of installation was getting a ladder and moving the cobwebs. I now have two installed and each with a wired sensor and everything has worked exactly like I wanted it to. I can't rate this cloudless, subscription-less device highly enough.  </p>",
+            "content": "<p>Worked exactly as expected right out of the box, the hardest part of installation was getting a ladder and moving the cobwebs.I now have two installed and each with a wired sensor and everything has worked exactly like I wanted it to. I can't rate this cloudless, subscription-less device highly enough.</p>",
             "name": "Josh P."
           }
         },
