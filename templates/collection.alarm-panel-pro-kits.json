@@ -15,14 +15,14 @@
         "heading_3LyXex": {
           "type": "heading",
           "settings": {
-            "heading": "Make any Garage Door Opener Smart",
+            "heading": "The Smart Home Security Upgrade You’ve Been Waiting For",
             "heading_size": "h1"
           }
         },
         "text_WAYV3w": {
           "type": "text",
           "settings": {
-            "text": "<p>Konnected's GDOs are WiFi devices that retrofit any motorized garage door opener* to work with popular smart home platforms</p>"
+            "text": "<p>Keep the reliability of traditional wired sensors, add the brains of your favorite smart home platform, and control everything your way<br/></p>"
           }
         },
         "button_hBRmh8": {
@@ -60,10 +60,10 @@
           "settings": {
             "image": "shopify://shop_images/AP_Collection_Page_-_Conversion_Kit.jpg",
             "mobile_image": "shopify://shop_images/AP_Collection_Page_-_Conversion_Kit.jpg",
-            "heading": "",
-            "heading_size": "hxl",
-            "top_text": "",
-            "bottom_text": "",
+            "heading": "Alarm Panel Pro Conversion Kit",
+            "heading_size": "h0",
+            "top_text": "<p>Replace your systems' brain or build smart from scratch with wired sensors.<br/></p>",
+            "bottom_text": "<p>Easy install - just move your sensor wires. Keypads are out, but full control lives on your phone or a mounted tablet</p>",
             "bottom_code": "",
             "text_color": "",
             "link": "shopify://products/smart-garage-door-opener-blaq-myq-alternative"
@@ -73,11 +73,11 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/AP_Collection_Page_-_Interface_Kit.jpg",
-            "mobile_image": "shopify://shop_images/GDO_Decision_Tree_-_White_Mobile_-_Blank.jpg",
-            "heading": "",
-            "heading_size": "hxl",
-            "top_text": "",
-            "bottom_text": "",
+            "mobile_image": "shopify://shop_images/AP_Collection_Page_-_Interface_Kit.jpg",
+            "heading": "Alarm Panel Pro Interface Kit",
+            "heading_size": "h0",
+            "top_text": "<p>Install alongside your alarm panel to monitor and automate wired zones.</p>",
+            "bottom_text": "<p>You’ll keep your keypads, but need to reprogram the panel and have the installer code handy</p>",
             "bottom_code": "",
             "text_color": "#ffffff",
             "link": "shopify://products/smart-garage-door-opener"
@@ -241,47 +241,47 @@
         "item_YdM7w4": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/color_corrected_-_arm_anywhere_icon_09abcd39-83ea-4c23-9243-521a8bf1f31b.png",
-            "title": "Open / close garage from anywhere",
+            "image": "shopify://shop_images/WIFI_Ethernet_clear.png",
+            "title": "Wifi or Ethernet connectivity",
             "text": ""
           }
         },
         "item_9ytbbp": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/alerts_transparent.png",
-            "title": "Get real-time notifications",
+            "image": "shopify://shop_images/USE_EXISTING_WIRED_SENSORS_4d17e99f-d44f-4cd4-b7d8-ead12264f38b.jpg",
+            "title": "Use existing wired sensors",
             "text": ""
           }
         },
         "item_e83jx4": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/automations_transparent.png",
-            "title": "Create routines & automations",
+            "image": "shopify://shop_images/GET_NOTIFICATIONS_ANYWHERE_aadf64f8-e978-42a1-b5cd-2069225b2067.png",
+            "title": "Get notifications anywhere",
             "text": ""
           }
         },
         "item_yWPVLE": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/customizable_transparent.png",
-            "title": "Retrofit what you already own",
+            "image": "shopify://shop_images/AUTOMATICALLY_ARM_DISARM_836a9319-3875-41b1-aa33-e67d8f34d504.png",
+            "title": "Automatically arm/disarm",
             "text": ""
           }
         },
         "item_dFhHUx": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/color_corrected_-_realtime_alerts.png",
-            "title": "Real-time garage door status",
+            "image": "shopify://shop_images/No_Fees_7bc28b34-58cb-4ac1-92da-5586f7d114a6.png",
+            "title": "No additional fees",
             "text": ""
           }
         },
         "item_XE8Yj6": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/color_corrected_-_no_batteries_2.png",
+            "image": "shopify://shop_images/No_Batteries.png",
             "title": "No batteries to change",
             "text": ""
           }
@@ -289,21 +289,22 @@
         "item_gT8RwC": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_May_21_2025_05_01_46_AM.png",
-            "title": "No additional sensors needed",
+            "image": "shopify://shop_images/INFINITELY_EXPANDABLE_0c64362c-5b16-4e05-9959-cb030f7b8383.png",
+            "title": "Infinitely expandable",
             "text": ""
           }
         },
         "item_ALKBfR": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/color_corrected_-_integrations.png",
-            "title": "Multiple Platform Integrations",
+            "image": "shopify://shop_images/DIY_Install.png",
+            "title": "DIY installation",
             "text": ""
           }
         },
         "item_zFCqDL": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/color_corrected_-_customizeable_tones_2.png",
             "title": "Custom closing warning sounds",
@@ -312,6 +313,7 @@
         },
         "item_4eQVXR": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/color_corrected_-_designed_assembled_in_america.png",
             "title": "Meets U.S Safety Standards",
@@ -396,7 +398,7 @@
       "custom_css": [],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n  .comparison-section {\n    margin: 2rem 0;\n    text-align: center;\n    font-family: 'Inter', sans-serif;\n  }\n  .comparison-section h2 {\n    color: #000000;\n    font-size: 42.6px;\n    font-weight: 700;\n    margin-bottom: 0.5rem;\n  }\n  .comparison-section p {\n    font-size: 16px;\n    font-weight: 400;\n    color: #333333;\n    margin-bottom: 2rem;\n  }\n  .comparison-table {\n    width: 100%;\n    border-collapse: collapse;\n    font-size: 16px;\n    font-weight: 400;\n    text-align: center;\n    background-color: #ffffff;\n    font-family: 'Inter', sans-serif;\n  }\n  .comparison-table th {\n    background-color: #3F75FF;\n    color: #ffffff;\n    font-weight: 500;\n    padding: 12px;\n    font-size: 16px;\n  }\n  .comparison-table td {\n    border: 1px solid #ddd;\n    padding: 12px;\n  }\n  .yes {\n    color: #008000;\n    font-weight: 500;\n  }\n  .no {\n    color: #ff0000;\n    font-weight: 500;\n  }\n  .table-wrapper {\n    overflow-x: auto;\n  }\n</style>\n\n<section class=\"comparison-section\">\n  <h2>Why Konnected is Different — and Better</h2>\n  <p>Choosing the right garage door controller matters. Here’s how Konnected stacks up feature-by-feature.</p>\n\n  <div class=\"table-wrapper\">\n    <table class=\"comparison-table\">\n      <thead>\n        <tr>\n          <th>Feature</th>\n          <th>Konnected</th>\n          <th>myQ</th>\n          <th>Tailwind</th>\n          <th>Meross</th>\n          <th>RATGDO</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>Works locally</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n        </tr>\n        <tr>\n          <td>Meets U.S. safety standards</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Free integrations with 3rd-party apps</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n        </tr>\n        <tr>\n          <td>Open source</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n        </tr>\n        <tr>\n          <td>Partial open/close (GDO blaQ only)</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n        </tr>\n        <tr>\n          <td>Controls light and remote lock (GDO blaQ only)</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n        </tr>\n        <tr>\n          <td>Designed and assembled in USA</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</section>",
+        "custom_liquid": "<style>\n  .comparison-section {\n    margin: 2rem 0;\n    text-align: center;\n    font-family: 'Inter', sans-serif;\n  }\n  .comparison-section h2 {\n    color: #000000;\n    font-size: 42.6px;\n    font-weight: 700;\n    margin-bottom: 0.5rem;\n  }\n  .comparison-section p {\n    font-size: 16px;\n    font-weight: 400;\n    color: #333333;\n    margin-bottom: 2rem;\n  }\n  .comparison-table {\n    width: 100%;\n    border-collapse: collapse;\n    font-size: 16px;\n    font-weight: 400;\n    text-align: center;\n    background-color: #ffffff;\n    font-family: 'Inter', sans-serif;\n  }\n  .comparison-table th {\n    background-color: #3F75FF;\n    color: #ffffff;\n    font-weight: 500;\n    padding: 12px;\n    font-size: 16px;\n  }\n  .comparison-table td {\n    border: 1px solid #ddd;\n    padding: 12px;\n  }\n  .yes {\n    color: #008000;\n    font-weight: 500;\n  }\n  .no {\n    color: #ff0000;\n    font-weight: 500;\n  }\n  .table-wrapper {\n    overflow-x: auto;\n  }\n</style>\n\n<section class=\"comparison-section\">\n  <h2>Why Konnected Stands Out</h2>\n  <p>Compare the Alarm Panel Pro to other options for wired alarm integration and see what makes Konnected the smart choice.</p>\n\n  <div class=\"table-wrapper\">\n    <table class=\"comparison-table\">\n      <thead>\n        <tr>\n          <th>Feature</th>\n          <th>Konnected<br>Conversion Kit</th>\n          <th>Konnected<br>Interface Kit</th>\n          <th>Envisalink</th>\n          <th>AlarmDecoder</th>\n          <th>Kincony KC868-A16</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>Replaces alarm panel (conversion-style)</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n        </tr>\n        <tr>\n          <td>Works alongside panel (interface-style)</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Full app-based sensor automation</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n        </tr>\n        <tr>\n          <td>Supports traditional keypads</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Local-only operation (no cloud lock-in)</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n        </tr>\n        <tr>\n          <td>Open-source firmware support</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n        </tr>\n        <tr>\n          <td>Beginner-friendly setup & support</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Ethernet & PoE support</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Designed and assembled in North America</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</section>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 80
@@ -486,7 +488,7 @@
             "color_text": "#333333",
             "color_link": "#334fb4",
             "review_ids": "",
-            "product_ids": "8996413374779,8250717798715",
+            "product_ids": "2246236176457,6685095919689",
             "category": "",
             "product_brand": "",
             "tags": "",
@@ -510,21 +512,21 @@
         "heading_EyTJDQ": {
           "type": "heading",
           "settings": {
-            "heading": "Find the right Konnected GDO for you!",
+            "heading": "Find the right Konnected Alarm Panel Pro Kit for you!",
             "heading_size": "h1"
           }
         },
         "text_NQNTG7": {
           "type": "text",
           "settings": {
-            "text": "Take our simple <strong>product quiz</strong> to find the right Garage Door Opener for you.",
+            "text": "Take our simple <strong>product quiz</strong> to find the right kit for you.",
             "text_style": "body"
           }
         },
         "buttons_jpBC6N": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Garage Door Openers",
+            "button_label_1": "Alarm Panel Pro Kit Quiz",
             "close_text_1": "Exit Quiz",
             "quiz_id_1": "7mxezFiPNz4hygNC",
             "button_style_secondary_1": false,
