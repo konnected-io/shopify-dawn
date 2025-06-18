@@ -278,8 +278,8 @@
             "image": "shopify://shop_images/143a4cb4ffc35551b4f87a39afc8829f.png",
             "title": "Alarm Panels",
             "content": "<p>Retrofit your wired alarm & wired sensors</p>",
-            "url": "shopify://pages/alarm-panels-popup",
-            "set_as_popup": true
+            "url": "shopify://collections/konnected-alarm-panel-pro-kits",
+            "set_as_popup": false
           }
         },
         "item_gwaa96": {
