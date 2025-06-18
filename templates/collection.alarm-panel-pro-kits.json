@@ -357,6 +357,167 @@
         "color_scheme": "background-1"
       }
     },
+    "custom_liquid_9GjJN7": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n    <div class=\"grid align-center grid--2-col-desktop grid--1-col-tablet-down\">\n        <div class=\"grid__item\">\n            <h2 class=\"h1\" style=\"margin: 0;\">Access your home from anywhere with a single tap</h2>\n        </div>\n        <div class=\"grid__item\">\n            <div class=\"rte\">\n                <p>Switch to remote smart home monitoring, use the smart home platforms you already love - from SmartThings, Alexa, Home Assistant, and more! Stay updated about your home status without monthly fees.</p>\n                <a href=\"/pages/platforms\" class=\"link accent-link\">\n                    Explore integrations\n                    <span class=\"icon-tiny\">\n                        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6\" height=\"9\" viewBox=\"0 0 6 9\" fill=\"none\">\n                            <g id=\"Design_here\" clip-path=\"url(#clip0_115_1065)\">\n                            <path id=\"Vector\" d=\"M6 4.49741L0.835968 9L-3.18609e-08 8.27111L4.32213 4.49741L-3.61542e-07 0.728891L0.835968 -3.65413e-08L6 4.49741Z\" fill=\"#3F75FF\"/>\n                            </g>\n                            <defs>\n                            <clipPath id=\"clip0_115_1065\">\n                            <rect width=\"9\" height=\"6\" fill=\"white\" transform=\"translate(0 9) rotate(-90)\"/>\n                            </clipPath>\n                            </defs>\n                        </svg>\n                    </span>\n                </a>\n            </div>\n        </div>\n    </div>\n</div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "k_home_overview_fGf4VK": {
+      "type": "k-home-overview",
+      "custom_css": [
+        ".gradient {background: linear-gradient(180deg, #f7fdff 0%, #fff 55%, #f7fdff 100%); border-top-left-radius: 2rem; border-top-right-radius: 2rem; max-width: 110rem; margin: auto;}",
+        ".title-wrapper--no-top-margin > .title {max-width: 50rem; margin-left: auto; margin-right: auto;}"
+      ],
+      "name": "K Home Overview",
+      "settings": {
+        "title": "Connects to wired sensors in your home",
+        "heading_size": "h1",
+        "description": "<p>Konnected makes every wired sensor in your home smart. Breathe new life into all of your pre-existing door, window, motion sensors, and more. Use them as a part of your smart alarm system and bring more convenience to your everyday life through custom automations & routines.</p>",
+        "description_style": "body",
+        "image_desktop": "shopify://shop_images/02166205cdfec617ba45c6979d68e164.png",
+        "image_width": 100,
+        "image_behavior": "none",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_F7zQRM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_34wQdn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Group_15.svg",
+            "title": "",
+            "text": "<p><strong>Door/Window Contacts</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_L8fF6G": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Group_3437.svg",
+            "title": "",
+            "text": "<p><strong>Motion Sensors</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8aUHfF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Group_3438.svg",
+            "title": "",
+            "text": "<p><strong>Glass Break Detectors</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_43T8pW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Group_3441.svg",
+            "title": "",
+            "text": "<p><strong>Leak Detectors</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9cYH7m": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Group_3439.svg",
+            "title": "",
+            "text": "<p><strong>Smoke/CO Detectors</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MYHhEz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Group_16.svg",
+            "title": "",
+            "text": "<p><strong>PE Beam Detectors</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GxEejr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Group_17.svg",
+            "title": "",
+            "text": "<p><strong>Alarm Siren</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UWe3Mn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Group_18.svg",
+            "title": "",
+            "text": "<p><strong>Strobe Light</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_34wQdn",
+        "column_L8fF6G",
+        "column_8aUHfF",
+        "column_43T8pW",
+        "column_9cYH7m",
+        "column_MYHhEz",
+        "column_GxEejr",
+        "column_UWe3Mn"
+      ],
+      "custom_css": [
+        ".multicolumn-list {justify-content: center;}",
+        ".multicolumn-card__info {max-width: 15rem; margin: auto; line-height: 1.2em;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "k_section_features_AWBkXW": {
+      "type": "k-section-features",
+      "name": "K Features",
+      "settings": {
+        "title": "Alarm Panel Pro Features",
+        "heading_size": "h1",
+        "description": "<ul><li>Ethernet connectivity & PoE</li><li>ESP32 microcontroller with integrated Wi-Fi</li><li>5V output & 3.3V triggers</li><li>12V AUX output & two alarm outputs</li><li>12 zones</li><li>Expansions ports for interface module(s)</li><li>USB port</li><li>RF shield</li><li>12V input</li></ul>",
+        "description_style": "body",
+        "image1": "shopify://shop_images/Group_3490_e680ebf9-b784-4033-9a07-63ff6331ab20.png",
+        "image_width": "full",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -375,16 +536,6 @@
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "custom_liquid_9GjJN7": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n    <div class=\"grid align-center grid--2-col-desktop grid--1-col-tablet-down\">\n        <div class=\"grid__item\">\n            <h2 class=\"h1\" style=\"margin: 0;\">Access your home from anywhere with a single tap</h2>\n        </div>\n        <div class=\"grid__item\">\n            <div class=\"rte\">\n                <p>Switch to remote smart home monitoring, use the smart home platforms you already love - from SmartThings, Alexa, Home Assistant, and more! Stay updated about your home status without monthly fees.</p>\n                <a href=\"/pages/platforms\" class=\"link accent-link\">\n                    Explore integrations\n                    <span class=\"icon-tiny\">\n                        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6\" height=\"9\" viewBox=\"0 0 6 9\" fill=\"none\">\n                            <g id=\"Design_here\" clip-path=\"url(#clip0_115_1065)\">\n                            <path id=\"Vector\" d=\"M6 4.49741L0.835968 9L-3.18609e-08 8.27111L4.32213 4.49741L-3.61542e-07 0.728891L0.835968 -3.65413e-08L6 4.49741Z\" fill=\"#3F75FF\"/>\n                            </g>\n                            <defs>\n                            <clipPath id=\"clip0_115_1065\">\n                            <rect width=\"9\" height=\"6\" fill=\"white\" transform=\"translate(0 9) rotate(-90)\"/>\n                            </clipPath>\n                            </defs>\n                        </svg>\n                    </span>\n                </a>\n            </div>\n        </div>\n    </div>\n</div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "k_compare_table_HC8PdD": {
@@ -650,6 +801,9 @@
     "k_icon_cards_ahTmyc",
     "banner",
     "custom_liquid_9GjJN7",
+    "k_home_overview_fGf4VK",
+    "multicolumn_F7zQRM",
+    "k_section_features_AWBkXW",
     "product-grid",
     "k_compare_table_HC8PdD",
     "custom_liquid_UgAybr",
