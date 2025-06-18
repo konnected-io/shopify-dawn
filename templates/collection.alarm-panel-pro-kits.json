@@ -377,6 +377,16 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_9GjJN7": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n    <div class=\"grid align-center grid--2-col-desktop grid--1-col-tablet-down\">\n        <div class=\"grid__item\">\n            <h2 class=\"h1\" style=\"margin: 0;\">Access your home from anywhere with a single tap</h2>\n        </div>\n        <div class=\"grid__item\">\n            <div class=\"rte\">\n                <p>Switch to remote smart home monitoring, use the smart home platforms you already love - from SmartThings, Alexa, Home Assistant, and more! Stay updated about your home status without monthly fees.</p>\n                <a href=\"/pages/platforms\" class=\"link accent-link\">\n                    Explore integrations\n                    <span class=\"icon-tiny\">\n                        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6\" height=\"9\" viewBox=\"0 0 6 9\" fill=\"none\">\n                            <g id=\"Design_here\" clip-path=\"url(#clip0_115_1065)\">\n                            <path id=\"Vector\" d=\"M6 4.49741L0.835968 9L-3.18609e-08 8.27111L4.32213 4.49741L-3.61542e-07 0.728891L0.835968 -3.65413e-08L6 4.49741Z\" fill=\"#3F75FF\"/>\n                            </g>\n                            <defs>\n                            <clipPath id=\"clip0_115_1065\">\n                            <rect width=\"9\" height=\"6\" fill=\"white\" transform=\"translate(0 9) rotate(-90)\"/>\n                            </clipPath>\n                            </defs>\n                        </svg>\n                    </span>\n                </a>\n            </div>\n        </div>\n    </div>\n</div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "k_compare_table_HC8PdD": {
       "type": "k-compare-table",
       "disabled": true,
@@ -639,6 +649,7 @@
     "k_image_with_copy_DtYqzk",
     "k_icon_cards_ahTmyc",
     "banner",
+    "custom_liquid_9GjJN7",
     "product-grid",
     "k_compare_table_HC8PdD",
     "custom_liquid_UgAybr",
