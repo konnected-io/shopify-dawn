@@ -663,6 +663,9 @@
       "block_order": [
         "stamped_reviews_carousel_xT7itD"
       ],
+      "custom_css": [
+        "{padding-top: 20px !important; padding-bottom: 40px !important;}"
+      ],
       "settings": {
         "include_margins": true
       }
