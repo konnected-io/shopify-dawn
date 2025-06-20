@@ -58,7 +58,7 @@
         "item_dj7yQk": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/AP_Collection_Page_-_Conversion_Kit.jpg",
+            "image": "shopify://shop_images/Conversion-Kit-Split-image-header-illustration.png",
             "mobile_image": "shopify://shop_images/AP_Collection_Page_-_Conversion_Kit.jpg",
             "heading": "Alarm Panel Pro Conversion Kit",
             "heading_size": "h0",
@@ -72,8 +72,8 @@
         "item_JpAVdm": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/AP_Collection_Page_-_Interface_Kit.jpg",
-            "mobile_image": "shopify://shop_images/AP_Collection_Page_-_Interface_Kit.jpg",
+            "image": "shopify://shop_images/Interface-Illustration-half-page.png",
+            "mobile_image": "shopify://shop_images/Interface-Illustration-half-page.png",
             "heading": "Alarm Panel Pro Interface Kit",
             "heading_size": "h0",
             "top_text": "<p>Install alongside your alarm panel to monitor and automate wired zones.</p>",
@@ -245,31 +245,6 @@
         "para_padding": 10
       }
     },
-    "video_A7wiVG": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "heading": "Upgrade or Build Smart: Konnected Alarm Panel Pro Overview",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://youtu.be/jx6ikTQNdQo",
-        "cover_image": "shopify://shop_images/thumbnail_for_Konnected_Alarm_Panel_Pro_Collection_Page_Video.png",
-        "description": "Upgrade or Build Smart: Konnected Alarm Panel Pro Overview",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "banner": {
-      "type": "main-collection-banner",
-      "disabled": true,
-      "settings": {
-        "show_collection_description": true,
-        "show_collection_image": false,
-        "color_scheme": "background-1"
-      }
-    },
     "k_icon_cards_ahTmyc": {
       "type": "k-icon-cards",
       "blocks": {
@@ -381,6 +356,42 @@
         "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 36
+      }
+    },
+    "video_A7wiVG": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "Upgrade or Build Smart: Konnected Alarm Panel Pro Overview",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/jx6ikTQNdQo",
+        "cover_image": "shopify://shop_images/thumbnail_for_Konnected_Alarm_Panel_Pro_Collection_Page_Video.png",
+        "description": "Upgrade or Build Smart: Konnected Alarm Panel Pro Overview",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_UgAybr": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .comparison-section {\n    margin: 2rem 0;\n    text-align: center;\n    font-family: 'Inter', sans-serif;\n  }\n  .comparison-section h2 {\n    color: #000000;\n    font-size: 42.6px;\n    font-weight: 700;\n    margin-bottom: 0.5rem;\n  }\n  .comparison-section p {\n    font-size: 16px;\n    font-weight: 400;\n    color: #333333;\n    margin-bottom: 2rem;\n  }\n  .comparison-table {\n    width: 100%;\n    border-collapse: collapse;\n    font-size: 16px;\n    font-weight: 400;\n    text-align: center;\n    background-color: #ffffff;\n    font-family: 'Inter', sans-serif;\n  }\n  .comparison-table th {\n    background-color: #3F75FF;\n    color: #ffffff;\n    font-weight: 500;\n    padding: 12px;\n    font-size: 16px;\n  }\n  .comparison-table td {\n    border: 1px solid #ddd;\n    padding: 12px;\n  }\n  .yes {\n    color: #008000;\n    font-weight: 500;\n  }\n  .no {\n    color: #ff0000;\n    font-weight: 500;\n  }\n  .table-wrapper {\n    overflow-x: auto;\n  }\n</style>\n\n<section class=\"comparison-section\">\n  <h2>Why Konnected Stands Out</h2>\n  <p>Compare the Alarm Panel Pro to other options for wired alarm integration and see what makes Konnected the smart choice.</p>\n\n  <div class=\"table-wrapper\">\n    <table class=\"comparison-table\">\n      <thead>\n        <tr>\n          <th>Feature</th>\n          <th>Konnected<br>Conversion Kit</th>\n          <th>Konnected<br>Interface Kit</th>\n          <th>Envisalink</th>\n          <th>AlarmDecoder</th>\n          <th>Ring Retrofit</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>Replaces alarm panel (conversion-style)</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Works alongside panel (interface-style)</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n        </tr>\n        <tr>\n          <td>Full app-based sensor automation</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Supports traditional keypads</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Local-only operation (no cloud lock-in)</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Open-source firmware support</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Beginner-friendly setup & support</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n        </tr>\n        <tr>\n          <td>Ethernet & PoE support</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Designed and assembled in North America</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</section>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 80
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
       }
     },
     "product-grid": {
@@ -578,17 +589,6 @@
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "custom_liquid_UgAybr": {
-      "type": "custom-liquid",
-      "custom_css": [],
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<style>\n  .comparison-section {\n    margin: 2rem 0;\n    text-align: center;\n    font-family: 'Inter', sans-serif;\n  }\n  .comparison-section h2 {\n    color: #000000;\n    font-size: 42.6px;\n    font-weight: 700;\n    margin-bottom: 0.5rem;\n  }\n  .comparison-section p {\n    font-size: 16px;\n    font-weight: 400;\n    color: #333333;\n    margin-bottom: 2rem;\n  }\n  .comparison-table {\n    width: 100%;\n    border-collapse: collapse;\n    font-size: 16px;\n    font-weight: 400;\n    text-align: center;\n    background-color: #ffffff;\n    font-family: 'Inter', sans-serif;\n  }\n  .comparison-table th {\n    background-color: #3F75FF;\n    color: #ffffff;\n    font-weight: 500;\n    padding: 12px;\n    font-size: 16px;\n  }\n  .comparison-table td {\n    border: 1px solid #ddd;\n    padding: 12px;\n  }\n  .yes {\n    color: #008000;\n    font-weight: 500;\n  }\n  .no {\n    color: #ff0000;\n    font-weight: 500;\n  }\n  .table-wrapper {\n    overflow-x: auto;\n  }\n</style>\n\n<section class=\"comparison-section\">\n  <h2>Why Konnected Stands Out</h2>\n  <p>Compare the Alarm Panel Pro to other options for wired alarm integration and see what makes Konnected the smart choice.</p>\n\n  <div class=\"table-wrapper\">\n    <table class=\"comparison-table\">\n      <thead>\n        <tr>\n          <th>Feature</th>\n          <th>Konnected<br>Conversion Kit</th>\n          <th>Konnected<br>Interface Kit</th>\n          <th>Envisalink</th>\n          <th>AlarmDecoder</th>\n          <th>Ring Retrofit</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>Replaces alarm panel (conversion-style)</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Works alongside panel (interface-style)</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n        </tr>\n        <tr>\n          <td>Full app-based sensor automation</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Supports traditional keypads</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Local-only operation (no cloud lock-in)</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Open-source firmware support</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Beginner-friendly setup & support</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"yes\">✅</td>\n        </tr>\n        <tr>\n          <td>Ethernet & PoE support</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n        </tr>\n        <tr>\n          <td>Designed and assembled in North America</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"yes\">✅</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n          <td class=\"no\">❌</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</section>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 80
       }
     },
     "image_with_text_wPqM7A": {
