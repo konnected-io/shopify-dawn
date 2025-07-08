@@ -27,7 +27,7 @@
           "type": "announcement",
           "disabled": true,
           "settings": {
-            "text": "PRIME DAY SALE IS LIVE! 20% OFF OR MORE",
+            "text": "Prime Day Sale is LIVE! Save 20% or More",
             "link": "shopify://collections/shop-now",
             "klaviyo_id": ""
           }
