@@ -12,6 +12,37 @@
     "85174f26-ba4b-49ee-ae57-a70ed377963e": {
       "type": "k-image-banner",
       "blocks": {
+        "slide1_da3tUT": {
+          "type": "slide1",
+          "settings": {
+            "image": "shopify://shop_images/Prime_Day_2025_-_Desktop_Banner_1.png",
+            "image_overlay_opacity": 0,
+            "image_height": "medium",
+            "global_media": false,
+            "absolute_image": false,
+            "desktop_content_position": "middle-left",
+            "show_text_box": false,
+            "desktop_content_alignment": "left",
+            "subtitle": "",
+            "heading": "<p>Prime Day Deals<br/>ARE HERE</p>",
+            "heading_size": "h0",
+            "dark_text": false,
+            "text": "<p>Save 20% or More - now through July 11th!</p>",
+            "text_style": "subtitle",
+            "wrap_text": false,
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "new_tab": false,
+            "extra_content": "",
+            "mobile_content_alignment": "center",
+            "stack_images_on_mobile": true,
+            "show_text_below": false
+          }
+        },
         "51738f6d-2e03-49ea-9bda-f53700d2bdb6": {
           "type": "slide1",
           "settings": {
@@ -205,6 +236,7 @@
         }
       },
       "block_order": [
+        "slide1_da3tUT",
         "51738f6d-2e03-49ea-9bda-f53700d2bdb6",
         "b2cb2cd3-8fcc-4137-9891-3a7be53f312f",
         "c2e87056-8bf5-45b3-8306-de0a269ee726",

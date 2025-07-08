@@ -14,6 +14,14 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_QEPHyD": {
+          "type": "announcement",
+          "settings": {
+            "text": "PRIME DAY SALE IS LIVE! 20% OFF OR MORE",
+            "link": "shopify://collections/shop-now",
+            "klaviyo_id": ""
+          }
+        },
         "218eec1c-eda7-4672-b94d-31bdf2f41b83": {
           "type": "announcement",
           "disabled": true,
@@ -51,6 +59,7 @@
         },
         "announcement_C7WYYx": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Sign up for our Newsletter and get 10% Off",
             "link": "",
@@ -95,6 +104,7 @@
         }
       },
       "block_order": [
+        "announcement_QEPHyD",
         "218eec1c-eda7-4672-b94d-31bdf2f41b83",
         "ca8cc32e-aec8-4c54-94ba-6013e99dab77",
         "announcement_CGYdNW",
