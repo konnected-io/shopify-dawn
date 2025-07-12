@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_QEPHyD": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "PRIME DAY SALE IS LIVE! 20% OFF OR MORE",
             "link": "shopify://collections/shop-now",
@@ -59,7 +60,6 @@
         },
         "announcement_C7WYYx": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "Sign up for our Newsletter and get 10% Off",
             "link": "",
