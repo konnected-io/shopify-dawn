@@ -273,7 +273,7 @@
         "text_KekK48": {
           "type": "text",
           "settings": {
-            "text": "<p><br/>Just add Konnected and watch your classic alarm, switches, and motors report for duty in Home Assistant, SmartThings, Alexa, and more. No rip-and-replace required.<br/><br/></p>"
+            "text": "<p><br/>Just add Konnected and watch your classic alarm, switches, and motors report for duty in Home Assistant, SmartThings, Alexa, and more.<br/><br/></p>"
           }
         }
       },
