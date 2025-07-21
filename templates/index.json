@@ -652,11 +652,11 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Alarm Panel Quiz",
-            "close_text_1": "",
+            "close_text_1": "Exit Quiz",
             "quiz_id_1": "evBeQ7ng7eofSV9o",
             "button_style_secondary_1": false,
             "button_label_2": "GDO Quiz",
-            "close_text_2": "",
+            "close_text_2": "Exit Quiz",
             "quiz_id_2": "7mxezFiPNz4hygNC",
             "button_style_secondary_2": false
           }
