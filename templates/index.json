@@ -245,6 +245,7 @@
         "02f5a957-535a-4d80-a5a0-0a2eb5600bb0",
         "slide1_wfrzjD"
       ],
+      "disabled": true,
       "custom_css": [
         ".banner {background: #fafbfc;}",
         "@media (min-width: 750px) {.banner__content {padding: 7rem 5rem; }}"
@@ -259,6 +260,37 @@
         "image_behavior": "none"
       }
     },
+    "rich_text_ELRVzU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6RnEyU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Smart Home Superpowers for the Gear You Already Own",
+            "heading_size": "h1"
+          }
+        },
+        "text_KekK48": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Just add Konnected and watch your classic alarm, switches, and motors report for duty in Home Assistant, SmartThings, Alexa, and more. No rip-and-replace required.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6RnEyU",
+        "text_KekK48"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "k_collection_split_banner_GKUq3Q": {
       "type": "k-collection-split-banner",
       "blocks": {
@@ -267,13 +299,13 @@
           "settings": {
             "image": "shopify://shop_images/Homepage_AP_Pro_-_Desktop_1.png",
             "mobile_image": "shopify://shop_images/Homepage_AP_Pro_-_Desktop_1.png",
-            "heading": "",
+            "heading": "Alarm Panel Pro Conversion Kit",
             "heading_size": "hxl",
             "top_text": "",
-            "bottom_text": "",
-            "bottom_code": "<style>\n    .shape-row {\n      display: flex;\n      gap: 1.5rem; /* spacing between shapes */\n      align-items: center;\n    justify-content: center;\n    margin-top: 1rem\n    }\n\n    .shape {\n      width: 2.5rem;\n      height: 2.5rem;\n    }\n\n    .circle {\n      background-color: #f9d65c; /* yellow */\n      border-radius: 50%;\n    }\n\n    .square-purple {\n      background-color: #5c2ca2; /* purple */\n    }\n\n    .square-red {\n      background-color: #d9413d; /* red */\n    }\n\n    .shape {\n      display: block !important;\n    }\n\n  </style>  \n<div class=\"shape-row small-hide\">\n    <div class=\"shape circle\"></div>\n    <div class=\"shape square-purple\"></div>\n    <div class=\"shape square-red\"></div>\n  </div>",
+            "bottom_text": "<p>Make your old wired alarm system smart. Stop paying for monitoring!</p>",
+            "bottom_code": "",
             "text_color": "",
-            "link": "shopify://products/smart-garage-door-opener-blaq-myq-alternative"
+            "link": "shopify://products/konnected-alarm-panel-pro-12-zone-kit"
           }
         },
         "item_JpAVdm": {
@@ -281,13 +313,13 @@
           "settings": {
             "image": "shopify://shop_images/Homepage_GDO_-_Desktop_1.png",
             "mobile_image": "shopify://shop_images/Homepage_GDO_-_Desktop_1.png",
-            "heading": "",
+            "heading": "Garage Door Opener blaQ",
             "heading_size": "hxl",
             "top_text": "",
-            "bottom_text": "",
+            "bottom_text": "<p>Ultimate upgrade from myQ. Control your garage your way.</p>",
             "bottom_code": "",
             "text_color": "#ffffff",
-            "link": "shopify://products/smart-garage-door-opener"
+            "link": "shopify://products/smart-garage-door-opener-blaq-myq-alternative"
           }
         }
       },
@@ -295,11 +327,56 @@
         "item_dj7yQk",
         "item_JpAVdm"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "multicolumn_8wUPRB": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_EGRagH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/thumbnail_for_Konnected_Alarm_Panel_Pro_Collection_Page_Video.png",
+            "title": "Konnected Alarm Panel Pro Conversion Kit",
+            "text": "",
+            "link_label": "",
+            "link": "https://youtu.be/jx6ikTQNdQo"
+          }
+        },
+        "column_WEjhU6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/GDO_blaQ_-_JRGo_edit_thumbnail_d201f725-0d15-4887-94e8-b80269071692.jpg",
+            "title": "Konnected Smart Garage Door Opener blaQ",
+            "text": "",
+            "link_label": "",
+            "link": "https://youtu.be/cxVzUN0NfdQ"
+          }
+        }
+      },
+      "block_order": [
+        "column_EGRagH",
+        "column_WEjhU6"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "New to Konnected? Watch These First!",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "k_automate_section_zcgLMN": {
@@ -347,7 +424,7 @@
         "@media (max-width: 749px) {.automate-item h3 {margin-bottom: 0; }}"
       ],
       "settings": {
-        "title": "Automate your smart home with Konnected",
+        "title": "Shop Konnected Products",
         "heading_size": "h1",
         "columns_desktop": 3,
         "columns_mobile": "1",
@@ -545,6 +622,68 @@
         "padding_bottom": 76
       }
     },
+    "custom_liquid_CWpizP": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- DO NOT DELETE -->\n<!-- Garage Door -->\n<div class=\"garage-door-quiz quiz-appender\" data-id=\"7mxezFiPNz4hygNC\">\n    <div class=\"octane-ai-quiz \"\nstyle=\"display: none;\" data-quiz-id=\"7mxezFiPNz4hygNC\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"></div><script src=\"https://app.octaneai.com/b7ljg36xhef3rewl/quiz.js\" async defer></script>\n</div>\n\n<!-- Alarm Panel Quiz -->\n<div class=\"alarm-panel-quiz quiz-appender\" data-id=\"evBeQ7ng7eofSV9o\">\n    <div class=\"octane-ai-quiz \" \n    style=\"display: none;\" data-quiz-id=\"evBeQ7ng7eofSV9o\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"></div><script src=\"https://app.octaneai.com/b7ljg36xhef3rewl/quiz.js\" async defer></script>\n</div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "quiz_banner_NFN78Q": {
+      "type": "quiz-banner",
+      "blocks": {
+        "heading_w833Xp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Not sure which product is right for you?",
+            "heading_size": "h2"
+          }
+        },
+        "text_XwRQrX": {
+          "type": "text",
+          "settings": {
+            "text": "Check out our product quizes to help you determine the right kit for your home.",
+            "text_style": "body"
+          }
+        },
+        "buttons_yAryEp": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Alarm Panel Quiz",
+            "close_text_1": "",
+            "quiz_id_1": "7mxezFiPNz4hygNC",
+            "button_style_secondary_1": false,
+            "button_label_2": "GDO Quiz",
+            "close_text_2": "",
+            "quiz_id_2": "7mxezFiPNz4hygNC",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_w833Xp",
+        "text_XwRQrX",
+        "buttons_yAryEp"
+      ],
+      "name": "Quiz Banner",
+      "settings": {
+        "image": "shopify://shop_images/Quiz-Banner---4-_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "liquid": "",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "layout": "text_first",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
     "k_image_banner_FdXWg7": {
       "type": "k-image-banner",
       "blocks": {
@@ -597,24 +736,18 @@
         "color_scheme": "background-1",
         "image_behavior": "none"
       }
-    },
-    "custom_liquid_CWpizP": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!-- DO NOT DELETE -->\n<!-- Garage Door -->\n<div class=\"garage-door-quiz quiz-appender\" data-id=\"7mxezFiPNz4hygNC\">\n    <div class=\"octane-ai-quiz \"\nstyle=\"display: none;\" data-quiz-id=\"7mxezFiPNz4hygNC\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"></div><script src=\"https://app.octaneai.com/b7ljg36xhef3rewl/quiz.js\" async defer></script>\n</div>\n\n<!-- Alarm Panel Quiz -->\n<div class=\"alarm-panel-quiz quiz-appender\" data-id=\"evBeQ7ng7eofSV9o\">\n    <div class=\"octane-ai-quiz \" \n    style=\"display: none;\" data-quiz-id=\"evBeQ7ng7eofSV9o\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"></div><script src=\"https://app.octaneai.com/b7ljg36xhef3rewl/quiz.js\" async defer></script>\n</div>",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "85174f26-ba4b-49ee-ae57-a70ed377963e",
+    "rich_text_ELRVzU",
     "k_collection_split_banner_GKUq3Q",
+    "multicolumn_8wUPRB",
     "k_automate_section_zcgLMN",
     "k_blurbs_numbers_JwXXNk",
     "k_clients_say_B7pnda",
-    "k_image_banner_FdXWg7",
-    "custom_liquid_CWpizP"
+    "custom_liquid_CWpizP",
+    "quiz_banner_NFN78Q",
+    "k_image_banner_FdXWg7"
   ]
 }
