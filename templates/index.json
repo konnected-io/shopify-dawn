@@ -299,13 +299,13 @@
           "settings": {
             "image": "shopify://shop_images/Homepage_AP_Pro_-_Desktop_1.png",
             "mobile_image": "shopify://shop_images/Homepage_AP_Pro_-_Desktop_1.png",
-            "heading": "Alarm Panel Pro <br>Conversion Kit",
+            "heading": "Alarm Panel Pro Conversion Kit",
             "heading_size": "hxl",
             "top_text": "",
             "bottom_text": "<p>Make your wired alarm system smart. Stop paying for monitoring!</p>",
             "bottom_code": "",
             "text_color": "",
-            "link": "shopify://products/konnected-alarm-panel-pro-12-zone-kit"
+            "link": "shopify://collections/konnected-alarm-panel-pro-kits"
           }
         },
         "item_JpAVdm": {
@@ -313,13 +313,13 @@
           "settings": {
             "image": "shopify://shop_images/Homepage_GDO_-_Desktop_1.png",
             "mobile_image": "shopify://shop_images/Homepage_GDO_-_Desktop_1.png",
-            "heading": "Garage Door Opener <br>blaQ",
+            "heading": "Garage Door Opener blaQ",
             "heading_size": "hxl",
             "top_text": "",
             "bottom_text": "<p>Ultimate upgrade from myQ. Control your garage your way.</p>",
             "bottom_code": "",
             "text_color": "#ffffff",
-            "link": "shopify://products/smart-garage-door-opener-blaq-myq-alternative"
+            "link": "shopify://collections/smart-garage-door-openers"
           }
         }
       },
