@@ -357,7 +357,7 @@
           "type": "icon-block",
           "settings": {
             "image": "shopify://shop_images/SmartThings_logo.png",
-            "block_url": ""
+            "block_url": "https://konnected.io/pages/smartthings"
           }
         },
         "icon_block_WcGWwa": {
