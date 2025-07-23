@@ -16,6 +16,7 @@
     margin: 2rem 0 4rem;
     font-size: 14px;
     transition: all ease .2s;
+    user-select: none;
 }
 
 
