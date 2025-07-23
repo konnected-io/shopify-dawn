@@ -316,7 +316,7 @@
           "settings": {
             "bg_image": "shopify://shop_images/right_2.png",
             "heading": "Smart Garage Openers",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "top_text": "",
             "featured_image": "shopify://shop_images/Untitled_26.png",
             "image_width": 50,
@@ -408,43 +408,50 @@
         "padding_bottom": 20
       }
     },
-    "k_media_columns_x4q6MT": {
-      "type": "k-media-columns",
+    "multicolumn_8wUPRB": {
+      "type": "multicolumn",
       "blocks": {
-        "item_FnbqQ9": {
-          "type": "item",
+        "column_EGRagH": {
+          "type": "column",
           "settings": {
-            "video_url": "https://youtu.be/jx6ikTQNdQo",
-            "cover_image": "shopify://shop_images/thumbnail_for_Konnected_Alarm_Panel_Pro_Collection_Page_Video.png",
+            "image": "shopify://shop_images/thumbnail_for_Konnected_Alarm_Panel_Pro_Collection_Page_Video.png",
             "title": "Konnected Alarm Panel Pro Conversion Kit",
-            "text": ""
+            "text": "",
+            "link_label": "watch the video",
+            "link": "https://youtu.be/jx6ikTQNdQo"
           }
         },
-        "item_wBiQJN": {
-          "type": "item",
+        "column_WEjhU6": {
+          "type": "column",
           "settings": {
-            "video_url": "https://youtu.be/cxVzUN0NfdQ",
-            "cover_image": "shopify://shop_images/GDO_blaQ_-_JRGo_edit_thumbnail_d201f725-0d15-4887-94e8-b80269071692.jpg",
+            "image": "shopify://shop_images/GDO_blaQ_-_JRGo_edit_thumbnail_d201f725-0d15-4887-94e8-b80269071692.jpg",
             "title": "Konnected Smart Garage Door Opener blaQ",
-            "text": ""
+            "text": "",
+            "link_label": "watch the video",
+            "link": "https://youtu.be/cxVzUN0NfdQ"
           }
         }
       },
       "block_order": [
-        "item_FnbqQ9",
-        "item_wBiQJN"
+        "column_EGRagH",
+        "column_WEjhU6"
       ],
-      "name": "Media Columns",
+      "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "New to Konnected? Watch These First!",
         "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "primary",
-        "columns_desktop": 2,
-        "columns_mobile": "1",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
-        "padding_top": 12,
-        "padding_bottom": 52
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "k_automate_section_zcgLMN": {
@@ -816,7 +823,7 @@
     "k_partners_kzUjpX",
     "custom_liquid_dehegk",
     "custom_liquid_L9yL96",
-    "k_media_columns_x4q6MT",
+    "multicolumn_8wUPRB",
     "k_automate_section_zcgLMN",
     "k_blurbs_numbers_JwXXNk",
     "k_clients_say_B7pnda",
