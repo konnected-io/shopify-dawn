@@ -297,14 +297,14 @@
         "item_dVEhUJ": {
           "type": "item",
           "settings": {
-            "bg_image": "shopify://shop_images/header_background_image-left.png",
+            "bg_image": "shopify://shop_images/left_2.png",
             "heading": "Alarm Panel Pro Kits",
             "heading_size": "h0",
             "top_text": "",
             "featured_image": "shopify://shop_images/final_pro_board_with_transparent_background.png",
             "image_width": 50,
             "mobile_image_width": 32,
-            "bottom_text": "<p>Make your wired alarm system smart. <br/>Stop paying for monitoring!</p>",
+            "bottom_text": "<p><strong>Keep the sensors, lose the landline. </strong><br/><br/>get app alerts, voice arming, and automations that know when the dog’s just being nosey.<br/><br/></p>",
             "bottom_code": "",
             "text_color": "",
             "link": "shopify://collections/konnected-alarm-panel-pro-kits"
@@ -313,14 +313,14 @@
         "item_z8r9D7": {
           "type": "item",
           "settings": {
-            "bg_image": "shopify://shop_images/header_background_image-right.png",
+            "bg_image": "shopify://shop_images/right_2.png",
             "heading": "Smart Garage Door Openers (GDOs)",
             "heading_size": "h1",
-            "top_text": "<p>Install alongside your alarm panel to monitor and automate wired zones.</p>",
+            "top_text": "",
             "featured_image": "shopify://shop_images/gdo_white_2.png",
             "image_width": 50,
             "mobile_image_width": 28,
-            "bottom_text": "<p>Ultimate upgrade from myQ. Control your garage your way.</p>",
+            "bottom_text": "<p></p><p></p><p></p><p><strong>Stop second-guessing, start remote-pressing. <br/></strong><br/>Our GDOs make your garage door smarter, safer, and always just one tap away.<br/><br/></p>",
             "bottom_code": "",
             "text_color": "#ffffff",
             "link": "shopify://collections/smart-garage-door-openers"
