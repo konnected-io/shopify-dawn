@@ -333,6 +333,63 @@
         "padding_bottom": 0
       }
     },
+    "custom_liquid_dehegk": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% comment %}\n  Konnected – Two-Column Snapshot\n  Drop this into a “Custom liquid” block.\n{% endcomment %}\n\n<section class=\"konnected-glance\">\n  <div class=\"page-width\">\n    <h2 class=\"h2 text-center\">What They Do</h2>\n    \n\n    <div class=\"glance-grid\">\n      <!-- Alarm Panel Pro Kits -->\n      <div class=\"glance-card\">\n        <h2 class=\"card-title\"><center><big>Alarm Panel Pro Kits</big></center></h2>\n        <ul class=\"card-list\">\n          <li>Modernize any wired alarm panel without replacing sensors</li>\n          <li>Arm / disarm & check status from phone, voice, or automations</li>\n          <li>Live zone data in Home Assistant, SmartThings, Hubitat & more</li>\n          <li>Trigger lights, locks & cameras when doors open or alarms trip</li>\n          <li>Local processing - no monitoring contracts or cloud fees</li>\n        </ul>\n      </div>\n\n      <!-- Garage Door Opener Kits -->\n      <div class=\"glance-card\">\n        <h2 class=\"card-title\"><center><big>Garage-Door-Opener Kits </big></center></h2>\n        <ul class=\"card-list\">\n          <li>Smart control any garage door using your existing opener and motor</li>\n          <li>Real-time door position & safety alerts straight to your phone</li>\n          <li>Works locally with Home Assistant, SmartThings & voice assistants</li>\n          <li>Auto-close schedules and “door left open” reminders</li>\n          <li>DIY install in minutes - no hubs or subscriptions required</li>\n        </ul>\n      </div>\n    </div>\n  </div>\n\n  <style>\n    /* --- layout --- */\n    .konnected-glance        { margin: 3rem 0; }\n    .konnected-glance .subtitle {\n      margin: 0 auto 2rem; max-width: 560px; color: #6c7280;\n    }\n    .glance-grid {\n      display: grid; gap: 1.5rem;\n      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n    }\n    /* --- cards --- */\n    .glance-card {\n      background: #fff; border: 1px solid #e5e7eb; border-radius: 12px;\n      padding: 1.5rem 1.75rem;\n    }\n    .card-title {\n      margin: 0 0 1rem; font-size: 1.125rem; font-weight: 600; color: #2563eb;\n    }\n    /* --- bullets --- */\n    .card-list            { margin: 0; padding: 0; list-style: none; }\n    .card-list li {\n      position: relative; padding-left: 1.5rem; margin: .5rem 0;\n    }\n    .card-list li::before {\n      content: \"✓\"; position: absolute; left: 0; top: 0;\n      color: #3b82f6; font-weight: 600;\n    }\n  </style>\n</section>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "k_partners_kzUjpX": {
+      "type": "k-partners",
+      "blocks": {
+        "icon_block_hRthAn": {
+          "type": "icon-block",
+          "settings": {
+            "image": "shopify://shop_images/home-assistant-wordmark-color-on-light_5647578c-072e-4668-82ef-4f12dd671ebd.png",
+            "block_url": ""
+          }
+        },
+        "icon_block_VY7Td9": {
+          "type": "icon-block",
+          "settings": {
+            "image": "shopify://shop_images/SmartThings_logo.png",
+            "block_url": ""
+          }
+        },
+        "icon_block_WcGWwa": {
+          "type": "icon-block",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_19.png",
+            "block_url": "https://konnected.io/pages/control4"
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_hRthAn",
+        "icon_block_VY7Td9",
+        "icon_block_WcGWwa"
+      ],
+      "name": "Partners Carousel",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "enable_desktop_slider": false,
+        "aligned_center": true,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_8wUPRB": {
       "type": "multicolumn",
       "blocks": {
@@ -742,6 +799,8 @@
     "85174f26-ba4b-49ee-ae57-a70ed377963e",
     "rich_text_ELRVzU",
     "k_collection_split_banner_GKUq3Q",
+    "custom_liquid_dehegk",
+    "k_partners_kzUjpX",
     "multicolumn_8wUPRB",
     "k_automate_section_zcgLMN",
     "k_blurbs_numbers_JwXXNk",
