@@ -461,7 +461,7 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/143a4cb4ffc35551b4f87a39afc8829f.png",
-            "title": "Alarm Panels",
+            "title": "Smart Alarm Panels",
             "content": "<p>Retrofit your wired alarm & wired sensors</p>",
             "url": "shopify://collections/konnected-alarm-panel-pro-kits",
             "set_as_popup": false
@@ -471,7 +471,7 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/Group_1141.png",
-            "title": "Garage Door Openers",
+            "title": "Smart Garage Openers",
             "content": "<p>Make any existing garage<br/>door opener smart</p>",
             "url": "shopify://collections/smart-garage-door-openers",
             "set_as_popup": false
