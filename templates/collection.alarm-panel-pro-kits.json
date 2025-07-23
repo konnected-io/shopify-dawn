@@ -58,7 +58,7 @@
         "item_dj7yQk": {
           "type": "item",
           "settings": {
-            "bg_image": "shopify://shop_images/alarm_panel_pro_collection_page_left_side_header_background.png",
+            "bg_image": "shopify://shop_images/left.png",
             "heading": "Alarm Panel Pro Conversion Kit",
             "heading_size": "h0",
             "top_text": "<p>Replace your systems' brain or build smart from scratch with wired sensors.</p>",
@@ -74,7 +74,7 @@
         "item_JpAVdm": {
           "type": "item",
           "settings": {
-            "bg_image": "shopify://shop_images/alarm_panel_pro_collection_page_right_side_header_background.png",
+            "bg_image": "shopify://shop_images/right.png",
             "heading": "Alarm Panel Pro Interface Kit",
             "heading_size": "h0",
             "top_text": "<p>Install alongside your alarm panel to monitor and automate wired zones.</p>",
