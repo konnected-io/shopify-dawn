@@ -58,7 +58,7 @@
         "item_dj7yQk": {
           "type": "item",
           "settings": {
-            "bg_image": "shopify://shop_images/left.png",
+            "bg_image": "shopify://shop_images/left_2.png",
             "heading": "GDO blaQ",
             "heading_size": "hxl",
             "top_text": "<p>For Chamberlain. LiftMaster, Craftsman, and Merlin (Australia) garage openers made after 1997</p>",
@@ -74,7 +74,7 @@
         "item_JpAVdm": {
           "type": "item",
           "settings": {
-            "bg_image": "shopify://shop_images/right.png",
+            "bg_image": "shopify://shop_images/right_2.png",
             "heading": "GDO White",
             "heading_size": "hxl",
             "top_text": "<p>Any other brand (Genie, Overhead Door, Linear, Stanley, etc.)</p>",
