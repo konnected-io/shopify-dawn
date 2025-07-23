@@ -13,6 +13,8 @@
 
   .split-image-wrapper {
     position: relative;
+    isolation: isolate;
+    height: 100%;
   }
   .split-image-wrapper a {
     display: block;
@@ -29,13 +31,10 @@
   .heading-block h3 {
     margin: 0;
   }
-
-  .heading-block {
-    position: absolute;
-    top: 4rem;
-    padding: 1.5rem;
+  .split-content--inner > * {
     width: 100%;
   }
+
   .text-block-split {
     max-width: 57rem;
     margin: auto;
@@ -44,19 +43,47 @@
     line-height: 1.2em;
   }
   .bottom-block {
-    position: absolute;
-    bottom: 6rem;
     width: 100%;
     padding: 0 1.5rem;
   }
   .heading-block .text-block-split {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+  }
+  .split-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 2.5rem 1.5rem;
+  }
+  .card-overlay-media {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  .split-featured-inner {
+    max-width: var(--width);
+    margin: auto;
+    width: 100%;
+  }
+  .split-featured-image {
+    display: flex;
+  }
+  .split-content--inner {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 2rem;
   }
 
   {% for block in section.blocks %}
-    {% if block.settings.text_color != blank %}
+    {% if block.settings.text_color.alpha != 0.0  and block.settings.text_color != blank %}
       #Block-{{ block.id }} * {
-        Color: {{ block.settings.text_color }};
+        color: {{ block.settings.text_color }};
       }
     {% endif %}
   {% endfor %}
@@ -66,8 +93,12 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
-    #shopify-section-{{ section.id }} .bottom-block {
-      min-height: var(--height);
+    .split-content {
+      padding: 5.5rem 2.5rem;
+      min-height: 60rem;
+    }
+    .split-content--inner {
+      grid-template-rows: auto 1fr minmax(4rem, auto);
     }
   }
 
@@ -76,147 +107,136 @@
       top: 0;
     }
     .text-block-split {
-      font-size: 1.2rem;
-    }
-    .heading-block h3 {
-      font-size: 2.3rem;
+      font-size: 1.4rem;
     }
     .heading-block .text-block-split {
-        margin-top: .3rem;
+      margin-top: 1rem;
     }
-    .bottom-block {
-      bottom: .5rem;
+    .heading-block h3 {
+      font-size: calc(var(--font-heading-scale) * 2.6rem);
+      max-width: 33rem;
+      margin: auto;
+    }
+    .split-featured-inner {
+      max-width: var(--mobile-width);
     }
   }
 {%- endstyle -%}
 
-{%- liquid
-    assign highest_ratio = 0
-    for block in section.blocks
-      if block.settings.image.height > highest_ratio
-        assign highest_ratio = block.settings.image.aspect_ratio
-      endif
-    endfor
--%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="section-{{ section.id }}-padding">
     <div class="grid grid--1-col-tablet-down grid-2-col-desktop">
         {% for block in section.blocks %}
             <div class="grid__item">
-                {%- if block.settings.image != blank -%}
-                    <div class="split-image-wrapper" id="Block-{{ block.id }}">
-                      <div
-                        class="media {% if block.settings.mobile_image != blank %}small-hide{% endif %} media--transparent"
-                        style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
-                      >
-                        {%- liquid
-                          assign number_of_columns = 2
-                          assign number_of_columns_mobile = 2
-                          assign grid_space_desktop = number_of_columns | minus: 1 | times: settings.spacing_grid_horizontal | plus: 100 | append: 'px'
-                          assign grid_space_tablet = number_of_columns_mobile | minus: 1 | times: settings.spacing_grid_horizontal | plus: 100 | append: 'px'
-                          assign grid_space_mobile = number_of_columns_mobile | minus: 1 | times: settings.spacing_grid_horizontal | divided_by: 2 | plus: 30 | append: 'px'
-                          assign image_width = 1
-                        -%}
-                        {% capture sizes %}
-                          (min-width: {{ settings.page_width }}px) calc(({{ settings.page_width }}px - {{ grid_space_desktop }}) * {{ image_width }} /  {{ number_of_columns }}),
-                          (min-width: 990px) calc((100vw - {{ grid_space_desktop }}) * {{ image_width }} / {{ number_of_columns }}),
-                          (min-width: 750px) calc((100vw - {{ grid_space_tablet }}) * {{ image_width }} / {{ number_of_columns_mobile }}),
-                          calc((100vw - {{ grid_space_mobile }}) * {{ image_width }} / {{ number_of_columns_mobile }})
-                        {% endcapture %}
-                        {{
-                          block.settings.image
-                          | image_url: width: 3200
-                          | image_tag:
-                            loading: 'lazy',
-                            widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
-                            sizes: sizes
-                        }}
-                      </div>
-                      {% if block.settings.mobile_image != blank %}
-                        <div
-                            class="media large-up-hide medium-hide media--transparent"
-                            style="padding-bottom: {{ 1 | divided_by: block.settings.mobile_image.aspect_ratio | times: 100 }}%;"
-                          >
-                            {%- liquid
-                              assign number_of_columns = 10
-                              assign number_of_columns_mobile = 2
-                              assign grid_space_desktop = number_of_columns | minus: 1 | times: settings.spacing_grid_horizontal | plus: 100 | append: 'px'
-                              assign grid_space_tablet = number_of_columns_mobile | minus: 1 | times: settings.spacing_grid_horizontal | plus: 100 | append: 'px'
-                              assign grid_space_mobile = number_of_columns_mobile | minus: 1 | times: settings.spacing_grid_horizontal | divided_by: 2 | plus: 30 | append: 'px'
-                              assign image_width = 1
-                            -%}
-                            {% capture sizes %}
-                              (min-width: {{ settings.page_width }}px) calc(({{ settings.page_width }}px - {{ grid_space_desktop }}) * {{ image_width }} /  {{ number_of_columns }}),
-                              (min-width: 990px) calc((100vw - {{ grid_space_desktop }}) * {{ image_width }} / {{ number_of_columns }}),
-                              (min-width: 750px) calc((100vw - {{ grid_space_tablet }}) * {{ image_width }} / {{ number_of_columns_mobile }}),
-                              calc((100vw - {{ grid_space_mobile }}) * {{ image_width }} / {{ number_of_columns_mobile }})
-                            {% endcapture %}
-                            {{
-                              block.settings.mobile_image
-                              | image_url: width: 800
-                              | image_tag:
-                                loading: 'lazy',
-                                widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
-                                sizes: sizes
-                            }}
-                        </div>
-                      {%- endif -%}
-                      {% if block.settings.heading != blank or block.settings.top_text != blank %}
-                        <div class="heading-block center">
-                          {% if block.settings.heading != blank %}
-                            <h3 class="inline-richtext {{ block.settings.heading_size }}">
-                              {{ block.settings.heading }}
-                            </h3>
-                          {% endif %}
-                          {% if block.settings.top_text != blank %}
-                            <div class="rte text-block-split top-text">
-                              {{ block.settings.top_text }}
-                            </div>
-                          {% endif %}
-                        </div>
-                      {% endif %}
-
-                      {% if block.settings.bottom_text != blank %}
-                        <div class="bottom-block center">
-                          <div class="rte text-block-split bottom-text">
-                            {{ block.settings.bottom_text }}
-                          </div>
-                          {% if block.settings.bottom_code != blank %}
-                            <div class="center code-below">
-                              {{ block.settings.bottom_code }}
-                            </div>
-                          {% endif %}
-                        </div>
-                      {% endif %}
-
-                      {% if block.settings.link != blank %}
-                        <a href="{{ block.settings.link }}" class="full-unstyled-link"></a>
-                      {% endif %}
+              <div class="split-image-wrapper" id="Block-{{ block.id }}">
+                {%- if block.settings.bg_image != blank -%}
+                    <div
+                      class="card-overlay-media media media--transparent"
+                    >
+                      {%- liquid
+                        assign number_of_columns = 2
+                        assign number_of_columns_mobile = 2
+                        assign grid_space_desktop = number_of_columns | minus: 1 | times: settings.spacing_grid_horizontal | plus: 100 | append: 'px'
+                        assign grid_space_tablet = number_of_columns_mobile | minus: 1 | times: settings.spacing_grid_horizontal | plus: 100 | append: 'px'
+                        assign grid_space_mobile = number_of_columns_mobile | minus: 1 | times: settings.spacing_grid_horizontal | divided_by: 2 | plus: 30 | append: 'px'
+                        assign image_width = 1
+                      -%}
+                      {% capture sizes %}
+                        (min-width: {{ settings.page_width }}px) calc(({{ settings.page_width }}px - {{ grid_space_desktop }}) * {{ image_width }} /  {{ number_of_columns }}),
+                        (min-width: 990px) calc((100vw - {{ grid_space_desktop }}) * {{ image_width }} / {{ number_of_columns }}),
+                        (min-width: 750px) calc((100vw - {{ grid_space_tablet }}) * {{ image_width }} / {{ number_of_columns_mobile }}),
+                        calc((100vw - {{ grid_space_mobile }}) * {{ image_width }} / {{ number_of_columns_mobile }})
+                      {% endcapture %}
+                      {{
+                        block.settings.bg_image
+                        | image_url: width: 3200
+                        | image_tag:
+                          loading: 'lazy',
+                          widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
+                          sizes: sizes
+                      }}
                     </div>
                 {%- endif -%}
 
+                <div class="split-content">
+                  <div class="split-content--inner">
+                    {% if block.settings.heading != blank or block.settings.top_text != blank %}
+                      <div class="heading-block center">
+                        {% if block.settings.heading != blank %}
+                          <h3 class="inline-richtext {{ block.settings.heading_size }}">
+                            {% if block.settings.link != blank %}
+                              <a href="{{ block.settings.link }}" class="full-unstyled-link">
+                            {% endif %}
+                              {{ block.settings.heading }}
+                            {% if block.settings.link != blank %}
+                              </a>
+                            {% endif %}
+                          </h3>
+                        {% endif %}
+
+                        {% if block.settings.top_text != blank %}
+                          <div class="rte text-block-split top-text">
+                            {{ block.settings.top_text }}
+                          </div>
+                        {% endif %}
+                      </div>
+                    {% endif %}
+                    {% if block.settings.featured_image != blank %}
+                      <div class="split-featured-image" style="--width: {{ block.settings.image_width }}rem; --mobile-width:{{ block.settings.mobile_image_width }}rem;">
+                        <div class="split-featured-inner">
+                          <div
+                              class="media media--transparent"
+                              style="padding-bottom: {{ 1 | divided_by: block.settings.featured_image.aspect_ratio | times: 100 }}%;"
+                            >
+                              {%- liquid
+                                assign number_of_columns = 2
+                                assign number_of_columns_mobile = 1
+                                assign grid_space_desktop = number_of_columns | minus: 1 | times: settings.spacing_grid_horizontal | plus: 100 | append: 'px'
+                                assign grid_space_tablet = number_of_columns_mobile | minus: 1 | times: settings.spacing_grid_horizontal | plus: 100 | append: 'px'
+                                assign grid_space_mobile = number_of_columns_mobile | minus: 1 | times: settings.spacing_grid_horizontal | divided_by: 2 | plus: 30 | append: 'px'
+                                assign image_width = 1
+                              -%}
+                              {% capture sizes %}
+                                (min-width: {{ settings.page_width }}px) calc(({{ settings.page_width }}px - {{ grid_space_desktop }}) * {{ image_width }} /  {{ number_of_columns }}),
+                                (min-width: 990px) calc((100vw - {{ grid_space_desktop }}) * {{ image_width }} / {{ number_of_columns }}),
+                                (min-width: 750px) calc((100vw - {{ grid_space_tablet }}) * {{ image_width }} / {{ number_of_columns_mobile }}),
+                                calc((100vw - {{ grid_space_mobile }}) * {{ image_width }} / {{ number_of_columns_mobile }})
+                              {% endcapture %}
+                              {{
+                                block.settings.featured_image
+                                | image_url: width: 3200
+                                | image_tag:
+                                  loading: 'lazy',
+                                  widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
+                                  sizes: sizes
+                              }}
+                          </div>
+                        </div>
+                      </div>
+                    {%- endif -%}
+
+                    {% if block.settings.bottom_text != blank %}
+                      <div class="bottom-block center">
+                        <div class="rte text-block-split bottom-text">
+                          {{ block.settings.bottom_text }}
+                        </div>
+                        {% if block.settings.bottom_code != blank %}
+                          <div class="center code-below">
+                            {{ block.settings.bottom_code }}
+                          </div>
+                        {% endif %}
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
             </div>
         {% endfor %}
     </div>
   </div>
 </div>
 
-
-<script>
-  var btextHeight = 0;
-
-  document.querySelectorAll('#shopify-section-{{ section.id }} .bottom-block').forEach(e=> {
-    if (e.offsetHeight > btextHeight) {
-      btextHeight = e.offsetHeight;
-    }
-  })
-
-  document.querySelectorAll('#shopify-section-{{ section.id }} .bottom-block').forEach(e=> {
-    e.style.setProperty('--height', btextHeight + 'px');
-  })
-
-</script>
 
 {% schema %}
 {
@@ -285,14 +305,12 @@
         "settings": [
             {
                 "type": "image_picker",
-                "id": "image",
-                "label": "Image"
+                "id": "bg_image",
+                "label": "Background Image"
             },
             {
-                "type": "image_picker",
-                "id": "mobile_image",
-                "label": "Mobile Image",
-                "info": "optional"
+              "type": "header",
+              "content": "Contents"
             },
             {
               "type": "text",
@@ -327,6 +345,32 @@
               "type": "richtext",
               "id": "top_text",
               "label": "Top Text"
+            },
+            {
+              "type": "image_picker",
+              "id": "featured_image",
+              "label": "Featured Image",
+              "info": "upload png without extra spacings"
+            },
+            {
+              "type": "range",
+              "id": "image_width",
+              "min": 10,
+              "max": 100,
+              "step": 1,
+              "default": 50,
+              "unit": "rem",
+              "label": "Image width"
+            },
+            {
+              "type": "range",
+              "id": "mobile_image_width",
+              "min": 10,
+              "max": 100,
+              "step": 1,
+              "default": 40,
+              "unit": "rem",
+              "label": "Image width"
             },
             {
               "type": "richtext",

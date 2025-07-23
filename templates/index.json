@@ -291,31 +291,35 @@
         "padding_bottom": 52
       }
     },
-    "k_collection_split_banner_GKUq3Q": {
+    "k_collection_split_banner_pQLJdT": {
       "type": "k-collection-split-banner",
       "blocks": {
-        "item_dj7yQk": {
+        "item_dVEhUJ": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Homepage_AP_Pro_-_Desktop_1.png",
-            "mobile_image": "shopify://shop_images/Homepage_AP_Pro_-_Desktop_1.png",
+            "bg_image": "shopify://shop_images/header_background_image-left.png",
             "heading": "Alarm Panel Pro Kits",
             "heading_size": "h0",
             "top_text": "",
-            "bottom_text": "<p>Make your wired alarm system smart. Stop paying for monitoring!</p>",
+            "featured_image": "shopify://shop_images/final_pro_board_with_transparent_background.png",
+            "image_width": 50,
+            "mobile_image_width": 32,
+            "bottom_text": "<p>Make your wired alarm system smart. <br/>Stop paying for monitoring!</p>",
             "bottom_code": "",
             "text_color": "",
             "link": "shopify://collections/konnected-alarm-panel-pro-kits"
           }
         },
-        "item_JpAVdm": {
+        "item_z8r9D7": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Homepage_GDO_-_Desktop_1.png",
-            "mobile_image": "shopify://shop_images/Homepage_GDO_-_Desktop_1.png",
+            "bg_image": "shopify://shop_images/header_background_image-right.png",
             "heading": "Smart Garage Door Openers (GDOs)",
-            "heading_size": "h0",
-            "top_text": "",
+            "heading_size": "h1",
+            "top_text": "<p>Install alongside your alarm panel to monitor and automate wired zones.</p>",
+            "featured_image": "shopify://shop_images/gdo_white_2.png",
+            "image_width": 50,
+            "mobile_image_width": 28,
             "bottom_text": "<p>Ultimate upgrade from myQ. Control your garage your way.</p>",
             "bottom_code": "",
             "text_color": "#ffffff",
@@ -324,8 +328,11 @@
         }
       },
       "block_order": [
-        "item_dj7yQk",
-        "item_JpAVdm"
+        "item_dVEhUJ",
+        "item_z8r9D7"
+      ],
+      "custom_css": [
+        "@media (max-width: 749px) {.heading-block h3 {max-width: 33rem; margin: auto; }}"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -734,11 +741,14 @@
         "text_XwRQrX",
         "buttons_yAryEp"
       ],
+      "custom_css": [
+        "@media (max-width: 749px) {.banner__media img {object-position: center left; } .quiz-banner .banner__box {padding-bottom: 2.5rem; }}"
+      ],
       "name": "Quiz Banner",
       "settings": {
         "image": "shopify://shop_images/Quiz-Banner---4-_1.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "adapt",
         "liquid": "",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
@@ -808,7 +818,7 @@
   "order": [
     "85174f26-ba4b-49ee-ae57-a70ed377963e",
     "rich_text_ELRVzU",
-    "k_collection_split_banner_GKUq3Q",
+    "k_collection_split_banner_pQLJdT",
     "k_partners_kzUjpX",
     "custom_liquid_dehegk",
     "custom_liquid_L9yL96",
