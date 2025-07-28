@@ -358,6 +358,27 @@
             "block_url": "https://konnected.io/pages/smartthings"
           }
         },
+        "icon_block_9CTcqA": {
+          "type": "icon-block",
+          "settings": {
+            "image": "shopify://shop_images/hubitat_5c8f25c7-b408-408c-a0d9-5ed0ad144aec.png",
+            "block_url": "https://konnected.io/pages/hubitat"
+          }
+        },
+        "icon_block_hBHM93": {
+          "type": "icon-block",
+          "settings": {
+            "image": "shopify://shop_images/Amazon_Alexa-Logo_b1583c3f-0a80-4b2a-8162-4d4b9892ef24.png",
+            "block_url": ""
+          }
+        },
+        "icon_block_YqcreC": {
+          "type": "icon-block",
+          "settings": {
+            "image": "shopify://shop_images/homebridge_1.png",
+            "block_url": ""
+          }
+        },
         "icon_block_WcGWwa": {
           "type": "icon-block",
           "settings": {
@@ -369,6 +390,9 @@
       "block_order": [
         "icon_block_hRthAn",
         "icon_block_VY7Td9",
+        "icon_block_9CTcqA",
+        "icon_block_hBHM93",
+        "icon_block_YqcreC",
         "icon_block_WcGWwa"
       ],
       "name": "Partners Carousel",
@@ -376,8 +400,8 @@
         "heading": "",
         "heading_size": "h2",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "enable_desktop_slider": false,
+        "columns_desktop": 5,
+        "enable_desktop_slider": true,
         "aligned_center": true,
         "auto_rotate": false,
         "change_slides_speed": 5,

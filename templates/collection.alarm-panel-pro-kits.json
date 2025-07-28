@@ -173,11 +173,18 @@
             "block_url": "shopify://pages/smartthings"
           }
         },
-        "icon_block_4hC4EU": {
+        "icon_block_FPNttB": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify://shop_images/control4.png",
-            "block_url": "shopify://pages/control4"
+            "image": "shopify://shop_images/hubitat_53d7c6fa-009e-435c-9602-708e9bcd4f63.png",
+            "block_url": "shopify://pages/hubitat"
+          }
+        },
+        "icon_block_tzKE4J": {
+          "type": "icon-block",
+          "settings": {
+            "image": "shopify://shop_images/Amazon_Alexa-Logo_639acfb6-e965-4d35-a1ca-cf1f5ffdbb2e.png",
+            "block_url": ""
           }
         },
         "icon_block_rc6hmD": {
@@ -187,20 +194,21 @@
             "block_url": ""
           }
         },
-        "icon_block_FPNttB": {
+        "icon_block_4hC4EU": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify://shop_images/hubitat_53d7c6fa-009e-435c-9602-708e9bcd4f63.png",
-            "block_url": "shopify://pages/hubitat"
+            "image": "shopify://shop_images/control4.png",
+            "block_url": "shopify://pages/control4"
           }
         }
       },
       "block_order": [
         "icon_block_dmTMaF",
         "icon_block_7TVjQa",
-        "icon_block_4hC4EU",
+        "icon_block_FPNttB",
+        "icon_block_tzKE4J",
         "icon_block_rc6hmD",
-        "icon_block_FPNttB"
+        "icon_block_4hC4EU"
       ],
       "name": "Partners Carousel",
       "settings": {
