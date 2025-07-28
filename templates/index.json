@@ -869,62 +869,6 @@
         "padding_bottom": 0
       }
     },
-    "quiz_banner_NFN78Q": {
-      "type": "quiz-banner",
-      "blocks": {
-        "heading_w833Xp": {
-          "type": "heading",
-          "settings": {
-            "heading": "Not sure which product is right for you?",
-            "heading_size": "h2"
-          }
-        },
-        "text_XwRQrX": {
-          "type": "text",
-          "settings": {
-            "text": "Check out our product quizes to help you determine the right kit for your home.",
-            "text_style": "body"
-          }
-        },
-        "buttons_yAryEp": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Alarm Panel Quiz",
-            "close_text_1": "Exit Quiz",
-            "quiz_id_1": "evBeQ7ng7eofSV9o",
-            "button_style_secondary_1": false,
-            "button_label_2": "GDO Quiz",
-            "close_text_2": "Exit Quiz",
-            "quiz_id_2": "7mxezFiPNz4hygNC",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_w833Xp",
-        "text_XwRQrX",
-        "buttons_yAryEp"
-      ],
-      "custom_css": [
-        "@media (max-width: 749px) {.banner__media img {object-position: center left; } .quiz-banner .banner__box {padding-bottom: 2.5rem; }}"
-      ],
-      "name": "Quiz Banner",
-      "settings": {
-        "image": "shopify://shop_images/Quiz-Banner---4-_1.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "liquid": "",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "layout": "text_first",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
     "k_image_banner_FdXWg7": {
       "type": "k-image-banner",
       "blocks": {
@@ -977,6 +921,63 @@
         "color_scheme": "background-1",
         "image_behavior": "none"
       }
+    },
+    "quiz_banner_NFN78Q": {
+      "type": "quiz-banner",
+      "blocks": {
+        "heading_w833Xp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Not sure which product is right for you?",
+            "heading_size": "h2"
+          }
+        },
+        "text_XwRQrX": {
+          "type": "text",
+          "settings": {
+            "text": "Check out our product quizes to help you determine the right kit for your home.",
+            "text_style": "body"
+          }
+        },
+        "buttons_yAryEp": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Alarm Panel Quiz",
+            "close_text_1": "Exit Quiz",
+            "quiz_id_1": "evBeQ7ng7eofSV9o",
+            "button_style_secondary_1": false,
+            "button_label_2": "GDO Quiz",
+            "close_text_2": "Exit Quiz",
+            "quiz_id_2": "7mxezFiPNz4hygNC",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_w833Xp",
+        "text_XwRQrX",
+        "buttons_yAryEp"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media (max-width: 749px) {.banner__media img {object-position: center left; } .quiz-banner .banner__box {padding-bottom: 2.5rem; }}"
+      ],
+      "name": "Quiz Banner",
+      "settings": {
+        "image": "shopify://shop_images/Quiz-Banner---4-_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "liquid": "",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "layout": "text_first",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
     }
   },
   "order": [
@@ -993,7 +994,7 @@
     "k_blurbs_numbers_JwXXNk",
     "k_clients_say_B7pnda",
     "custom_liquid_CWpizP",
-    "quiz_banner_NFN78Q",
-    "k_image_banner_FdXWg7"
+    "k_image_banner_FdXWg7",
+    "quiz_banner_NFN78Q"
   ]
 }
