@@ -450,7 +450,7 @@
           "settings": {
             "image": "shopify://shop_images/Sequence_02_3.gif",
             "title": "Infinitely Customizable",
-            "text": "<p><em>Use your newly-smart sensors to setup scenes, automations, alerts, and more. (Custom Home Assistant dashboard shown here)</em></p>",
+            "text": "<p><em>Use your newly-smart sensors to setup custom routines and actions. (Custom Home Assistant dashboard shown here)</em></p>",
             "link_label": "",
             "link": ""
           }
