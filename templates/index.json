@@ -347,21 +347,21 @@
         "icon_block_hRthAn": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify://shop_images/home-assistant-wordmark-color-on-light_5647578c-072e-4668-82ef-4f12dd671ebd.png",
+            "image": "shopify://shop_images/HA_logo.png",
             "block_url": "https://konnected.io/pages/home-assistant"
           }
         },
         "icon_block_VY7Td9": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify://shop_images/SmartThings_logo.png",
+            "image": "shopify://shop_images/ST_logo.png",
             "block_url": "https://konnected.io/pages/smartthings"
           }
         },
         "icon_block_9CTcqA": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify://shop_images/hubitat_5c8f25c7-b408-408c-a0d9-5ed0ad144aec.png",
+            "image": "shopify://shop_images/Hubitat_logo_6c3c64af-cdd1-4459-8efd-615dfa805806.png",
             "block_url": "https://konnected.io/pages/hubitat"
           }
         },
@@ -375,14 +375,14 @@
         "icon_block_YqcreC": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify://shop_images/homebridge_1.png",
+            "image": "shopify://shop_images/Homebridge_logo.png",
             "block_url": ""
           }
         },
         "icon_block_WcGWwa": {
           "type": "icon-block",
           "settings": {
-            "image": "shopify://shop_images/Untitled_19.png",
+            "image": "shopify://shop_images/Control4_logo.png",
             "block_url": "https://konnected.io/pages/control4"
           }
         }
@@ -617,7 +617,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": false
+        "show_text_below": true
       }
     },
     "k_automate_section_zcgLMN": {
