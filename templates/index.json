@@ -695,9 +695,9 @@
           "type": "box",
           "settings": {
             "image": "shopify://shop_images/Group_3417.svg",
-            "heading": "$780/yr",
+            "heading": "$780",
             "heading_size": "h1",
-            "text": "<p>Saved on monitoring</p>",
+            "text": "<p>average yearly savings</p>",
             "text_style": "body",
             "bg_color": "#22beff",
             "text_color": "#ffffff",
