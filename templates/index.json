@@ -763,7 +763,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "color_scheme": "background-2",
-        "padding_top": 84,
+        "padding_top": 76,
         "padding_bottom": 76
       }
     },
