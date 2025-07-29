@@ -649,7 +649,7 @@
             "image": "shopify://shop_images/227c945ec08744beaf6f8596ffaca286.png",
             "title": "Accessories",
             "content": "<p>Accessorize your smart home</p>",
-            "url": "shopify://collections/shop-now",
+            "url": "shopify://collections/accessories",
             "set_as_popup": false
           }
         }
