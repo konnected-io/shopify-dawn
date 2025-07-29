@@ -791,15 +791,6 @@
             "name": "Martin J."
           }
         },
-        "review_gGgNC3": {
-          "type": "review",
-          "settings": {
-            "image": "shopify://shop_images/Review_-_Alarm_Panel_1.png",
-            "title": "Very Satisfied With the End Result",
-            "content": "<p>Very satisfied with the end result. Had a problem with the first board (Alarm Panel Pro) and after troubleshooting with a tech, a replacement board was sent. Thanks</p>",
-            "name": "Zayid A."
-          }
-        },
         "review_wrCFyJ": {
           "type": "review",
           "settings": {
@@ -854,6 +845,15 @@
             "name": "Juan V."
           }
         },
+        "review_gGgNC3": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/Review_-_Alarm_Panel_1.png",
+            "title": "Very Satisfied With the End Result",
+            "content": "<p>Very satisfied with the end result. Had a problem with the first board (Alarm Panel Pro) and after troubleshooting with a tech, a replacement board was sent. Thanks</p>",
+            "name": "Zayid A."
+          }
+        },
         "review_xJq8rD": {
           "type": "review",
           "settings": {
@@ -867,13 +867,13 @@
       "block_order": [
         "review_bTjTF4",
         "review_r9b7Qe",
-        "review_gGgNC3",
         "review_wrCFyJ",
         "review_wxBJz9",
         "review_wb7GEH",
         "review_NYjdG8",
         "review_b9RDU4",
         "review_FU6x67",
+        "review_gGgNC3",
         "review_xJq8rD"
       ],
       "settings": {
