@@ -835,6 +835,15 @@
             "content": "<p>The hardware works great and is super easy to setup, I love not having to use up WiFi for my wired home setup. Software: I use my Konnected Alarm Panel Pro integrated with Home Assistant and love the built in integration! Service and community: I want to say that it's so admirable to see someone still support the DIYer community even after moving into business! </p>",
             "name": "Jedidiah H."
           }
+        },
+        "review_FU6x67": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/AlarmPanelProConversionKit-12Zones.jpg",
+            "title": "Exactly what I was looking for",
+            "content": "<p>This product is what I had been looking for for a long time. Installation was easy. I only had one issue with my VPN getting in the way but was easily resolved. Communication with the konnected company via email was very attentive.</p>",
+            "name": "Juan V."
+          }
         }
       },
       "block_order": [
@@ -844,7 +853,8 @@
         "review_wxBJz9",
         "review_wb7GEH",
         "review_NYjdG8",
-        "review_b9RDU4"
+        "review_b9RDU4",
+        "review_FU6x67"
       ],
       "settings": {
         "title": "What our customers say",
