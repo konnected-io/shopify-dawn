@@ -776,10 +776,19 @@
         "review_bTjTF4": {
           "type": "review",
           "settings": {
-            "image": "shopify://shop_images/Review_-_GDO_2.png",
+            "image": "shopify://shop_images/Homepage_GDO_-_Desktop_1.png",
             "title": "Works Exactly as Expected",
             "content": "<p>Worked exactly as expected right out of the box, the hardest part of installation was getting a ladder and moving the cobwebs. I now have two installed and each with a wired sensor and everything has worked exactly like I wanted it to. I can't rate this cloudless, subscription-less device highly enough.  </p>",
             "name": "Josh P."
+          }
+        },
+        "review_r9b7Qe": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/AlarmPanelProConversionKit-12Zones.jpg",
+            "title": "Transformational Product",
+            "content": "<p>Love this product! Its transformed my old and ridged alarm into a flexible and so much more capable system. My alarm is now totally integrated with my other smart home devices and platforms, it does so much more now than it did before and all it took was a Konnected Alarm panel.<br/><br/></p>",
+            "name": "Martin J."
           }
         },
         "review_gGgNC3": {
@@ -844,17 +853,28 @@
             "content": "<p>This product is what I had been looking for for a long time. Installation was easy. I only had one issue with my VPN getting in the way but was easily resolved. Communication with the konnected company via email was very attentive.</p>",
             "name": "Juan V."
           }
+        },
+        "review_xJq8rD": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/AlarmPanelProConversionKit-12Zones.jpg",
+            "title": "Plug and Play, so easy to install and works perfect!",
+            "content": "<p>So easy to install, just plug into PoE, and then wire the sensor wires to the terminal block. Just a couple of clicks to add it to Home Assistant. These devices perfectly suited my needs. The response time is super fast from a contact changing to being reported in HA. The extra outputs for alarms are fantastic, I wired up a quiet one for warning, and then a super loud one for the alarm. The quality of construction is top notch as well.</p>",
+            "name": "Ryan P."
+          }
         }
       },
       "block_order": [
         "review_bTjTF4",
+        "review_r9b7Qe",
         "review_gGgNC3",
         "review_wrCFyJ",
         "review_wxBJz9",
         "review_wb7GEH",
         "review_NYjdG8",
         "review_b9RDU4",
-        "review_FU6x67"
+        "review_FU6x67",
+        "review_xJq8rD"
       ],
       "settings": {
         "title": "What our customers say",
@@ -864,8 +884,8 @@
         "columns_desktop": 3,
         "columns_mobile": "1",
         "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
+        "auto_rotate": true,
+        "change_slides_speed": 7,
         "swipe_on_mobile": true,
         "button_text": "",
         "color_scheme": "background-1",
