@@ -620,6 +620,16 @@
         "show_text_below": false
       }
     },
+    "custom_liquid_CWpizP": {
+      "type": "custom-liquid",
+      "name": "Quiz Panel",
+      "settings": {
+        "custom_liquid": "<!-- DO NOT DELETE -->\n<!-- Garage Door -->\n<div class=\"garage-door-quiz quiz-appender\" data-id=\"7mxezFiPNz4hygNC\">\n    <div class=\"octane-ai-quiz \"\nstyle=\"display: none;\" data-quiz-id=\"7mxezFiPNz4hygNC\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"></div><script src=\"https://app.octaneai.com/b7ljg36xhef3rewl/quiz.js\" async defer></script>\n</div>\n\n<!-- Alarm Panel Quiz -->\n<div class=\"alarm-panel-quiz quiz-appender\" data-id=\"evBeQ7ng7eofSV9o\">\n    <div class=\"octane-ai-quiz \" \n    style=\"display: none;\" data-quiz-id=\"evBeQ7ng7eofSV9o\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"></div><script src=\"https://app.octaneai.com/b7ljg36xhef3rewl/quiz.js\" async defer></script>\n</div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "k_automate_section_zcgLMN": {
       "type": "k-automate-section",
       "blocks": {
@@ -893,15 +903,6 @@
         "padding_bottom": 76
       }
     },
-    "custom_liquid_CWpizP": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!-- DO NOT DELETE -->\n<!-- Garage Door -->\n<div class=\"garage-door-quiz quiz-appender\" data-id=\"7mxezFiPNz4hygNC\">\n    <div class=\"octane-ai-quiz \"\nstyle=\"display: none;\" data-quiz-id=\"7mxezFiPNz4hygNC\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"></div><script src=\"https://app.octaneai.com/b7ljg36xhef3rewl/quiz.js\" async defer></script>\n</div>\n\n<!-- Alarm Panel Quiz -->\n<div class=\"alarm-panel-quiz quiz-appender\" data-id=\"evBeQ7ng7eofSV9o\">\n    <div class=\"octane-ai-quiz \" \n    style=\"display: none;\" data-quiz-id=\"evBeQ7ng7eofSV9o\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"></div><script src=\"https://app.octaneai.com/b7ljg36xhef3rewl/quiz.js\" async defer></script>\n</div>",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "k_image_banner_FdXWg7": {
       "type": "k-image-banner",
       "blocks": {
@@ -1023,10 +1024,10 @@
     "multicolumn_8wUPRB",
     "k_media_columns_6J4ntG",
     "quiz_banner_p6VmB7",
+    "custom_liquid_CWpizP",
     "k_automate_section_zcgLMN",
     "k_blurbs_numbers_JwXXNk",
     "k_clients_say_B7pnda",
-    "custom_liquid_CWpizP",
     "k_image_banner_FdXWg7",
     "quiz_banner_NFN78Q"
   ]
