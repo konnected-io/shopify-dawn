@@ -460,7 +460,7 @@
           "settings": {
             "image": "shopify://shop_images/Sequence_01_10.gif",
             "title": "Fully Local Options",
-            "text": "<p><em>Like Home Assistant and Hubitat </em></p><p><em>(Home Assistant app shown here)</em></p>",
+            "text": "<p><em>Like Home Assistant, Hubitat, and Control4 </em></p><p><em>(Control4 app shown here)</em></p>",
             "link_label": "",
             "link": ""
           }
