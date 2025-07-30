@@ -613,7 +613,7 @@
             "button_label_2": "GDO Quiz",
             "close_text_2": "Exit Quiz",
             "quiz_id_2": "7mxezFiPNz4hygNC",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": true
           }
         }
       },
