@@ -429,8 +429,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Untitled_1.gif",
-            "title": "real-time sensor status updates",
-            "text": "<p><em>SmartThings Smart Home Monitor </em></p><p><em>shown here</em></p>",
+            "title": "Real-time sensor status updates",
+            "text": "<p><a href=\"/pages/smartthings\" title=\"SmartThings\"><em>SmartThings</em></a><em> Smart Home Monitor </em></p><p><em>shown here</em></p>",
             "link_label": "",
             "link": ""
           }
@@ -439,8 +439,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/GDO_ProductVideo_1080x1080_4c21812c-5446-4022-8591-ca8f381dfedc.gif",
-            "title": "super fast response time",
-            "text": "<p><em>SmartThings Garage Door \"Device\" page </em></p><p><em>shown here</em></p>",
+            "title": "Super fast response time",
+            "text": "<p><a href=\"/pages/smartthings\" title=\"SmartThings\"><em>SmartThings</em></a><em> Garage Door \"Device\" page </em></p><p><em>shown here</em></p>",
             "link_label": "",
             "link": ""
           }
@@ -449,8 +449,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Sequence_02_3.gif",
-            "title": "Infinitely Customizable",
-            "text": "<p><em>Use your newly-smart sensors to setup custom routines and actions. (Custom Home Assistant dashboard shown here)</em></p>",
+            "title": "Infinitely customizable",
+            "text": "<p><em>Use your newly-smart sensors to setup custom routines and actions. (Custom </em><a href=\"/pages/home-assistant\" title=\"Home Assistant\"><em>Home Assistant</em></a><em> dashboard shown here)</em></p>",
             "link_label": "",
             "link": ""
           }
@@ -459,8 +459,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Sequence_01_10.gif",
-            "title": "Fully Local Options",
-            "text": "<p><em>Like Home Assistant, Hubitat, and Control4 </em></p><p><em>(Control4 app shown here)</em></p>",
+            "title": "Fully local options",
+            "text": "<p><em>Like </em><a href=\"/pages/home-assistant\" title=\"Home Assistant\"><em>Home Assistant</em></a><em>, </em><a href=\"/pages/hubitat\" title=\"Hubitat\"><em>Hubitat</em></a><em>, and </em><a href=\"/pages/control4\" title=\"Control4\"><em>Control4</em></a><em> </em></p><p><em>(Control4 app shown here)</em></p>",
             "link_label": "",
             "link": ""
           }
