@@ -14,6 +14,14 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_RDXeNt": {
+          "type": "announcement",
+          "settings": {
+            "text": "Buy One Get One 50% on Smart Garage Door Openers",
+            "link": "shopify://collections/smart-garage-door-openers",
+            "klaviyo_id": ""
+          }
+        },
         "announcement_QEPHyD": {
           "type": "announcement",
           "disabled": true,
@@ -43,6 +51,7 @@
         },
         "announcement_CGYdNW": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Join the Konnected Community here",
             "link": "https://community.konnected.io/",
@@ -60,6 +69,7 @@
         },
         "announcement_C7WYYx": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Sign up for our Newsletter and get 10% Off",
             "link": "",
@@ -104,6 +114,7 @@
         }
       },
       "block_order": [
+        "announcement_RDXeNt",
         "announcement_QEPHyD",
         "218eec1c-eda7-4672-b94d-31bdf2f41b83",
         "ca8cc32e-aec8-4c54-94ba-6013e99dab77",
