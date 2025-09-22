@@ -374,6 +374,7 @@
         },
         "icon_block_YqcreC": {
           "type": "icon-block",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Homebridge_logo.png",
             "block_url": ""
