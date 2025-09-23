@@ -274,7 +274,7 @@
         "text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Konnected's products are built using the ESP32 chips and work with <a href=\"https://esphome.io\" target=\"_blank\"><span style=\"text-decoration:underline\">ESPHome</span></a> firmware. ESPHome provides easy and powerful local integration with Home Assistant and is fully configurable and open-source.</p>",
+            "text": "<p>Konnected's products are built using ESP32 chips and work with <a href=\"https://esphome.io\" target=\"_blank\"><span style=\"text-decoration:underline\">ESPHome</span></a> firmware. ESPHome provides easy and powerful local integration with Home Assistant and is fully configurable and open-source.</p>",
             "text_style": "body"
           }
         }
