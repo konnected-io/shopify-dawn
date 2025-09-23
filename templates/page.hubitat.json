@@ -136,6 +136,7 @@
     },
     "39bdaacb-294d-4596-8b2c-fc79304a5766": {
       "type": "k-image-with-headers",
+      "disabled": true,
       "settings": {
         "background_color": "white",
         "section_padding": 50,
@@ -174,8 +175,8 @@
         "subheading_color": "dark-gray",
         "text_style": "subtitle",
         "subheading_font_weight": "light",
-        "image": "shopify://shop_images/Hubitat_HubAnimation_FINAL_5.gif",
-        "text": "<p>Hubitat is a local smart home platform. The <b>required</b> <a href=\"https://hubitat.com/products\" target=\"_blank\" rel=\"noopener noreferrer\">Hubitat hub</a> is connected directly to your router (either by WiFi or wired Ethernet), which creates a home-based network that works even without an internet connection. Thanks to the hub, there’s also less latency due to data processing within your network and <a href=\"https://konnected.io/blogs/smart-home-security/cloud-vs-local-what-smart-home-platform-is-best-for-you-and-why\" target=\"_blank\" rel=\"noopener noreferrer\">not the cloud.</a></p>",
+        "image": "shopify://shop_images/Sequence_01_2.gif",
+        "text": "<p>Hubitat is a local smart home platform. The <strong>required</strong> <a href=\"https://hubitat.com/products\" target=\"_blank\">Hubitat hub</a> is connected directly to your router (either by WiFi or wired Ethernet), which creates a home-based network that works even without an internet connection. Thanks to the hub, there’s also less latency due to data processing within your network and <a href=\"https://konnected.io/blogs/smart-home-security/cloud-vs-local-what-smart-home-platform-is-best-for-you-and-why\" target=\"_blank\">not the cloud.</a></p>",
         "text_font_size": 20,
         "para_background": "white",
         "para_padding": 10
