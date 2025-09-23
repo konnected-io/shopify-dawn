@@ -13,8 +13,7 @@
       "type": "k-image-banner-logo",
       "settings": {
         "video": "shopify://files/videos/new HA video background header.mp4",
-        "image_logo1": "shopify://shop_images/Refreshed_Logo_Blue_600px.png",
-        "image_logo2": "shopify://shop_images/home-assistant-wordmark-color-on-light_5647578c-072e-4668-82ef-4f12dd671ebd.png",
+        "image_logo1": "shopify://shop_images/Untitled_44.png",
         "has_bg": false,
         "image_overlay_opacity": 0,
         "image_height": "large",
