@@ -39,6 +39,7 @@
       "block_order": [
         "text-1"
       ],
+      "disabled": true,
       "settings": {
         "contain_image": false,
         "rounded_corners": false,
@@ -114,6 +115,7 @@
         "502fdb74-d538-4bae-8094-7eeb183b873a",
         "cc5df0bf-0e17-4415-bd4c-65cc0b815bb3"
       ],
+      "disabled": true,
       "settings": {
         "background_color": "white",
         "section_padding": 50,
@@ -168,6 +170,7 @@
       "block_order": [
         "20934b0b-6360-4967-b2b6-5fa34375620b"
       ],
+      "disabled": true,
       "settings": {
         "heading_size": "h1",
         "text_style": "body",
@@ -175,6 +178,70 @@
         "section_padding": 50,
         "section_margin_top": 0,
         "section_margin_bottom": 0
+      }
+    },
+    "k_phones_carousel_LpG3Ax": {
+      "type": "k-phones-carousel",
+      "blocks": {
+        "card_qVy7pj": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Konnected_ST_Screen_HomeMonitoring_83cbf9f0-d92f-4c16-afb6-b2a0686bcd62.jpg",
+            "image_title": "Built-in home monitoring."
+          }
+        },
+        "card_dJEkUD": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Konnected_ST_Screen_Automations_10e244de-c8c4-4bd6-ab20-97e77754fc3a.jpg",
+            "image_title": "Custom automations & routines."
+          }
+        },
+        "card_iAAEc3": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Konnected_ST_Screen_PresenceActions_31f3dae2-8fd2-45a0-8525-1357bf03d483.jpg",
+            "image_title": "Presence-based actions."
+          }
+        },
+        "card_XcTXwc": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_54fa88c2-c41a-44bf-a7a6-bd90e96d4cfd.gif",
+            "image_title": "Sensor status."
+          }
+        },
+        "card_iQDVHj": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Konnected_ST_Screen_Texts_6045180e-3de6-406b-9de6-564d71bb5dba.jpg",
+            "image_title": "Real-time notifications."
+          }
+        }
+      },
+      "block_order": [
+        "card_qVy7pj",
+        "card_dJEkUD",
+        "card_iAAEc3",
+        "card_XcTXwc",
+        "card_iQDVHj"
+      ],
+      "name": "Phones Carousel",
+      "settings": {
+        "heading": "Total Control, Tailored Your Way",
+        "heading_size": "h1",
+        "subheading": "<p>Powerful automations, custom dashboards, and full visibility with Home Assistant.</p>",
+        "text_style": "subtitle",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "enable_desktop_slider": true,
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "09db0114-b227-4d20-a4bf-866ebb673289": {
@@ -192,8 +259,8 @@
         "subheading_color": "dark-gray",
         "text_style": "subtitle",
         "subheading_font_weight": "light",
-        "image": "shopify://shop_images/HA_LocalAnimation_FINAL.gif",
-        "text": "<p>Home Assistant runs locally and doesn’t rely on an internet connection or 3rd-party cloud. As an open-source download,  Home Assistant runs on your chosen hub, meaning your smart home controller is yours. Of course, an internet connection is needed for remote access and outbound notifications. Home Assistant’s parent company offers an <a href=\"https://www.nabucasa.com/\" target=\"_blank\" rel=\"noopener noreferrer\">optional paid cloud service</a> \n adding remote access capabilities and integration with Google & Alexa.</p>",
+        "image": "shopify://shop_images/Screenshot_2025-09-23_075326.png",
+        "text": "<p>Home Assistant runs locally and doesn’t rely on an internet connection or 3rd-party cloud. As an open-source download,  Home Assistant runs on your chosen hub, meaning your smart home controller is yours. Of course, an internet connection is needed for remote access and outbound notifications. Home Assistant’s parent company offers an <a href=\"https://www.nabucasa.com/\" target=\"_blank\">optional paid cloud service</a> adding remote access capabilities and integration with Google & Alexa.</p>",
         "text_font_size": 22,
         "para_background": "",
         "para_padding": 0
@@ -491,6 +558,7 @@
     "18601c24-7fb8-41c2-9448-281d886714c8",
     "457b11b1-721e-447a-878c-de3371f97466",
     "924fdc9f-ee70-4b49-8268-63d27a554858",
+    "k_phones_carousel_LpG3Ax",
     "09db0114-b227-4d20-a4bf-866ebb673289",
     "9dc8f53b-6a5c-43e1-8cb7-2bb247423466",
     "958a0346-e8b9-4d9b-9666-07bc00e9863f",
