@@ -304,6 +304,7 @@
     },
     "video-with-headers": {
       "type": "k-video",
+      "disabled": true,
       "settings": {
         "background_color": "white",
         "section_padding": 60,
