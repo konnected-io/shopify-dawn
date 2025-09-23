@@ -12,9 +12,8 @@
     "0ed04059-9469-43ed-ad86-a30687ed4d93": {
       "type": "k-image-banner-logo",
       "settings": {
-        "video": "shopify:\/\/files\/videos\/Konnected_WomanHoldingPhone_8s.mp4",
-        "image_logo1": "shopify:\/\/shop_images\/Refreshed_Logo_Blue_600px.png",
-        "image_logo2": "shopify:\/\/shop_images\/SmartThings_badge_ww_pos_RGB_d4439172-7733-4c46-adb2-a4198b61f8e9.png",
+        "video": "shopify://files/videos/Konnected_WomanHoldingPhone_8s.mp4",
+        "image_logo1": "shopify://shop_images/Untitled_48.png",
         "has_bg": false,
         "image_overlay_opacity": 0,
         "image_height": "large",
@@ -32,35 +31,35 @@
         "498ce56b-874b-486a-b5f8-840c179ce904": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Konnected_ST_Screen_HomeMonitoring_0e793732-f53c-4d16-9f38-cabf4f2157e3.jpg",
+            "image": "shopify://shop_images/Konnected_ST_Screen_HomeMonitoring_0e793732-f53c-4d16-9f38-cabf4f2157e3.jpg",
             "image_title": "Built-in home monitoring."
           }
         },
         "88961740-19e8-46fe-97fb-074dacbae0c3": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Konnected_ST_Screen_Automations.jpg",
+            "image": "shopify://shop_images/Konnected_ST_Screen_Automations.jpg",
             "image_title": "Custom automations & routines."
           }
         },
         "4a84d71d-87eb-4908-a161-c2404d9d6551": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Konnected_ST_Screen_PresenceActions.jpg",
+            "image": "shopify://shop_images/Konnected_ST_Screen_PresenceActions.jpg",
             "image_title": "Presence-based actions."
           }
         },
         "e0ea38c0-671b-45e0-9d7f-1d6527550941": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design.gif",
+            "image": "shopify://shop_images/Untitled_design.gif",
             "image_title": "Sensor status."
           }
         },
         "f2f55e47-40de-4a96-97ff-27a6e0500fcd": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Konnected_ST_Screen_Texts.jpg",
+            "image": "shopify://shop_images/Konnected_ST_Screen_Texts.jpg",
             "image_title": "Real-time notifications."
           }
         }
@@ -75,7 +74,7 @@
       "settings": {
         "heading": "Everything you need in one app",
         "heading_size": "h1",
-        "subheading": "<p>Powerful yet easy-to-use home monitoring<\/p>",
+        "subheading": "<p>Powerful yet easy-to-use home monitoring</p>",
         "text_style": "subtitle",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -95,7 +94,7 @@
         "text-1": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>No monthly fees<\/li><li>No extra hardware or hub<\/li><li>Backed by Samsung<\/li><li>Plug-and-play setup<\/li><li>Works with <a href=\"https:\/\/apps.apple.com\/us\/app\/smartthings\/id1222822904\" target=\"_blank\">iOS<\/a> & <a href=\"https:\/\/play.google.com\/store\/apps\/details?id=com.samsung.android.oneconnect&hl=en_US&gl=US\" target=\"_blank\">Android<\/a><\/li><li>Compatible with <a href=\"https:\/\/www.figma.com\/exit?url=https%3A%2F%2Fwww.smartthings.com%2Fproducts-list\" target=\"_blank\">many brands<\/a><\/li><\/ul>",
+            "text": "<ul><li>No monthly fees</li><li>No extra hardware or hub</li><li>Backed by Samsung</li><li>Plug-and-play setup</li><li>Works with <a href=\"https://apps.apple.com/us/app/smartthings/id1222822904\" target=\"_blank\">iOS</a> & <a href=\"https://play.google.com/store/apps/details?id=com.samsung.android.oneconnect&hl=en_US&gl=US\" target=\"_blank\">Android</a></li><li>Compatible with <a href=\"https://www.figma.com/exit?url=https%3A%2F%2Fwww.smartthings.com%2Fproducts-list\" target=\"_blank\">many brands</a></li></ul>",
             "text_style": "body"
           }
         }
@@ -104,7 +103,7 @@
         "text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Konnected_ST_CoupleiPad_copy.jpg",
+        "image": "shopify://shop_images/Konnected_ST_CoupleiPad_copy.jpg",
         "contain_image": false,
         "rounded_corners": true,
         "counter": false,
@@ -139,15 +138,15 @@
         "subheading": "",
         "subheading_color": "dark-gray",
         "text_style": "body",
-        "image": "shopify:\/\/shop_images\/Konnected_ST_FamilyLivingRoom_f6c3745d-c5ce-4200-b240-c86e56bfed6a.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/SmartThings_Landing_Page_1_79b998e5-f637-49a7-a0a7-ce7141716016.png",
+        "image": "shopify://shop_images/Konnected_ST_FamilyLivingRoom_f6c3745d-c5ce-4200-b240-c86e56bfed6a.jpg",
+        "image_mobile": "shopify://shop_images/SmartThings_Landing_Page_1_79b998e5-f637-49a7-a0a7-ce7141716016.png",
         "bullet1": "Presence-based arming & disarming",
-        "bullet2": "Smoke\/CO monitoring",
+        "bullet2": "Smoke/CO monitoring",
         "bullet3": "Water leak monitoring",
-        "bullet4": "Arm Away\/Arm Stay modes",
+        "bullet4": "Arm Away/Arm Stay modes",
         "bullet5": "Noonlight service available",
         "bullet6": "",
-        "image_logo": "shopify:\/\/shop_images\/2_b05be1da-52a4-4b51-94b6-4898669f8a8e.png"
+        "image_logo": "shopify://shop_images/2_b05be1da-52a4-4b51-94b6-4898669f8a8e.png"
       }
     },
     "image-with-copy": {
@@ -165,8 +164,8 @@
         "subheading_color": "dark-gray",
         "text_style": "subtitle",
         "subheading_font_weight": "light",
-        "image": "shopify:\/\/shop_images\/SmartThings_CloudAnimation_FINAL_1.gif",
-        "text": "<p>SmartThings is a cloud-based app, which means <br\/>all you need to make your wired alarm system smart is a Konnected Alarm Panel, Internet connection, and a smartphone or tablet that runs on Android or iOS. Yes, it really is that simple.<\/p>",
+        "image": "shopify://shop_images/SmartThings_CloudAnimation_FINAL_1.gif",
+        "text": "<p>SmartThings is a cloud-based app, which means <br/>all you need to make your wired alarm system smart is a Konnected Alarm Panel, Internet connection, and a smartphone or tablet that runs on Android or iOS. Yes, it really is that simple.</p>",
         "text_font_size": 20,
         "para_background": "white",
         "para_padding": 10
@@ -178,7 +177,7 @@
         "text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>With SmartThings x Konnected, you and your family don’t have to worry about triggering the alarm by accident or forgetting to arm your home ever again.<\/p><p>Set up any smartphone to <a href=\"https:\/\/help.konnected.io\/support\/solutions\/articles\/32000022637-arming-and-disarming-with-presence-sensors\" target=\"_blank\" title=\"https:\/\/help.konnected.io\/support\/solutions\/articles\/32000022637-arming-and-disarming-with-presence-sensors\">automatically arm and disarm SmartThings Home Monitor<\/a> based on the device's presence.<\/p>",
+            "text": "<p>With SmartThings x Konnected, you and your family don’t have to worry about triggering the alarm by accident or forgetting to arm your home ever again.</p><p>Set up any smartphone to <a href=\"https://help.konnected.io/support/solutions/articles/32000022637-arming-and-disarming-with-presence-sensors\" target=\"_blank\" title=\"https://help.konnected.io/support/solutions/articles/32000022637-arming-and-disarming-with-presence-sensors\">automatically arm and disarm SmartThings Home Monitor</a> based on the device's presence.</p>",
             "text_style": "body"
           }
         }
@@ -187,7 +186,7 @@
         "text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Konnected_ST_WomanEnteringHome_copy.jpg",
+        "image": "shopify://shop_images/Konnected_ST_WomanEnteringHome_copy.jpg",
         "contain_image": false,
         "rounded_corners": true,
         "counter": false,
@@ -214,25 +213,25 @@
         "1766add4-3002-4064-9c5c-2f30264d2a0c": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Konnected_ST_SmartFan_copy_81b0b357-5f87-4ef1-999c-af0af1f969b3.jpg",
+            "image": "shopify://shop_images/Konnected_ST_SmartFan_copy_81b0b357-5f87-4ef1-999c-af0af1f969b3.jpg",
             "title": "Smart Fans",
-            "text": "<p>Feel a nice breeze whenever your motion sensor detects your presence.<\/p>"
+            "text": "<p>Feel a nice breeze whenever your motion sensor detects your presence.</p>"
           }
         },
         "9b3379a7-0034-4f7d-b63d-e67dd5768c85": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Konnected_ST_WindowOpen.jpg",
+            "image": "shopify://shop_images/Konnected_ST_WindowOpen.jpg",
             "title": "Smart Heating & Cooling",
-            "text": "<p>Make your HVAC system turn off when you window sensor reads as open.<\/p>"
+            "text": "<p>Make your HVAC system turn off when you window sensor reads as open.</p>"
           }
         },
         "4a362003-322b-40ca-a369-d0af9d7b6bc3": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Konnected_ST_DoorOpen.jpg",
+            "image": "shopify://shop_images/Konnected_ST_DoorOpen.jpg",
             "title": "Smart Lights",
-            "text": "<p>Light up your entryway anytime you open your front door.<\/p>"
+            "text": "<p>Light up your entryway anytime you open your front door.</p>"
           }
         }
       },
@@ -244,7 +243,7 @@
       "settings": {
         "title": "Your wired sensors can now interact with any smart devices",
         "heading_size": "h1",
-        "description": "<p>Konnected adds a second funcionality to your security system. Create custom automations & routines.<\/p>",
+        "description": "<p>Konnected adds a second funcionality to your security system. Create custom automations & routines.</p>",
         "column_alignment": "center",
         "text_style": "subtitle",
         "slider_visual": "dots",
@@ -263,17 +262,17 @@
         "text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our official integration with SmartThings quickly became the #1 platform amongst Konnected users due to its excellent user interface and a wide array of products. Check out our SmartThings partner profile and discover more capabilities of this powerful smart home app via the extensive support page.<\/p>",
+            "text": "<p>Our official integration with SmartThings quickly became the #1 platform amongst Konnected users due to its excellent user interface and a wide array of products. Check out our SmartThings partner profile and discover more capabilities of this powerful smart home app via the extensive support page.</p>",
             "text_style": "body"
           }
         },
         "app-store-btns-1": {
           "type": "app_store_buttons",
           "settings": {
-            "img_btn_one": "shopify:\/\/shop_images\/apple-app-store-logo_copy_1da02396-f56a-4d0d-9c3e-f0d4ae814f95.png",
-            "img_btn_one_link": "https:\/\/apps.apple.com\/us\/app\/smartthings\/id1222822904",
-            "img_btn_two": "shopify:\/\/shop_images\/google-play-badge.png",
-            "img_btn_two_link": "https:\/\/play.google.com\/store\/apps\/details?id=com.samsung.android.oneconnect&hl=en_US&gl=US"
+            "img_btn_one": "shopify://shop_images/apple-app-store-logo_copy_1da02396-f56a-4d0d-9c3e-f0d4ae814f95.png",
+            "img_btn_one_link": "https://apps.apple.com/us/app/smartthings/id1222822904",
+            "img_btn_two": "shopify://shop_images/google-play-badge.png",
+            "img_btn_two_link": "https://play.google.com/store/apps/details?id=com.samsung.android.oneconnect&hl=en_US&gl=US"
           }
         }
       },
@@ -282,7 +281,7 @@
         "app-store-btns-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/1.gif",
+        "image": "shopify://shop_images/1.gif",
         "contain_image": false,
         "rounded_corners": false,
         "counter": false,
@@ -310,7 +309,7 @@
         "section_padding": 60,
         "section_margin_top": 0,
         "section_margin_bottom": 0,
-        "video": "https:\/\/www.youtube.com\/embed\/pz1FCqrP8xA",
+        "video": "https://www.youtube.com/embed/pz1FCqrP8xA",
         "heading": "Watch the setup video",
         "heading_color": "dark-gray",
         "heading_size": "h1",
@@ -327,55 +326,61 @@
         "c0c9291d-acb6-4dcc-b9b5-dc1a9e4caa56": {
           "type": "article",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Setting_up_zones.png",
+            "image": "shopify://shop_images/Setting_up_zones.png",
             "title": "Connect SmartThings to the Konnected Cloud",
             "content": "",
-            "article_link": ""
+            "article_link": "",
+            "link_text": ""
           }
         },
         "6004fa50-6ced-4ddf-a547-47173e760abc": {
           "type": "article",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_fb1217bc-0a41-4e6e-af33-a21e18bd5360.png",
+            "image": "shopify://shop_images/3_fb1217bc-0a41-4e6e-af33-a21e18bd5360.png",
             "title": "Smart Home Monitor - Set Up Guide",
             "content": "",
-            "article_link": ""
+            "article_link": "",
+            "link_text": ""
           }
         },
         "452e9049-b40d-4cbb-ad17-120aaed37f79": {
           "type": "article",
           "settings": {
-            "image": "shopify:\/\/shop_images\/works-with-smartthings-announcement-graphic-v1.webp",
+            "image": "shopify://shop_images/works-with-smartthings-announcement-graphic-v1.webp",
             "title": "Konnected Earns Official Works With SmartThings Certification",
             "content": "",
-            "article_link": ""
+            "article_link": "",
+            "link_text": ""
           }
         },
         "f93bd30b-fdf6-4c0d-9d74-943b067a8063": {
           "type": "article",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1.webp",
+            "image": "shopify://shop_images/1.webp",
             "title": "SmartThings - Smart Home Monitoring That's Totally Free",
             "content": "",
-            "article_link": ""
+            "article_link": "",
+            "link_text": ""
           }
         },
         "bc0982e8-8ee5-4370-86e5-3ef5bc8e36c3": {
           "type": "article",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cloud-noonlight-hero_copy.png",
-            "title": "Noonlight 24\/7 Emergency Response now Available with Konnected and SmartThings",
+            "image": "shopify://shop_images/cloud-noonlight-hero_copy.png",
+            "title": "Noonlight 24/7 Emergency Response now Available with Konnected and SmartThings",
             "content": "",
-            "article_link": ""
+            "article_link": "",
+            "link_text": ""
           }
         },
         "b8493c1b-7c9c-417b-87cb-8e9fbd6d6f4b": {
           "type": "article",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_a8abca1e-dfd2-4fd0-acc2-a365831ba0ff.png",
+            "image": "shopify://shop_images/1_a8abca1e-dfd2-4fd0-acc2-a365831ba0ff.png",
             "title": "Set Up Zones in Konnected Cloud",
             "content": "",
-            "article_link": ""
+            "article_link": "",
+            "link_text": ""
           }
         }
       },
@@ -393,6 +398,7 @@
         "description": "",
         "text_style": "body",
         "image_height": "medium",
+        "enable_shadow": false,
         "columns_desktop": 3,
         "enable_desktop_slider": true,
         "auto_rotate": true,
