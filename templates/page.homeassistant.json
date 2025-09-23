@@ -226,6 +226,7 @@
         "card_XcTXwc",
         "card_iQDVHj"
       ],
+      "disabled": true,
       "name": "Phones Carousel",
       "settings": {
         "heading": "Total Control, Tailored Your Way",
@@ -272,7 +273,7 @@
         "text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Konnected's products are built using the ESP32 and ESP8266 chips and work with <a href=\"https://esphome.io\" target=\"_blank\"><span style=\"text-decoration:underline\">ESPHome</span></a> firmware. ESPHome provides easy and powerful local integration with Home Assistant and is fully configurable and open-source.</p>",
+            "text": "<p>Konnected's products are built using the ESP32 chips and work with <a href=\"https://esphome.io\" target=\"_blank\"><span style=\"text-decoration:underline\">ESPHome</span></a> firmware. ESPHome provides easy and powerful local integration with Home Assistant and is fully configurable and open-source.</p>",
             "text_style": "body"
           }
         }
@@ -313,7 +314,7 @@
         "heading_color": "dark-gray",
         "heading_size": "h1",
         "heading_font_weight": "regular",
-        "subheading": "Adjust the app look for any circumstance",
+        "subheading": "Get the custom look you want on all your screens",
         "subheading_color": "dark-gray",
         "text_style": "subtitle",
         "subheading_font_weight": "light",
@@ -357,6 +358,7 @@
         "3bc43b6c-5c11-40cf-9829-2dcc331c22ef",
         "4d0a73cd-10e0-441c-ad71-ea919e510760"
       ],
+      "disabled": true,
       "settings": {
         "title": "Your wired sensors can now interact with any smart devices",
         "heading_size": "h1",
@@ -412,6 +414,7 @@
         "69ec7411-556a-44ee-9afa-230f06949c02",
         "9190c797-8c27-4d83-ab9e-60c61fa679a3"
       ],
+      "disabled": true,
       "settings": {
         "background_color": "white",
         "section_padding": 50,
@@ -452,7 +455,7 @@
         "app-store-btns-1"
       ],
       "settings": {
-        "image": "shopify://shop_images/PartnerAnimations_6.gif",
+        "image": "shopify://shop_images/Untitled_45.png",
         "contain_image": false,
         "rounded_corners": false,
         "counter": false,
