@@ -317,7 +317,7 @@
         "text_mCF4LY": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your cuHome Assistant runs locally and doesn’t rely on an internet connection or 3rd-party cloud. As an open-source download,  Home Assistant runs on your chosen hub, meaning your smart home controller is yours. Of course, an internet connection is needed for remote access and outbound notifications. Home Assistant’s parent company offers an <a href=\"https://www.nabucasa.com/\" target=\"_blank\">optional paid cloud service</a> adding remote access capabilities and integration with Google & Alexa.stomers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Home Assistant runs locally and doesn’t rely on an internet connection or 3rd-party cloud. As an open-source download,  Home Assistant runs on your chosen hub, meaning your smart home controller is yours. Of course, an internet connection is needed for remote access and outbound notifications. Home Assistant’s parent company offers an <a href=\"https://www.nabucasa.com/\" target=\"_blank\">optional paid cloud service</a> adding remote access capabilities and integration with Google & Alexa.stomers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
         "button_6wapFk": {
