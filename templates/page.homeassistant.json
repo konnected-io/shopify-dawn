@@ -186,35 +186,35 @@
         "card_qVy7pj": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Konnected_ST_Screen_HomeMonitoring_83cbf9f0-d92f-4c16-afb6-b2a0686bcd62.jpg",
-            "image_title": "Built-in home monitoring."
+            "image": "shopify://shop_images/Arm_and_Disarm_remotely_-_HA.gif",
+            "image_title": "Fully Customizable Home Security"
           }
         },
         "card_dJEkUD": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Konnected_ST_Screen_Automations_10e244de-c8c4-4bd6-ab20-97e77754fc3a.jpg",
+            "image": "shopify://shop_images/Automations_-_HA.png",
             "image_title": "Custom automations & routines."
           }
         },
         "card_iAAEc3": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Konnected_ST_Screen_PresenceActions_31f3dae2-8fd2-45a0-8525-1357bf03d483.jpg",
+            "image": "shopify://shop_images/Presence_Sensing_-_HA.png",
             "image_title": "Presence-based actions."
           }
         },
         "card_XcTXwc": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_54fa88c2-c41a-44bf-a7a6-bd90e96d4cfd.gif",
-            "image_title": "Sensor status."
+            "image": "shopify://shop_images/Live_Sensor_Status_-_HA.gif",
+            "image_title": "Live sensor status."
           }
         },
         "card_iQDVHj": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Konnected_ST_Screen_Texts_6045180e-3de6-406b-9de6-564d71bb5dba.jpg",
+            "image": "shopify://shop_images/Real-Time_Notifications_-_HA.png",
             "image_title": "Real-time notifications."
           }
         }
@@ -226,7 +226,6 @@
         "card_XcTXwc",
         "card_iQDVHj"
       ],
-      "disabled": true,
       "name": "Phones Carousel",
       "settings": {
         "heading": "Total Control, Tailored Your Way",
