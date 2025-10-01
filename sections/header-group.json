@@ -14,20 +14,11 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_RDXeNt": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "Buy One Get One 50% off on all Smart Garage Door Openers",
-            "link": "shopify://collections/smart-garage-door-openers",
-            "klaviyo_id": ""
-          }
-        },
         "announcement_QEPHyD": {
           "type": "announcement",
           "disabled": true,
           "settings": {
-            "text": "Prime Day Sale is LIVE! Save 20% or More",
+            "text": "PRIME DAY SALE IS LIVE! 20% OFF OR MORE",
             "link": "shopify://collections/shop-now",
             "klaviyo_id": ""
           }
@@ -52,6 +43,7 @@
         },
         "announcement_CGYdNW": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Join the Konnected Community here",
             "link": "https://community.konnected.io/",
@@ -132,6 +124,29 @@
         "change_slides_speed": 5
       }
     },
+    "custom_liquid_NE4GDg": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% if template != 'index' %}\n<style>\n    .homepage-only {\n        display: none !important;\n    }\n</style>\n{% endif %}",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "k_pure_image_section_nKbq6M": {
+      "type": "k-pure-image-section",
+      "custom_css": [],
+      "name": "Pure Image",
+      "settings": {
+        "image": "shopify://shop_images/Prime_Big_Deal_Days_2025_-_Banner.jpg",
+        "link": "shopify://collections/shop-now",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "homepage-only"
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
@@ -152,6 +167,8 @@
   },
   "order": [
     "announcement-bar",
+    "custom_liquid_NE4GDg",
+    "k_pure_image_section_nKbq6M",
     "header"
   ]
 }
