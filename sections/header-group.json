@@ -140,6 +140,7 @@
       "name": "Top Banner",
       "settings": {
         "image": "shopify://shop_images/Prime_Big_Deal_Days_2025_-_Banner.jpg",
+        "mobile_image": "shopify://shop_images/Prime_Big_Deal_Days_2025_-_Banner_Mobile.jpg",
         "link": "shopify://collections/shop-now",
         "color_scheme": "background-1",
         "padding_top": 0,
