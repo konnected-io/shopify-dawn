@@ -126,7 +126,7 @@
     },
     "custom_liquid_NE4GDg": {
       "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
+      "name": "Banner CSS",
       "settings": {
         "custom_liquid": "{% if template != 'index' %}\n<style>\n    .homepage-only {\n        display: none !important;\n    }\n</style>\n{% endif %}",
         "color_scheme": "background-1",
