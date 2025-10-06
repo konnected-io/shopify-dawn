@@ -13,7 +13,7 @@
       "type": "k-image-banner-logo",
       "settings": {
         "video": "shopify://files/videos/new HA video background header.mp4",
-        "image_logo1": "shopify://shop_images/konnected_wwha_header_logo_1.png",
+        "image_logo1": "shopify://shop_images/Untitled_54.png",
         "has_bg": false,
         "image_overlay_opacity": 0,
         "image_height": "large",
@@ -273,7 +273,7 @@
         "liquid_NGCPaD": {
           "type": "liquid",
           "settings": {
-            "liquid": "<section class=\"konnected-esphome-section\" style=\"padding: 3rem 1rem; background-color: #ffffff; text-align: center;\">\n  <div class=\"container\" style=\"max-width: 800px; margin: 0 auto;\">\n    <p style=\"font-size: 1.5rem; line-height: 1.7; color: #333; margin-bottom: 2rem;\">\n      Now officially <strong>“Works With Home Assistant” certified</strong>, Konnected’s products are built using <strong>ESP32 chips</strong> and run on <strong>ESPHome firmware</strong>. ESPHome provides easy and powerful local integration with <strong>Home Assistant</strong> and is fully configurable and open-source.\n    </p>\n    <img \n      src=\"https://cdn.shopify.com/s/files/1/2085/3145/files/wwha.png?v=1759761173\" \n      alt=\"Works With Home Assistant Certified\" \n      style=\"max-width: 280px; width: 100%; height: auto; display: inline-block; margin-top: 1.5rem;\"\n    >\n  </div>\n</section>"
+            "liquid": "<section class=\"konnected-esphome-section\" style=\"padding: 3rem 1rem; background-color: #ffffff; text-align: center;\">\n  <div class=\"container\" style=\"max-width: 800px; margin: 0 auto;\">\n    <p style=\"font-size: 1.5rem; line-height: 1.7; color: #333; margin-bottom: 2rem;\">\n      Now officially <strong>“Works With Home Assistant” certified</strong>, Konnected’s products are built using <strong>ESP32 chips</strong> and run on <strong>ESPHome firmware</strong>. ESPHome provides easy and powerful local integration with <strong>Home Assistant</strong> and is fully configurable and open-source.\n    </p>\n    <img \n      src=\"https://cdn.shopify.com/s/files/1/2085/3145/files/Works_With_HA_-_Generic.png?v=1759773902\" \n      alt=\"Works With Home Assistant Certified\" \n      style=\"max-width: 280px; width: 100%; height: auto; display: inline-block; margin-top: 1.5rem;\"\n    >\n  </div>\n</section>"
           }
         }
       },
