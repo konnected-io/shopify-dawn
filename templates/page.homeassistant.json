@@ -281,7 +281,7 @@
         "liquid_NGCPaD"
       ],
       "settings": {
-        "image": "shopify://shop_images/ESPHomeSection_copy_a8df03d5-1117-4f7f-9b40-dcecf8f6a64a.png",
+        "image": "shopify://shop_images/wwha_products.png",
         "contain_image": false,
         "rounded_corners": false,
         "counter": false,
@@ -291,7 +291,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 52,
@@ -300,6 +300,51 @@
         "heading_size": "h1",
         "subheading": "",
         "text_style": "subtitle"
+      }
+    },
+    "k_collection_split_banner_JCJwgQ": {
+      "type": "k-collection-split-banner",
+      "blocks": {
+        "item_GMU49Q": {
+          "type": "item",
+          "settings": {
+            "heading": "Konnected Alarm Panel Pro Kits",
+            "heading_size": "h1",
+            "top_text": "",
+            "featured_image": "shopify://shop_images/Untitled_40_4f2e663b-1ab6-486d-8ceb-ba97acf6a3de.png",
+            "image_width": 50,
+            "mobile_image_width": 40,
+            "bottom_text": "<p>Transform your existing wired alarm into a smart <strong>Home Assistant Alarm System</strong> with the <strong>Konnected Alarm Panel Pro Kits</strong>. Choose the <strong>Conversion Kit</strong> to fully replace your old panel using your existing wired sensors, or go with the <strong>Interface Kit</strong> to integrate with your traditional system while keeping its functionality. Konnected gives you powerful, private, and fully local <strong>Home Assistant Home Security</strong> with features like real-time alerts, smart automations, and remote monitoring. Everything runs locally with <strong>no required monthly fees</strong>, giving you full control of your <strong>Home Assistant Burglar Alarm</strong> setup... no nonesense, no lock-ins.<br/><br/></p>",
+            "bottom_code": "",
+            "text_color": "",
+            "link": "shopify://collections/smart-alarm-panels"
+          }
+        },
+        "item_MHefdg": {
+          "type": "item",
+          "settings": {
+            "heading": "Konnected Smart Garage Door Openers",
+            "heading_size": "h1",
+            "top_text": "",
+            "featured_image": "shopify://shop_images/Untitled_26_6bee365e-b0ca-497e-ab33-75cf52ea9d75.png",
+            "image_width": 50,
+            "mobile_image_width": 40,
+            "bottom_text": "<p>Upgrade your garage with smart, local control using <strong>Konnected’s Garage Door Opener</strong>, built specifically for seamless integration with <strong>Home Assistant</strong>. This kit lets you monitor and operate your garage door directly from your Home Assistant dashboard, phone, or automation routines—whether you're at home or away. Know the exact status of your garage door at all times, trigger actions when you leave or arrive, and set up voice control or notifications that work exactly how you want them to. Everything runs locally with <strong>no required monthly fees</strong>, giving you secure and private <strong>Home Assistant Garage Control</strong> that’s reliable, flexible, and completely cloud-free. With Konnected, your garage becomes a smarter part of your <strong>Home Assistant smart home... </strong>no compromises.</p>",
+            "bottom_code": "",
+            "text_color": "",
+            "link": "shopify://collections/smart-garage-door-openers"
+          }
+        }
+      },
+      "block_order": [
+        "item_GMU49Q",
+        "item_MHefdg"
+      ],
+      "name": "Collection Split Banner",
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "rich_text_NpQkLX": {
@@ -497,7 +542,7 @@
         "app-store-btns-1"
       ],
       "settings": {
-        "image": "shopify://shop_images/Untitled_45.png",
+        "image": "shopify://shop_images/open_source.png",
         "contain_image": false,
         "rounded_corners": false,
         "counter": false,
@@ -606,6 +651,7 @@
     "k_phones_carousel_LpG3Ax",
     "09db0114-b227-4d20-a4bf-866ebb673289",
     "9dc8f53b-6a5c-43e1-8cb7-2bb247423466",
+    "k_collection_split_banner_JCJwgQ",
     "rich_text_NpQkLX",
     "958a0346-e8b9-4d9b-9666-07bc00e9863f",
     "9088ec11-bc44-4583-966a-13e3935adb9e",
