@@ -315,7 +315,7 @@
             "image_width": 50,
             "mobile_image_width": 40,
             "bottom_text": "<p>Upgrade your wired alarm into a smart <strong>Home Assistant Alarm System</strong> with the <strong>Konnected Alarm Panel Pro Kits</strong>. Use the <strong>Conversion Kit</strong> to replace your old panel or the <strong>Interface Kit</strong> to integrate with your existing system. Enjoy powerful, private <strong>Home Assistant Home Security</strong> with real-time alerts, smart automations, and remote monitoring - all fully local with <strong>no required monthly fees</strong> for a true <strong>Home Assistant Burglar Alarm</strong> solution.<br/><br/></p>",
-            "bottom_code": "",
+            "bottom_code": "<div style=\"margin-top: 2rem; text-align: center;\">\n  <a href=\"https://konnected.io/collections/smart-alarm-panels\" \n     class=\"learn-more-btn\" \n     style=\"display: inline-block; background-color: #2563eb; color: #ffffff; padding: 0.75rem 1.5rem; font-size: 1.4rem; border-radius: 6px; text-decoration: none; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: background-color 0.2s ease;\">\n    Learn More\n  </a>\n</div>\n\n<style>\n  .learn-more-btn:hover {\n    background-color: #1e40af;\n  }\n</style>",
             "text_color": "",
             "link": "shopify://collections/smart-alarm-panels"
           }
@@ -330,7 +330,7 @@
             "image_width": 50,
             "mobile_image_width": 40,
             "bottom_text": "<p>Make your existing opener a smart <strong>Home Assistant Garage Door Opener</strong> with Konnected. Control, automate, and monitor your garage with native <strong>Home Assistant Garage Control</strong> - including open/close status, auto-close routines, presence-based triggers, and alerts. Everything runs locally with <strong>no required monthly fees</strong> for a private, reliable solution that just works.<br/><br/></p>",
-            "bottom_code": "",
+            "bottom_code": "<div style=\"margin-top: 2rem; text-align: center;\">\n  <a href=\"https://konnected.io/collections/smart-garage-door-openers\" \n     class=\"learn-more-btn\" \n     style=\"display: inline-block; background-color: #2563eb; color: #ffffff; padding: 0.75rem 1.5rem; font-size: 1.4rem; border-radius: 6px; text-decoration: none; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: background-color 0.2s ease;\">\n    Learn More\n  </a>\n</div>\n\n<style>\n  .learn-more-btn:hover {\n    background-color: #1e40af;\n  }\n</style>",
             "text_color": "",
             "link": "shopify://collections/smart-garage-door-openers"
           }
