@@ -270,16 +270,15 @@
     "9dc8f53b-6a5c-43e1-8cb7-2bb247423466": {
       "type": "k-two-column",
       "blocks": {
-        "text-1": {
-          "type": "text",
+        "liquid_NGCPaD": {
+          "type": "liquid",
           "settings": {
-            "text": "<p>Konnected's products are built using ESP32 chips and work with <a href=\"https://esphome.io\" target=\"_blank\"><span style=\"text-decoration:underline\">ESPHome</span></a> firmware. ESPHome provides easy and powerful local integration with Home Assistant and is fully configurable and open-source.</p>",
-            "text_style": "body"
+            "liquid": "<section class=\"konnected-esphome-section\" style=\"padding: 3rem 1rem; background-color: #f9fbfc; text-align: center;\">\n  <div class=\"container\" style=\"max-width: 800px; margin: 0 auto;\">\n    <p style=\"font-size: 1.5rem; line-height: 1.7; color: #333; margin-bottom: 2rem;\">\n      Konnected's products are built using <strong>ESP32 chips</strong> and work with <strong>ESPHome firmware</strong>. ESPHome provides easy and powerful local integration with <strong>Home Assistant</strong> and is fully configurable and open-source.\n    </p>\n    <img \n      src=\"{{ 'Untitled (53).png' | asset_url }}\" \n      alt=\"Works Locally with Home Assistant\" \n      style=\"max-width: 280px; width: 100%; height: auto; display: inline-block; margin-top: 1.5rem;\"\n    >\n  </div>\n</section>"
           }
         }
       },
       "block_order": [
-        "text-1"
+        "liquid_NGCPaD"
       ],
       "settings": {
         "image": "shopify://shop_images/ESPHomeSection_copy_a8df03d5-1117-4f7f-9b40-dcecf8f6a64a.png",
