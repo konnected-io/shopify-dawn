@@ -273,7 +273,7 @@
         "liquid_NGCPaD": {
           "type": "liquid",
           "settings": {
-            "liquid": "<section class=\"konnected-esphome-section\" style=\"padding: 3rem 1rem; background-color: #ffffff; text-align: center;\">\n  <div class=\"container\" style=\"max-width: 800px; margin: 0 auto;\">\n    <p style=\"font-size: 1.5rem; line-height: 1.7; color: #333; margin-bottom: 2rem;\">\n      Konnected's products are built using <strong>ESP32 chips</strong> and work with <strong>ESPHome firmware</strong>. ESPHome provides easy and powerful local integration with <strong>Home Assistant</strong> and is fully configurable and open-source.\n    </p>\n    <img \n      src=\"https://cdn.shopify.com/s/files/1/2085/3145/files/wwha.png?v=1759761173\" \n      alt=\"Works Locally with Home Assistant\" \n      style=\"max-width: 280px; width: 100%; height: auto; display: inline-block; margin-top: 1.5rem;\"\n    >\n  </div>\n</section>"
+            "liquid": "<section class=\"konnected-esphome-section\" style=\"padding: 3rem 1rem; background-color: #ffffff; text-align: center;\">\n  <div class=\"container\" style=\"max-width: 800px; margin: 0 auto;\">\n    <p style=\"font-size: 1.5rem; line-height: 1.7; color: #333; margin-bottom: 2rem;\">\n      Now officially <strong>“Works With Home Assistant” certified</strong>, Konnected’s products are built using <strong>ESP32 chips</strong> and run on <strong>ESPHome firmware</strong>. ESPHome provides easy and powerful local integration with <strong>Home Assistant</strong> and is fully configurable and open-source.\n    </p>\n    <img \n      src=\"https://cdn.shopify.com/s/files/1/2085/3145/files/wwha.png?v=1759761173\" \n      alt=\"Works With Home Assistant Certified\" \n      style=\"max-width: 280px; width: 100%; height: auto; display: inline-block; margin-top: 1.5rem;\"\n    >\n  </div>\n</section>"
           }
         }
       },
@@ -347,6 +347,38 @@
         "padding_bottom": 52
       }
     },
+    "custom_liquid_wxq3rE": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% comment %}\n  Konnected – Two‑Column Snapshot for Home Assistant users  \n  Focus on “What You Can Do in Home Assistant”\n{% endcomment %}\n\n<section class=\"konnected‑ha‑glance\">\n  <div class=\"page-width\">\n    <h2 class=\"h2 text-center heading\">What You Can Do in Home Assistant</h2>\n\n    <div class=\"glance-grid\">\n      <!-- Alarm Panel Pro Kits -->\n      <div class=\"glance-card\">\n        <h2 class=\"card-title\"><center><big>Home Assistant Alarm Panel</big></center></h2>\n        <p class=\"card-blurb\">\n          <strong>Convert your wired sensors into smart Home Assistant entities</strong>  \n          so you can monitor, arm, and automate from within HA itself.\n        </p>\n\n        <ul class=\"mini-bullets\">\n          <li>Make each zone a Home Assistant binary or sensor entity</li>\n          <li>Trigger automations like “arm when last one leaves” or “light + siren on breach”</li>\n          <li>Panel can run local alarm logic so HA outages don’t disable alerts</li>\n          <li>Full compatibility with ESPHome and HA’s alarm integration</li>\n        </ul>\n      </div>\n\n      <!-- Garage Door Opener Kits -->\n      <div class=\"glance-card\">\n        <h2 class=\"card-title\"><center><big>Home Assistant Garage Control</big></center></h2>\n        <p class=\"card-blurb\">\n          <strong>Turn your existing garage opener into a HA “cover” or switch</strong>  \n          so you can control and monitor it directly in your smart home dashboard.\n        </p>\n\n        <ul class=\"mini-bullets\">\n          <li>Expose open/close state as an entity in Home Assistant</li>\n          <li>Trigger actions like “close after dark” or “notify if open too long”</li>\n          <li>Works reliably under HA’s “cover” integration in ESPHome</li>\n          <li>No cloud required - local control, no required monthly fees</li>\n        </ul>\n      </div>\n    </div>\n  </div>\n\n  <style>\n    .konnected‑ha‑glance     { margin: 3rem 0; }\n    .glance-grid             { display: grid; gap: 1.5rem;\n                               grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); }\n    .card-title              { margin: 0 0 1.25rem;\n                               font-size: 2.25rem; font-weight: 600; color:#2563eb; }\n    .card-blurb              { margin: 0; font-size: 2rem; line-height: 1.4; color:#374151; }\n    .glance-card             { background:#fff; border:1px solid #e5e7eb; border-radius:12px;\n                               padding: 2rem 2.25rem; }\n    .mini-bullets            { margin: 1rem 0 0; padding: 0; list-style: none;\n                               font-size: 1.6rem; line-height: 1.35; color:#374151; }\n    .mini-bullets li         { position: relative; padding-left: 1.8rem; margin: .4rem 0; }\n    .mini-bullets li::before { content: \"✓\"; position: absolute; left: 0; top: 0;\n                               font-size: 1.6rem; color:#3b82f6; font-weight: 600; }\n\n    @media (max-width: 640px) {\n      .card-title      { font-size: 1.6rem; }\n      .card-blurb      { font-size: 1.4rem; }\n      .mini-bullets    { font-size: 1.3rem; }\n      .mini-bullets li::before { font-size: 1.3rem; }\n    }\n  </style>\n</section>",
+        "color_scheme": "background-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "958a0346-e8b9-4d9b-9666-07bc00e9863f": {
+      "type": "k-image-with-copy",
+      "settings": {
+        "background_color": "white",
+        "section_padding": 26,
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "heading": "Custom dashboard for every device",
+        "heading_color": "dark-gray",
+        "heading_size": "h1",
+        "heading_font_weight": "regular",
+        "subheading": "Get the custom look you want on all your screens",
+        "subheading_color": "dark-gray",
+        "text_style": "subtitle",
+        "subheading_font_weight": "light",
+        "image": "shopify://shop_images/HA_DeviceGIF_copy.gif",
+        "text": "",
+        "text_font_size": 22,
+        "para_background": "",
+        "para_padding": 0
+      }
+    },
     "rich_text_NpQkLX": {
       "type": "rich-text",
       "blocks": {
@@ -388,28 +420,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "958a0346-e8b9-4d9b-9666-07bc00e9863f": {
-      "type": "k-image-with-copy",
-      "settings": {
-        "background_color": "white",
-        "section_padding": 26,
-        "section_margin_top": 0,
-        "section_margin_bottom": 0,
-        "heading": "Custom dashboard for every device",
-        "heading_color": "dark-gray",
-        "heading_size": "h1",
-        "heading_font_weight": "regular",
-        "subheading": "Get the custom look you want on all your screens",
-        "subheading_color": "dark-gray",
-        "text_style": "subtitle",
-        "subheading_font_weight": "light",
-        "image": "shopify://shop_images/HA_DeviceGIF_copy.gif",
-        "text": "",
-        "text_font_size": 22,
-        "para_background": "",
-        "para_padding": 0
       }
     },
     "9088ec11-bc44-4583-966a-13e3935adb9e": {
@@ -552,7 +562,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 52,
@@ -635,7 +645,7 @@
         "enable_desktop_slider": true,
         "auto_rotate": true,
         "change_slides_speed": 5,
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 52,
@@ -652,8 +662,9 @@
     "09db0114-b227-4d20-a4bf-866ebb673289",
     "9dc8f53b-6a5c-43e1-8cb7-2bb247423466",
     "k_collection_split_banner_JCJwgQ",
-    "rich_text_NpQkLX",
+    "custom_liquid_wxq3rE",
     "958a0346-e8b9-4d9b-9666-07bc00e9863f",
+    "rich_text_NpQkLX",
     "9088ec11-bc44-4583-966a-13e3935adb9e",
     "99335c90-56f6-44f2-9204-3c56a8a9e1d0",
     "d6d28bec-7200-4c0d-a785-97a28c168d0d",
