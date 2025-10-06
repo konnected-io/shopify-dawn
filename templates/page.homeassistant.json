@@ -314,7 +314,7 @@
             "featured_image": "shopify://shop_images/Untitled_40_4f2e663b-1ab6-486d-8ceb-ba97acf6a3de.png",
             "image_width": 50,
             "mobile_image_width": 40,
-            "bottom_text": "<p>Transform your existing wired alarm into a smart <strong>Home Assistant Alarm System</strong> with the <strong>Konnected Alarm Panel Pro Kits</strong>. Choose the <strong>Conversion Kit</strong> to fully replace your old panel using your existing wired sensors, or go with the <strong>Interface Kit</strong> to integrate with your traditional system while keeping its functionality. Konnected gives you powerful, private, and fully local <strong>Home Assistant Home Security</strong> with features like real-time alerts, smart automations, and remote monitoring. Everything runs locally with <strong>no required monthly fees</strong>, giving you full control of your <strong>Home Assistant Burglar Alarm</strong> setup... no nonesense, no lock-ins.<br/><br/></p>",
+            "bottom_text": "<p>Upgrade your wired alarm into a smart <strong>Home Assistant Alarm System</strong> with the <strong>Konnected Alarm Panel Pro Kits</strong>. Use the <strong>Conversion Kit</strong> to replace your old panel or the <strong>Interface Kit</strong> to integrate with your existing system. Enjoy powerful, private <strong>Home Assistant Home Security</strong> with real-time alerts, smart automations, and remote monitoring - all fully local with <strong>no required monthly fees</strong> for a true <strong>Home Assistant Burglar Alarm</strong> solution.<br/><br/></p>",
             "bottom_code": "",
             "text_color": "",
             "link": "shopify://collections/smart-alarm-panels"
@@ -329,7 +329,7 @@
             "featured_image": "shopify://shop_images/Untitled_26_6bee365e-b0ca-497e-ab33-75cf52ea9d75.png",
             "image_width": 50,
             "mobile_image_width": 40,
-            "bottom_text": "<p>Upgrade your garage with smart, local control using <strong>Konnected’s Garage Door Opener</strong>, built specifically for seamless integration with <strong>Home Assistant</strong>. This kit lets you monitor and operate your garage door directly from your Home Assistant dashboard, phone, or automation routines—whether you're at home or away. Know the exact status of your garage door at all times, trigger actions when you leave or arrive, and set up voice control or notifications that work exactly how you want them to. Everything runs locally with <strong>no required monthly fees</strong>, giving you secure and private <strong>Home Assistant Garage Control</strong> that’s reliable, flexible, and completely cloud-free. With Konnected, your garage becomes a smarter part of your <strong>Home Assistant smart home... </strong>no compromises.</p>",
+            "bottom_text": "<p>Make your existing opener a smart <strong>Home Assistant Garage Door Opener</strong> with Konnected. Control, automate, and monitor your garage with native <strong>Home Assistant Garage Control</strong> - including open/close status, auto-close routines, presence-based triggers, and alerts. Everything runs locally with <strong>no required monthly fees</strong> for a private, reliable solution that just works.<br/><br/></p>",
             "bottom_code": "",
             "text_color": "",
             "link": "shopify://collections/smart-garage-door-openers"
@@ -583,6 +583,16 @@
         "text_style": "subtitle"
       }
     },
+    "custom_liquid_tegPkY": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid - recreation of where to buy section",
+      "settings": {
+        "custom_liquid": "<section class=\"konnected-ha-install-options\" style=\"padding: 4rem 1rem; background-color: #f9fafb;\">\n  <div class=\"page-width\" style=\"max-width: 1200px; margin: 0 auto;\">\n    <h2 style=\"text-align: center; font-size: 2.4rem; font-weight: 600; color: #1f2937; margin-bottom: 0.5rem;\">\n      Run Home Assistant on popular hubs or your old computer\n    </h2>\n    <p style=\"text-align: center; font-size: 1.5rem; color: #6b7280; margin-bottom: 3rem;\">\n      In true open-source fashion, the choice is yours\n    </p>\n\n    <div class=\"install-grid\" style=\"display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); text-align: center;\">\n      \n      <!-- Raspberry Pi -->\n      <div class=\"install-option\" style=\"background: #ffffff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 2rem;\">\n        <img src=\"https://cdn.shopify.com/s/files/1/2085/3145/files/14643-Raspberry_Pi_3_B_-01_copy.png?v=1672190655\" alt=\"Raspberry Pi\" style=\"max-width: 120px; margin-bottom: 1.5rem;\">\n        <h3 style=\"font-size: 1.6rem; font-weight: 600; color: #111827; margin-bottom: 1rem;\">Raspberry Pi</h3>\n        <a href=\"https://amzn.to/3ZKXj8N\" class=\"learn-more-btn\" target=\"_blank\" rel=\"noopener\">Learn more</a>\n      </div>\n\n      <!-- Home Assistant Yellow -->\n      <div class=\"install-option\" style=\"background: #ffffff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 2rem;\">\n        <img src=\"https://cdn.shopify.com/s/files/1/2085/3145/files/HA_Yellow.png?v=1672248133\" alt=\"Home Assistant Yellow\" style=\"max-width: 120px; margin-bottom: 1.5rem;\">\n        <h3 style=\"font-size: 1.6rem; font-weight: 600; color: #111827; margin-bottom: 1rem;\">Home Assistant Yellow</h3>\n        <a href=\"https://www.home-assistant.io/blog/2021/09/13/home-assistant-yellow/\" class=\"learn-more-btn\" target=\"_blank\" rel=\"noopener\">Learn more</a>\n      </div>\n\n      <!-- Computers / Laptops -->\n      <div class=\"install-option\" style=\"background: #ffffff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 2rem;\">\n        <img src=\"https://cdn.shopify.com/s/files/1/2085/3145/files/7_16e58571-8c2f-4c33-b118-89fbcd185183.png?v=1674066975\" alt=\"Computers / Laptops\" style=\"max-width: 120px; margin-bottom: 1.5rem;\">\n        <h3 style=\"font-size: 1.6rem; font-weight: 600; color: #111827; margin-bottom: 1rem;\">Computers / Laptops</h3>\n        <a href=\"https://www.home-assistant.io/installation/\" class=\"learn-more-btn\" target=\"_blank\" rel=\"noopener\">Learn more</a>\n      </div>\n    </div>\n  </div>\n\n  <style>\n    .learn-more-btn {\n      display: inline-block;\n      margin-top: 1rem;\n      background-color: #2563eb;\n      color: #ffffff;\n      padding: 0.75rem 1.5rem;\n      font-size: 1.4rem;\n      border-radius: 6px;\n      text-decoration: none;\n      box-shadow: 0 1px 3px rgba(0,0,0,0.1);\n      transition: background-color 0.2s ease;\n    }\n\n    .learn-more-btn:hover {\n      background-color: #1e40af;\n    }\n  </style>\n</section>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "3e6b410c-569d-41a1-9aa2-18db6a25aa22": {
       "type": "k-article-carousel",
       "blocks": {
@@ -679,6 +689,7 @@
     "9088ec11-bc44-4583-966a-13e3935adb9e",
     "99335c90-56f6-44f2-9204-3c56a8a9e1d0",
     "d6d28bec-7200-4c0d-a785-97a28c168d0d",
+    "custom_liquid_tegPkY",
     "3e6b410c-569d-41a1-9aa2-18db6a25aa22"
   ]
 }
