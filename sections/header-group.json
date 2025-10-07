@@ -16,9 +16,8 @@
       "blocks": {
         "announcement_QEPHyD": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "PRIME DAY SALE IS LIVE! 20% OFF OR MORE",
+            "text": "PRIME BIG DEAL DAYS SALE IS LIVE!",
             "link": "shopify://collections/shop-now",
             "klaviyo_id": ""
           }
@@ -61,6 +60,7 @@
         },
         "announcement_C7WYYx": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Sign up for our Newsletter and get 10% Off",
             "link": "",
