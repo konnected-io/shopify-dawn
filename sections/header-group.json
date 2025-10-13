@@ -69,7 +69,6 @@
         },
         "announcement_C7WYYx": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "Sign up for our Newsletter and get 10% Off",
             "link": "",
