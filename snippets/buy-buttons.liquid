@@ -100,8 +100,7 @@
                 <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
               </svg>
             </div>
-          </button>
-          <div class="delivery-promise__promise-container"></div>
+          </button>          
           {%- if show_dynamic_checkout -%}
             {{ form | payment_button }}
           {%- endif -%}
@@ -122,7 +121,7 @@
       </div>
     </div>
   {%- endif -%}
-
+  <div class="delivery-promise__promise-container"></div>
   {%- if show_pickup_availability -%}
     {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
