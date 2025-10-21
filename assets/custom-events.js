@@ -56,18 +56,6 @@ var main = function () {
             })
             .catch(error => console.error(error));
         },
-        amznOr: ()=> {
-            const orSep = document.querySelector('.or-separator')
-            if (orSep == null) return;
-
-            const loadedBws = setInterval( function() {
-
-                if (document.querySelector('.bwp-widget-loaded') != null ) {
-                    orSep.classList.add('empty-or')
-                    clearInterval(loadedBws);
-                }
-            },100)
-        },
         popoverBtns: ()=> {
             document.querySelectorAll('.popover-button').forEach(e => {
                 e.addEventListener('click', function() {
@@ -239,7 +227,6 @@ var main = function () {
 }()
 
 main.popoverBtns()
-main.amznOr()
 main.resellerCTA()
 main.sliderHeight()
 main.preventDefaultForHashLinks()

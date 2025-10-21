@@ -1258,10 +1258,6 @@ iframe#bwpFrame {
   padding: 0.3rem 0.5rem;
 }
 
-.product-form__buttons {
-  max-width: 50rem !important;
-}
-
 .table-price-chart table {
   width: 100%;
   box-shadow: unset;
