@@ -17,7 +17,7 @@
         "announcement_QEPHyD": {
           "type": "announcement",
           "settings": {
-            "text": "SAVE 20% - HALLOWEEN SALE IS LIVE!",
+            "text": "FALL SEASONAL SALE - SAVE 20%",
             "link": "shopify://collections/shop-now",
             "klaviyo_id": ""
           }
@@ -139,8 +139,8 @@
       "custom_css": [],
       "name": "Top Banner",
       "settings": {
-        "image": "shopify://shop_images/Halloween_Sale_-_Banner_Desktop.jpg",
-        "mobile_image": "shopify://shop_images/Halloween_Sale_-_Banner_Mobile.jpg",
+        "image": "shopify://shop_images/Fall_Sale_-_Banner_Desktop.jpg",
+        "mobile_image": "shopify://shop_images/Fall_Sale_-_Banner_Mobile.jpg",
         "link": "shopify://collections/shop-now",
         "color_scheme": "background-1",
         "padding_top": 0,
