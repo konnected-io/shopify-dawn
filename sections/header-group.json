@@ -17,7 +17,7 @@
         "announcement_QEPHyD": {
           "type": "announcement",
           "settings": {
-            "text": "FALL SEASONAL SALE - SAVE 20%",
+            "text": "BFCM SALE IS LIVE - SAVE 20%",
             "link": "shopify://collections/shop-now",
             "klaviyo_id": ""
           }
@@ -116,9 +116,12 @@
         "announcement_GTxf6E",
         "announcement_wxeTXY"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".announcement-bar,.announcement__bar {background-color: #47F5A3 !important; color: #000000 !important;}",
+        "/* Cover themes that nest text elements */.announcement-bar a,.announcement__bar a,.announcement-bar span,.announcement__bar span,.announcement-bar p,.announcement__bar p {color: #000000 !important;}"
+      ],
       "settings": {
-        "color_scheme": "inverse",
+        "color_scheme": "accent-1",
         "show_line_separator": true,
         "auto_rotate": true,
         "change_slides_speed": 5
@@ -139,8 +142,8 @@
       "custom_css": [],
       "name": "Top Banner",
       "settings": {
-        "image": "shopify://shop_images/Fall_Sale_-_Banner_Desktop.jpg",
-        "mobile_image": "shopify://shop_images/Fall_Sale_-_Banner_Mobile.jpg",
+        "image": "shopify://shop_images/BFCM_2025_BFCM_2025_-_Homepage.png",
+        "mobile_image": "shopify://shop_images/BFCM_2025_BFCM_2025_-_Homepage_Mobile.png",
         "link": "shopify://collections/shop-now",
         "color_scheme": "background-1",
         "padding_top": 0,
