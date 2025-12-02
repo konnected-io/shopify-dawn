@@ -14,14 +14,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_QEPHyD": {
-          "type": "announcement",
-          "settings": {
-            "text": "BFCM SALE IS LIVE - SAVE 20%",
-            "link": "shopify://collections/shop-now",
-            "klaviyo_id": ""
-          }
-        },
         "218eec1c-eda7-4672-b94d-31bdf2f41b83": {
           "type": "announcement",
           "settings": {
@@ -104,7 +96,6 @@
         }
       },
       "block_order": [
-        "announcement_QEPHyD",
         "218eec1c-eda7-4672-b94d-31bdf2f41b83",
         "ca8cc32e-aec8-4c54-94ba-6013e99dab77",
         "announcement_CGYdNW",
@@ -141,8 +132,8 @@
       "custom_css": [],
       "name": "Top Banner",
       "settings": {
-        "image": "shopify://shop_images/BFCM_2025_BFCM_2025_-_Homepage.png",
-        "mobile_image": "shopify://shop_images/BFCM_2025_BFCM_2025_-_Homepage_Mobile.png",
+        "image": "shopify://shop_images/Winter_Sale_2025_Winter_Sale_-_Desktop.png",
+        "mobile_image": "shopify://shop_images/Winter_Sale_2025_Winter_Sale_-_Mobile.png",
         "link": "shopify://collections/shop-now",
         "color_scheme": "background-1",
         "padding_top": 0,
