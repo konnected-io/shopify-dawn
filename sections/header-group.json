@@ -24,10 +24,9 @@
         },
         "218eec1c-eda7-4672-b94d-31bdf2f41b83": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Independence Day Discount! $20 OFF Smart Garage Door Opener",
-            "link": "shopify://products/smart-garage-door-opener",
+            "text": "WINTER SALE IS LIVE! - SAVE 2O%",
+            "link": "shopify://collections/shop-now",
             "klaviyo_id": ""
           }
         },
@@ -117,8 +116,8 @@
         "announcement_wxeTXY"
       ],
       "custom_css": [
-        ".announcement-bar,.announcement__bar {background-color: #47F5A3 !important; color: #000000 !important;}",
-        "/* Cover themes that nest text elements */.announcement-bar a,.announcement__bar a,.announcement-bar span,.announcement__bar span,.announcement-bar p,.announcement__bar p {color: #000000 !important;}"
+        ".announcement-bar,.announcement__bar {background-color: #47f5a3 !important; color: #000000 !important;}",
+        " /* Cover themes that nest text elements */.announcement-bar a,.announcement__bar a,.announcement-bar span,.announcement__bar span,.announcement-bar p,.announcement__bar p {color: #000000 !important;}"
       ],
       "settings": {
         "color_scheme": "accent-1",
